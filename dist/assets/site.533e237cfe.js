@@ -21,11 +21,12 @@
 
   const sessionKey = 'adbf-open-briefs';
   const openBriefs = new Set(JSON.parse(sessionStorage.getItem(sessionKey) || '[]'));
-  document.querySelectorAll('details[data-entry-id]').forEach(detail => {
-    if (openBriefs.has(detail.dataset.entryId)) detail.open = true;
+  document.querySelectorAll('details[data-entry-id][data-brief-section]').forEach(detail => {
+    const stateId = `${detail.dataset.entryId}:${detail.dataset.briefSection}`;
+    if (openBriefs.has(stateId)) detail.open = true;
     detail.addEventListener('toggle', () => {
-      if (detail.open) openBriefs.add(detail.dataset.entryId);
-      else openBriefs.delete(detail.dataset.entryId);
+      if (detail.open) openBriefs.add(stateId);
+      else openBriefs.delete(stateId);
       sessionStorage.setItem(sessionKey, JSON.stringify([...openBriefs]));
     });
   });

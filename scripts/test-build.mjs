@@ -35,22 +35,29 @@ if ((feed.match(/<item>/g)||[]).length > 30) errors.push('RSS exceeds 30 entries
 const manifest = JSON.parse(fs.readFileSync(path.join(dist,'assets/manifest.json'),'utf8'));
 for (const value of [manifest.css,manifest.js,manifest.entries,manifest.status]) if (!/\.[a-f0-9]{10}\./.test(value)) errors.push(`asset is not content hashed: ${value}`);
 const archive = fs.readFileSync(path.join(dist,'archive/index.html'),'utf8');
-for (const name of ['modality','biomarker','clinicalUse','studyType','platform','organization','regulatory','sourceType','relevance','yearMonth','sort']) if (!archive.includes(`name="${name}"`)) errors.push(`archive missing ${name} control`);
+for (const name of ['modality','biomarker','clinicalUse','relevance','sort']) if (!archive.includes(`name="${name}"`)) errors.push(`archive missing ${name} control`);
+for (const name of ['studyType','platform','organization','regulatory','sourceType','yearMonth']) if (archive.includes(`name="${name}"`)) errors.push(`archive still contains removed ${name} control`);
 if (!archive.includes('data-relevance="Early signal"')) errors.push('archive missing an Early signal relevance record');
+for (const section of ['summary','impact','questions','critique']) if (!archive.includes(`data-brief-section="${section}"`)) errors.push(`archive missing ${section} brief section`);
+for (const label of ['Evidence summary','Clinical and field impact','Likely questions','Critique and limitations']) if (!archive.includes(label)) errors.push(`archive missing ${label} section`);
+if (!archive.includes('class="article-tags"') || !archive.includes('/archive/?biomarker=')) errors.push('archive is missing searchable article tags');
+if (archive.includes('Read full brief')) errors.push('archive still uses the single full-brief disclosure');
 for (const [value,label] of [['added-desc','Most recently added'],['source-desc','Newest source date'],['source-asc','Oldest source date']]) {
   if (!archive.includes(`<option value="${value}">${label}</option>`)) errors.push(`archive sort is missing ${label}`);
 }
 if (archive.includes('<select name="sort" data-filter><option value="">All</option>')) errors.push('archive sort has an inaccurate All default');
 const css = fs.readFileSync(path.join(root,'src/styles.css'),'utf8');
-for (const feature of ['@media (max-width:620px)', '.filter-drawer', '.landscape-wrap { display:none; }', 'min-height:44px', 'prefers-reduced-motion', 'prefers-color-scheme', '@media print']) {
+for (const feature of ['@media (max-width:620px)', '.filter-drawer', '.landscape-wrap { display:none; }', '.article-tags', '.brief-section', 'min-height:44px', 'prefers-reduced-motion', 'prefers-color-scheme', '@media print']) {
   if (!css.includes(feature)) errors.push(`responsive/accessibility CSS missing ${feature}`);
 }
+const app = fs.readFileSync(path.join(root,'src/app.js'),'utf8');
+if (!app.includes('data-entry-id][data-brief-section]') || !app.includes('detail.dataset.briefSection')) errors.push('independent brief-section state is not implemented');
 const home = fs.readFileSync(path.join(dist,'index.html'),'utf8');
 if (!home.includes('Reviewed through</dt><dd>September 4, 2026') || !home.includes('No new items met the inclusion threshold') || !home.includes('Next review</dt><dd>September 6, 2026')) errors.push('home review status is inaccurate');
 const coverage = fs.readFileSync(path.join(dist,'coverage/index.html'),'utf8');
 if (!coverage.includes('Historical review complete through September 4, 2026')) errors.push('historical coverage status missing');
 if (!home.includes('automated process')) errors.push('automated review disclosure missing');
 const landscapePage = fs.readFileSync(path.join(dist,'landscape/index.html'),'utf8');
-if (!landscapePage.includes('<option>PET</option>') || !fs.readFileSync(path.join(root,'src/app.js'),'utf8').includes('row.dataset.modality.includes(modality)')) errors.push('landscape PET grouping is not implemented');
+if (!landscapePage.includes('<option>PET</option>') || !app.includes('row.dataset.modality.includes(modality)')) errors.push('landscape PET grouping is not implemented');
 if (errors.length) { console.error(`Build tests failed:\n- ${errors.join('\n- ')}`); process.exit(1); }
 console.log(`Passed structural, internal-link, RSS, asset-hash, archive-control, responsive/accessibility, status, disclosure, and ${entries.length}-permalink checks across ${htmlFiles.length} HTML files.`);

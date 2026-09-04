@@ -35,6 +35,7 @@ const escapeAttr = escapeHTML;
 const fmt = value => new Intl.DateTimeFormat('en-US',{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'}).format(new Date(`${value}T12:00:00Z`));
 const joinTags = value => value.map(escapeHTML).join(' · ');
 const abs = pathname => new URL(pathname, site.baseUrl).href;
+const filterHref = (name, value) => `/archive/?${new URLSearchParams([[name, value.toLowerCase()]]).toString()}`;
 const nav = current => [
   ['Latest','/'],['Archive','/archive/'],['Landscape','/landscape/'],['Methods','/methods/'],['About','/about/'],['RSS','/feed.xml']
 ].map(([label,url]) => `<a href="${url}"${current===label?` aria-current="page"`:''}>${label}</a>`).join('');
@@ -51,23 +52,35 @@ const card = (entry, {article=false, extra=false}={}) => {
   };
   const dataAttrs = Object.entries(attrs).map(([key,value]) => `data-${key.replace(/[A-Z]/g,m=>`-${m.toLowerCase()}`)}="${escapeAttr(value.map(v=>v.toLowerCase()).join('|'))}"`).join(' ');
   const search = [entry.title,entry.bottomLine,entry.brief30,entry.studyDesign,...entry.keyResults,...entry.modalities,...entry.biomarkers,...entry.clinicalUses,...entry.assays,...entry.platforms,...entry.organizations,entry.regulatoryStatus,entry.evidenceSource].join(' ').toLowerCase();
+  const tags = [
+    ...entry.modalities.slice(0,1).map(value=>({name:'modality',value})),
+    ...entry.biomarkers.slice(0,2).map(value=>({name:'biomarker',value})),
+    ...entry.clinicalUses.slice(0,1).map(value=>({name:'clinicalUse',value}))
+  ];
+  const tagHTML = tags.map(tag=>`<a class="tag-link" href="${filterHref(tag.name,tag.value)}" aria-label="Filter archive by ${escapeAttr(tag.value)}">${escapeHTML(tag.value)}</a>`).join('');
   return `<article class="brief-card${article?' entry-full':''}" data-entry-id="${escapeAttr(entry.id)}" data-relevance="${escapeAttr(entry.relevance)}" ${extra?'data-recent-extra hidden':''} ${dataAttrs} data-search="${escapeAttr(search)}" data-source-date="${entry.sourceDate}" data-date-added="${entry.dateAdded}"${article?'':' data-archive-card'}>
-    <div class="card-summary"><div class="meta-row"><span class="relevance">${escapeHTML(entry.relevance)}</span><span aria-hidden="true">•</span><span class="tagline">${joinTags([...entry.modalities.slice(0,2),...entry.biomarkers.slice(0,2)])}</span></div>
+    <div class="card-summary"><div class="meta-row"><span class="relevance">${escapeHTML(entry.relevance)}</span><span aria-hidden="true">•</span><span>${escapeHTML(entry.evidenceSource)}</span><span aria-hidden="true">•</span><span>${fmt(entry.sourceDate)}</span></div>
     <h3>${article?escapeHTML(entry.title):`<a href="/entries/${entry.slug}/">${escapeHTML(entry.title)}</a>`}</h3>
-    <p class="source-line">${escapeHTML(entry.evidenceSource)} · Source date ${fmt(entry.sourceDate)}</p><p class="bottom-line">${escapeHTML(entry.bottomLine)}</p>
-    <p class="number-line"><span class="visually-hidden">Key quantitative result: </span>${escapeHTML(entry.keyResults[0])}</p><p class="added">Added ${fmt(entry.dateAdded)} · ${escapeHTML(entry.identifier)}</p></div>
-    <details class="card-details" data-entry-id="${escapeAttr(entry.id)}"${article?' open':''}><summary>Read full brief</summary><div class="details-inner">
-      <h4>Thirty-second field brief</h4><p>${escapeHTML(entry.brief30)}</p><h4>Study design</h4><p>${escapeHTML(entry.studyDesign)}</p>
-      <h4>Key quantitative results</h4><ul class="results-list">${entry.keyResults.map(x=>`<li>${escapeHTML(x)}</li>`).join('')}</ul>
-      <h4>What changed</h4><p>${escapeHTML(entry.whatChanged)}</p><h4>Strength of evidence</h4><p>${escapeHTML(entry.evidenceStrength)}</p>
-      <h4>Clinical significance</h4><p>${escapeHTML(entry.clinicalSignificance)}</p><h4>Field medical relevance</h4><p>${escapeHTML(entry.fieldRelevance)}</p>
-      <h4>Likely external questions</h4><dl>${entry.questions.map(x=>`<div class="qa"><dt>${escapeHTML(x.q)}</dt><dd>${escapeHTML(x.a)}</dd></div>`).join('')}</dl>
-      <h4>Important limitations</h4><ul>${entry.limitations.map(x=>`<li>${escapeHTML(x)}</li>`).join('')}</ul>
-      <h4>Quanterix or platform relevance</h4><p>${escapeHTML(entry.platformRelevance)}</p><h4>Access or reimbursement relevance</h4><p>${escapeHTML(entry.accessRelevance)}</p>
-      ${entry.corrections.length?`<h4>Correction notes</h4><ul>${entry.corrections.map(x=>`<li>${escapeHTML(x)}</li>`).join('')}</ul>`:''}
-      <h4>Source and citation</h4><p><a href="${escapeAttr(entry.primarySource)}" rel="noopener">Open primary source</a>${entry.doi?` · <a href="https://doi.org/${escapeAttr(entry.doi)}" rel="noopener">DOI</a>`:''}</p><p>${escapeHTML(entry.citation)}</p>
-      <div class="card-actions"><button type="button" data-copy="link" data-url="${abs(`/entries/${entry.slug}/`)}">Copy link</button><button type="button" data-copy="citation" data-citation="${escapeAttr(entry.citation)}">Copy citation</button></div>
-    </div></details></article>`;
+    <p class="bottom-line">${escapeHTML(entry.bottomLine)}</p>
+    <p class="number-line"><span class="visually-hidden">Key quantitative result: </span>${escapeHTML(entry.keyResults[0])}</p>
+    <div class="article-tags" aria-label="Article tags">${tagHTML}</div><p class="added">Added ${fmt(entry.dateAdded)} · ${escapeHTML(entry.identifier)}</p></div>
+    <div class="card-details" aria-label="Brief sections">
+      <details class="brief-section" data-entry-id="${escapeAttr(entry.id)}" data-brief-section="summary"><summary><span>Evidence summary</span><small>Design, results, and what changed</small></summary><div class="section-body">
+        <h4>Thirty-second field brief</h4><p>${escapeHTML(entry.brief30)}</p><h4>Study design</h4><p>${escapeHTML(entry.studyDesign)}</p>
+        <h4>Key quantitative results</h4><ul class="results-list">${entry.keyResults.map(x=>`<li>${escapeHTML(x)}</li>`).join('')}</ul>
+        <h4>What changed</h4><p>${escapeHTML(entry.whatChanged)}</p><h4>Strength of evidence</h4><p>${escapeHTML(entry.evidenceStrength)}</p>
+      </div></details>
+      <details class="brief-section" data-entry-id="${escapeAttr(entry.id)}" data-brief-section="impact"><summary><span>Clinical and field impact</span><small>Interpretation, implementation, and access</small></summary><div class="section-body">
+        <h4>Clinical significance</h4><p>${escapeHTML(entry.clinicalSignificance)}</p><h4>Field medical relevance</h4><p>${escapeHTML(entry.fieldRelevance)}</p>
+        <h4>Quanterix or platform relevance</h4><p>${escapeHTML(entry.platformRelevance)}</p><h4>Access or reimbursement relevance</h4><p>${escapeHTML(entry.accessRelevance)}</p>
+      </div></details>
+      <details class="brief-section" data-entry-id="${escapeAttr(entry.id)}" data-brief-section="questions"><summary><span>Likely questions</span><small>What you may hear and what the evidence supports</small></summary><div class="section-body"><dl>${entry.questions.map(x=>`<div class="qa"><dt>${escapeHTML(x.q)}</dt><dd>${escapeHTML(x.a)}</dd></div>`).join('')}</dl></div></details>
+      <details class="brief-section" data-entry-id="${escapeAttr(entry.id)}" data-brief-section="critique"><summary><span>Critique and limitations</span><small>Bias, uncertainty, and missing evidence</small></summary><div class="section-body">
+        <ul>${entry.limitations.map(x=>`<li>${escapeHTML(x)}</li>`).join('')}</ul>${entry.corrections.length?`<h4>Correction notes</h4><ul>${entry.corrections.map(x=>`<li>${escapeHTML(x)}</li>`).join('')}</ul>`:''}
+      </div></details>
+      <div class="source-block"><p><a href="${escapeAttr(entry.primarySource)}" rel="noopener">Primary source</a>${entry.doi?` · <a href="https://doi.org/${escapeAttr(entry.doi)}" rel="noopener">DOI</a>`:''}</p><p class="citation">${escapeHTML(entry.citation)}</p>
+      <div class="card-actions"><button type="button" data-copy="link" data-url="${abs(`/entries/${entry.slug}/`)}">Copy link</button><button type="button" data-copy="citation" data-citation="${escapeAttr(entry.citation)}">Copy citation</button></div></div>
+    </div></article>`;
 };
 
 const mkdirWrite = (relative, html) => { const target=path.join(dist,relative); fs.mkdirSync(path.dirname(target),{recursive:true}); fs.writeFileSync(target,html); };
@@ -86,7 +99,7 @@ const unique = key => [...new Set(entries.flatMap(e=>Array.isArray(e[key])?e[key
 const select = (name,label,values) => `<label class="field"><span>${label}</span><select name="${name}" data-filter><option value="">All</option>${values.map(v=>`<option value="${escapeAttr(v.toLowerCase())}">${escapeHTML(v)}</option>`).join('')}</select></label>`;
 const archiveBody = `<header class="page-head"><p class="eyebrow">Evidence archive</p><h1>Search and filter every brief</h1><p>Source date and date added are tracked separately. The default sort is most recently added.</p></header>
 <section class="archive-tools" aria-label="Archive controls"><div class="tool-row"><label class="field"><span>Full-text search</span><input class="search-input" type="search" name="q" data-filter placeholder="Title, result, assay, organization…"></label><label class="field"><span>Sort by</span><select name="sort" data-filter><option value="added-desc">Most recently added</option><option value="source-desc">Newest source date</option><option value="source-asc">Oldest source date</option></select></label><button type="button" data-open-filters class="filter-toggle">Filters</button></div>
-<div class="filter-drawer" data-filter-drawer><div class="filter-drawer-head"><strong>Filters</strong><button type="button" data-close-filters>Done</button></div><div class="filter-grid">${select('modality','Modality',unique('modalities'))}${select('biomarker','Biomarker',unique('biomarkers'))}${select('clinicalUse','Clinical use',unique('clinicalUses'))}${select('studyType','Study type',unique('studyType'))}${select('platform','Assay or platform',unique('platforms'))}${select('organization','Company or laboratory',unique('organizations'))}${select('regulatory','Regulatory status',unique('regulatoryStatus'))}${select('sourceType','Evidence-source type',unique('evidenceSource'))}${select('relevance','Relevance label',unique('relevance'))}${select('yearMonth','Year and month',unique('sourceDate').map(x=>x.slice(0,7)).filter((v,i,a)=>a.indexOf(v)===i))}</div><button type="button" data-clear-all>Clear all</button></div><div class="active-filters" data-active-filters aria-live="polite"></div></section>
+<div class="filter-drawer" data-filter-drawer><div class="filter-drawer-head"><strong>Filters</strong><button type="button" data-close-filters>Done</button></div><div class="filter-grid">${select('modality','Modality',unique('modalities'))}${select('biomarker','Biomarker',unique('biomarkers'))}${select('clinicalUse','Clinical use',unique('clinicalUses'))}${select('relevance','Relevance label',unique('relevance'))}</div><button type="button" data-clear-all>Clear all</button></div><div class="active-filters" data-active-filters aria-live="polite"></div></section>
 <p class="result-count" data-result-count aria-live="polite"></p><div class="card-list" data-archive>${entries.map(e=>card(e)).join('')}</div><p class="no-results" data-no-results hidden>No briefs match this view. Remove a filter or clear all.</p>`;
 mkdirWrite('archive/index.html',layout({title:'Archive',current:'Archive',canonical:'/archive/',body:archiveBody,extraHead:`<link rel="preload" href="${entriesPath}" as="fetch" crossorigin>`}));
 
