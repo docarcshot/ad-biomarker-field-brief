@@ -1,0 +1,14 @@
+{
+  "name": "ad-biomarker-field-brief",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node scripts/test-build.mjs",
+    "review": "node scripts/review.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

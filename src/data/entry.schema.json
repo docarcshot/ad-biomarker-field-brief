@@ -1,0 +1,9 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"AD Biomarker Field Brief entry",
+  "type":"object",
+  "required":["id","slug","title","bottomLine","dateAdded","sourceDate","evidenceSource","modalities","biomarkers","clinicalUses","studyType","assays","platforms","organizations","regulatoryStatus","relevance","brief30","studyDesign","keyResults","whatChanged","evidenceStrength","clinicalSignificance","fieldRelevance","questions","limitations","platformRelevance","accessRelevance","primarySource","identifier","citation","historical"],
+  "properties":{
+    "id":{"type":"string","minLength":3},"slug":{"type":"string","pattern":"^[a-z0-9-]+$"},"dateAdded":{"type":"string","format":"date"},"sourceDate":{"type":"string","format":"date"},"primarySource":{"type":"string","format":"uri"},"relevance":{"enum":["Field-changing","Practice-relevant","Implementation-relevant","Important new evidence","Early signal"]},"historical":{"type":"boolean"}
+  }
+}

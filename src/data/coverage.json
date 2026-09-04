@@ -1,0 +1,26 @@
+{
+  "reviewedOn": "2026-09-04",
+  "periodStart": "2026-01-01",
+  "periodEnd": "2026-09-04",
+  "status": "complete",
+  "categories": ["Literature", "Regulatory", "Guidelines", "Coverage and coding", "Clinical trials", "Conferences", "Organizations"],
+  "months": [
+    {"month":"2026-01","status":"complete","qualified":1,"notes":"Journal, regulator, payer, trial, conference, and organization searches completed."},
+    {"month":"2026-02","status":"complete","qualified":4,"notes":"Journal, regulator, payer, trial, conference, and organization searches completed; recall action deduplicated across the analyte and ratio records."},
+    {"month":"2026-03","status":"complete","qualified":2,"notes":"AD/PD abstracts and announcements screened; definitive peer-reviewed versions used when available."},
+    {"month":"2026-04","status":"complete","qualified":0,"notes":"No additional item met the inclusion threshold after deduplication; the Lancet Neurology April issue article is indexed by its March 19 first-online date."},
+    {"month":"2026-05","status":"complete","qualified":1,"notes":"Journal, regulator, payer, trial, conference, and organization searches completed."},
+    {"month":"2026-06","status":"complete","qualified":0,"notes":"No item met the inclusion threshold. Small case reports and routine association studies were excluded."},
+    {"month":"2026-07","status":"complete","qualified":3,"notes":"AAIC items were deduplicated against same-day peer-reviewed articles; policy and imaging evidence were retained."},
+    {"month":"2026-08","status":"complete","qualified":4,"notes":"FDA records and decision summaries were treated as definitive over press releases; deployment and availability claims were separately verified."},
+    {"month":"2026-09","status":"complete","qualified":0,"notes":"Reviewed through September 4 only; later September is not marked complete."}
+  ],
+  "auditChecks": [
+    {"name":"Missing months","result":"pass","detail":"Every month from January through August and September 1–4 is represented."},
+    {"name":"Source categories","result":"pass","detail":"Each designated category was searched for every covered month; source-level last-checked dates are in the registry."},
+    {"name":"Modality balance","result":"pass","detail":"Blood, CSF comparison, amyloid PET, and tau PET were explicitly searched; zero qualifying items are retained as zero rather than backfilled with filler."},
+    {"name":"Regulatory and recall actions","result":"pass","detail":"FDA 510(k), drug approval, and recall databases were screened."},
+    {"name":"Coverage and coding","result":"pass","detail":"CMS, MAC, CLFS, private-payer policy, and public PLA/CPT references were screened; policy is not conflated with payment."},
+    {"name":"Deduplication","result":"pass","detail":"DOI, PMID, trial, FDA, recall, and organization identifiers were used; abstracts and releases were merged into definitive records."}
+  ]
+}

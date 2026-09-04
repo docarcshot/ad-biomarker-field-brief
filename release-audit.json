@@ -1,0 +1,29 @@
+{
+  "release": "2026-09-04",
+  "status": "passed",
+  "automated": [
+    "Validated all required entry fields, ISO dates, stable identifiers, tags, primary-source URLs, landscape verification dates, and historical coverage consistency.",
+    "Built 15 permanent entry pages plus six core pages from structured JSON.",
+    "Resolved every generated internal link across 22 HTML files.",
+    "Verified RSS structure, 30-item maximum, feed autodiscovery, sitemap generation, and hashed CSS, JavaScript, entry-data, and status assets.",
+    "Verified the mobile breakpoint, filter drawer, compact landscape cards, 44-pixel controls, reduced-motion mode, system color modes, and print rules.",
+    "Fetched the production RSS endpoint with HTTP 200 and text/xml; it contains 15 items."
+  ],
+  "browser": [
+    "Desktop homepage at 1363 × 936: no horizontal overflow; status is reviewed through September 4, zero qualifying items, next review September 6; the first historical brief begins in the initial viewport.",
+    "Keyboard traversal begins at the skip-to-content link; semantic main and primary navigation are present.",
+    "Full-text search, every one of the ten archive filters, both removable filter chips and Clear all, bookmarkable URL restoration, and all three accurately labeled sort modes passed.",
+    "The relevance-label case edge and grouped PET landscape edge were found during live testing, corrected, redeployed, and retested.",
+    "Expandable brief state persists within the browser session; Copy link and Copy citation both write the expected values.",
+    "Landscape search and modality filtering passed; the PET grouping returns all three amyloid/tau PET records.",
+    "A permanent entry route loaded directly with its primary-source link and open full brief.",
+    "System, light, and dark theme controls cycle with accurate accessible labels.",
+    "No site-origin console errors were observed; browser-extension metadata errors were excluded as test-harness noise."
+  ],
+  "workflow": [
+    "Successful zero-entry review advanced reviewedThrough and scheduled the following review.",
+    "Injected failed review preserved reviewedThrough, recorded the failure, and changed the state to delayed.",
+    "Public production deployment completed successfully.",
+    "The every-other-day AD Biomarker Review automation is enabled, beginning September 6, 2026."
+  ]
+}
