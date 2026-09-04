@@ -47,6 +47,7 @@ for (const [value,label] of [['added-desc','Most recently added'],['source-desc'
   if (!archive.includes(`<option value="${value}">${label}</option>`)) errors.push(`archive sort is missing ${label}`);
 }
 if (archive.includes('<select name="sort" data-filter><option value="">All</option>')) errors.push('archive sort has an inaccurate All default');
+if (!archive.includes('class="filter-drawer-actions"') || !archive.includes('class="filter-done"')) errors.push('archive filter header is not structured for desktop and mobile');
 const css = fs.readFileSync(path.join(root,'src/styles.css'),'utf8');
 for (const feature of ['@media (max-width:620px)', '.filter-drawer', '.landscape-wrap { display:none; }', '.article-tags', '.brief-section', 'min-height:44px', 'prefers-reduced-motion', 'prefers-color-scheme', '@media print']) {
   if (!css.includes(feature)) errors.push(`responsive/accessibility CSS missing ${feature}`);
@@ -55,6 +56,8 @@ for (const relevance of ['Field-changing','Practice-relevant','Implementation-re
 const app = fs.readFileSync(path.join(root,'src/app.js'),'utf8');
 if (!app.includes('data-entry-id][data-brief-section]') || !app.includes('detail.dataset.briefSection')) errors.push('independent brief-section state is not implemented');
 const home = fs.readFileSync(path.join(dist,'index.html'),'utf8');
+for (const link of ['FDA device databases','Medicare Coverage Database','CMS laboratory fee schedule','ClinicalTrials.gov','Blood-biomarker guideline','Amyloid and tau PET criteria']) if (!home.includes(link)) errors.push(`home missing quick reference: ${link}`);
+if (!home.includes('class="latest-layout"') || !home.includes('class="quick-references"')) errors.push('home quick-reference sidebar layout is missing');
 if (!home.includes('Reviewed through</dt><dd>September 4, 2026') || !home.includes('No new items met the inclusion threshold') || !home.includes('Next review</dt><dd>September 6, 2026')) errors.push('home review status is inaccurate');
 const coverage = fs.readFileSync(path.join(dist,'coverage/index.html'),'utf8');
 if (!coverage.includes('Historical review complete through September 4, 2026')) errors.push('historical coverage status missing');

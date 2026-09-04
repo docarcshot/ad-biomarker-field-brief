@@ -77,6 +77,7 @@
     const count = document.querySelector('[data-result-count]');
     const chips = document.querySelector('[data-active-filters]');
     const none = document.querySelector('[data-no-results]');
+    const clearAll = document.querySelector('[data-clear-all]');
     const params = new URLSearchParams(location.search);
     controls.forEach(control => {
       if (params.has(control.name)) control.value = params.get(control.name);
@@ -99,6 +100,7 @@
       cards.sort((a, b) => direction * a.dataset[field].localeCompare(b.dataset[field]) || b.dataset.sourceDate.localeCompare(a.dataset.sourceDate)).forEach(card => archive.append(card));
       count.textContent = `${visible} ${visible === 1 ? 'brief' : 'briefs'} shown`;
       none.hidden = visible !== 0;
+      clearAll.disabled = !query && active.length === 0;
       chips.innerHTML = '';
       const chipValues = [];
       if (query) chipValues.push({name:'q', label:`Search: ${query}`});
@@ -120,7 +122,7 @@
       if (push) history.replaceState(null, '', `${location.pathname}${next.size ? `?${next}` : ''}`);
     };
     controls.forEach(control => control.addEventListener(control.tagName === 'INPUT' ? 'input' : 'change', () => run()));
-    document.querySelector('[data-clear-all]')?.addEventListener('click', () => { controls.forEach(c => c.value = c.name === 'sort' ? 'added-desc' : ''); run(); });
+    clearAll?.addEventListener('click', () => { controls.forEach(c => c.value = c.name === 'sort' ? 'added-desc' : ''); run(); });
     run(false);
   }
 
