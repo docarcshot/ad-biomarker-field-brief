@@ -38,6 +38,7 @@ const archive = fs.readFileSync(path.join(dist,'archive/index.html'),'utf8');
 for (const name of ['modality','biomarker','clinicalUse','relevance','sort']) if (!archive.includes(`name="${name}"`)) errors.push(`archive missing ${name} control`);
 for (const name of ['studyType','platform','organization','regulatory','sourceType','yearMonth']) if (archive.includes(`name="${name}"`)) errors.push(`archive still contains removed ${name} control`);
 if (!archive.includes('data-relevance="Early signal"')) errors.push('archive missing an Early signal relevance record');
+if (!archive.includes('class="relevance-legend"')) errors.push('archive missing the relevance color key');
 for (const section of ['summary','impact','questions','critique']) if (!archive.includes(`data-brief-section="${section}"`)) errors.push(`archive missing ${section} brief section`);
 for (const label of ['Evidence summary','Clinical and field impact','Likely questions','Critique and limitations']) if (!archive.includes(label)) errors.push(`archive missing ${label} section`);
 if (!archive.includes('class="article-tags"') || !archive.includes('/archive/?biomarker=')) errors.push('archive is missing searchable article tags');
@@ -50,6 +51,7 @@ const css = fs.readFileSync(path.join(root,'src/styles.css'),'utf8');
 for (const feature of ['@media (max-width:620px)', '.filter-drawer', '.landscape-wrap { display:none; }', '.article-tags', '.brief-section', 'min-height:44px', 'prefers-reduced-motion', 'prefers-color-scheme', '@media print']) {
   if (!css.includes(feature)) errors.push(`responsive/accessibility CSS missing ${feature}`);
 }
+for (const relevance of ['Field-changing','Practice-relevant','Implementation-relevant','Important new evidence','Early signal']) if (!css.includes(`[data-relevance="${relevance}"]`)) errors.push(`relevance color missing for ${relevance}`);
 const app = fs.readFileSync(path.join(root,'src/app.js'),'utf8');
 if (!app.includes('data-entry-id][data-brief-section]') || !app.includes('detail.dataset.briefSection')) errors.push('independent brief-section state is not implemented');
 const home = fs.readFileSync(path.join(dist,'index.html'),'utf8');
