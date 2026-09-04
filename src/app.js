@@ -19,6 +19,11 @@
     applyTheme(next);
   });
 
+  const quickReferences = document.querySelector('[data-quick-references]');
+  if (quickReferences) {
+    quickReferences.open = window.matchMedia('(min-width: 1641px)').matches;
+  }
+
   const sessionKey = 'adbf-open-briefs';
   const openBriefs = new Set(JSON.parse(sessionStorage.getItem(sessionKey) || '[]'));
   document.querySelectorAll('details[data-entry-id][data-brief-section]').forEach(detail => {

@@ -46,7 +46,7 @@ const quickReferences = [
   ['Blood-biomarker guideline','Alzheimer’s Association guidance for specialty care','https://www.alz.org/alz-pro/hub/care-pathway/blood-based-biomarkers-guideline'],
   ['Amyloid and tau PET criteria','Appropriate-use criteria from the Alzheimer’s Association and SNMMI','https://www.alz.org/alz-pro/hub/care-pathway/updated-appropriate-use-criteria-for-amyloid-and-tau-pet']
 ];
-const quickReferencePanel = () => `<aside class="quick-references" aria-label="Quick references"><details class="quick-ref-panel" open><summary>Quick references</summary><div class="quick-ref-list">${quickReferences.map(([title,description,url])=>`<a class="quick-ref-link" href="${escapeAttr(url)}" target="_blank" rel="noopener" aria-label="${escapeAttr(title)} (opens in a new tab)"><span>${escapeHTML(title)} <span aria-hidden="true">↗</span></span><small>${escapeHTML(description)}</small></a>`).join('')}</div></details></aside>`;
+const quickReferencePanel = () => `<aside class="quick-references" aria-label="Quick references"><details class="quick-ref-panel" data-quick-references><summary>Quick references</summary><div class="quick-ref-list">${quickReferences.map(([title,description,url])=>`<a class="quick-ref-link" href="${escapeAttr(url)}" target="_blank" rel="noopener" aria-label="${escapeAttr(title)} (opens in a new tab)"><span>${escapeHTML(title)} <span aria-hidden="true">↗</span></span><small>${escapeHTML(description)}</small></a>`).join('')}</div></details></aside>`;
 const nav = current => [
   ['Latest','/'],['Archive','/archive/'],['Landscape','/landscape/'],['Methods','/methods/'],['About','/about/'],['RSS','/feed.xml']
 ].map(([label,url]) => `<a href="${url}"${current===label?` aria-current="page"`:''}>${label}</a>`).join('');
