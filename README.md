@@ -2,6 +2,10 @@
 
 A public, nonpromotional evidence-monitoring site for Alzheimer disease biomarkers. It is generated from validated JSON rather than hand-coded articles.
 
+Production site: https://ad-biomarker-field-brief.arcshot.chatgpt.site/
+
+GitHub Pages mirror: https://docarcshot.github.io/ad-biomarker-field-brief/
+
 ## Local commands
 
 ```bash
@@ -11,6 +15,8 @@ node scripts/test-build.mjs
 ```
 
 The deployable output is `dist/`. The build creates hashed CSS, JavaScript, entry-data, and review-status assets, plus permanent entry pages, archive, landscape, methods, coverage audit, sitemap, and RSS.
+
+`node scripts/prepare-pages.mjs` creates the path-adjusted `pages-dist/` artifact used by GitHub Pages. It does not modify the production build in `dist/`.
 
 ## Record a review
 
@@ -40,4 +46,4 @@ The JSON Schema is `src/data/entry.schema.json`. Each entry separates source dat
 
 ## Publishing
 
-The repository is suitable for GitHub Pages through `.github/workflows/review.yml`. ChatGPT Sites deployment is configured in `.openai/hosting.json`. Do not put secrets in the repository.
+GitHub Pages is published through `.github/workflows/review.yml`. ChatGPT Sites deployment is configured in `.openai/hosting.json`. Do not put secrets in the repository.

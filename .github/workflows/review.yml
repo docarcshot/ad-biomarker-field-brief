@@ -50,21 +50,24 @@ jobs:
       - name: Check scheduled freshness
         if: github.event_name == 'schedule'
         run: node scripts/check-freshness.mjs
-      - run: node scripts/validate.mjs
-      - run: node scripts/build.mjs
-      - run: node scripts/test-build.mjs
-      - name: Commit status-only or reviewed content update
+      - name: Commit manual review outcome
         if: github.event_name == 'workflow_dispatch' && (inputs.reviewed_through != '' || inputs.failure_message != '')
         shell: bash
         run: |
           git config user.name "ad-biomarker-review-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add src/data/status.json dist
+          git add src/data/status.json
           git diff --cached --quiet || git commit -m "Record biomarker review outcome"
           git push
+      - run: node scripts/validate.mjs
+      - run: node scripts/build.mjs
+      - run: node scripts/test-build.mjs
+      - run: node scripts/prepare-pages.mjs
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: pages-dist
       - id: deployment
         uses: actions/deploy-pages@v4

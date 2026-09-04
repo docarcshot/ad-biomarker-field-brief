@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "node scripts/build.mjs",
+    "build:pages": "node scripts/build.mjs && node scripts/prepare-pages.mjs",
     "validate": "node scripts/validate.mjs",
     "test": "node scripts/test-build.mjs",
     "review": "node scripts/review.mjs"
