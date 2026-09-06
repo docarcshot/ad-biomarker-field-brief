@@ -28,6 +28,8 @@ for (const file of htmlFiles) {
   }
 }
 const entries = JSON.parse(fs.readFileSync(path.join(root,'src/data/entries.json'),'utf8'));
+const status = JSON.parse(fs.readFileSync(path.join(root,'src/data/status.json'),'utf8'));
+const fmt = value => new Intl.DateTimeFormat('en-US',{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'}).format(new Date(`${value}T12:00:00Z`));
 if (htmlFiles.filter(file=>file.includes(`${path.sep}entries${path.sep}`)).length !== entries.length) errors.push('entry page count does not match data');
 const feed = fs.readFileSync(path.join(dist,'feed.xml'),'utf8');
 if (!feed.startsWith('<?xml') || !feed.includes('<rss version="2.0">')) errors.push('RSS is not well formed enough for discovery');
@@ -59,9 +61,11 @@ const home = fs.readFileSync(path.join(dist,'index.html'),'utf8');
 for (const link of ['FDA device databases','Medicare Coverage Database','CMS laboratory fee schedule','ClinicalTrials.gov','Blood-biomarker guideline','Amyloid and tau PET criteria']) if (!home.includes(link)) errors.push(`home missing quick reference: ${link}`);
 if (!home.includes('class="latest-layout"') || !home.includes('class="quick-references"') || !home.includes('data-quick-references')) errors.push('home floating quick-reference panel is missing');
 if (!css.includes('.quick-references { position:fixed') || !css.includes('@media (max-width:1640px)')) errors.push('floating quick-reference responsive layout is missing');
-if (!home.includes('Reviewed through</dt><dd>September 4, 2026') || !home.includes('No new items met the inclusion threshold') || !home.includes('Next review</dt><dd>September 6, 2026')) errors.push('home review status is inaccurate');
+if (!home.includes(`Reviewed through</dt><dd>${fmt(status.reviewedThrough)}`) || !home.includes(status.message) || !home.includes(`Next review</dt><dd>${fmt(status.nextScheduledReview)}`)) errors.push('home review status is inaccurate');
 const coverage = fs.readFileSync(path.join(dist,'coverage/index.html'),'utf8');
 if (!coverage.includes('Historical review complete through September 4, 2026')) errors.push('historical coverage status missing');
+const methods = fs.readFileSync(path.join(dist,'methods/index.html'),'utf8');
+if (!methods.includes('id="review-log"') || !methods.includes(fmt(status.reviewedThrough)) || !methods.includes(`${status.newItemsQualified} qualified`)) errors.push('methods review log is inaccurate');
 if (!home.includes('automated process')) errors.push('automated review disclosure missing');
 const landscapePage = fs.readFileSync(path.join(dist,'landscape/index.html'),'utf8');
 if (!landscapePage.includes('<option>PET</option>') || !app.includes('row.dataset.modality.includes(modality)')) errors.push('landscape PET grouping is not implemented');

@@ -32,6 +32,14 @@ landscape.forEach((row, index) => ['biomarker','assay','manufacturer','specimen'
 sources.forEach((source, index) => ['name','category','url','cadence','lastChecked','method'].forEach(key => { if (!source[key]) errors.push(`sources[${index}] missing ${key}`); }));
 if (!dateRx.test(status.reviewedThrough) || !dateRx.test(status.nextScheduledReview)) errors.push('status dates invalid');
 if (status.newItemsQualified < 0 || status.newItemsQualified > 3) errors.push('status newItemsQualified must be 0–3');
+if (!Array.isArray(status.reviewLog) || !status.reviewLog.length) errors.push('status reviewLog must be nonempty');
+else status.reviewLog.forEach((run,index) => {
+  if (!dateRx.test(run.reviewedThrough) || Number.isNaN(Date.parse(run.reviewedThrough))) errors.push(`status.reviewLog[${index}] has invalid reviewedThrough`);
+  if (Number.isNaN(Date.parse(run.completedAt))) errors.push(`status.reviewLog[${index}] has invalid completedAt`);
+  if (!['success','delayed'].includes(run.outcome)) errors.push(`status.reviewLog[${index}] has invalid outcome`);
+  if (!Number.isInteger(run.qualified) || run.qualified < 0 || run.qualified > 3) errors.push(`status.reviewLog[${index}] has invalid qualified count`);
+  if (!run.note) errors.push(`status.reviewLog[${index}] is missing note`);
+});
 if (coverage.status === 'complete' && !coverage.auditChecks.every(check => check.result === 'pass')) errors.push('coverage cannot be complete with failed audit checks');
 
 if (errors.length) {
