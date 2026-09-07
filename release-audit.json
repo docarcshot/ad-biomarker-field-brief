@@ -1,29 +1,47 @@
 {
   "release": "2026-09-06",
-  "status": "passed",
+  "change": "Meeting preparation, assay comparison, related evidence, and review-state reliability",
+  "status": "automated-checks-passed",
   "automated": [
-    "Validated all required entry fields, ISO dates, stable identifiers, tags, primary-source URLs, landscape verification dates, and historical coverage consistency.",
-    "Built 15 permanent entry pages plus six core pages from structured JSON.",
-    "Resolved every generated internal link across 22 HTML files.",
-    "Verified RSS structure, 30-item maximum, feed autodiscovery, sitemap generation, and hashed CSS, JavaScript, entry-data, and status assets.",
-    "Verified the mobile breakpoint, filter drawer, compact landscape cards, 44-pixel controls, reduced-motion mode, system color modes, and print rules.",
-    "Confirmed the RSS and sitemap remain current with 15 stable archive items after a successful zero-entry review.",
-    "Verified the review log, current status panel, and all 18 source-registry checked dates are generated from the same structured data."
+    "Validated 15 unchanged briefs and 12 assay records with optional identifiers and related-brief mappings.",
+    "Checked internal links, RSS, hashed assets, archive controls, and 15 permanent entry pages across 23 HTML files.",
+    "Confirmed meeting packet templates retain population, quantitative findings, limitations, questions, primary sources, and corrections.",
+    "Checked stable-ID visit tracking across navigation, later same-day additions, a new visit, and corrupted browser state.",
+    "Executed application initialization with browser storage disabled and verified the delayed warning still renders.",
+    "Injected an overdue date in an isolated fixture: the watchdog failed without changing status data, while the build rendered the delayed warning.",
+    "Validated selected-ID ordering, duplicate and unknown-ID rejection, related evidence IDs, and separate unverified coverage/payment fields.",
+    "Prepared the GitHub Pages mount with internal route and asset paths adjusted."
   ],
   "browser": [
-    "The prior desktop and mobile browser suite remains applicable because application JavaScript and CSS were unchanged; interaction hooks and responsive controls were rechecked by regression tests.",
-    "Keyboard traversal begins at the skip-to-content link; semantic main and primary navigation are present.",
-    "Full-text search, every one of the ten archive filters, both removable filter chips and Clear all, bookmarkable URL restoration, and all three accurately labeled sort modes passed.",
-    "The relevance-label case edge and grouped PET landscape edge were found during live testing, corrected, redeployed, and retested.",
-    "Expandable brief state persists within the browser session; Copy link and Copy citation both write the expected values.",
-    "Landscape search and modality filtering passed; the PET grouping returns all three amyloid/tau PET records.",
-    "A permanent entry route loaded directly with its primary-source link and open full brief.",
-    "System, light, and dark theme controls cycle with accurate accessible labels.",
-    "No site-origin console errors were observed; browser-extension metadata errors were excluded as test-harness noise."
+    "No new browser or visual QA was performed for this update. Earlier browser results apply only to the previous release."
   ],
-  "workflow": [
-    "Successful zero-entry review advanced reviewedThrough to September 6 and scheduled the September 8 review.",
-    "Injected failed review preserved reviewedThrough, recorded the failure, and changed the state to delayed.",
-    "Source validation, static deployment build, public production deployment, and GitHub Pages verification passed."
-  ]
+  "previousRelease": {
+    "release": "2026-09-06",
+    "status": "passed",
+    "automated": [
+      "Validated all required entry fields, ISO dates, stable identifiers, tags, primary-source URLs, landscape verification dates, and historical coverage consistency.",
+      "Built 15 permanent entry pages plus six core pages from structured JSON.",
+      "Resolved every generated internal link across 22 HTML files.",
+      "Verified RSS structure, 30-item maximum, feed autodiscovery, sitemap generation, and hashed CSS, JavaScript, entry-data, and status assets.",
+      "Verified the mobile breakpoint, filter drawer, compact landscape cards, 44-pixel controls, reduced-motion mode, system color modes, and print rules.",
+      "Confirmed the RSS and sitemap remain current with 15 stable archive items after a successful zero-entry review.",
+      "Verified the review log, current status panel, and all 18 source-registry checked dates are generated from the same structured data."
+    ],
+    "browser": [
+      "The prior desktop and mobile browser suite remains applicable because application JavaScript and CSS were unchanged; interaction hooks and responsive controls were rechecked by regression tests.",
+      "Keyboard traversal begins at the skip-to-content link; semantic main and primary navigation are present.",
+      "Full-text search, every one of the ten archive filters, both removable filter chips and Clear all, bookmarkable URL restoration, and all three accurately labeled sort modes passed.",
+      "The relevance-label case edge and grouped PET landscape edge were found during live testing, corrected, redeployed, and retested.",
+      "Expandable brief state persists within the browser session; Copy link and Copy citation both write the expected values.",
+      "Landscape search and modality filtering passed; the PET grouping returns all three amyloid/tau PET records.",
+      "A permanent entry route loaded directly with its primary-source link and open full brief.",
+      "System, light, and dark theme controls cycle with accurate accessible labels.",
+      "No site-origin console errors were observed; browser-extension metadata errors were excluded as test-harness noise."
+    ],
+    "workflow": [
+      "Successful zero-entry review advanced reviewedThrough to September 6 and scheduled the September 8 review.",
+      "Injected failed review preserved reviewedThrough, recorded the failure, and changed the state to delayed.",
+      "Source validation, static deployment build, public production deployment, and GitHub Pages verification passed."
+    ]
+  }
 }

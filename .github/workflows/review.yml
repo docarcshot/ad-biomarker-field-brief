@@ -48,7 +48,9 @@ jobs:
             node scripts/review.mjs --reviewed-through="${{ inputs.reviewed_through }}" --qualified="${{ inputs.qualified }}"
           fi
       - name: Check scheduled freshness
+        id: freshness
         if: github.event_name == 'schedule'
+        continue-on-error: true
         run: node scripts/check-freshness.mjs
       - name: Commit manual review outcome
         if: github.event_name == 'workflow_dispatch' && (inputs.reviewed_through != '' || inputs.failure_message != '')
@@ -69,3 +71,6 @@ jobs:
           path: pages-dist
       - id: deployment
         uses: actions/deploy-pages@v5
+      - name: Report overdue review after publishing its warning
+        if: steps.freshness.outcome == 'failure'
+        run: exit 1

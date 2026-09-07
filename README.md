@@ -47,3 +47,11 @@ The JSON Schema is `src/data/entry.schema.json`. Each entry separates source dat
 ## Publishing
 
 GitHub Pages is published through `.github/workflows/review.yml`. ChatGPT Sites deployment is configured in `.openai/hosting.json`. Do not put secrets in the repository.
+
+## Meeting preparation and comparison
+
+Use **Add to meeting** on any brief, then open **Meeting prep** to remove items, copy a packet link, or print/save a PDF. Selections stay in the browser; a packet link carries public brief IDs and can be opened on another device. Packets use the current archive content.
+
+The Landscape page compares two or three tests, keeps coverage and payment separate, and links to existing briefs with their population, results, limitations, and sources. Optional landscape `id` and `relatedBriefs` fields provide stable selection links and explicitly labeled evidence relationships. Exact assay-name matches also link automatically. Optional `coverage` and `reimbursement` records require `text`, an HTTPS `source`, and a `verified` date; absent fields display as unverified. No new research requirement is introduced by these optional fields.
+
+New-item markers compare stable entry IDs against the start-of-visit snapshot, so navigation does not acknowledge an entire new batch and same-day additions are detected. The delayed-review warning also updates in the browser, independently of a successful rebuild. The scheduled watchdog permits publishing an overdue warning before reporting failure; it never advances the reviewed-through date.

@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import {spawnSync} from 'node:child_process';
 
 const root = path.resolve(import.meta.dirname, '..');
 const dist = path.join(root,'dist');
@@ -71,3 +72,5 @@ const landscapePage = fs.readFileSync(path.join(dist,'landscape/index.html'),'ut
 if (!landscapePage.includes('<option>PET</option>') || !app.includes('row.dataset.modality.includes(modality)')) errors.push('landscape PET grouping is not implemented');
 if (errors.length) { console.error(`Build tests failed:\n- ${errors.join('\n- ')}`); process.exit(1); }
 console.log(`Passed structural, internal-link, RSS, asset-hash, archive-control, responsive/accessibility, status, disclosure, and ${entries.length}-permalink checks across ${htmlFiles.length} HTML files.`);
+const behavior=spawnSync(process.execPath,[path.join(root,'scripts/test-behavior.mjs')],{stdio:'inherit'});
+if(behavior.status!==0)process.exit(behavior.status || 1);

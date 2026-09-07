@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { assayId } from './views.mjs';
 
 const root = path.resolve(import.meta.dirname, '..');
 const read = name => JSON.parse(fs.readFileSync(path.join(root, 'src/data', name), 'utf8'));
@@ -29,6 +30,19 @@ entries.forEach((entry, index) => {
 });
 
 landscape.forEach((row, index) => ['biomarker','assay','manufacturer','specimen','platform','intendedUse','regulatoryStatus','availability','threshold','reference','source','verified','verification'].forEach(key => { if (!row[key]) errors.push(`landscape[${index}] missing ${key}`); }));
+const assayIds = new Set();
+landscape.forEach((row,index)=>{
+  const id=assayId(row);
+  if (!/^[a-z0-9-]+$/.test(id) || assayIds.has(id)) errors.push(`landscape[${index}] invalid or duplicate assay id`);
+  assayIds.add(id);
+  if (row.relatedBriefs !== undefined && !Array.isArray(row.relatedBriefs)) errors.push(`landscape[${index}] relatedBriefs must be an array`);
+  else (row.relatedBriefs || []).forEach(link=>{
+    if (!seen.has(link.id) || !link.relationship) errors.push(`landscape[${index}] invalid related brief ${link.id}`);
+  });
+  for (const field of ['coverage','reimbursement']) {
+    if (row[field] !== undefined && (!row[field]?.text || !/^https:\/\//.test(row[field]?.source) || !dateRx.test(row[field]?.verified) || Number.isNaN(Date.parse(row[field]?.verified)))) errors.push(`landscape[${index}] ${field} requires text, primary source, and verification date`);
+  }
+});
 sources.forEach((source, index) => ['name','category','url','cadence','lastChecked','method'].forEach(key => { if (!source[key]) errors.push(`sources[${index}] missing ${key}`); }));
 if (!dateRx.test(status.reviewedThrough) || !dateRx.test(status.nextScheduledReview)) errors.push('status dates invalid');
 if (status.newItemsQualified < 0 || status.newItemsQualified > 3) errors.push('status newItemsQualified must be 0–3');
