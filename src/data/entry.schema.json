@@ -1,9 +1,176 @@
 {
-  "$schema":"https://json-schema.org/draft/2020-12/schema",
-  "title":"AD Biomarker Field Brief entry",
-  "type":"object",
-  "required":["id","slug","title","bottomLine","dateAdded","sourceDate","evidenceSource","modalities","biomarkers","clinicalUses","studyType","assays","platforms","organizations","regulatoryStatus","relevance","brief30","studyDesign","keyResults","whatChanged","evidenceStrength","clinicalSignificance","fieldRelevance","questions","limitations","platformRelevance","accessRelevance","primarySource","identifier","citation","historical"],
-  "properties":{
-    "id":{"type":"string","minLength":3},"slug":{"type":"string","pattern":"^[a-z0-9-]+$"},"dateAdded":{"type":"string","format":"date"},"sourceDate":{"type":"string","format":"date"},"primarySource":{"type":"string","format":"uri"},"relevance":{"enum":["Field-changing","Practice-relevant","Implementation-relevant","Important new evidence","Early signal"]},"historical":{"type":"boolean"}
-  }
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AD Biomarker Field Brief entry",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "bottomLine",
+    "dateAdded",
+    "sourceDate",
+    "evidenceSource",
+    "modalities",
+    "biomarkers",
+    "clinicalUses",
+    "studyType",
+    "assays",
+    "platforms",
+    "organizations",
+    "regulatoryStatus",
+    "relevance",
+    "brief30",
+    "studyDesign",
+    "keyResults",
+    "whatChanged",
+    "evidenceStrength",
+    "clinicalSignificance",
+    "fieldRelevance",
+    "questions",
+    "limitations",
+    "accessRelevance",
+    "primarySource",
+    "identifier",
+    "citation",
+    "historical",
+    "topics"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "dateAdded": {
+      "type": "string",
+      "format": "date"
+    },
+    "sourceDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "primarySource": {
+      "type": "string",
+      "format": "uri"
+    },
+    "relevance": {
+      "enum": [
+        "Field-changing",
+        "Practice-relevant",
+        "Implementation-relevant",
+        "Important new evidence",
+        "Early signal"
+      ]
+    },
+    "historical": {
+      "type": "boolean"
+    },
+    "topics": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "Biomarkers",
+          "Guidelines",
+          "Management"
+        ]
+      }
+    },
+    "modalities": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "biomarkers": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "assays": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "platforms": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "platformRelevance": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "resultType": {
+      "enum": [
+        "results",
+        "recommendations",
+        "regulatory"
+      ]
+    },
+    "supportingSources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "label",
+          "url"
+        ],
+        "properties": {
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+          }
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "topics": {
+            "contains": {
+              "const": "Biomarkers"
+            }
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "platformRelevance"
+        ],
+        "properties": {
+          "modalities": {
+            "minItems": 1
+          },
+          "biomarkers": {
+            "minItems": 1
+          },
+          "platformRelevance": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  ]
 }

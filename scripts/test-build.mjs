@@ -38,7 +38,7 @@ if ((feed.match(/<item>/g)||[]).length > 30) errors.push('RSS exceeds 30 entries
 const manifest = JSON.parse(fs.readFileSync(path.join(dist,'assets/manifest.json'),'utf8'));
 for (const value of [manifest.css,manifest.js,manifest.entries,manifest.status]) if (!/\.[a-f0-9]{10}\./.test(value)) errors.push(`asset is not content hashed: ${value}`);
 const archive = fs.readFileSync(path.join(dist,'archive/index.html'),'utf8');
-for (const name of ['modality','biomarker','clinicalUse','relevance','sort']) if (!archive.includes(`name="${name}"`)) errors.push(`archive missing ${name} control`);
+for (const name of ['topic','modality','biomarker','clinicalUse','relevance','sort']) if (!archive.includes(`name="${name}"`)) errors.push(`archive missing ${name} control`);
 for (const name of ['studyType','platform','organization','regulatory','sourceType','yearMonth']) if (archive.includes(`name="${name}"`)) errors.push(`archive still contains removed ${name} control`);
 if (!archive.includes('data-relevance="Early signal"')) errors.push('archive missing an Early signal relevance record');
 if (!archive.includes('class="relevance-legend"')) errors.push('archive missing the relevance color key');
@@ -64,7 +64,7 @@ if (!home.includes('class="latest-layout"') || !home.includes('class="quick-refe
 if (!css.includes('.quick-references { position:fixed') || !css.includes('@media (max-width:1640px)')) errors.push('floating quick-reference responsive layout is missing');
 if (!home.includes(`Reviewed through</dt><dd>${fmt(status.reviewedThrough)}`) || !home.includes(status.message) || !home.includes(`Next review</dt><dd>${fmt(status.nextScheduledReview)}`)) errors.push('home review status is inaccurate');
 const coverage = fs.readFileSync(path.join(dist,'coverage/index.html'),'utf8');
-if (!coverage.includes('Historical review complete through September 4, 2026')) errors.push('historical coverage status missing');
+if (!coverage.includes(`Biomarker historical review complete through ${fmt(status.historicalCompleteThrough)}`)) errors.push('historical coverage status missing');
 const methods = fs.readFileSync(path.join(dist,'methods/index.html'),'utf8');
 if (!methods.includes('id="review-log"') || !methods.includes(fmt(status.reviewedThrough)) || !methods.includes(`${status.newItemsQualified} qualified`)) errors.push('methods review log is inaccurate');
 if (!home.includes('automated process')) errors.push('automated review disclosure missing');
@@ -74,3 +74,5 @@ if (errors.length) { console.error(`Build tests failed:\n- ${errors.join('\n- ')
 console.log(`Passed structural, internal-link, RSS, asset-hash, archive-control, responsive/accessibility, status, disclosure, and ${entries.length}-permalink checks across ${htmlFiles.length} HTML files.`);
 const behavior=spawnSync(process.execPath,[path.join(root,'scripts/test-behavior.mjs')],{stdio:'inherit'});
 if(behavior.status!==0)process.exit(behavior.status || 1);
+const topics=spawnSync(process.execPath,[path.join(root,'scripts/test-topics.mjs')],{stdio:'inherit'});
+if(topics.status!==0)process.exit(topics.status || 1);

@@ -10,8 +10,9 @@ const sources = read('sources.json');
 const status = read('status.json');
 const coverage = read('coverage.json');
 const errors = [];
-const required = ['id','slug','title','bottomLine','dateAdded','sourceDate','evidenceSource','modalities','biomarkers','clinicalUses','studyType','assays','platforms','organizations','regulatoryStatus','relevance','brief30','studyDesign','keyResults','whatChanged','evidenceStrength','clinicalSignificance','fieldRelevance','questions','limitations','platformRelevance','accessRelevance','primarySource','identifier','citation','historical'];
+const required = ['id','slug','title','bottomLine','dateAdded','sourceDate','evidenceSource','topics','modalities','biomarkers','clinicalUses','studyType','assays','platforms','organizations','regulatoryStatus','relevance','brief30','studyDesign','keyResults','whatChanged','evidenceStrength','clinicalSignificance','fieldRelevance','questions','limitations','accessRelevance','primarySource','identifier','citation','historical'];
 const relevance = new Set(['Field-changing','Practice-relevant','Implementation-relevant','Important new evidence','Early signal']);
+const topics = new Set(['Biomarkers','Guidelines','Management']);
 const dateRx = /^\d{4}-\d{2}-\d{2}$/;
 const seen = new Set();
 const seenSlug = new Set();
@@ -25,7 +26,15 @@ entries.forEach((entry, index) => {
   if (!dateRx.test(entry.dateAdded) || Number.isNaN(Date.parse(entry.dateAdded))) errors.push(`invalid dateAdded: ${entry.slug}`);
   if (!relevance.has(entry.relevance)) errors.push(`invalid relevance: ${entry.slug}`);
   if (!/^https:\/\//.test(entry.primarySource)) errors.push(`non-HTTPS primary source: ${entry.slug}`);
-  ['modalities','biomarkers','clinicalUses','assays','platforms','organizations','keyResults','questions','limitations'].forEach(key => { if (!Array.isArray(entry[key]) || !entry[key].length) errors.push(`${entry.slug} requires nonempty ${key}`); });
+  ['topics','clinicalUses','organizations','keyResults','questions','limitations'].forEach(key => { if (!Array.isArray(entry[key]) || !entry[key].length) errors.push(`${entry.slug} requires nonempty ${key}`); });
+  if (entry.topics?.some(topic => !topics.has(topic)) || new Set(entry.topics).size !== entry.topics?.length) errors.push(`${entry.slug} has invalid or duplicate topics`);
+  for (const key of ['modalities','biomarkers','assays','platforms']) {
+    if (!Array.isArray(entry[key]) || entry[key].some(value => typeof value !== 'string' || !value.trim())) errors.push(`${entry.slug} requires a valid ${key} array`);
+  }
+  if (entry.topics?.includes('Biomarkers') && (!entry.modalities?.length || !entry.biomarkers?.length || !entry.platformRelevance)) errors.push(`${entry.slug} requires biomarker context`);
+  if (entry.resultType !== undefined && !['results','recommendations','regulatory'].includes(entry.resultType)) errors.push(`${entry.slug} has invalid resultType`);
+  if (entry.resultType === 'recommendations' && !entry.topics?.includes('Guidelines')) errors.push(`${entry.slug} recommendations require the Guidelines topic`);
+  for (const source of entry.supportingSources || []) if (!source.label || !/^https:\/\//.test(source.url)) errors.push(`${entry.slug} has invalid supporting source`);
   if (entry.questions?.some(item => !item.q || !item.a)) errors.push(`${entry.slug} has invalid Q&A`);
 });
 
@@ -55,6 +64,17 @@ else status.reviewLog.forEach((run,index) => {
   if (!run.note) errors.push(`status.reviewLog[${index}] is missing note`);
 });
 if (coverage.status === 'complete' && !coverage.auditChecks.every(check => check.result === 'pass')) errors.push('coverage cannot be complete with failed audit checks');
+if (coverage.scopeExpansion) {
+  const expansion = coverage.scopeExpansion;
+  if (!['targeted-backfill','complete'].includes(expansion.status)) errors.push('invalid expanded coverage status');
+  if (expansion.status === 'complete' && (!expansion.auditChecks?.length || !expansion.auditChecks.every(check => check.result === 'pass'))) errors.push('expanded coverage requires its own passed audit before claiming completion');
+  if (!Array.isArray(expansion.entryIds) || !expansion.entryIds.length || new Set(expansion.entryIds).size !== expansion.entryIds.length) errors.push('backfill requires unique entry IDs');
+  for (const id of expansion.entryIds || []) {
+    const entry = entries.find(item => item.id === id);
+    if (!entry || !entry.historical || entry.sourceDate < expansion.periodStart || entry.sourceDate > expansion.periodEnd || entry.dateAdded !== expansion.addedOn) errors.push(`invalid expanded backfill record: ${id}`);
+  }
+  for (const month of expansion.months || []) if (month.qualified !== entries.filter(entry => expansion.entryIds.includes(entry.id) && entry.sourceDate.startsWith(month.month)).length) errors.push(`expanded backfill count mismatch: ${month.month}`);
+}
 
 if (errors.length) {
   console.error(`Validation failed with ${errors.length} error(s):\n- ${errors.join('\n- ')}`);
