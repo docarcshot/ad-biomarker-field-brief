@@ -12,7 +12,7 @@ assert.equal(cardData.length,entries.length);
 for(const entry of entries) {
   assert.equal(cardData.find(card=>card.entryId===entry.id).topic,entry.topics.map(topic=>topic.toLowerCase()).join('|'));
   const brief=fs.readFileSync(path.join(root,'dist/entries',entry.slug,'index.html'),'utf8');
-  for(const topic of entry.topics) assert.ok(brief.includes(`/archive/?topic=${topic.toLowerCase()}`));
+  for(const topic of entry.topics) assert.ok(brief.includes(`/archive/?${new URLSearchParams([['topic',topic.toLowerCase()]]).toString()}`));
   for(const source of entry.supportingSources||[]) assert.ok(brief.includes(source.url.replace(/&/g,'&amp;')));
   if(entry.resultType==='recommendations') {
     assert.ok(brief.includes('<h4>Key recommendations</h4>'));
@@ -56,7 +56,7 @@ function controller(search) {
   return {visible:()=>cards.filter(card=>!card.hidden).map(card=>card.dataset.entryId).sort(),change(name,value){const control=controls.find(item=>item.name===name);control.value=value;control.fire(control.tagName==='INPUT'?'input':'change');},clear(){clear.fire('click');},count,none,chips,url:()=>lastURL};
 }
 const expected=topic=>entries.filter(entry=>entry.topics.includes(topic)).map(entry=>entry.id).sort();
-for(const topic of ['Biomarkers','Guidelines','Management'])assert.deepEqual(controller(`?topic=${topic.toLowerCase()}`).visible(),expected(topic));
+for(const topic of ['Biomarkers','Clinical Trials','Guidelines','Management'])assert.deepEqual(controller(`?topic=${topic.toLowerCase()}`).visible(),expected(topic));
 const view=controller('?topic=management');
 view.change('topic','guidelines');
 assert.deepEqual(view.visible(),expected('Guidelines'));
@@ -72,7 +72,11 @@ view.change('topic','management');
 view.change('q','agitation');
 assert.ok(view.visible().includes('fda-auvelity-ad-agitation-2026-04-30'));
 assert.ok(!view.visible().includes('fda-bla761375-s001'));
-const mixed=entries.find(entry=>entry.topics.includes('Biomarkers')&&entry.topics.includes('Management'));
+const celia=entries.find(entry=>entry.id==='trial-nct05399888-celia-2026');
+assert.ok(celia.topics.includes('Clinical Trials'));
+assert.ok(!celia.topics.includes('Biomarkers'));
+assert.deepEqual(controller('?topic=clinical+trials').visible(),expected('Clinical Trials'));
+const mixed=entries.find(entry=>entry.topics.includes('Clinical Trials')&&entry.topics.includes('Management'));
 assert.ok(mixed,'Keep a real overlapping-topic regression case.');
-assert.ok(expected('Biomarkers').includes(mixed.id)&&expected('Management').includes(mixed.id));
+assert.ok(expected('Clinical Trials').includes(mixed.id)&&expected('Management').includes(mixed.id));
 console.log('Passed topic tags, bookmarked filters, overlapping topics, combined search, empty results, clear/reset, and guidance rendering checks.');

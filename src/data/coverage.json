@@ -107,6 +107,7 @@
     "periodEnd": "2026-09-07",
     "status": "targeted-backfill",
     "topics": [
+      "Clinical Trials",
       "Guidelines",
       "Management"
     ],
@@ -121,7 +122,7 @@
       "trial-nct05399888-celia-2026",
       "doi-10-1001-jama-2026-12768"
     ],
-    "summary": "Nine verified 2026 briefs were added after targeted searches of guideline issuers, drug labels, clinical journals, trial records and official conference/sponsor reports. This is a selected backfill of material developments, not a completed month-by-month audit of every general AD source category. The original biomarker audit below retains its own scope and dates.",
+    "summary": "Nine verified 2026 briefs were added after targeted searches of guideline issuers, drug labels, clinical journals, trial records and official conference/sponsor reports. Clinical-trial reports are now separated from biomarker-focused research. This is a selected backfill of material developments, not a completed month-by-month audit of every general AD source category. The original biomarker audit below retains its own scope and dates.",
     "verificationNotes": [
       "Source dates use publication or regulatory-action dates; September 2 WHO executive summary and May CELIA topline release are supporting records, not duplicate briefs.",
       "ARIA workgroup recommendations are labeled consensus, not a formal CPG. FDA labeling remains distinct.",

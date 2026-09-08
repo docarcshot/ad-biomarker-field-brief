@@ -12,7 +12,7 @@ const coverage = read('coverage.json');
 const errors = [];
 const required = ['id','slug','title','bottomLine','dateAdded','sourceDate','evidenceSource','topics','modalities','biomarkers','clinicalUses','studyType','assays','platforms','organizations','regulatoryStatus','relevance','brief30','studyDesign','keyResults','whatChanged','evidenceStrength','clinicalSignificance','fieldRelevance','questions','limitations','accessRelevance','primarySource','identifier','citation','historical'];
 const relevance = new Set(['Field-changing','Practice-relevant','Implementation-relevant','Important new evidence','Early signal']);
-const topics = new Set(['Biomarkers','Guidelines','Management']);
+const topics = new Set(['Biomarkers','Clinical Trials','Guidelines','Management']);
 const dateRx = /^\d{4}-\d{2}-\d{2}$/;
 const seen = new Set();
 const seenSlug = new Set();
@@ -32,6 +32,7 @@ entries.forEach((entry, index) => {
     if (!Array.isArray(entry[key]) || entry[key].some(value => typeof value !== 'string' || !value.trim())) errors.push(`${entry.slug} requires a valid ${key} array`);
   }
   if (entry.topics?.includes('Biomarkers') && (!entry.modalities?.length || !entry.biomarkers?.length || !entry.platformRelevance)) errors.push(`${entry.slug} requires biomarker context`);
+  if (entry.topics?.includes('Clinical Trials') && (!/\b(?:randomi[sz]ed|clinical trial|phase [1-4]|interventional)\b/i.test(entry.studyType) || /systematic review|meta-analysis|regulatory|guideline|observational|cohort/i.test(entry.studyType))) errors.push(`${entry.slug} requires a primary interventional trial report`);
   if (entry.resultType !== undefined && !['results','recommendations','regulatory'].includes(entry.resultType)) errors.push(`${entry.slug} has invalid resultType`);
   if (entry.resultType === 'recommendations' && !entry.topics?.includes('Guidelines')) errors.push(`${entry.slug} recommendations require the Guidelines topic`);
   for (const source of entry.supportingSources || []) if (!source.label || !/^https:\/\//.test(source.url)) errors.push(`${entry.slug} has invalid supporting source`);

@@ -75,6 +75,7 @@
       "items": {
         "enum": [
           "Biomarkers",
+          "Clinical Trials",
           "Guidelines",
           "Management"
         ]

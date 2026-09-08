@@ -1,6 +1,6 @@
 # AD Biomarker Field Brief
 
-A public, nonpromotional evidence-monitoring site for Alzheimer disease biomarkers, guidelines, and management. It is generated from validated JSON rather than hand-coded articles.
+A public, nonpromotional evidence-monitoring site for Alzheimer disease biomarkers, clinical trials, guidelines, and management. It is generated from validated JSON rather than hand-coded articles.
 
 Production site: https://ad-biomarker-field-brief.arcshot.chatgpt.site/
 
@@ -60,7 +60,9 @@ New-item markers compare stable entry IDs against the start-of-visit snapshot, s
 
 The user expanded coverage on September 7, 2026 to general AD guidelines and management, independent of biomarker consequences. This includes diagnosis/staging, disease-modifying treatment and eligibility, dosing and safety, symptomatic/neuropsychiatric care, nonpharmacologic care, caregiver support, risk reduction, and material access changes. The every-other-day schedule, 0–3 prospective-item threshold, verification standards, publication gates and email conditions remain unchanged.
 
-Every entry requires one or more `topics` from `Biomarkers`, `Guidelines`, and `Management`. The visible Topic filter matches any assigned topic; overlapping records appear in each relevant view. Tags link to bookmarkable archive URLs and topics are included in RSS and meeting packets. `Guidelines` includes formal guidelines and consensus guidance, with the evidence-source label making their status explicit. A treatment trial is not a guideline.
+Every entry requires one or more `topics` from `Biomarkers`, `Clinical Trials`, `Guidelines`, and `Management`. The visible Topic filter matches any assigned topic; overlapping records appear in each relevant view. Tags link to bookmarkable archive URLs and topics are included in RSS and meeting packets.
+
+`Biomarkers` is reserved for work whose central research question or primary analysis concerns biomarker measurement, validity, interpretation, implementation, authorization, or coverage. A treatment trial does not qualify merely because it measures biomarkers or reports exploratory biomarker changes. `Clinical Trials` identifies reports whose primary evidence is a prospective interventional human trial. It does not include systematic reviews, observational cohorts, regulatory summaries supported by trials, or guidelines. A trial can also carry `Management` when its result informs AD care, and can carry `Biomarkers` only when biomarker research itself is central to the trial question. `Guidelines` includes formal guidelines and clearly labeled consensus guidance; a treatment trial is not a guideline.
 
 Use `resultType: "recommendations"` for guidance and `"regulatory"` for label details; otherwise quantitative results remain the default. Preserve design/population, findings, interpretation, Q&A, limitations and primary citations. Do not invent sample sizes or effect estimates for recommendations. Empty modality/biomarker/assay/platform arrays and null platform relevance are permitted when they do not apply to general management. Biomarker evidence still requires modality, biomarker and platform context. Additional HTTPS references use `supportingSources: [{label, url}]` and render in briefs and packets.
 

@@ -1467,7 +1467,7 @@
     "platformRelevance": "Biomarker movement is not validated clinical utility.",
     "resultType": "results",
     "topics": [
-      "Biomarkers",
+      "Clinical Trials",
       "Management"
     ],
     "id": "doi-10-1016-s0140-6736-26-00459-9",
@@ -1594,6 +1594,7 @@
     "platformRelevance": null,
     "resultType": "results",
     "topics": [
+      "Clinical Trials",
       "Management"
     ],
     "id": "doi-10-1001-jamainternmed-2026-0844",
@@ -1656,7 +1657,7 @@
     "platformRelevance": "Tau reduction does not establish an assay’s clinical utility.",
     "resultType": "results",
     "topics": [
-      "Biomarkers",
+      "Clinical Trials",
       "Management"
     ],
     "id": "trial-nct05399888-celia-2026",
@@ -1731,7 +1732,7 @@
     "platformRelevance": "Biomarker effects are not proof of patient benefit.",
     "resultType": "results",
     "topics": [
-      "Biomarkers",
+      "Clinical Trials",
       "Management"
     ],
     "id": "doi-10-1001-jama-2026-12768",
@@ -1851,6 +1852,7 @@
     "platformRelevance": null,
     "resultType": "results",
     "topics": [
+      "Clinical Trials",
       "Management"
     ],
     "id": "trial-nct03860792-results-2026",
