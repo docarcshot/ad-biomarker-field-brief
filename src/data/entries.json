@@ -1776,5 +1776,130 @@
     "doi": "10.1001/jama.2026.12768",
     "identifier": "DOI:10.1001/jama.2026.12768",
     "citation": "Fleisher AS, Munsie L, Mancini M, et al. Ceperognastat in early symptomatic Alzheimer disease. JAMA. July 13, 2026. doi:10.1001/jama.2026.12768."
+  },
+  {
+    "dateAdded": "2026-09-08",
+    "historical": false,
+    "corrections": [],
+    "modalities": [],
+    "biomarkers": [],
+    "assays": [],
+    "platforms": [],
+    "platformRelevance": null,
+    "resultType": "results",
+    "topics": [
+      "Management"
+    ],
+    "id": "doi-10-1007-s10072-026-09347-z",
+    "slug": "cannabinoids-dementia-symptoms-meta-analysis",
+    "title": "Cannabinoid meta-analysis finds no behavioral or cognitive benefit in dementia",
+    "bottomLine": "Nine small randomized trials did not show improved agitation, neuropsychiatric symptoms or cognition, while somnolence was more frequent with cannabinoids.",
+    "sourceDate": "2026-09-07",
+    "evidenceSource": "Peer-reviewed systematic review and meta-analysis",
+    "clinicalUses": [
+      "Neuropsychiatric symptom management",
+      "Agitation",
+      "Treatment safety"
+    ],
+    "studyType": "Systematic review and meta-analysis of randomized trials",
+    "organizations": [
+      "Federal University of Santa Maria",
+      "Federal University of Paraíba"
+    ],
+    "regulatoryStatus": "Evidence synthesis; not a guideline, authorization or coverage action",
+    "relevance": "Important new evidence",
+    "brief30": "The pooled estimates do not support cannabinoids for dementia-related agitation or cognition, and the increased somnolence signal matters in frail populations.",
+    "studyDesign": "Nine randomized controlled trials with 334 participants who had Alzheimer disease or dementia; databases were searched through November 2025 and outcomes were synthesized with random-effects models.",
+    "keyResults": [
+      "Cannabinoids did not improve CMAI agitation (SMD −0.58, 95% CI −1.71 to 0.55; I²=84%) or NPI-NH total symptoms (SMD −0.02, 95% CI −1.00 to 0.96; I²=67%).",
+      "MMSE results were also inconclusive (SMD 0.86, 95% CI −16.33 to 18.06; I²=96%). Overall adverse events were similar, but somnolence was more frequent (RR 2.03, 95% CI 1.29–3.20)."
+    ],
+    "whatChanged": "A September synthesis combines nine randomized trials and quantifies both the absence of pooled symptom benefit and the somnolence risk.",
+    "evidenceStrength": "Moderate-certainty evidence for behavioral outcomes and low-certainty evidence for cognition; estimates are limited by small trials and substantial heterogeneity.",
+    "clinicalSignificance": "Current evidence does not support cannabinoids to improve agitation, neuropsychiatric symptoms or cognition in dementia.",
+    "fieldRelevance": "Useful for evidence-based discussions about off-label cannabinoid use and for separating anecdotal response from controlled evidence.",
+    "questions": [
+      {
+        "q": "Is this a clinical practice guideline?",
+        "a": "No. It is a systematic review and meta-analysis, with no new recommendation, authorization or coverage decision."
+      }
+    ],
+    "limitations": [
+      "Only 334 participants were included across nine trials, and formulations, doses and populations varied.",
+      "Heterogeneity was high for CMAI, NPI-NH total and MMSE outcomes, limiting precision and generalizability."
+    ],
+    "accessRelevance": "No authorization, availability, guideline endorsement or coverage change follows from this evidence synthesis.",
+    "primarySource": "https://link.springer.com/article/10.1007/s10072-026-09347-z",
+    "doi": "10.1007/s10072-026-09347-z",
+    "identifier": "DOI:10.1007/s10072-026-09347-z; PMID:42704497",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42704497/"
+      }
+    ],
+    "citation": "Tudella GCN, Klostermann AU, Menegucci G, et al. Efficacy and safety of cannabinoid-based interventions for behavioral and cognitive symptoms in dementia: systematic review and meta-analysis. Neurol Sci. Published September 7, 2026. doi:10.1007/s10072-026-09347-z."
+  },
+  {
+    "dateAdded": "2026-09-08",
+    "historical": false,
+    "corrections": [],
+    "modalities": [],
+    "biomarkers": [],
+    "assays": [],
+    "platforms": [],
+    "platformRelevance": null,
+    "resultType": "results",
+    "topics": [
+      "Management"
+    ],
+    "id": "trial-nct03860792-results-2026",
+    "slug": "ketogenic-diet-ad-trial-results",
+    "title": "Ketogenic diet trial posts inconclusive 12-week cognitive results",
+    "bottomLine": "Registry results showed small, imprecise within-group ADAS-Cog changes and more nonserious adverse events with the ketogenic diet; no between-group effect estimate was reported.",
+    "sourceDate": "2026-09-08",
+    "evidenceSource": "ClinicalTrials.gov results record",
+    "clinicalUses": [
+      "Nonpharmacologic care",
+      "Nutrition",
+      "Treatment safety"
+    ],
+    "studyType": "Randomized, outcome-assessor-masked active-controlled trial",
+    "organizations": [
+      "University of Kansas Medical Center"
+    ],
+    "regulatoryStatus": "Behavioral intervention evidence; not a guideline, authorization or coverage action",
+    "relevance": "Early signal",
+    "brief30": "The registry results are insufficient to recommend a ketogenic diet as an AD cognitive treatment, particularly without a reported between-group estimate.",
+    "studyDesign": "Eighty-four adults aged 50–90 with Alzheimer disease and CDR 0.5 or 1 were randomized 1:1 to a 12-week ketogenic diet or Therapeutic Lifestyle Changes diet; outcome assessors were masked.",
+    "keyResults": [
+      "For the primary ADAS-Cog11 outcome, mean change was −0.52 points (95% CI −2.85 to 1.81; n=32) with ketogenic diet and +0.96 (95% CI −1.04 to 2.97; n=37) with the comparator; lower scores are better, and the registry reports no between-group estimate.",
+      "Completion was 32/42 versus 38/42. Nonserious adverse events affected 17/42 versus 9/42, including diarrhea in 9/42 versus 0/42; no serious events or deaths were reported in either group."
+    ],
+    "whatChanged": "Primary results were first posted to ClinicalTrials.gov on September 8, 2026.",
+    "evidenceStrength": "Randomized evidence, but small, short, incompletely analyzed and currently registry-only, with no reported between-group treatment effect.",
+    "clinicalSignificance": "The posted results do not establish cognitive benefit from a ketogenic diet in mild AD and identify a meaningful tolerability burden.",
+    "fieldRelevance": "Supports careful counseling about uncertain cognitive benefit, adherence demands and gastrointestinal effects when patients ask about ketogenic diets.",
+    "questions": [
+      {
+        "q": "Do these results prove that ketogenic diets have no benefit?",
+        "a": "No. The 12-week trial is small and the registry does not report a between-group estimate, so the result is inconclusive rather than definitive."
+      }
+    ],
+    "limitations": [
+      "Fourteen randomized participants did not complete the study, with more withdrawals in the ketogenic group.",
+      "The registry reports arm-specific change estimates but no adjusted between-group comparison, and no peer-reviewed primary results publication was identified."
+    ],
+    "accessRelevance": "No authorization, formal guideline endorsement, commercial availability or coverage change is established.",
+    "primarySource": "https://clinicaltrials.gov/study/NCT03860792",
+    "doi": null,
+    "identifier": "NCT03860792; ClinicalTrials.gov results first posted 2026-09-08",
+    "supportingSources": [
+      {
+        "label": "Structured registry record",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT03860792"
+      }
+    ],
+    "citation": "University of Kansas Medical Center. Therapeutic Diets in Alzheimer's Disease (TDAD). ClinicalTrials.gov NCT03860792. Results first posted September 8, 2026."
   }
 ]
