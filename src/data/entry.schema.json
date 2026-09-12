@@ -76,6 +76,7 @@
         "enum": [
           "Biomarkers",
           "Clinical Trials",
+          "Registry Results",
           "Guidelines",
           "Management"
         ]

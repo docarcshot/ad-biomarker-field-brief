@@ -56,7 +56,7 @@ function controller(search) {
   return {visible:()=>cards.filter(card=>!card.hidden).map(card=>card.dataset.entryId).sort(),change(name,value){const control=controls.find(item=>item.name===name);control.value=value;control.fire(control.tagName==='INPUT'?'input':'change');},clear(){clear.fire('click');},count,none,chips,url:()=>lastURL};
 }
 const expected=topic=>entries.filter(entry=>entry.topics.includes(topic)).map(entry=>entry.id).sort();
-for(const topic of ['Biomarkers','Clinical Trials','Guidelines','Management'])assert.deepEqual(controller(`?topic=${topic.toLowerCase()}`).visible(),expected(topic));
+for(const topic of ['Biomarkers','Clinical Trials','Registry Results','Guidelines','Management'])assert.deepEqual(controller(`?topic=${topic.toLowerCase()}`).visible(),expected(topic));
 const view=controller('?topic=management');
 view.change('topic','guidelines');
 assert.deepEqual(view.visible(),expected('Guidelines'));
@@ -76,6 +76,10 @@ const celia=entries.find(entry=>entry.id==='trial-nct05399888-celia-2026');
 assert.ok(celia.topics.includes('Clinical Trials'));
 assert.ok(!celia.topics.includes('Biomarkers'));
 assert.deepEqual(controller('?topic=clinical+trials').visible(),expected('Clinical Trials'));
+const ketogenic=entries.find(entry=>entry.id==='trial-nct03860792-results-2026');
+assert.ok(ketogenic.topics.includes('Registry Results'));
+assert.ok(!ketogenic.topics.includes('Clinical Trials'));
+assert.deepEqual(controller('?topic=registry+results').visible(),expected('Registry Results'));
 const mixed=entries.find(entry=>entry.topics.includes('Clinical Trials')&&entry.topics.includes('Management'));
 assert.ok(mixed,'Keep a real overlapping-topic regression case.');
 assert.ok(expected('Clinical Trials').includes(mixed.id)&&expected('Management').includes(mixed.id));

@@ -1781,7 +1781,9 @@
   {
     "dateAdded": "2026-09-08",
     "historical": false,
-    "corrections": [],
+    "corrections": [
+      "September 10, 2026: Reclassified from Clinical Trials to Registry Results to distinguish registry-only findings from results reported in a peer-reviewed paper or formal conference report. The trial is completed, not recruiting."
+    ],
     "modalities": [],
     "biomarkers": [],
     "assays": [],
@@ -1852,7 +1854,7 @@
     "platformRelevance": null,
     "resultType": "results",
     "topics": [
-      "Clinical Trials",
+      "Registry Results",
       "Management"
     ],
     "id": "trial-nct03860792-results-2026",
@@ -1903,5 +1905,81 @@
       }
     ],
     "citation": "University of Kansas Medical Center. Therapeutic Diets in Alzheimer's Disease (TDAD). ClinicalTrials.gov NCT03860792. Results first posted September 8, 2026."
+  },
+  {
+    "id": "doi-10-1038-s41591-026-04635-9",
+    "slug": "csf-pathology-cognitive-resilience-ad-risk",
+    "title": "Longitudinal CSF pathology and cognitive resilience jointly predicted Alzheimer dementia",
+    "bottomLine": "In 3,119 older adults followed for a median 13.7 years, a longitudinal CSF p-tau181/Aβ42 pathology score and a model-derived cognitive-resilience score independently predicted incident Alzheimer dementia, but neither score is validated for individual clinical decisions.",
+    "dateAdded": "2026-09-12",
+    "sourceDate": "2026-09-11",
+    "evidenceSource": "Peer-reviewed longitudinal cohort study",
+    "modalities": [
+      "CSF"
+    ],
+    "biomarkers": [
+      "CSF p-tau181/Aβ42"
+    ],
+    "clinicalUses": [
+      "Prognosis",
+      "Risk stratification",
+      "Trial design"
+    ],
+    "studyType": "Longitudinal prognostic cohort study with external replication",
+    "assays": [
+      "Longitudinal CSF p-tau181/Aβ42 ratio; assay details were not reported in the public abstract"
+    ],
+    "platforms": [
+      "Not specified in the public abstract"
+    ],
+    "organizations": [
+      "China Cognition and Aging Study",
+      "Alzheimer's Disease Neuroimaging Initiative"
+    ],
+    "regulatoryStatus": "Research model; no authorized prognostic or treatment-selection claim",
+    "relevance": "Important new evidence",
+    "brief30": "The study is useful because it shows that longitudinal CSF pathology and observed cognitive trajectory contribute complementary prognostic information. It does not establish a deployable score, a treatment threshold, or evidence that an intervention that raises the model-derived resilience score will reduce dementia risk.",
+    "studyDesign": "Landmark analysis of 3,119 older adults in the China Cognition and Aging Study with repeated CSF and cognitive measurements over a five-year score-estimation window and median follow-up of 13.7 years; findings were replicated in 597 ADNI participants with 133 incident events.",
+    "keyResults": [
+      "Each 1-SD higher longitudinal CSF pathology score was associated with incident Alzheimer dementia (HR 2.50, 95% CI 2.30–2.72).",
+      "Each 1-SD higher model-derived cognitive-resilience score was associated with lower incidence (HR 0.51, 95% CI 0.48–0.55).",
+      "The ADNI replication included 597 participants and 133 incident events; the authors reported independent pathology and resilience associations and a multiplicative interaction."
+    ],
+    "whatChanged": "A large, long-followed cohort analysis paired repeated CSF pathology measurements with longitudinal cognitive trajectory and showed that the two dimensions provided complementary prognostic information, with replication in ADNI.",
+    "evidenceStrength": "Moderate prognostic evidence: large longitudinal derivation cohort, long follow-up and independent replication, but both scores were research-derived and the resilience measure is a model residual that can include measurement error and unmeasured determinants.",
+    "clinicalSignificance": "The findings support considering clinical resilience alongside pathology in research and trial design. They do not justify serial lumbar punctures, individual risk counseling from these scores, or a specific resilience-directed intervention.",
+    "fieldRelevance": "Useful for questions about why similar biomarker burdens produce different clinical trajectories and whether pathology alone is sufficient for prognosis. The answer remains no, but the proposed joint model is not ready for routine use.",
+    "questions": [
+      {
+        "q": "Can the pathology and resilience scores be used in clinic now?",
+        "a": "No. They were derived retrospectively from repeated research measurements and have no validated clinical cutoff or decision-impact evidence."
+      },
+      {
+        "q": "Does the study prove that increasing cognitive resilience prevents Alzheimer dementia?",
+        "a": "No. Cognitive resilience was a model-derived residual, not a randomized intervention target. The association is prognostic, not proof of causal benefit."
+      },
+      {
+        "q": "Does the study establish assay performance?",
+        "a": "No. It evaluates prognostic associations of a longitudinal CSF ratio, not analytical validity, assay interchangeability, or platform-specific thresholds."
+      }
+    ],
+    "limitations": [
+      "Research-derived scores without validated clinical cutoffs",
+      "Resilience defined as a residual that may contain measurement error and unmeasured influences",
+      "Repeated CSF sampling limits routine-care feasibility",
+      "No clinical-utility or intervention trial",
+      "Publicly accessible report does not establish analytical validity or assay interchangeability"
+    ],
+    "platformRelevance": "No platform comparison or transferable threshold was established. The public report does not support applying the model to a different CSF assay or to plasma p-tau measurements.",
+    "accessRelevance": "No authorization, availability, guideline endorsement, coverage, or reimbursement change follows from this prognostic cohort study.",
+    "primarySource": "https://www.nature.com/articles/s41591-026-04635-9",
+    "doi": "10.1038/s41591-026-04635-9",
+    "identifier": "DOI:10.1038/s41591-026-04635-9; NCT03653156",
+    "citation": "Wang Z, Wang S, Liang Y, et al. Joint impact of pathological burden and cognitive resilience on Alzheimer's disease risk. Nat Med. Published online September 11, 2026. doi:10.1038/s41591-026-04635-9.",
+    "corrections": [],
+    "historical": false,
+    "topics": [
+      "Biomarkers"
+    ]
   }
 ]
