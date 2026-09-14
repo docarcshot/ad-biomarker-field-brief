@@ -64,6 +64,12 @@ jobs:
       - run: node scripts/validate.mjs
       - run: node scripts/build.mjs
       - run: node scripts/test-build.mjs
+      - name: Upload Site deployment artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: site-dist
+          path: dist
+          if-no-files-found: error
       - run: node scripts/prepare-pages.mjs
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
