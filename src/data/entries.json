@@ -1981,5 +1981,76 @@
     "topics": [
       "Biomarkers"
     ]
+  },
+  {
+    "id": "doi-10-1111-jgs-70692",
+    "slug": "social-media-alzheimer-blood-test-claims",
+    "title": "Social media posts often overstate Alzheimer blood-test screening utility",
+    "bottomLine": "Among 188 high-reach social-media posts, 36% promoted Alzheimer blood tests for asymptomatic screening, but only 12% of those posts mentioned potential harms; the study supports stronger communication guardrails, not broader testing.",
+    "dateAdded": "2026-09-16",
+    "sourceDate": "2026-09-15",
+    "evidenceSource": "Peer-reviewed cross-sectional content analysis",
+    "modalities": [
+      "Blood"
+    ],
+    "biomarkers": [
+      "Alzheimer disease blood biomarkers"
+    ],
+    "clinicalUses": [
+      "Test interpretation",
+      "Patient communication",
+      "Implementation"
+    ],
+    "studyType": "Cross-sectional content analysis",
+    "assays": [],
+    "platforms": [],
+    "organizations": [
+      "University of Sydney"
+    ],
+    "regulatoryStatus": "Communication study; no authorization, availability, guideline, or coverage change",
+    "relevance": "Implementation-relevant",
+    "brief30": "The study identifies a recurring implementation hazard as blood-based Alzheimer testing becomes more available: public-facing claims often blur symptomatic diagnostic evaluation with asymptomatic screening and omit harms, uncertainty, and the clinician's role. It evaluates communication quality, not assay performance or clinical utility.",
+    "studyDesign": "Researchers searched Facebook, Instagram and TikTok in April 2025, screened 342 posts, excluded 30 after eligibility review and analyzed 188 English-language posts published from March 2014 through May 2025. The accounts had a combined potential reach of 114,043,984 followers.",
+    "keyResults": [
+      "Sixty-eight of 188 posts (36%) claimed utility for screening asymptomatic people; only 8 of those 68 (12%) mentioned potential harms.",
+      "One hundred eleven posts (59%) claimed earlier or improved diagnosis, but only 15 (14%) mentioned objective cognitive decline, 19 (17%) subjective cognitive decline and 20 (18%) a clinician's role.",
+      "Sixty-eight posts (36%) mentioned evidence, and only 16 of those 68 (24%) cited a specific identifiable study. Accounts with an explicit financial interest were more likely to claim asymptomatic-screening utility (odds ratio 3.38, 95% CI 1.59–7.22)."
+    ],
+    "whatChanged": "A first-of-its-kind content analysis quantified how Alzheimer blood tests are represented to a very large potential social-media audience and identified specific omissions relevant to test counseling and responsible implementation.",
+    "evidenceStrength": "Direct, systematically coded evidence about public communication across three platforms, with duplicate coding and quantitative comparisons; it does not measure actual exposure, patient behavior, diagnostic accuracy or clinical outcomes.",
+    "clinicalSignificance": "Clinicians and field teams should anticipate that patients may arrive with expectations shaped by claims about screening healthy people. Counseling should clearly distinguish symptomatic diagnostic use from unsupported population screening and address false positives, overdiagnosis, uncertainty and the need for clinical assessment.",
+    "fieldRelevance": "Useful for medical-information review, educational-material design and implementation planning because it identifies the claims most likely to create misunderstanding as blood tests enter practice.",
+    "questions": [
+      {
+        "q": "Does this study show that Alzheimer blood tests are inaccurate?",
+        "a": "No. It did not evaluate analytical validity or clinical validity; it evaluated claims and contextual information in social-media posts."
+      },
+      {
+        "q": "Does it establish clinical utility for asymptomatic screening?",
+        "a": "No. The authors highlight that posts frequently promoted asymptomatic screening despite the lack of established benefit and the potential for harm."
+      },
+      {
+        "q": "Is this a guideline or regulatory action?",
+        "a": "No. It is an observational communication study and does not change authorization, availability, guideline endorsement, coverage or reimbursement."
+      }
+    ],
+    "limitations": [
+      "Cross-sectional snapshot shaped by April 2025 platform search results and algorithms",
+      "English-language posts only, spanning March 2014 to May 2025",
+      "Follower counts represent potential reach rather than verified engagement or patient behavior",
+      "The study does not evaluate assay performance, diagnostic outcomes, clinical utility or patient outcomes"
+    ],
+    "platformRelevance": "No named assay or platform was evaluated. The findings should not be used to compare products, infer analytical or clinical validity, or transfer claims across blood-biomarker platforms.",
+    "accessRelevance": "No authorization, commercial availability, formal guideline endorsement, coverage or reimbursement change follows from this study.",
+    "primarySource": "https://agsjournals.onlinelibrary.wiley.com/doi/10.1111/jgs.70692",
+    "doi": "10.1111/jgs.70692",
+    "identifier": "DOI:10.1111/jgs.70692",
+    "citation": "Sujana RS, McCaffery KJ, Smith J, et al. Social media claims about blood tests for Alzheimer's disease and dementia: a cross-sectional content analysis. J Am Geriatr Soc. Published online September 15, 2026. doi:10.1111/jgs.70692.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Biomarkers"
+    ]
   }
 ]

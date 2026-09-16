@@ -1,16 +1,13 @@
 {
-  "reviewedThrough": "2026-09-12",
+  "reviewedThrough": "2026-09-16",
   "newItemsQualified": 1,
-  "nextScheduledReview": "2026-09-14",
-  "lastSuccessfulRun": "2026-09-12T15:58:46.779Z",
-  "workflowState": "delayed",
+  "nextScheduledReview": "2026-09-18",
+  "lastSuccessfulRun": "2026-09-16T16:01:15.929Z",
+  "workflowState": "on-schedule",
   "historicalCompleteThrough": "2026-09-04",
   "coverageAuditComplete": true,
   "message": "1 new item qualified",
-  "failure": {
-    "date": "2026-09-14T15:26:00.000Z",
-    "message": "Site publication delayed: the deployment archive could not be materialized in the current runtime."
-  },
+  "failure": null,
   "reviewLog": [
     {
       "reviewedThrough": "2026-09-04",
@@ -48,11 +45,11 @@
       "note": "1 new item qualified"
     },
     {
-      "reviewedThrough": "2026-09-12",
-      "completedAt": "2026-09-14T15:26:00.000Z",
-      "outcome": "delayed",
-      "qualified": 0,
-      "note": "Site publication delayed: the deployment archive could not be materialized in the current runtime."
+      "reviewedThrough": "2026-09-16",
+      "completedAt": "2026-09-16T16:01:15.929Z",
+      "outcome": "success",
+      "qualified": 1,
+      "note": "1 new item qualified; includes the September 13–14 interval from the previously delayed primary-site publication"
     }
   ]
 }

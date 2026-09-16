@@ -1,17 +1,17 @@
 {
-  "release": "2026-09-07",
-  "change": "General AD guideline and management scope, topic filters, and nine verified historical briefs",
+  "release": "2026-09-16",
+  "change": "September 13–16 evidence review and one biomarker-implementation brief",
   "status": "automated-checks-passed",
   "automated": [
-    "Validated 24 briefs, 12 unchanged assay records and 20 source records.",
-    "Confirmed the original 15 clinical records, stable IDs and slugs are unchanged except for topic metadata.",
-    "Validated archive topic tags, bookmarked topic views, overlap, combined topic/biomarker/search filtering, empty results, and clear/reset behavior using the actual application controller and generated metadata.",
-    "Verified guidance labels and optional assay context; supporting sources appear in briefs and meeting packets.",
-    "Passed existing internal-link, RSS, hashed-asset, packet, review-state and overdue-build checks across 32 HTML pages.",
-    "Prepared the GitHub Pages artifact at the repository mount path."
+    "Validated 28 briefs, 12 unchanged assay records and all 20 source-registry records.",
+    "Built 28 permanent brief pages plus seven core pages from the same structured data used by the status panel, archive, meeting packet, RSS and sitemap.",
+    "Passed internal-link, RSS, asset-hash, archive-control, responsive/accessibility, disclosure, status and 28-permalink checks across 36 HTML files.",
+    "Passed topic tags, bookmarked Biomarkers and other topic filters, overlap, combined filtering, empty results and clear/reset behavior using the generated card metadata and application controller.",
+    "Passed visit continuity, same-day additions, delayed-state, blocked-storage, meeting-packet, assay-relationship and overdue-build regression checks.",
+    "Verified the review is current through September 16, 2026, with the next scheduled review on September 18."
   ],
   "browser": [
-    "No browser or visual QA was performed for this scope update."
+    "No new live-browser or visual QA was required because layout and application code were unchanged; interaction-relevant controller and responsive/accessibility regressions passed."
   ],
   "workflow": [
     "Updated the existing connected task prompt to include general AD diagnosis, treatment, safety, symptoms, supportive/caregiver care, prevention and guidelines.",
