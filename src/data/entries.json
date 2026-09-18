@@ -2052,5 +2052,234 @@
     "topics": [
       "Biomarkers"
     ]
+  },
+  {
+    "id": "doi-10-1007-s00259-026-08140-6",
+    "slug": "florbetapir-pet-cerebellar-reference-bias",
+    "title": "Cerebellar amyloid can bias florbetapir Centiloid quantification",
+    "bottomLine": "In 359 amyloid-positive participants, cerebellar cortical amyloid raised the whole-cerebellum reference signal and could systematically underestimate cortical florbetapir burden; a white-matter-normalized cerebellar threshold showed strong internal discrimination but needs external validation.",
+    "dateAdded": "2026-09-18",
+    "sourceDate": "2026-09-17",
+    "evidenceSource": "Peer-reviewed retrospective imaging cohort",
+    "modalities": [
+      "Amyloid PET"
+    ],
+    "biomarkers": [
+      "Amyloid"
+    ],
+    "clinicalUses": [
+      "PET quantification",
+      "Test interpretation",
+      "Treatment monitoring"
+    ],
+    "studyType": "Retrospective imaging cohort with internal validation",
+    "assays": [
+      "18F-florbetapir PET"
+    ],
+    "platforms": [
+      "Amyloid PET"
+    ],
+    "organizations": [
+      "Xuanwu Hospital, Capital Medical University"
+    ],
+    "regulatoryStatus": "Imaging-method study; no authorization, label, guideline, or coverage change",
+    "relevance": "Implementation-relevant",
+    "brief30": "Whole cerebellum is commonly treated as a stable reference region for amyloid PET, but this study shows that cerebellar amyloid can inflate the denominator and depress cortical SUVR and Centiloid values. The proposed screen may help identify affected scans, but it was derived and validated internally and is not a clinical cutoff.",
+    "studyDesign": "Retrospective analysis of 359 amyloid-positive participants who had 18F-florbetapir PET, MRI and CSF biomarkers; 52 had visually defined cerebellar cortical amyloid deposition and 307 did not. A white-matter-normalized cerebellar SUVR threshold was derived and internally validated in 30 additional cases.",
+    "keyResults": [
+      "Participants with cerebellar cortical amyloid had higher whole-cerebellum reference SUV (p=0.012) but lower cortical SUV (p=0.008), producing lower whole-cerebellum-referenced Centiloid estimates despite cortical amyloid burden; pons SUV did not differ significantly (p=0.110).",
+      "A white-matter-normalized cerebellar SUVR threshold of 0.428 distinguished cerebellar deposition with AUC 0.931, 86.5% sensitivity and 86.3% specificity; internal validation in 30 cases yielded kappa 0.856.",
+      "In two lecanemab-treated cases, cortical Centiloid values declined longitudinally while cerebellar white-matter-normalized SUVR remained above the proposed threshold."
+    ],
+    "whatChanged": "A dedicated analysis quantified a clinically relevant reference-region failure mode and proposed an internal screen for cerebellar amyloid before interpreting whole-cerebellum-referenced florbetapir measurements.",
+    "evidenceStrength": "Moderate measurement-validity evidence: the cohort was sizeable and included internal validation, but all participants were already amyloid positive, only 52 had cerebellar deposition, validation included 30 cases and longitudinal treatment observations were limited to two people.",
+    "clinicalSignificance": "When serial or borderline florbetapir measurements appear discordant with the cortical image pattern, cerebellar reference contamination should be considered before inferring low burden or treatment response. The proposed threshold is not ready for routine clinical decisions without external validation.",
+    "fieldRelevance": "Useful for interpreting Centiloid values, selecting reference regions in trials and explaining why reference-region biology can alter quantitative amyloid PET results even when the tracer and cortical signal are unchanged.",
+    "questions": [
+      {
+        "q": "Does this establish a new clinical cutoff?",
+        "a": "No. The 0.428 threshold was derived and validated within the same research program and requires external, scanner- and pipeline-specific validation."
+      },
+      {
+        "q": "Should whole cerebellum no longer be used as a reference region?",
+        "a": "Not categorically. The study identifies a subgroup in whom whole-cerebellum normalization may be biased; it does not compare all reference strategies prospectively or establish a universal replacement."
+      },
+      {
+        "q": "Does the study prove better clinical outcomes with another reference region?",
+        "a": "No. It addresses measurement interpretation, not clinical utility or patient outcomes."
+      }
+    ],
+    "limitations": [
+      "Retrospective, single-program analysis restricted to amyloid-positive participants",
+      "Only 52 participants had cerebellar cortical deposition",
+      "The proposed threshold had internal rather than independent external validation",
+      "Only two anti-amyloid-treated cases contributed longitudinal treatment examples",
+      "No prospective decision-impact or patient-outcome assessment"
+    ],
+    "platformRelevance": "The finding concerns reference-region selection and quantification of 18F-florbetapir PET. The 0.428 white-matter-normalized threshold should not be transferred to other tracers, scanners or processing pipelines without validation.",
+    "accessRelevance": "No authorization, commercial availability, formal guideline endorsement, coverage or reimbursement change follows from this study.",
+    "primarySource": "https://link.springer.com/article/10.1007/s00259-026-08140-6",
+    "doi": "10.1007/s00259-026-08140-6",
+    "identifier": "DOI:10.1007/s00259-026-08140-6; PMID:42749937",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42749937/"
+      }
+    ],
+    "citation": "Wang M, Bi S, Lu J, et al. Cerebellar cortical amyloid deposition biases 18F-Florbetapir PET quantification with whole cerebellum as reference region. Eur J Nucl Med Mol Imaging. Published online September 17, 2026. doi:10.1007/s00259-026-08140-6.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Biomarkers"
+    ]
+  },
+  {
+    "id": "doi-10-1016-j-bbi-2026-107021",
+    "slug": "zoster-vaccine-dementia-natural-experiment-reanalysis",
+    "title": "Reanalysis finds reported shingles-vaccine dementia effects internally implausible",
+    "bottomLine": "After accounting for actual vaccine uptake, three of four published natural experiments implied dementia risk reductions of 84% to 177% among vaccine recipients, including estimates beyond the theoretical maximum, weakening the claim that these studies establish meaningful dementia prevention.",
+    "dateAdded": "2026-09-18",
+    "sourceDate": "2026-09-17",
+    "evidenceSource": "Peer-reviewed methodological reanalysis",
+    "modalities": [],
+    "biomarkers": [],
+    "clinicalUses": [
+      "Risk reduction",
+      "Evidence interpretation",
+      "Vaccination counseling"
+    ],
+    "studyType": "Methodological reanalysis of natural experiments and population trends",
+    "assays": [],
+    "platforms": [],
+    "platformRelevance": null,
+    "organizations": [
+      "University College London"
+    ],
+    "regulatoryStatus": "Evidence-interpretation study; no vaccine indication, guideline, authorization, or coverage change",
+    "relevance": "Important new evidence",
+    "brief30": "The paper does not test whether shingles vaccination has no effect on dementia. It shows that several highly publicized eligibility-based estimates become implausibly large when translated into effects among people actually vaccinated, suggesting residual bias or violated assumptions and a need for independent replication before prevention claims enter practice.",
+    "studyDesign": "Reanalysis of published shingles-vaccine eligibility natural experiments from Wales, Australia and Canada. The investigators incorporated the observed difference in vaccination uptake across eligibility groups, calculated the treatment effect implied among vaccine recipients, tested the baseline-risk imbalance needed to reproduce the findings and inspected national dementia-incidence trends after vaccine introduction.",
+    "keyResults": [
+      "The implied dementia-risk reduction among vaccine recipients was 18% in Wales (95% CI approximately 0%–35%), 177% in Australia (28%–301%) and 84% (18%–219%) and 111% (15%–303%) in two Canadian analyses; two estimates exceeded the theoretical 100% maximum.",
+      "Even assuming a large true vaccine effect, baseline dementia risk in vaccine-eligible groups would need to be 1.7 to 2.3 times higher than in ineligible groups to generate the published eligibility contrasts.",
+      "The same framework implied 41% lower mild cognitive impairment and 56% lower dementia mortality, while national data did not show a corresponding post-rollout decline in dementia incidence in the United Kingdom, Australia or Canada."
+    ],
+    "whatChanged": "A formal quantitative stress test translated published eligibility contrasts into recipient-level effects and showed that most were implausibly large or internally inconsistent.",
+    "evidenceStrength": "Strong evidence about internal plausibility and identifying assumptions, but not a randomized estimate of vaccine effect. The analysis depends on published uptake and outcome data and cannot determine which specific bias produced each result.",
+    "clinicalSignificance": "Shingles vaccination should continue to follow infectious-disease recommendations, but it should not currently be presented as an established dementia-prevention intervention on the basis of these natural experiments.",
+    "fieldRelevance": "Directly relevant to risk-reduction messaging, evidence appraisal and patient questions because the original studies have been interpreted as causal support for dementia prevention.",
+    "questions": [
+      {
+        "q": "Does this mean shingles vaccination cannot reduce dementia risk?",
+        "a": "No. It shows that the published natural-experiment estimates are not internally credible as strong causal evidence. A smaller effect remains possible and requires independent replication."
+      },
+      {
+        "q": "Does this change shingles-vaccine recommendations?",
+        "a": "No. The paper does not change vaccination indications or guidance for preventing herpes zoster and its complications."
+      },
+      {
+        "q": "Is this a clinical trial or guideline?",
+        "a": "No. It is a methodological reanalysis of observational natural experiments."
+      }
+    ],
+    "limitations": [
+      "Reanalysis of published observational studies rather than participant-level randomized data",
+      "Cannot identify the exact source or magnitude of bias in each original study",
+      "National incidence trends are ecological and may be influenced by diagnostic and demographic changes",
+      "Does not estimate a definitive vaccine effect on dementia"
+    ],
+    "accessRelevance": "No authorization, vaccine availability, formal guideline endorsement, coverage or reimbursement change follows from this paper.",
+    "primarySource": "https://doi.org/10.1016/j.bbi.2026.107021",
+    "doi": "10.1016/j.bbi.2026.107021",
+    "identifier": "DOI:10.1016/j.bbi.2026.107021; PMID:42754179",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42754179/"
+      }
+    ],
+    "citation": "Kivimäki M, et al. Natural experiments of herpes zoster vaccination: Quantifying the implied vaccine effectiveness against dementia. Brain Behav Immun. Published online September 17, 2026. doi:10.1016/j.bbi.2026.107021.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Management"
+    ]
+  },
+  {
+    "id": "trial-nct02720445-results-2026",
+    "slug": "mind-nicotine-patch-mci-registry-results",
+    "title": "Two-year nicotine patch trial finds no cognitive benefit in MCI",
+    "bottomLine": "In 348 adults with mild cognitive impairment, 24 months of transdermal nicotine did not improve the prespecified verbal-memory outcome versus placebo and caused more dizziness and treatment withdrawals; the newly posted registry results do not support clinical use.",
+    "dateAdded": "2026-09-18",
+    "sourceDate": "2026-09-17",
+    "evidenceSource": "ClinicalTrials.gov results record",
+    "modalities": [],
+    "biomarkers": [],
+    "clinicalUses": [
+      "Mild cognitive impairment",
+      "Symptomatic treatment",
+      "Treatment safety"
+    ],
+    "studyType": "Phase 2 randomized, quadruple-masked, placebo-controlled trial",
+    "assays": [],
+    "platforms": [],
+    "platformRelevance": null,
+    "organizations": [
+      "Vanderbilt University Medical Center"
+    ],
+    "regulatoryStatus": "Registry results; transdermal nicotine has no established MCI treatment indication and no guideline or coverage change follows",
+    "relevance": "Important new evidence",
+    "brief30": "The official registry now supplies exact 24-month effect estimates for a long-running trial of an inexpensive, readily available intervention. Neither the primary memory outcome nor global, functional or cognitive secondary measures showed a convincing benefit, and attrition and adverse effects limit enthusiasm for off-label use.",
+    "studyDesign": "Forty-one-site phase 2 trial that randomized 348 nonsmoking adults with mild cognitive impairment to transdermal nicotine (titrated from 3.5 mg to 21 mg daily) or placebo for 24 months, with quadruple masking and a three-week taper.",
+    "keyResults": [
+      "For the primary International Shopping List Test immediate-recall outcome at month 24, least-squares means were 16.95 with nicotine and 16.59 with placebo; adjusted mean difference 0.37 points (95% CI −0.78 to 1.52; p=0.530). A complier analysis was also null (difference 0.12, 95% CI −1.27 to 1.51; p=0.868).",
+      "Secondary estimates were similarly inconclusive: delayed recall difference 0.16 (95% CI −0.45 to 0.74), CDR-SB −0.09 (−0.50 to 0.32), ADCS-ADL −0.05 (−1.79 to 1.68) and post-hoc MMSE 0.61 (−0.14 to 1.35).",
+      "Completion was 91/171 with nicotine and 106/177 with placebo. Adverse-event withdrawal occurred in 28 versus 17 participants; dizziness occurred in 29/171 versus 8/176, headache in 13/171 versus 4/176, insomnia in 13/171 versus 5/176 and abnormal dreams in 12/171 versus 2/176. Serious adverse events occurred in 27/171 versus 24/176, with one death in each arm."
+    ],
+    "whatChanged": "Detailed results were first posted to ClinicalTrials.gov on September 17, 2026, supplying exact 24-month efficacy, attrition and safety data beyond earlier topline reporting.",
+    "evidenceStrength": "Randomized, masked, multicenter evidence with 24 months of treatment, but the result is currently registry-based and attrition was substantial, with only 91 nicotine and 106 placebo participants completing follow-up.",
+    "clinicalSignificance": "The posted evidence does not support transdermal nicotine as a treatment for mild cognitive impairment and identifies a meaningful tolerability and discontinuation burden.",
+    "fieldRelevance": "Useful for counseling about an accessible off-label intervention, for closing the loop on prior pilot signals and for informing whether additional nicotine studies should proceed without a stronger target-population or dosing rationale.",
+    "questions": [
+      {
+        "q": "Is this a newly published clinical-trial paper?",
+        "a": "No. The qualifying development is the official results posting in ClinicalTrials.gov, so it is categorized as Registry Results rather than Clinical Trials."
+      },
+      {
+        "q": "Should patients with MCI try nicotine patches?",
+        "a": "These results do not support that use. Nicotine also caused more dizziness and treatment withdrawals, and it has no established MCI treatment indication."
+      },
+      {
+        "q": "Was an Alzheimer biomarker used to select participants?",
+        "a": "The registry result is not a central biomarker report and is not tagged Biomarkers."
+      }
+    ],
+    "limitations": [
+      "Results are currently reported in the registry rather than a peer-reviewed primary manuscript",
+      "Substantial attrition over 24 months, with differential adverse-event withdrawals",
+      "The MCI population was not defined by a central Alzheimer biomarker question",
+      "Multiple secondary and post-hoc outcomes do not overcome the null prespecified primary result"
+    ],
+    "accessRelevance": "Transdermal nicotine is commercially available, but this study establishes no MCI indication, guideline endorsement, coverage policy or reason for unsupervised use.",
+    "primarySource": "https://clinicaltrials.gov/study/NCT02720445",
+    "doi": null,
+    "identifier": "NCT02720445; ClinicalTrials.gov results first posted 2026-09-17",
+    "supportingSources": [
+      {
+        "label": "Structured registry record",
+        "url": "https://clinicaltrials.gov/api/v2/studies/NCT02720445"
+      }
+    ],
+    "citation": "Vanderbilt University Medical Center. Memory Improvement Through Nicotine Dosing (MIND) Study. ClinicalTrials.gov NCT02720445. Results first posted September 17, 2026.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Registry Results",
+      "Management"
+    ]
   }
 ]
