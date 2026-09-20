@@ -2281,5 +2281,100 @@
       "Registry Results",
       "Management"
     ]
+  },
+  {
+    "id": "doi-10-1096-fba-2026-00194",
+    "slug": "adni-glial-vascular-plasma-biomarkers",
+    "title": "ADNI analysis separates GFAP signal from weak vascular markers",
+    "bottomLine": "Across biomarker-specific ADNI samples, Simoa GFAP rose stepwise from cognitively unimpaired participants to MCI and Alzheimer disease and distinguished AD from unimpaired participants with AUC 0.822, while sTREM2 and the vascular markers showed substantial overlap and no individual-level diagnostic utility.",
+    "dateAdded": "2026-09-20",
+    "sourceDate": "2026-09-19",
+    "evidenceSource": "Peer-reviewed retrospective longitudinal cohort analysis",
+    "modalities": [
+      "Blood"
+    ],
+    "biomarkers": [
+      "GFAP",
+      "sTREM2",
+      "VEGF",
+      "sICAM-1",
+      "sVCAM-1"
+    ],
+    "clinicalUses": [
+      "Disease characterization",
+      "Research stratification",
+      "Longitudinal monitoring"
+    ],
+    "studyType": "Retrospective longitudinal ADNI cohort analysis",
+    "assays": [
+      "Simoa plasma GFAP",
+      "MSD plasma sTREM2",
+      "Myriad RBM multiplex VEGF, sICAM-1 and sVCAM-1"
+    ],
+    "platforms": [
+      "Quanterix Simoa",
+      "Meso Scale Discovery",
+      "Luminex/Myriad RBM"
+    ],
+    "platformRelevance": "The signals are assay- and dataset-specific. The study did not establish transferability across GFAP, sTREM2 or vascular-marker platforms, laboratories or cut points.",
+    "organizations": [
+      "Alzheimer's Disease Neuroimaging Initiative",
+      "Ahvaz Jundishapur University of Medical Sciences"
+    ],
+    "regulatoryStatus": "Research-use cohort analysis; no analytical validation, authorization, guideline endorsement or coverage change",
+    "relevance": "Important new evidence",
+    "brief30": "GFAP produced strong group-level separation, but this was a clinical-diagnosis analysis rather than an amyloid- or tau-defined diagnostic-validation study. sTREM2 was null at baseline, vascular-marker distributions overlapped heavily, and none of the measures was tested for clinical decision impact.",
+    "studyDesign": "Secondary ADNI analysis of 2,650 covariate-complete participants: 1,027 cognitively unimpaired, 1,187 with mild cognitive impairment and 436 with Alzheimer disease. Baseline assay samples differed by platform: GFAP n=832, sTREM2 n=1,001 and vascular markers n=566. Longitudinal analyses included 1,252 participants and 1,671 GFAP observations, 1,031 participants and 1,771 sTREM2 observations, and 566 participants and 1,061 vascular-marker observations.",
+    "keyResults": [
+      "Baseline GFAP was 21.5% higher in MCI than cognitively unimpaired participants (95% CI 13.1%–30.6%) and 56.3% higher in AD (40.4%–74.2%; multiplicity-adjusted q=1.66×10⁻14). AD-versus-unimpaired discrimination was AUC 0.822 (95% CI 0.779–0.866), Cohen d=1.23, with distributional overlap of 0.51.",
+      "sTREM2 did not separate AD from unimpaired participants at baseline: +2.2% (95% CI −7.4% to 12.8%; q=0.769), AUC 0.507. VEGF and sVCAM-1 were modestly higher in AD, with AUCs of 0.612 and 0.625, while vascular-marker overlap was at least 0.83; sICAM-1 was not significant.",
+      "GFAP increased 4.50% per year in cognitively unimpaired participants (95% CI 3.79%–5.21%) and sTREM2 increased 2.99% per year (1.56%–4.44%), but diagnosis-by-time interactions were not significant after multiplicity correction. The vascular panel showed divergent 12-month patterns that require replication."
+    ],
+    "whatChanged": "A single longitudinal ADNI analysis directly compared glial and vascular plasma markers across disease groups and quantified both group separation and longitudinal change on three assay platforms.",
+    "evidenceStrength": "Moderate exploratory clinical-validity evidence from a large, well-characterized research cohort. Clinical groups were not defined against an amyloid or tau reference standard, assay availability was nonrandom and most GFAP and sTREM2 participants had only one measurement. The study provides no analytical-validation or clinical-utility evidence.",
+    "clinicalSignificance": "The findings support plasma GFAP as a research marker of glial activation with meaningful group-level separation, not as a stand-alone AD diagnostic or stage marker. The sTREM2 and vascular-marker findings do not support individual-level interpretation.",
+    "fieldRelevance": "The study helps MSL teams distinguish a reproducible GFAP research signal from weaker exploratory vascular-marker findings and clarifies why diagnostic separation, assay validity and clinical utility should not be conflated.",
+    "questions": [
+      {
+        "q": "Was Alzheimer disease confirmed with amyloid or tau biomarkers?",
+        "a": "No. The primary comparisons used clinical diagnosis groups, so the study does not establish AD-specific validity against a biological reference standard."
+      },
+      {
+        "q": "Did the study validate the assays analytically?",
+        "a": "No. It analyzed existing platform-specific ADNI data and did not establish precision, interference, cross-platform equivalence or clinical cut points."
+      },
+      {
+        "q": "Can these markers be used for clinical decisions?",
+        "a": "Not from this study. It did not test decision impact, patient outcomes, implementation thresholds or clinical utility."
+      }
+    ],
+    "limitations": [
+      "Clinical diagnosis groups rather than an amyloid- or tau-defined reference standard",
+      "Retrospective secondary analysis with nonrandom and platform-specific assay availability",
+      "Most GFAP and sTREM2 participants contributed only one measurement",
+      "Vascular-marker follow-up was limited to 12 months and glial-vascular correlations used only 64 to 94 overlapping participants",
+      "No analytical validation, prospective decision-impact study or clinical-utility assessment"
+    ],
+    "accessRelevance": "No assay authorization, commercial-availability, guideline-endorsement, coverage or reimbursement change follows from this analysis.",
+    "primarySource": "https://doi.org/10.1096/fba.2026-00194",
+    "doi": "10.1096/fba.2026-00194",
+    "identifier": "DOI:10.1096/fba.2026-00194; PMID:42763575; PMCID:PMC13589249",
+    "supportingSources": [
+      {
+        "label": "PubMed Central full text",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13589249/"
+      },
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42763575/"
+      }
+    ],
+    "citation": "Jahanbin K; Alzheimer's Disease Neuroimaging Initiative. Glial and Vascular Plasma Biomarkers Across the Alzheimer's Disease Continuum: An ADNI-Based Longitudinal Study. FASEB BioAdvances. Published online September 19, 2026. doi:10.1096/fba.2026-00194.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Biomarkers"
+    ]
   }
 ]

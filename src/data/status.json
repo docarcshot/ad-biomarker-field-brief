@@ -1,12 +1,12 @@
 {
-  "reviewedThrough": "2026-09-18",
-  "newItemsQualified": 3,
-  "nextScheduledReview": "2026-09-20",
-  "lastSuccessfulRun": "2026-09-18T15:18:12.000Z",
+  "reviewedThrough": "2026-09-20",
+  "newItemsQualified": 1,
+  "nextScheduledReview": "2026-09-22",
+  "lastSuccessfulRun": "2026-09-20T15:16:35.000Z",
   "workflowState": "on-schedule",
   "historicalCompleteThrough": "2026-09-04",
   "coverageAuditComplete": true,
-  "message": "3 new items qualified",
+  "message": "1 new item qualified",
   "failure": null,
   "reviewLog": [
     {
@@ -57,6 +57,13 @@
       "outcome": "success",
       "qualified": 3,
       "note": "3 new items qualified"
+    },
+    {
+      "reviewedThrough": "2026-09-20",
+      "completedAt": "2026-09-20T15:16:35.000Z",
+      "outcome": "success",
+      "qualified": 1,
+      "note": "1 new item qualified"
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
-  "release": "2026-09-18",
-  "change": "September 17–18 evidence review and three new evidence briefs",
+  "release": "2026-09-20",
+  "change": "September 19–20 evidence review and one biomarker brief",
   "status": "automated-checks-passed",
   "automated": [
-    "Validated 31 briefs, 12 unchanged assay records and all 20 source-registry records.",
-    "Built 31 permanent brief pages plus seven core pages from the same structured data used by the status panel, archive, meeting packet, RSS and sitemap.",
-    "Passed internal-link, RSS, asset-hash, archive-control, responsive/accessibility, disclosure, status and 31-permalink checks across 39 HTML files.",
+    "Validated 32 briefs, 12 unchanged assay records and all 20 source-registry records.",
+    "Built 32 permanent brief pages plus seven core pages from the same structured data used by the status panel, archive, meeting packet, RSS and sitemap.",
+    "Passed internal-link, RSS, asset-hash, archive-control, responsive/accessibility, disclosure, status and 32-permalink checks across 40 HTML files.",
     "Passed topic tags, bookmarked Biomarkers and other topic filters, overlap, combined filtering, empty results and clear/reset behavior using the generated card metadata and application controller.",
     "Passed visit continuity, same-day additions, delayed-state, blocked-storage, meeting-packet, assay-relationship and overdue-build regression checks.",
-    "Verified the review is current through September 18, 2026, with the next scheduled review on September 20."
+    "Verified the review is current through September 20, 2026, with the next scheduled review on September 22."
   ],
   "browser": [
     "No new live-browser or visual QA was required because layout and application code were unchanged; interaction-relevant controller and responsive/accessibility regressions passed."
