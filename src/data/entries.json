@@ -2376,5 +2376,271 @@
     "topics": [
       "Biomarkers"
     ]
+  },
+  {
+    "id": "doi-10-1001-jamaneurol-2026-3253",
+    "slug": "harmonized-tau-pet-visual-staging",
+    "title": "Five-class tau PET framework detects more early pathology",
+    "bottomLine": "In 681 participants, a five-class visual framework achieved interrater kappa values of 0.77 to 0.85 and classified more cognitively unimpaired and MCI participants as tau-positive than the FDA-approved flortaucipir binary read, but the new framework itself is not authorized or guideline-endorsed and has no proven clinical utility.",
+    "dateAdded": "2026-09-22",
+    "sourceDate": "2026-09-21",
+    "evidenceSource": "Peer-reviewed prospective multicenter cross-sectional validation study",
+    "modalities": [
+      "Tau PET",
+      "Amyloid PET"
+    ],
+    "biomarkers": [
+      "Tau tangles",
+      "Amyloid",
+      "Plasma p-tau217"
+    ],
+    "clinicalUses": [
+      "Tau pathology staging",
+      "Early-stage detection",
+      "Clinical-trial stratification"
+    ],
+    "studyType": "Prospective nine-site multitracer cross-sectional agreement and clinical-validity study",
+    "assays": [
+      "[18F]MK-6240 (Tauklarify)",
+      "[18F]flortaucipir (Tauvid)",
+      "[18F]RO948",
+      "[18F]PI-2620"
+    ],
+    "platforms": [
+      "PET"
+    ],
+    "platformRelevance": "The method uses tracer-specific images but a common seven-region, five-class visual scheme. Agreement was strongest for MK-6240 and flortaucipir, and performance was lower for some regions with PI-2620, so tracer equivalence should not be assumed.",
+    "organizations": [
+      "HEAD study",
+      "University of Pittsburgh",
+      "Amsterdam UMC"
+    ],
+    "regulatoryStatus": "Research framework; the harmonized read is not FDA authorized, guideline-endorsed or covered. Tauvid and Tauklarify have separate FDA-approved binary visual-read labeling.",
+    "relevance": "Implementation-relevant",
+    "brief30": "The harmonized approach moves tau PET beyond a late-stage binary read and provides a common vocabulary across four tracers. It increases early-stage positivity and tracks with cognition and other biomarkers, but the same cohort was used to develop and evaluate it, and no prospective decision-impact or outcome study has established clinical utility.",
+    "studyDesign": "The HEAD study enrolled adults aged 50 to 90 years at nine North American and European sites. The analysis included 681 participants (369 cognitively unimpaired, 245 with MCI and 67 with dementia) who underwent two to four tau PET scans, amyloid PET, MRI and cognitive assessment. Blinded readers assigned negative, low, moderate, high or atypical classes from seven composite regions.",
+    "keyResults": [
+      "Interrater agreement for the five classes was kappa 0.77 to 0.85. Intertracer agreement was highest for MK-6240 versus flortaucipir (kappa 0.88); across all tracer pairs, five-class percentage agreement ranged from 75.2% to 83.3%.",
+      "Among cognitively unimpaired participants, the FDA-approved flortaucipir binary read was positive in 26/364, versus 49/364 with harmonized flortaucipir (prevalence ratio 1.89, 95% CI 1.31 to 2.70) and 71/364 with harmonized MK-6240 (2.73, 1.95 to 3.83). In MCI, the corresponding counts were 100/223, 123/223 (1.23, 1.12 to 1.35) and 142/223 (1.42, 1.27 to 1.59).",
+      "From low to high tau classes, cognition was 1.4-fold worse, amyloid PET burden 3.2-fold higher and plasma p-tau217 2.5-fold higher; positivity estimates converged in dementia at 45/57, 47/57 and 50/57 for the regulatory, harmonized flortaucipir and harmonized MK-6240 reads."
+    ],
+    "whatChanged": "A peer-reviewed prospective multicenter study now provides a reproducible five-class visual staging framework across four tau PET tracers and quantifies how much more early-stage pathology it detects than the approved flortaucipir binary read.",
+    "evidenceStrength": "Strong agreement and convergent clinical-validity evidence within a large head-to-head imaging cohort. Analytical validity and reader reproducibility were not established outside the study, the framework was developed and evaluated in the same cohort, and longitudinal prognostic and decision-impact validation are still needed.",
+    "clinicalSignificance": "The framework may improve research staging and trial enrichment, especially before dementia, but it should not be substituted for an approved tracer's labeled read or used alone for treatment decisions until externally validated and implemented under appropriate guidance.",
+    "fieldRelevance": "Directly relevant to imaging interpretation, biological staging and blood-biomarker studies that use tau PET as a reference. It also shows that tracer and reading method can change apparent positivity in early disease.",
+    "questions": [
+      {
+        "q": "Is this five-class read FDA approved?",
+        "a": "No. Tauvid and Tauklarify are approved tracers with their own labeled visual-read methods; this harmonized framework is a research method and has no separate authorization."
+      },
+      {
+        "q": "Does greater positivity prove better diagnosis or outcomes?",
+        "a": "No. The study supports agreement and association with disease measures, but it did not establish that the additional early positives improve decisions, outcomes or treatment selection."
+      },
+      {
+        "q": "Can results be treated as interchangeable across tracers?",
+        "a": "No. Agreement was good to excellent overall but varied by tracer and region, and atypical classifications did not converge across tracers."
+      }
+    ],
+    "limitations": [
+      "Framework development and evaluation occurred in the same cohort without external validation",
+      "Cross-sectional design without longitudinal prognostic or treatment-response assessment",
+      "Smaller RO948 and PI-2620 samples and lower regional confidence for PI-2620",
+      "Predominantly highly educated White non-Hispanic academic-research cohort",
+      "No neuropathology reference standard, decision-impact study or clinical-utility evaluation"
+    ],
+    "accessRelevance": "No new authorization, commercial availability, guideline endorsement, coverage or reimbursement follows from the framework. A free research visual-reading tool is available, but access to tracers, scanners and trained readers remains separate.",
+    "primarySource": "https://doi.org/10.1001/jamaneurol.2026.3253",
+    "doi": "10.1001/jamaneurol.2026.3253",
+    "identifier": "DOI:10.1001/jamaneurol.2026.3253; PMID:42766299",
+    "supportingSources": [
+      {
+        "label": "JAMA Neurology full text",
+        "url": "https://jamanetwork.com/journals/jamaneurology/fullarticle/2854364"
+      },
+      {
+        "label": "Research visual-reading tool",
+        "url": "https://visualreading.unitau.app/"
+      }
+    ],
+    "citation": "Benedet AL, et al; HEAD study. A Harmonized Visual Reading Framework for Tau PET Staging in Alzheimer Disease. JAMA Neurol. Published online September 21, 2026. doi:10.1001/jamaneurol.2026.3253.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Biomarkers"
+    ]
+  },
+  {
+    "id": "doi-10-1186-s13024-026-00995-5",
+    "slug": "gfap-ptau217-progression-stratification",
+    "title": "GFAP further stratifies decline among p-tau217-positive adults",
+    "bottomLine": "Across 3,505 participants from six cohorts, co-elevated plasma GFAP and p-tau217 was associated with 62% faster annual CDR-SB progression and a 28% higher hazard of clinical worsening than p-tau217 positivity alone, supporting prognostic enrichment but not clinical utility.",
+    "dateAdded": "2026-09-22",
+    "sourceDate": "2026-09-21",
+    "evidenceSource": "Peer-reviewed multicohort observational biomarker analysis",
+    "modalities": [
+      "Blood",
+      "Amyloid PET"
+    ],
+    "biomarkers": [
+      "Plasma GFAP",
+      "Plasma p-tau217",
+      "Amyloid"
+    ],
+    "clinicalUses": [
+      "Prognostic stratification",
+      "Clinical-trial enrichment",
+      "Disease-progression research"
+    ],
+    "studyType": "Pooled cross-sectional and five-year longitudinal analysis of six independent aging and Alzheimer cohorts",
+    "assays": [
+      "Cohort-specific plasma GFAP assays",
+      "Cohort-specific plasma p-tau217 assays"
+    ],
+    "platforms": [
+      "Multiple cohort-specific immunoassay platforms"
+    ],
+    "platformRelevance": "GFAP and p-tau217 positivity was defined within cohort and assay rather than with a single clinically validated cross-platform threshold. The prognostic association therefore does not establish interchangeable cut points or transferability to a specific commercial assay.",
+    "organizations": [
+      "HEAD study consortium",
+      "University of Pittsburgh"
+    ],
+    "regulatoryStatus": "Research-use prognostic analysis; no assay authorization, intended-use expansion, guideline endorsement or coverage change",
+    "relevance": "Important new evidence",
+    "brief30": "The study asks a clinically useful biomarker question: why people with elevated p-tau217 can follow different courses. GFAP added prognostic separation across multiple cohorts, but the association is observational, GFAP is nonspecific, thresholds were cohort-specific and the hazard ratio was modest with a lower confidence bound near 1.",
+    "studyDesign": "Pooled analysis of 3,505 individuals across six independent cohorts spanning cognitively unimpaired aging through Alzheimer disease. All had baseline amyloid PET, plasma GFAP, plasma p-tau217 and CDR-SB. Four biomarker groups were followed for up to five years; models assessed baseline severity, annual CDR-SB change and time to a CDR-SB increase of at least 0.5 points.",
+    "keyResults": [
+      "Compared with p-tau217-positive/GFAP-negative participants, those positive for both biomarkers had a 62% faster annual CDR-SB progression rate (p=0.008).",
+      "Dual-positive participants had a higher hazard of clinical worsening, defined as a CDR-SB increase of at least 0.5 points (hazard ratio 1.28, 95% CI 1.01 to 1.61).",
+      "The GFAP-by-p-tau217 interaction accounted for 68.6% of biomarker-attributable variance in individual annual CDR-SB change, compared with 25.3% for p-tau217 and 1.1% for GFAP independent effects."
+    ],
+    "whatChanged": "A large multicohort longitudinal analysis now quantifies how astrocyte-reactivity status may separate progression risk within the clinically heterogeneous p-tau217-positive population.",
+    "evidenceStrength": "Moderate-to-strong clinical-validity evidence from six cohorts with amyloid PET and longitudinal outcomes. It remains observational, uses cohort- and assay-specific thresholds, does not establish incremental performance over full clinical models, and provides no prospective decision-impact or outcome evidence.",
+    "clinicalSignificance": "Dual GFAP and p-tau217 measurement may help enrich trials or identify research participants at greater progression risk, but this paper does not support a universal clinical cutoff or prove that management changes based on the combination improve outcomes.",
+    "fieldRelevance": "Relevant to prognostic claims, trial enrichment and interpretation of a positive p-tau217 result. It separates added prognostic association from analytical validation, authorization and clinical utility.",
+    "questions": [
+      {
+        "q": "Does GFAP diagnose Alzheimer disease?",
+        "a": "No. GFAP reflects astrocyte reactivity and is not specific to Alzheimer disease; this analysis used it to stratify progression among groups defined with p-tau217 and amyloid PET."
+      },
+      {
+        "q": "Can one commercial cutoff be used from this study?",
+        "a": "No. Assays and positivity definitions were cohort-specific, so the study does not establish a single transferable clinical threshold."
+      },
+      {
+        "q": "Is clinical utility established?",
+        "a": "No. The study did not test whether acting on combined GFAP and p-tau217 results changes treatment decisions, counseling quality or patient outcomes."
+      }
+    ],
+    "limitations": [
+      "Observational pooled analysis cannot establish that astrocyte reactivity causes faster decline",
+      "Cohort-specific assays and positivity thresholds limit direct cross-platform implementation",
+      "GFAP is biologically nonspecific and may reflect non-Alzheimer processes",
+      "The worsening hazard estimate was modest and its 95% confidence interval began at 1.01",
+      "No analytical-validation, prospective decision-impact or clinical-utility study"
+    ],
+    "accessRelevance": "No assay authorization, availability, guideline endorsement, coverage or reimbursement change follows from this report.",
+    "primarySource": "https://doi.org/10.1186/s13024-026-00995-5",
+    "doi": "10.1186/s13024-026-00995-5",
+    "identifier": "DOI:10.1186/s13024-026-00995-5",
+    "supportingSources": [
+      {
+        "label": "Open-access full article",
+        "url": "https://link.springer.com/article/10.1186/s13024-026-00995-5"
+      }
+    ],
+    "citation": "Bellaver B, Povala G, Ferreira PCL, et al; HEAD study. Astrocyte reactivity identifies p-tau217-positive individuals at elevated risk of cognitive decline across the Alzheimer's disease continuum. Mol Neurodegener. Published online September 21, 2026. doi:10.1186/s13024-026-00995-5.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Biomarkers"
+    ]
+  },
+  {
+    "id": "trial-nct05012410-wecareadvisor",
+    "slug": "wecareadvisor-dementia-caregiver-trial",
+    "title": "WeCareAdvisor yields modest caregiver benefits, not fewer behaviors",
+    "bottomLine": "In 262 dementia caregivers, immediate WeCareAdvisor access did not significantly improve any of three prespecified outcomes at the three-month timepoint, but longitudinal distress and secondary wellbeing measures favored immediate use; delayed access produced fewer gains and one fewer DICE session.",
+    "dateAdded": "2026-09-22",
+    "sourceDate": "2026-09-21",
+    "evidenceSource": "Peer-reviewed randomized clinical trial and prespecified delayed-access follow-up",
+    "modalities": [],
+    "biomarkers": [],
+    "clinicalUses": [
+      "Caregiver support",
+      "Neuropsychiatric symptom management",
+      "Nonpharmacologic care"
+    ],
+    "studyType": "Prospective randomized, interviewer-masked, immediate-versus-three-month delayed-access trial",
+    "assays": [],
+    "platforms": [],
+    "platformRelevance": null,
+    "organizations": [
+      "Drexel University",
+      "Johns Hopkins University",
+      "University of California, Davis"
+    ],
+    "regulatoryStatus": "Nonpharmacologic caregiver intervention; no drug, device, guideline, authorization or coverage change",
+    "relevance": "Practice-relevant",
+    "brief30": "WeCareAdvisor operationalizes the DICE approach in a web app that tailors non-drug strategies to behavioral symptoms and possible triggers. The trial supports modest caregiver-distress and wellbeing gains, not a clear reduction in patient behaviors, and the new follow-up suggests that providing access earlier may improve engagement and the breadth of benefit.",
+    "studyDesign": "A nationwide trial randomized 262 community-living caregivers of people with dementia to immediate access (n=131) or three-month delayed access (n=131). Masked interviewers assessed three primary outcomes and seven prespecified secondary outcomes through three months; the September 21 report compared engagement and outcomes after delayed users received access during months three to six.",
+    "keyResults": [
+      "At three months, none of the three prespecified timepoint comparisons was significant: behavior frequency-by-severity p=0.14, caregiver distress p=0.074 and confidence p=0.19. The longitudinal distress interaction was significant (Bonferroni-corrected p=0.012); post hoc distress fell 5.3 points with immediate versus 2.1 with delayed access, difference-in-differences 3.3 (95% CI 1.1 to 5.4; p=0.0031; Cohen d=0.386).",
+      "Caregiver wellbeing improved in 52% of immediate users versus 27% of delayed controls at three months (p=0.0003). Secondary outcomes also favored immediate use for wellbeing and upset with functional decline, but multiplicity was not controlled for these exploratory comparisons.",
+      "In the new delayed-access analysis, delayed users completed 3.1 DICE sessions versus 4.2 among immediate users (p=0.0052). Delayed users improved in wellbeing (p<0.001) and confidence (p=0.0069) but not behavioral symptoms (p>0.05), and immediate users improved more on most outcomes."
+    ],
+    "whatChanged": "A peer-reviewed delayed-access analysis now completes the randomized trial's six-month comparison and shows that later access was associated with less engagement and fewer areas of improvement, while confirming no clear change in behavioral symptoms.",
+    "evidenceStrength": "Randomized prospective evidence with masked interviewers and low three-month attrition, but the trial used a waitlist rather than active control, did not meet its three prespecified timepoint outcomes, relied on caregiver report and was demographically narrow. Secondary and post hoc findings require cautious interpretation.",
+    "clinicalSignificance": "The app may be a scalable adjunct for caregiver problem-solving and wellbeing, particularly when offered promptly, but it should not be presented as proven to reduce dementia-related behaviors or replace individualized clinical assessment of new or severe symptoms.",
+    "fieldRelevance": "Directly relevant to supportive care, nonpharmacologic management and caregiver intervention discussions, including how timing and engagement affect real-world digital-tool benefit.",
+    "questions": [
+      {
+        "q": "Did the trial meet its primary outcomes?",
+        "a": "Not at the prespecified three-month timepoint. The significant distress finding came from the longitudinal interaction, and the 3.3-point change contrast was a post hoc analysis."
+      },
+      {
+        "q": "Did the app reduce behavioral symptoms?",
+        "a": "No clear timepoint benefit was shown for behavior frequency-by-severity, and delayed users also had no significant behavioral-symptom change after access."
+      },
+      {
+        "q": "Who was studied?",
+        "a": "Community caregivers of people with dementia of varied etiologies; 67.9% were reported as Alzheimer disease and 32.1% as FTD, PPA or PSP. Most caregivers were female, White, highly educated and living with the person with dementia."
+      }
+    ],
+    "limitations": [
+      "No significant immediate-versus-delayed difference for any of the three prespecified primary outcomes at the three-month timepoint",
+      "Waitlist control without an attention-matched digital comparator",
+      "Caregiver-reported outcomes and no blinded participant exposure",
+      "Predominantly White, female and college-educated caregiver sample with internet access",
+      "Mixed dementia etiologies and exploratory secondary analyses without multiplicity adjustment"
+    ],
+    "accessRelevance": "The publications establish no authorization, formal guideline endorsement, coverage or reimbursement policy. Public availability and implementation support for the app were not established by the trial reports.",
+    "primarySource": "https://doi.org/10.1093/geront/gnag226",
+    "doi": "10.1093/geront/gnag226",
+    "identifier": "NCT05012410; DOI:10.1093/geront/gnag226; PMID:42767991; supporting DOI:10.1111/jgs.70637",
+    "supportingSources": [
+      {
+        "label": "Primary three-month randomized trial report",
+        "url": "https://doi.org/10.1111/jgs.70637"
+      },
+      {
+        "label": "ClinicalTrials.gov record",
+        "url": "https://clinicaltrials.gov/study/NCT05012410"
+      },
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42767991/"
+      }
+    ],
+    "citation": "Gitlin LN, McClure LA, Webster MJ, Lyketsos C, Kales HC. Timing Matters: Effects of Delayed versus Immediate Access to a Web-Based Application on Caregiver Outcomes: The WeCareAdvisor Trial. Gerontologist. Published online September 21, 2026. doi:10.1093/geront/gnag226.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Clinical Trials",
+      "Management"
+    ]
   }
 ]

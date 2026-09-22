@@ -242,6 +242,10 @@
       {
         "id": "doi-10-1016-s0140-6736-26-00417-4",
         "relationship": "Tracer comparison study"
+      },
+      {
+        "id": "doi-10-1001-jamaneurol-2026-3253",
+        "relationship": "Harmonized visual-staging study"
       }
     ]
   },
@@ -268,6 +272,10 @@
       {
         "id": "fda-nda-tauklarify-2026-08-13",
         "relationship": "Regulatory approval"
+      },
+      {
+        "id": "doi-10-1001-jamaneurol-2026-3253",
+        "relationship": "Harmonized visual-staging study"
       }
     ]
   }
