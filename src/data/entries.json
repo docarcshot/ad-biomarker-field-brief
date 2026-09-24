@@ -2642,5 +2642,254 @@
       "Clinical Trials",
       "Management"
     ]
+  },
+  {
+    "id": "doi-10-1177-13872877261490596",
+    "slug": "real-world-amyloid-pet-mri-incremental-value",
+    "title": "Real-world amyloid PET yield rises across the clinical continuum",
+    "bottomLine": "In 194 consecutive memory-clinic patients, amyloid PET positivity rose from 40.9% in subjective cognitive decline to 66.0% in MCI and 91.7% in early Alzheimer disease, while MRI/VSRAD indices added essentially no discrimination beyond clinical diagnosis (cross-validated AUC 0.752 versus 0.751).",
+    "dateAdded": "2026-09-24",
+    "sourceDate": "2026-09-23",
+    "evidenceSource": "Peer-reviewed consecutive real-world memory-clinic biomarker cohort",
+    "modalities": [
+      "Amyloid PET",
+      "MRI"
+    ],
+    "biomarkers": [
+      "Amyloid"
+    ],
+    "clinicalUses": [
+      "Biological confirmation",
+      "Diagnostic workup",
+      "Reference-standard interpretation"
+    ],
+    "studyType": "Retrospective analysis of a consecutive memory-clinic cohort with cross-validated diagnostic models",
+    "assays": [
+      "[18F]florbetapir (Amyvid)"
+    ],
+    "platforms": [
+      "PET",
+      "Structural MRI with VSRAD"
+    ],
+    "platformRelevance": "Amyloid status was assigned by certified visual reads and quantified with Centiloids and regional SUVRs. VSRAD MRI indices correlated with amyloid burden but did not improve cross-validated discrimination beyond the clinical group model.",
+    "organizations": [
+      "Arai Clinic",
+      "Journal of Alzheimer's Disease"
+    ],
+    "regulatoryStatus": "Florbetapir is FDA approved to estimate neuritic amyloid plaque density in adults with cognitive impairment being evaluated for Alzheimer disease and other causes; this observational analysis creates no new authorization, intended use, guideline endorsement or coverage policy.",
+    "relevance": "Implementation-relevant",
+    "brief30": "The consecutive-clinic design gives useful real-world context for pretest probability and shows that commonly used structural MRI indices did not add amyloid-status discrimination. It supports clinical validity of amyloid PET in the studied setting, not analytical validation or clinical utility: no management-change or outcome endpoint was tested, and positivity in subjective cognitive decline should not be equated with a clinical Alzheimer diagnosis.",
+    "studyDesign": "The investigators retrospectively analyzed 194 consecutive patients who underwent florbetapir PET in one memory-clinic setting: 93 with subjective cognitive decline, 47 with MCI and 54 with early Alzheimer disease. Certified visual reads defined positivity; continuous Centiloid and regional SUVR measures quantified burden. MRI/VSRAD indices were available for 153 patients, and models were compared with cross-validated AUC.",
+    "keyResults": [
+      "Amyloid PET positivity increased stepwise from 38/93 (40.9%) in subjective cognitive decline to 31/47 (66.0%) in MCI and 50/54 (91.7%) in early Alzheimer disease (p<0.0001).",
+      "Centiloid values and regional SUVRs increased in parallel across the groups, with the largest regional differences in the temporal cortex and precuneus.",
+      "Adding MRI/VSRAD indices to the base clinical model did not improve cross-validated discrimination of amyloid positivity: AUC 0.752 with MRI versus 0.751 without it."
+    ],
+    "whatChanged": "A source-date-new consecutive memory-clinic study now quantifies amyloid PET positivity across subjective cognitive decline, MCI and early Alzheimer disease and directly tests the incremental value of routinely used MRI/VSRAD indices.",
+    "evidenceStrength": "Moderate real-world clinical-validity evidence from a consecutive cohort with certified reads and cross-validation. The single-center retrospective design, clinically assigned groups, incomplete MRI data and absence of a decision-impact or patient-outcome endpoint limit implementation claims.",
+    "clinicalSignificance": "The observed gradient can inform pretest-probability discussions, and the near-identical AUCs argue against assuming that VSRAD meaningfully predicts amyloid status beyond clinical classification. PET results still require interpretation in the full clinical context and according to the tracer label.",
+    "fieldRelevance": "Directly relevant to amyloid-confirmation pathways, DMT workup discussions and the distinction between structural neurodegeneration markers and amyloid pathology. It also illustrates why a positive scan is not itself a stand-alone clinical diagnosis.",
+    "questions": [
+      {
+        "q": "Does 40.9% positivity in subjective cognitive decline support screening asymptomatic people?",
+        "a": "No. This was a referred memory-clinic cohort, not a population-screening sample, and the study did not test benefits, harms or outcomes from screening."
+      },
+      {
+        "q": "Did MRI add useful prediction of amyloid positivity?",
+        "a": "Not in the cross-validated models: the AUC changed from 0.751 to 0.752 after VSRAD indices were added."
+      },
+      {
+        "q": "Was clinical utility established?",
+        "a": "No. The study measured biomarker prevalence and discrimination; it did not test whether PET-guided decisions changed management or improved outcomes."
+      }
+    ],
+    "limitations": [
+      "Single-center retrospective cohort with a modest sample",
+      "Memory-clinic referral population limits generalizability and cannot estimate population screening yield",
+      "MRI/VSRAD data were available for 153 of 194 participants",
+      "Clinical categories were not an independent neuropathology reference standard",
+      "No management-change, decision-impact, cost-effectiveness or patient-outcome endpoint"
+    ],
+    "accessRelevance": "No new authorization, tracer availability, guideline endorsement, coverage or reimbursement change follows from this report.",
+    "primarySource": "https://doi.org/10.1177/13872877261490596",
+    "doi": "10.1177/13872877261490596",
+    "identifier": "DOI:10.1177/13872877261490596; PMID:42775784",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42775784/"
+      }
+    ],
+    "citation": "Arai H, Aiba S, Yamamoto H, Akiba Y, Takayama J, Arai R. Clinic-based real-world analysis of amyloid PET positivity and MRI markers across subjective cognitive decline, mild cognitive impairment, and early Alzheimer's disease. J Alzheimers Dis. Published online September 23, 2026. doi:10.1177/13872877261490596.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Biomarkers"
+    ]
+  },
+  {
+    "id": "doi-10-1177-13872877261489739",
+    "slug": "cosmos-multivitamin-cocoa-biomarker-trial",
+    "title": "COSMOS finds no multivitamin or cocoa effect on blood biomarkers",
+    "bottomLine": "In a randomized COSMOS ancillary study with 498 to 506 participants, neither a daily multivitamin nor cocoa extract changed two-year trajectories of plasma N-terminal tau, neurofilament light or oligomeric amyloid-beta; every treatment-versus-placebo comparison was nonsignificant.",
+    "dateAdded": "2026-09-24",
+    "sourceDate": "2026-09-23",
+    "evidenceSource": "Peer-reviewed randomized placebo-controlled biomarker analysis",
+    "modalities": [
+      "Blood"
+    ],
+    "biomarkers": [
+      "Neurofilament light",
+      "N-terminal tau fragment",
+      "Oligomeric amyloid-beta"
+    ],
+    "clinicalUses": [
+      "Pharmacodynamic research",
+      "Prevention-trial mechanism"
+    ],
+    "studyType": "Prespecified biomarker ancillary analysis of a 2-by-2 factorial randomized placebo-controlled trial",
+    "assays": [],
+    "platforms": [
+      "Plasma biomarker assays"
+    ],
+    "platformRelevance": "The report evaluated within-person change in three exploratory neurodegeneration-related blood measures. It did not validate them as surrogate endpoints, establish clinical cutoffs or show that changes predict cognitive benefit.",
+    "organizations": [
+      "COcoa Supplement and Multivitamin Outcomes Study",
+      "Brigham and Women's Hospital",
+      "Harvard Medical School"
+    ],
+    "regulatoryStatus": "Research-use biomarker analysis; no biomarker authorization, supplement treatment indication, guideline endorsement or coverage change",
+    "relevance": "Important new evidence",
+    "brief30": "The randomized design makes this a cleaner mechanistic test than observational supplement studies. The uniformly null biomarker results weaken claims that the tested multivitamin or cocoa extract affects these blood-marker trajectories over two years, but they do not negate previously reported cognitive findings because NT1, NfL and oligomeric amyloid-beta are not validated surrogate endpoints for prevention benefit.",
+    "studyDesign": "COSMOS randomized older US adults in a 2-by-2 factorial design to a daily multivitamin-mineral supplement, cocoa extract containing 500 mg/day of flavanols including 80 mg of epicatechin, both interventions or matching placebos. This ancillary analysis included 506 participants with NT1 or NfL measurements and 498 with oligomeric amyloid-beta measurements and modeled yearly percentage change over two years.",
+    "keyResults": [
+      "Multivitamin versus placebo produced no significant difference in yearly change for NT1 (3.7%, 95% CI -3.0% to 10.8%; p=0.29), NfL (3.1%, -1.9% to 8.3%; p=0.23) or oligomeric amyloid-beta (-8.9%, -23.9% to 9.0%; p=0.31).",
+      "Cocoa extract versus placebo also produced no significant difference for NT1 (-0.7%, 95% CI -7.1% to 6.1%; p=0.83), NfL (0.5%, -4.4% to 5.6%; p=0.85) or oligomeric amyloid-beta (-5.9%, -21.4% to 12.6%; p=0.51).",
+      "The analysis included 506 participants for NT1/NfL and 498 for oligomeric amyloid-beta; the biomarker outcomes were measured over two years."
+    ],
+    "whatChanged": "A new randomized analysis now directly tests whether the COSMOS multivitamin and cocoa interventions alter three blood-biomarker trajectories and finds no detectable effect for either intervention.",
+    "evidenceStrength": "Moderate randomized mechanistic evidence with placebo controls and repeated biomarker measurements. It is an ancillary subset, the confidence intervals permit modest effects, the measures are not validated surrogate endpoints and the abstract does not establish analytical-performance characteristics for the assays.",
+    "clinicalSignificance": "The findings do not support using these biomarkers to claim a biological response to the tested supplements or using the supplements to modify these biomarker trajectories. They do not establish absence of cognitive benefit or harm and should not be converted into an Alzheimer treatment recommendation.",
+    "fieldRelevance": "Relevant to prevention-trial interpretation, pharmacodynamic claims and communication about supplement mechanisms. It separates a null randomized biomarker effect from analytical validity, clinical utility and clinical outcomes.",
+    "questions": [
+      {
+        "q": "Does this prove multivitamins or cocoa have no cognitive effect?",
+        "a": "No. It shows no detectable effect on the three measured blood biomarkers over two years; those biomarkers are not validated surrogates for cognitive outcomes."
+      },
+      {
+        "q": "Are these biomarkers authorized for monitoring supplement response?",
+        "a": "No. The paper does not establish an authorized or guideline-endorsed monitoring use."
+      },
+      {
+        "q": "Why is this both Biomarkers and Clinical Trials?",
+        "a": "The primary analysis is a prospective randomized intervention comparison, and its central outcomes are changes in blood biomarkers; both topics independently describe the report's main purpose."
+      }
+    ],
+    "limitations": [
+      "Ancillary subset rather than the full COSMOS randomized population",
+      "No validated surrogate relationship between these biomarker changes and cognitive benefit",
+      "Confidence intervals do not exclude modest positive or negative effects",
+      "Population was older US adults selected for the parent cardiovascular and cancer-prevention trial, not biomarker-confirmed Alzheimer disease",
+      "No new analytical-validation, cutoff, decision-impact or clinical-utility evidence"
+    ],
+    "accessRelevance": "No assay authorization, availability, guideline endorsement, coverage or reimbursement change follows from the report.",
+    "primarySource": "https://doi.org/10.1177/13872877261489739",
+    "doi": "10.1177/13872877261489739",
+    "identifier": "NCT02422745; DOI:10.1177/13872877261489739; PMID:42775737",
+    "supportingSources": [
+      {
+        "label": "Journal abstract",
+        "url": "https://journals.sagepub.com/doi/10.1177/13872877261489739"
+      },
+      {
+        "label": "ClinicalTrials.gov record",
+        "url": "https://clinicaltrials.gov/study/NCT02422745"
+      }
+    ],
+    "citation": "Rist PM, Li S, Hamaya R, et al. Effect of a multivitamin and cocoa flavanol extract on changes in neurofilament light, N-terminal tau fragment, and oligomeric amyloid-beta levels in COSMOS-clinic. J Alzheimers Dis. Published online September 23, 2026. doi:10.1177/13872877261489739.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Biomarkers",
+      "Clinical Trials"
+    ]
+  },
+  {
+    "id": "doi-10-1212-wnl-0000000000218554",
+    "slug": "long-term-dementia-risk-after-tia",
+    "title": "Dementia risk remains elevated for years after TIA",
+    "bottomLine": "Among 113,081 matched patients with a first TIA, 19.3% developed dementia over mean 7.11-year follow-up; risk was highest in year one (HR 1.75) and remained elevated overall (HR 1.34), supporting long-term cognitive surveillance alongside vascular prevention.",
+    "dateAdded": "2026-09-24",
+    "sourceDate": "2026-09-23",
+    "evidenceSource": "Peer-reviewed population-wide matched observational cohort",
+    "modalities": [],
+    "biomarkers": [],
+    "clinicalUses": [
+      "Dementia-risk counseling",
+      "Post-TIA cognitive surveillance",
+      "Vascular risk reduction"
+    ],
+    "studyType": "Population-wide matched cohort using linked administrative health data with competing-risk analyses",
+    "assays": [],
+    "platforms": [],
+    "platformRelevance": null,
+    "organizations": [
+      "ICES",
+      "University of Toronto",
+      "Neurology"
+    ],
+    "regulatoryStatus": "Observational management evidence; no treatment authorization, formal guideline recommendation or coverage change",
+    "relevance": "Practice-relevant",
+    "brief30": "The scale and long follow-up show that cognitive risk after TIA is not confined to the early post-event period or explained solely by subsequent stroke. The study supports sustained attention to cognition and vascular prevention, but administrative dementia ascertainment cannot determine Alzheimer versus vascular etiology, and the observational design does not prove that a specific screening schedule or intervention prevents dementia.",
+    "studyDesign": "Ontario administrative data identified adults with a first emergency-department visit or admission for TIA from 2002 through 2022. After excluding prior dementia, prior stroke, early death and long-term-care admission, 113,081 patients were matched to population controls on age, sex, deprivation, rurality and vascular comorbidities and separately matched to patients with first stroke. Follow-up began 90 days after the index event; dementia was identified with a validated claims-and-medication algorithm.",
+    "keyResults": [
+      "Dementia was diagnosed in 19.3% of 113,081 matched patients with TIA over mean follow-up of 7.11 years (SD 5.16). The dementia rate was 2.71 versus 2.03 per 100 person-years in matched controls.",
+      "Compared with controls, dementia risk was highest within the first year (HR 1.75, 95% CI 1.66 to 1.85) and remained elevated over the full follow-up (overall HR 1.34, 95% CI 1.31 to 1.36), which extended to 20 years.",
+      "Compared with first stroke, dementia hazard after TIA was lower at one year (HR 0.67, 95% CI 0.64 to 0.70) but converged by five years; adjustment for incident stroke only minimally attenuated the TIA association."
+    ],
+    "whatChanged": "A population-wide study now quantifies the time course of dementia after TIA against both matched community controls and stroke, showing a persistent excess extending well beyond the period of acute stroke prevention.",
+    "evidenceStrength": "Strong association evidence from a very large matched population cohort with competing-risk and time-varying analyses. Residual confounding, claims-based exposure and outcome ascertainment, lack of dementia-subtype adjudication and survivorship selection preclude causal or Alzheimer-specific conclusions.",
+    "clinicalSignificance": "TIA should be treated as a marker of sustained cognitive risk as well as recurrent vascular risk. The evidence supports counseling, attention to cognitive change and aggressive evidence-based vascular prevention, but it does not establish an optimal screening interval or a dementia-preventive effect of any specific intervention.",
+    "fieldRelevance": "Relevant to risk-reduction and general-management discussions, especially the interface of vascular events and later dementia. It should not be presented as biomarker research or as evidence of Alzheimer-specific causation.",
+    "questions": [
+      {
+        "q": "Was the excess dementia risk explained by later stroke?",
+        "a": "Only minimally. Adjustment for incident stroke had little effect, although residual vascular and health-system confounding remains possible."
+      },
+      {
+        "q": "Does the study identify Alzheimer disease specifically?",
+        "a": "No. Dementia was ascertained from administrative diagnoses, claims and dementia medications without subtype adjudication or biomarker confirmation."
+      },
+      {
+        "q": "Does it prescribe a cognitive-screening schedule?",
+        "a": "No. It supports long-term vigilance but did not test screening intervals, decision impact or whether screening changes outcomes."
+      }
+    ],
+    "limitations": [
+      "Observational administrative-data design with possible residual confounding and exposure misclassification",
+      "Claims-and-medication dementia algorithm without subtype or Alzheimer biomarker adjudication",
+      "Exclusion of early deaths and long-term-care admissions limits applicability to the sickest patients",
+      "No direct cognitive testing or functional trajectory",
+      "No intervention, screening-schedule or clinical-utility evaluation"
+    ],
+    "accessRelevance": "No new authorization, guideline endorsement, coverage or reimbursement change follows from this report.",
+    "primarySource": "https://doi.org/10.1212/WNL.0000000000218554",
+    "doi": "10.1212/WNL.0000000000218554",
+    "identifier": "DOI:10.1212/WNL.0000000000218554; PMID:42777184",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42777184/"
+      }
+    ],
+    "citation": "Joundi RA, Fang J, Austin PC, et al. Long-Term Risk of Dementia After TIA: A Population-Wide Matched Cohort Study. Neurology. 2026;107(8):e218554. doi:10.1212/WNL.0000000000218554.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Management"
+    ]
   }
 ]
