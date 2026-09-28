@@ -2891,5 +2891,264 @@
     "topics": [
       "Management"
     ]
+  },
+  {
+    "id": "doi-10-1002-dad2-70497",
+    "slug": "lumipulse-ptau217-amyloid-treatment-candidates",
+    "title": "Standalone LUMIPULSE p-tau217 exceeds 90/90 in treatment candidates",
+    "bottomLine": "In 99 Japanese patients undergoing anti-amyloid-treatment screening, standalone LUMIPULSE plasma p-tau217 identified PET- or CSF-confirmed amyloid positivity with AUC 0.93, 95.1% sensitivity and 94.1% specificity at a cohort-derived 0.1795 pg/mL cutpoint, but the 80.0% negative predictive value and threshold instability argue against using a negative result alone to exclude treatment candidacy.",
+    "dateAdded": "2026-09-28",
+    "sourceDate": "2026-09-24",
+    "evidenceSource": "Peer-reviewed real-world diagnostic-accuracy cohort",
+    "modalities": [
+      "Blood",
+      "Amyloid PET",
+      "CSF"
+    ],
+    "biomarkers": [
+      "p-tau217",
+      "Amyloid"
+    ],
+    "clinicalUses": [
+      "Biological confirmation",
+      "Disease-modifying treatment eligibility",
+      "Diagnostic triage"
+    ],
+    "studyType": "Retrospective single-center diagnostic-accuracy study in a real-world anti-amyloid-treatment screening cohort",
+    "assays": [
+      "LUMIPULSE G pTau 217 Plasma"
+    ],
+    "platforms": [
+      "Lumipulse G1200"
+    ],
+    "platformRelevance": "Stored plasma was batch-tested on the LUMIPULSE G1200. The study evaluated standalone p-tau217 with a locally optimized cutpoint, not the FDA-cleared LUMIPULSE pTau217/Aβ42 plasma ratio and not routine on-demand analytical performance.",
+    "organizations": [
+      "Tokyo Metropolitan Institute for Geriatrics and Gerontology",
+      "Fujirebio",
+      "SRL, Inc."
+    ],
+    "regulatoryStatus": "Research evaluation of standalone LUMIPULSE plasma p-tau217. In the United States, the FDA-cleared Fujirebio plasma intended use is the pTau217/Aβ42 ratio, not the standalone p-tau217 cutpoint evaluated here; the study creates no new authorization, guideline endorsement or coverage policy.",
+    "relevance": "Implementation-relevant",
+    "brief30": "The cohort addresses the exact high-prevalence population in which blood tests may be used to streamline confirmatory testing before anti-amyloid therapy. Performance met the Alzheimer’s Association 90% sensitivity/specificity benchmark at an internally selected threshold, but only 17 patients were amyloid-negative, three of four false negatives were below the assay detection limit, and external higher cutpoints reduced NPV to 55.2%. This is clinical-validity and workflow evidence, not analytical validation or proof that blood-first triage improves outcomes.",
+    "studyDesign": "Investigators studied 99 patients evaluated for amyloid-targeting treatment at one Japanese specialty clinic from January through October 2024: 62 had MCI and 37 mild dementia. Amyloid status was confirmed by approved CSF Aβ42/Aβ40 testing in 49 or amyloid PET in 50. Stored plasma was batch-tested for p-tau217 on LUMIPULSE G1200; diagnostic performance was assessed against the PET/CSF reference standard, with the main cutpoint selected in the same cohort by the Youden index.",
+    "keyResults": [
+      "Amyloid positivity was confirmed in 82/99 (82.8%). Plasma p-tau217 achieved AUC 0.93 (95% CI 0.82 to 1.00); at 0.1795 pg/mL there were 78 true positives, 16 true negatives, one false positive and four false negatives, yielding 95.1% sensitivity, 94.1% specificity, 98.7% PPV and 80.0% NPV.",
+      "Three external LUMIPULSE p-tau217 cutpoints from 0.212 to 0.247 pg/mL preserved 94.1% specificity and PPV above 98% but lowered sensitivity to 84.1%–90.2% and NPV as low as 55.2%.",
+      "A two-cutpoint strategy using 0.1465 pg/mL for negativity and 0.1795 pg/mL for positivity classified 5.1% as intermediate and produced 97.5% sensitivity, 92.9% specificity, 98.7% PPV and 86.7% NPV; the authors still advised confirmatory testing after a negative result when pretest probability is high."
+    ],
+    "whatChanged": "A newly indexed, source-date September 24 study provides real-world performance data for standalone automated p-tau217 specifically among patients already screened as potential candidates for amyloid-targeting treatment.",
+    "evidenceStrength": "Moderate clinical-validity evidence from a clinically relevant cohort with PET or approved CSF reference testing. Confidence is limited by the single-center retrospective design, only 17 amyloid-negative participants, selection and biobank-enrollment bias, batch testing, internally optimized threshold and no independent validation cohort.",
+    "clinicalSignificance": "A positive result was highly predictive in this enriched cohort, but negative results were not sufficiently reliable to rule out amyloid pathology. The data support locally validated triage workflows and prevalence-aware interpretation, not substitution of this standalone research cutpoint for labeled assays or confirmatory testing without further validation.",
+    "fieldRelevance": "Directly relevant to blood-based biomarker implementation, anti-amyloid treatment workup, threshold transferability and communication about why PPV/NPV change with population prevalence.",
+    "questions": [
+      {
+        "q": "Did the study validate the FDA-cleared LUMIPULSE plasma ratio?",
+        "a": "No. It evaluated standalone plasma p-tau217 on the LUMIPULSE platform. The US-cleared Fujirebio test uses the pTau217/Aβ42 ratio with its labeled interpretation."
+      },
+      {
+        "q": "Can a negative result rule out amyloid pathology before treatment?",
+        "a": "Not reliably in this high-prevalence cohort. NPV was 80.0% at the optimized single cutpoint and 86.7% with two cutpoints; the authors advised confirmatory testing when clinical suspicion remains high."
+      },
+      {
+        "q": "Was clinical utility proven?",
+        "a": "No. The study measured diagnostic classification in stored samples; it did not test whether a blood-first strategy changes treatment decisions, time to care, cost, safety or patient outcomes."
+      }
+    ],
+    "limitations": [
+      "Single specialty center in Japan with only 99 participants and 17 amyloid-negative cases",
+      "Very high amyloid prevalence and biobank-enrollment bias inflate PPV and constrain NPV precision",
+      "Primary threshold selected and evaluated in the same cohort without external validation",
+      "Batch testing of stored plasma may understate routine on-demand variability",
+      "Mixed PET and CSF reference standards and incomplete APOE data",
+      "No analytical-validation, decision-impact, health-economic or patient-outcome endpoint"
+    ],
+    "accessRelevance": "The report establishes no new authorization, commercial availability, guideline endorsement, coverage or reimbursement. Standalone LUMIPULSE plasma p-tau217 was described by the manufacturer as research use only in the United States; the FDA-cleared Fujirebio plasma product is the pTau217/Aβ42 ratio.",
+    "primarySource": "https://doi.org/10.1002/dad2.70497",
+    "doi": "10.1002/dad2.70497",
+    "identifier": "DOI:10.1002/dad2.70497; PMID:42787809",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42787809/"
+      },
+      {
+        "label": "Free full text",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13602160/"
+      }
+    ],
+    "citation": "Shimasaki R, Kurihara M, Sato K, et al. Clinical utility of LUMIPULSE plasma p-tau217 to identify amyloid positivity among candidates for amyloid-targeting treatments in a real-world cohort. Alzheimers Dement (Amst). 2026;18(3):e70497. doi:10.1002/dad2.70497.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Biomarkers"
+    ]
+  },
+  {
+    "id": "doi-10-1002-dad2-70492",
+    "slug": "real-world-lecanemab-japan-aria",
+    "title": "Japanese lecanemab cohort quantifies screening and early ARIA",
+    "bottomLine": "Of 321 patients screened at one Japanese memory clinic, 102 started lecanemab; among 70 with serial MRI surveillance, 8 (11.4%) developed ARIA within six months, while infusion reactions occurred in 28/102 (27.5%) and 13/102 (12.7%) discontinued treatment.",
+    "dateAdded": "2026-09-28",
+    "sourceDate": "2026-09-24",
+    "evidenceSource": "Peer-reviewed retrospective real-world treatment cohort",
+    "modalities": [
+      "MRI",
+      "Amyloid PET",
+      "CSF"
+    ],
+    "biomarkers": [],
+    "clinicalUses": [
+      "Disease-modifying treatment eligibility",
+      "ARIA monitoring",
+      "Treatment persistence",
+      "Shared decision-making"
+    ],
+    "studyType": "Single-center retrospective cohort of routine lecanemab screening, treatment and six-month monitoring",
+    "assays": [],
+    "platforms": [],
+    "platformRelevance": null,
+    "organizations": [
+      "Keio University Hospital",
+      "Japan Agency for Medical Research and Development"
+    ],
+    "regulatoryStatus": "Lecanemab is authorized and reimbursed in Japan for eligible early symptomatic Alzheimer disease. This observational report does not change the Japanese or US label, MRI schedule, APOE guidance, authorization or coverage criteria.",
+    "relevance": "Practice-relevant",
+    "brief30": "This cohort exposes the operational funnel around lecanemab: only 31.8% of clinically suspected patients initiated treatment after cognition, MRI, amyloid confirmation and preference were considered. Early safety was broadly manageable under structured MRI surveillance, but four ARIA cases led to discontinuation and nearly one in eight treated patients stopped for clinical, logistical or financial reasons. The uncontrolled six-month cognitive data cannot establish effectiveness.",
+    "studyDesign": "A Japanese memory clinic retrospectively followed 321 people with suspected MCI due to Alzheimer disease or mild Alzheimer dementia considered for lecanemab. MRI and structured cognitive testing preceded amyloid confirmation; 102 patients received at least one infusion. Safety and continuity analyses included all treated patients, ARIA incidence used the 70 who had serial MRI surveillance within six months, and paired cognitive analyses included 66 six-month completers.",
+    "keyResults": [
+      "Treatment started in 102/321 (31.8%). Before amyloid testing, 154/320 (48.1%) were excluded or deferred after MRI/cognitive assessment; 54/165 (32.5%) who underwent amyloid PET were negative, and 13/102 (12.7%) treated patients discontinued within six months.",
+      "ARIA occurred in 8/70 (11.4%) patients with serial MRI: isolated ARIA-H in 10.0% and combined ARIA-E+H in 1.4%, with no isolated ARIA-E. One macrohemorrhage and two moderate-to-severe ARIA-H cases led to discontinuation; a fourth mild ARIA-H case stopped because of advanced age.",
+      "Infusion reactions occurred in 28/102 (27.5%), most commonly fever (14.7%); 2/102 (2.0%) discontinued for persistent reactions. Among 66 six-month completers, MMSE fell from 25.0 to 23.9 (p=0.005) and CDR-SB rose from 1.56 to 1.77 (p=0.026), without an untreated comparator."
+    ],
+    "whatChanged": "A newly indexed, source-date September 24 cohort provides a complete real-world screening funnel plus structured six-month ARIA, infusion-reaction, persistence and discontinuation data from routine Japanese practice.",
+    "evidenceStrength": "Moderate implementation and safety evidence from a well-described real-world cohort with structured MRI surveillance. The single-center retrospective design, changing denominators, short follow-up, mild treated population and absence of a control group prevent causal efficacy comparisons or precise risk estimates for broader practice.",
+    "clinicalSignificance": "The study reinforces the need to plan MRI capacity, infusion-reaction management and counseling about treatment burden before initiation. Its ARIA estimates should not replace label-based monitoring or individualized risk assessment, and the six-month cognitive changes should not be interpreted as proof of benefit or failure.",
+    "fieldRelevance": "Directly relevant to disease-modifying treatment eligibility, operational access, ARIA surveillance, APOE discussions, infusion management and persistence in routine care.",
+    "questions": [
+      {
+        "q": "How many screened patients actually started lecanemab?",
+        "a": "102 of 321 (31.8%). Cognitive stage, MRI safety findings, amyloid negativity, patient preference and logistical or financial concerns all narrowed the funnel."
+      },
+      {
+        "q": "Was the ARIA rate 11.4% of all 102 treated patients?",
+        "a": "No. The numerator was eight and the denominator was 70 patients with serial MRI surveillance within six months. The publication used changing denominators as patients reached follow-up milestones."
+      },
+      {
+        "q": "Did stable six-month cognition demonstrate effectiveness?",
+        "a": "No. Only 66 completers had paired measures, MMSE and CDR-SB worsened modestly, and there was no untreated comparator."
+      }
+    ],
+    "limitations": [
+      "Retrospective single-center cohort with modest treated sample",
+      "ARIA estimate based on 70 serially monitored patients rather than all 102 treated patients",
+      "Only six months of follow-up and predominantly CDR 0.5 disease",
+      "No untreated or matched comparator for cognitive outcomes",
+      "Selection, treatment-preference and attrition effects limit generalizability",
+      "Japanese eligibility, reimbursement and MRI practice may differ from other jurisdictions"
+    ],
+    "accessRelevance": "Lecanemab was covered by Japanese national insurance, but copayments of 10%–30%, frequent infusions and travel affected uptake or persistence. The study documents access friction; it does not establish a new coverage or reimbursement policy.",
+    "primarySource": "https://doi.org/10.1002/dad2.70492",
+    "doi": "10.1002/dad2.70492",
+    "identifier": "DOI:10.1002/dad2.70492; PMID:42798750",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42798750/"
+      },
+      {
+        "label": "Free full text",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13613027/"
+      }
+    ],
+    "citation": "Shimohama S, Bun S, Shikimoto R, et al. Real-world implementation of lecanemab in Alzheimer's disease: A Japanese cohort. Alzheimers Dement (Amst). 2026;18(3):e70492. doi:10.1002/dad2.70492.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Management"
+    ]
+  },
+  {
+    "id": "doi-10-1002-dad2-70495",
+    "slug": "llm-lecanemab-eligibility-screening",
+    "title": "Local LLM reaches expert-level lecanemab pre-screen accuracy",
+    "bottomLine": "In a 99-record independent hold-out set, an on-premises language-model pipeline classified lecanemab eligibility with 93.9% accuracy and κ 0.903, outperforming a deterministic rule-based extractor (79.8% accuracy; p=0.0026), but it remains an uncertified single-center retrospective triage tool requiring clinician review.",
+    "dateAdded": "2026-09-28",
+    "sourceDate": "2026-09-27",
+    "evidenceSource": "Peer-reviewed retrospective development and independent hold-out validation study",
+    "modalities": [],
+    "biomarkers": [],
+    "clinicalUses": [
+      "Disease-modifying treatment eligibility",
+      "Clinical workflow triage",
+      "Data privacy"
+    ],
+    "studyType": "Retrospective single-center clinical natural-language-processing study with temporally and patient-wise independent hold-out validation",
+    "assays": [],
+    "platforms": [
+      "gpt-oss-120b on-premises deployment"
+    ],
+    "platformRelevance": "The model extracted eligibility-relevant facts from German narrative memory-clinic reports and fed them to a shared rule-based classifier. Performance depends on local documentation, operationalized criteria and human oversight; the model was not tested as an autonomous decision-maker.",
+    "organizations": [
+      "University Hospital Bonn",
+      "University of Bonn"
+    ],
+    "regulatoryStatus": "The authors state that gpt-oss-120b is not a certified medical device. The report creates no authorization, treatment-eligibility standard, guideline endorsement or coverage policy.",
+    "relevance": "Early signal",
+    "brief30": "The privacy-preserving pipeline could reduce chart-review burden and flag missing amyloid, MRI or cognitive data without sending protected health information to an external cloud. Its hold-out performance was comparable to two expert raters, but six errors included medication/disease categorization, context interpretation and threshold application. Prospective multicenter validation is needed before operational deployment.",
+    "studyDesign": "The investigators used 97 German memory-clinic consultation reports to optimize prompts, a deterministic comparator and a shared three-class eligibility rule set, then locked the systems before evaluating 99 temporally and patient-wise distinct hold-out reports. Two clinicians independently classified the hold-out set as eligible, potentially eligible or not eligible, with consensus as the reference standard.",
+    "keyResults": [
+      "In the 99-record hold-out set, consensus classified 16 as eligible, 43 as potentially eligible and 40 as not eligible. The LLM pipeline achieved 93.9% accuracy (95% CI 88.9% to 98.0%) and κ 0.903 (95% CI 0.810 to 0.968), with six disagreements.",
+      "For case finding after combining eligible and potentially eligible, sensitivity was 91.5% (95% CI 83.1% to 98.3%) and specificity 97.5% (95% CI 91.1% to 100.0%); PPV was 98%. Eligible-class sensitivity was 100%.",
+      "The deterministic extractor achieved 79.8% accuracy and κ 0.673. The paired accuracy difference was 14.1 percentage points (95% CI 6.1 to 22.2; McNemar p=0.0026), while individual experts achieved 91.9% and 93.9% accuracy."
+    ],
+    "whatChanged": "A September 27 publication now provides locked hold-out performance for a locally deployed language model intended to support lecanemab eligibility pre-screening while keeping patient records on premises.",
+    "evidenceStrength": "Promising but early implementation evidence with strict separation of development and hold-out sets, a consensus reference and paired comparator. Generalizability is limited by retrospective single-center German documentation, only 99 validation records, local AUR-derived rules, missing APOE information and no prospective workflow, patient-safety or access outcome.",
+    "clinicalSignificance": "The system may help triage charts and identify missing workup elements, but it should not determine eligibility or replace clinician review. Eligibility remains governed by the applicable label, clinical evaluation, amyloid confirmation, MRI findings, comorbidities, concomitant medications and shared decision-making.",
+    "fieldRelevance": "Relevant to operational scaling of disease-modifying therapy programs, protected-data handling, chart abstraction and consistency of eligibility review. It is management workflow research, not biomarker-validation evidence.",
+    "questions": [
+      {
+        "q": "Was the model tested prospectively in routine care?",
+        "a": "No. The study retrospectively classified narrative reports; it did not measure clinician time, missed contraindications in live use, treatment access, safety or patient outcomes."
+      },
+      {
+        "q": "Why is this not tagged Biomarkers?",
+        "a": "Its central question was automated treatment-eligibility triage. Amyloid and MRI information were input variables, not the object of biomarker measurement, validity or interpretation research."
+      },
+      {
+        "q": "Can the model make treatment decisions?",
+        "a": "No. It is an uncertified triage support system, made six hold-out errors and cannot infer facts absent from the record; the authors call for clinician supervision and prospective validation."
+      }
+    ],
+    "limitations": [
+      "Retrospective single-center study using German consultation reports",
+      "Small 99-record independent validation set with only 16 fully eligible cases",
+      "Local AUR-derived rules may not match labels or policies in other jurisdictions",
+      "APOE genotype was missing and source documentation predated routine anti-amyloid implementation",
+      "Six validation errors included medication, disease, context and threshold interpretation",
+      "No prospective time-saving, decision-impact, safety, access or patient-outcome evaluation"
+    ],
+    "accessRelevance": "The on-premises design addresses data-protection barriers and may improve screening capacity, but no commercial availability, medical-device authorization, reimbursement or coverage was established.",
+    "primarySource": "https://doi.org/10.1002/dad2.70495",
+    "doi": "10.1002/dad2.70495",
+    "identifier": "DOI:10.1002/dad2.70495; PMID:42802831",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42802831/"
+      },
+      {
+        "label": "Free full text",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13616205/"
+      }
+    ],
+    "citation": "Miklitz C, Shrestha M, Philipp W, et al. Locally deployed large language model for real-world lecanemab eligibility pre-screening. Alzheimers Dement (Amst). 2026;18(3):e70495. doi:10.1002/dad2.70495.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Management"
+    ]
   }
 ]

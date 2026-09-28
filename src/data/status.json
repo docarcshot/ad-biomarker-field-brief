@@ -1,8 +1,8 @@
 {
-  "reviewedThrough": "2026-09-24",
+  "reviewedThrough": "2026-09-28",
   "newItemsQualified": 3,
-  "nextScheduledReview": "2026-09-26",
-  "lastSuccessfulRun": "2026-09-24T15:48:01.000Z",
+  "nextScheduledReview": "2026-09-30",
+  "lastSuccessfulRun": "2026-09-28T15:25:13.491Z",
   "workflowState": "on-schedule",
   "historicalCompleteThrough": "2026-09-04",
   "coverageAuditComplete": true,
@@ -78,6 +78,13 @@
       "outcome": "success",
       "qualified": 3,
       "note": "3 new items qualified"
+    },
+    {
+      "reviewedThrough": "2026-09-28",
+      "completedAt": "2026-09-28T15:25:13.491Z",
+      "outcome": "success",
+      "qualified": 3,
+      "note": "3 new items qualified, including two source-date September 24 papers newly indexed after the prior review; the review also covers the interrupted September 25–26 interval"
     }
   ]
 }
