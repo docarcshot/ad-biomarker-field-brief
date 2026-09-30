@@ -3150,5 +3150,251 @@
     "topics": [
       "Management"
     ]
+  },
+  {
+    "id": "doi-10-1002-alz-71887",
+    "slug": "lumipulse-ptau217-routine-robustness",
+    "title": "Routine LUMIPULSE p-tau217 stayed stable across 18 months",
+    "bottomLine": "In 744 cognitively impaired Mayo Clinic patients, a laboratory-developed LUMIPULSE plasma p-tau217 workflow classified amyloid pathology with 93% accuracy among definite results; 23% were intermediate, while quality-control imprecision was 5%–8% and lot-to-lot bias remained within 11% over 18 months.",
+    "dateAdded": "2026-09-30",
+    "sourceDate": "2026-09-28",
+    "evidenceSource": "Peer-reviewed real-world clinical and analytical performance study",
+    "modalities": [
+      "Blood",
+      "Amyloid PET",
+      "CSF"
+    ],
+    "biomarkers": [
+      "p-tau217",
+      "Amyloid"
+    ],
+    "clinicalUses": [
+      "Biological confirmation",
+      "Diagnostic triage",
+      "Laboratory quality assurance"
+    ],
+    "studyType": "Retrospective multisite clinical-validity cohort plus longitudinal analytical quality-control study",
+    "assays": [
+      "LUMIPULSE G pTau 217"
+    ],
+    "platforms": [
+      "LUMIPULSE G1200"
+    ],
+    "platformRelevance": "The clinical workflow used a Mayo Clinic laboratory-developed standalone p-tau217 test with pre-established local cutpoints on the LUMIPULSE G1200. It is not the FDA-cleared Fujirebio pTau217/Aβ42 plasma ratio and should not inherit that product's labeled intended use.",
+    "organizations": [
+      "Mayo Clinic",
+      "Fujirebio"
+    ],
+    "regulatoryStatus": "The report evaluates a CAP/CLIA-validated laboratory-developed standalone LUMIPULSE p-tau217 workflow. It creates no new FDA authorization, availability, guideline endorsement or coverage; the FDA-cleared Fujirebio plasma product is the pTau217/Aβ42 ratio, not the standalone test evaluated here.",
+    "relevance": "Implementation-relevant",
+    "brief30": "This is unusually useful post-implementation evidence because it joins clinical validity to longitudinal analytical surveillance rather than reporting a one-time research-cohort AUC. Definite results were accurate in a tertiary specialty population, but nearly one quarter were intermediate and renal impairment shifted more amyloid-negative patients into that category. Stable quality control and reagent comparisons support robustness of the local LDT; they do not validate every laboratory workflow or prove decision impact.",
+    "studyDesign": "Investigators evaluated 744 unique Mayo Clinic patients with cognitive impairment seen from July 2024 through December 2025 at campuses in Minnesota, Florida and Arizona. Amyloid status was determined by florbetapir PET and/or CSF p-tau181/Aβ42 within one year of blood collection. Standalone plasma p-tau217 was measured on LUMIPULSE G1200 using pre-established negative, intermediate and positive cutpoints. Analytical monitoring spanned 18 months, 10 reagent lots, two reagent versions, twice-daily quality controls and a 187-sample version comparison.",
+    "keyResults": [
+      "Of 744 patients, 500 (67%) were amyloid-positive. Plasma p-tau217 results were positive in 421 (57%), intermediate in 169 (23%) and negative in 154 (21%). Excluding intermediate results, sensitivity was 98% (95% CI 95%–99%), specificity 84% (77%–89%), PPV 92% (90%–95%), NPV 94% (90%–97%) and accuracy 93% (91%–95%).",
+      "Against amyloid PET alone, sensitivity was 99% and specificity 69%; against CSF p-tau181/Aβ42, sensitivity was 95% and specificity 85%. PET and CSF themselves had 87% overall agreement among 76 patients tested with both methods.",
+      "Manufacturer-control imprecision was 5%–8%; an in-house pool near the negative cutpoint showed 12%–14% CV. Ten lot comparisons had R² above 0.990 and bias from ±2% to 11%; the reagent-version comparison (n=187) showed R² 0.99 and mean bias −4.35%. Reduced eGFR was associated with more intermediate results among amyloid-negative patients (adjusted p=0.008 for eGFR <45 versus at least 60 mL/min/1.73 m²)."
+    ],
+    "whatChanged": "A September 28 publication supplies 18-month, routine-practice evidence linking clinical classification performance with quality control, reagent-lot and assay-version surveillance for a standalone LUMIPULSE p-tau217 laboratory-developed test.",
+    "evidenceStrength": "Strong implementation-oriented analytical robustness evidence from routine testing and pre-established cutpoints, with moderate clinical-validity evidence. Interpretation is limited by tertiary-specialty prevalence, two nonidentical reference standards, exclusion of intermediate results from accuracy estimates, few patients with severe renal impairment and a local LDT workflow that is not the FDA-cleared ratio product.",
+    "clinicalSignificance": "The findings support sustained laboratory performance of this specific local workflow and reinforce the value of two-cutpoint interpretation and ongoing lot surveillance. A 23% intermediate rate and renal-function effects remain operationally important, and no patient-outcome or decision-impact benefit was tested.",
+    "fieldRelevance": "Directly relevant to blood-biomarker implementation, cutpoint governance, quality assurance, renal-function interpretation and communication about the distinction between an LDT and an FDA-cleared assay.",
+    "questions": [
+      {
+        "q": "Was this the FDA-cleared LUMIPULSE plasma ratio?",
+        "a": "No. The study used standalone LUMIPULSE p-tau217 with Mayo Clinic LDT cutpoints. The cleared Fujirebio product measures the pTau217/Aβ42 ratio under a different labeled intended use."
+      },
+      {
+        "q": "Does 93% accuracy include intermediate results?",
+        "a": "No. Intermediate results, which occurred in 23% of patients, were excluded from sensitivity, specificity and accuracy calculations and require further evaluation."
+      },
+      {
+        "q": "Did the study establish clinical utility?",
+        "a": "Not directly. It supports analytical robustness and clinical validity, but it did not test whether the workflow improves decisions, time to diagnosis, treatment access, safety, cost or patient outcomes."
+      }
+    ],
+    "limitations": [
+      "Retrospective tertiary-center population with 67% amyloid prevalence",
+      "Mixed amyloid PET and CSF reference standards with only 87% agreement in paired cases",
+      "Intermediate results excluded from accuracy estimates despite comprising 23% of the cohort",
+      "Only 23 patients had eGFR below 45 mL/min/1.73 m²",
+      "Local LDT cutpoints and workflows may not transfer to other laboratories or products",
+      "No prospective decision-impact, health-economic, treatment-access or patient-outcome evaluation"
+    ],
+    "accessRelevance": "No authorization, commercial-availability, guideline or coverage change occurred. The report concerns a Mayo Clinic LDT; laboratories adopting any workflow still need product- and matrix-specific validation, quality control and appropriate interpretation processes.",
+    "primarySource": "https://doi.org/10.1002/alz.71887",
+    "doi": "10.1002/alz.71887",
+    "identifier": "DOI:10.1002/alz.71887; PMID:42805946; PMCID:PMC13619724",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42805946/"
+      },
+      {
+        "label": "Free full text",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13619724/"
+      }
+    ],
+    "citation": "Ashrafzadeh-Kian S, Figdore DJ, Bornhorst JA, et al. Long term clinical performance and analytical robustness of the Lumipulse plasma p-tau217 assay in routine clinical practice. Alzheimers Dement. 2026;22(10):e71887. doi:10.1002/alz.71887.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Biomarkers"
+    ]
+  },
+  {
+    "id": "doi-10-1177-13872877261493067",
+    "slug": "low-intensity-ultrasound-early-ad-pilot",
+    "title": "Twenty-person ultrasound pilot supports feasibility, not efficacy",
+    "bottomLine": "In a single-arm pilot of 20 amyloid-PET-positive patients with prodromal or mild Alzheimer disease, four weeks of low-intensity ultrasound caused no severe adverse events or MRI-detected hemorrhage, microbleeding or edema; executive-test and NPI scores improved, but MMSE, attention and quality of life did not, and the uncontrolled design precludes efficacy claims.",
+    "dateAdded": "2026-09-30",
+    "sourceDate": "2026-09-29",
+    "evidenceSource": "Peer-reviewed prospective interventional pilot trial",
+    "modalities": [],
+    "biomarkers": [],
+    "clinicalUses": [
+      "Experimental treatment safety",
+      "Neuropsychiatric symptom management",
+      "Trial design"
+    ],
+    "studyType": "Prospective single-arm interventional pilot clinical trial",
+    "assays": [],
+    "platforms": [],
+    "platformRelevance": null,
+    "organizations": [
+      "Korea University",
+      "Korea Institute of Science and Technology",
+      "Hallym University",
+      "Seoul National University"
+    ],
+    "regulatoryStatus": "Experimental low-intensity ultrasound intervention. The publication creates no treatment authorization, dosing standard, guideline endorsement, coverage or availability change.",
+    "relevance": "Early signal",
+    "brief30": "The trial establishes that a repeated four-week bilateral frontal and temporal ultrasound protocol was feasible in a very small biomarker-confirmed early-AD group, without the MRI safety signals reported in the abstract. Nominal improvements in Trail Making and neuropsychiatric scores are hypothesis-generating only: there was no sham arm, the sample was 20, several outcomes were tested, and global cognition, attention and quality of life did not significantly change.",
+    "studyDesign": "Twenty people with amyloid-PET-positive prodromal Alzheimer disease or mild Alzheimer dementia received low-intensity ultrasound targeting bilateral frontal and temporal regions three times weekly for four weeks. Neurological examinations and brain MRI assessed safety. Exploratory outcomes included Trail Making Test-Black & White parts A and B, Attention Questionnaire Scale, Korean Quality of Life, MMSE and Neuropsychiatric Inventory; resting-state functional MRI was analyzed in a subset.",
+    "keyResults": [
+      "No severe adverse events occurred, and post-treatment MRI showed no intracerebral hemorrhage, microbleeding or brain edema in the 20 treated participants.",
+      "Trail Making Test-Black & White part A decreased from 105.3±63.3 to 84.2±46.6 seconds (p=0.012), and part B decreased from 280.1±139.9 to 212.8±59.7 seconds (p=0.038).",
+      "Neuropsychiatric Inventory score decreased from 9.8±14.7 to 4.5±8.8 (p=0.006), while MMSE, Attention Questionnaire Scale and Korean Quality of Life did not change significantly."
+    ],
+    "whatChanged": "A September 29 prospective report provides the first small repeated-protocol feasibility and short-term safety signal for this low-intensity ultrasound approach in amyloid-PET-confirmed early Alzheimer disease.",
+    "evidenceStrength": "Very low efficacy certainty and preliminary safety evidence from 20 treated participants. The single-arm design, short exposure and follow-up, multiple exploratory outcomes, large baseline variability and lack of sham control preclude causal or durable-benefit inference.",
+    "clinicalSignificance": "The protocol merits randomized, sham-controlled evaluation but should not change clinical management. The absence of serious events in 20 participants cannot establish uncommon or longer-term safety, and nominal cognitive or behavioral changes may reflect practice, expectation or regression-to-the-mean effects.",
+    "fieldRelevance": "Relevant to emerging nonpharmacologic therapeutic development and to counseling stakeholders about the difference between feasibility/safety signals and evidence of clinical benefit.",
+    "questions": [
+      {
+        "q": "Did the study show that ultrasound treats Alzheimer disease?",
+        "a": "No. Every participant received the intervention, so practice effects, expectation effects and natural variation cannot be separated from treatment effects."
+      },
+      {
+        "q": "Why is this Clinical Trials rather than Biomarkers?",
+        "a": "The central question was an interventional ultrasound protocol. Amyloid PET established eligibility; the study did not evaluate biomarker measurement, interpretation or implementation."
+      },
+      {
+        "q": "Is the safety evidence sufficient for routine use?",
+        "a": "No. Twenty participants and four weeks of treatment can support feasibility but cannot characterize uncommon events, longer-term risk or outcomes outside the study protocol."
+      }
+    ],
+    "limitations": [
+      "Only 20 participants",
+      "No randomized or sham-control group",
+      "Four-week treatment period with limited follow-up",
+      "Multiple exploratory outcomes without evidence of multiplicity control in the abstract",
+      "No significant change in MMSE, attention or quality of life",
+      "Insufficient size to estimate uncommon or delayed adverse events"
+    ],
+    "accessRelevance": "The intervention remains experimental. The study establishes neither authorization nor routine availability, guideline endorsement, coverage or reimbursement.",
+    "primarySource": "https://doi.org/10.1177/13872877261493067",
+    "doi": "10.1177/13872877261493067",
+    "identifier": "DOI:10.1177/13872877261493067; PMID:42808496",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42808496/"
+      }
+    ],
+    "citation": "Park BY, Jo SW, Park TY, et al. Feasibility and safety of repeated low-intensity ultrasound in amyloid PET-positive early Alzheimer's disease: A prospective pilot study. J Alzheimers Dis. Published online September 29, 2026. doi:10.1177/13872877261493067.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Clinical Trials"
+    ]
+  },
+  {
+    "id": "doi-10-1177-07334648261490430",
+    "slug": "psychoeducation-dementia-caregiver-burden-meta-analysis",
+    "title": "Caregiver psychoeducation meta-analysis finds moderate burden reduction",
+    "bottomLine": "Across 12 randomized trials, psychoeducational programs combining structured dementia education with skills training reduced informal-caregiver burden versus controls by Hedges' g −0.45 (95% CI −0.61 to −0.28; p<0.001), although the abstract does not report absolute Zarit-score changes, heterogeneity or evidence certainty.",
+    "dateAdded": "2026-09-30",
+    "sourceDate": "2026-09-29",
+    "evidenceSource": "Peer-reviewed systematic review and meta-analysis of randomized trials",
+    "modalities": [],
+    "biomarkers": [],
+    "clinicalUses": [
+      "Caregiver support",
+      "Psychoeducation",
+      "Supportive care"
+    ],
+    "studyType": "Systematic review and random-effects meta-analysis of randomized controlled trials",
+    "assays": [],
+    "platforms": [],
+    "platformRelevance": null,
+    "organizations": [
+      "Universidad Católica de Murcia",
+      "Hospital Virgen del Puerto",
+      "Universidad Tecnológica de Santiago"
+    ],
+    "regulatoryStatus": "Nonpharmacologic supportive-care evidence. The review is not a formal clinical practice guideline and creates no authorization, availability, coverage or reimbursement policy.",
+    "relevance": "Practice-relevant",
+    "brief30": "The pooled estimate supports caregiver psychoeducation that pairs disease information with practical skills rather than education alone. The standardized effect is moderate and statistically precise, but the public abstract does not provide total participants, absolute Zarit-score change, intervention intensity, follow-up duration, heterogeneity, risk-of-bias summary or certainty rating. It informs service design but is not a guideline-level mandate.",
+    "studyDesign": "The authors conducted a PRISMA 2020 systematic review and REML random-effects meta-analysis of 12 randomized controlled trials. Eligible interventions combined structured dementia education with skills-based training for informal caregivers. Caregiver burden measured by the Zarit Burden Interview or validated adaptations was the primary outcome; comparator type, mean caregiver age and gender composition were examined as moderators.",
+    "keyResults": [
+      "Twelve randomized trials were included and meta-analyzed. Psychoeducational interventions reduced caregiver burden versus control conditions with Hedges' g −0.45 (95% CI −0.61 to −0.28; p<0.001).",
+      "Comparator type was associated with differences in effect estimates, but the authors cautioned that subgroup analyses were exploratory and some categories contained few studies.",
+      "Mean caregiver age and gender composition were not significant moderators. The abstract did not report an absolute Zarit-score difference, total sample size, heterogeneity statistic or formal certainty-of-evidence rating."
+    ],
+    "whatChanged": "A September 29 quantitative synthesis consolidates randomized-trial evidence for psychoeducational caregiver programs and estimates a moderate standardized reduction in burden.",
+    "evidenceStrength": "Moderate pooled randomized evidence for reduced caregiver burden, tempered by incomplete public reporting of sample size, heterogeneity, intervention components, follow-up, risk of bias and certainty. The comparator moderator is exploratory and some subgroups were sparse.",
+    "clinicalSignificance": "Programs that combine dementia education with skills training are reasonable components of caregiver support and may reduce burden. The standardized effect does not identify a universal format, dose or absolute benefit, and implementation should reflect caregiver needs, language, access and local resources.",
+    "fieldRelevance": "Directly relevant to nonpharmacologic dementia management, caregiver intervention design and conversations about evidence-based supportive services beyond medication or biomarker testing.",
+    "questions": [
+      {
+        "q": "What does Hedges' g −0.45 mean?",
+        "a": "It indicates a moderate average reduction in burden on a standardized scale. The abstract does not provide an absolute Zarit-score change, so it cannot be translated directly into points for an individual caregiver."
+      },
+      {
+        "q": "Is this a clinical practice guideline?",
+        "a": "No. It is a systematic review and meta-analysis of trials. It summarizes evidence but does not issue graded recommendations from a guideline body."
+      },
+      {
+        "q": "Which program should services adopt?",
+        "a": "The pooled abstract does not establish one optimal format or dose. Programs should include both structured education and skills training, while selection should account for setting, caregiver needs and feasibility."
+      }
+    ],
+    "limitations": [
+      "Public abstract does not report total participants or absolute Zarit-score changes",
+      "Intervention content, intensity and follow-up likely varied across trials",
+      "Heterogeneity and risk-of-bias results are not reported in the abstract",
+      "No formal certainty-of-evidence rating is reported publicly in the abstract",
+      "Comparator-type moderator analyses were exploratory with sparse categories",
+      "A standardized pooled effect does not identify the most effective delivery model"
+    ],
+    "accessRelevance": "The review supports psychoeducational caregiver services but establishes no new program availability, payer coverage or reimbursement. Local access, language, staffing and delivery format remain implementation determinants.",
+    "primarySource": "https://doi.org/10.1177/07334648261490430",
+    "doi": "10.1177/07334648261490430",
+    "identifier": "DOI:10.1177/07334648261490430; PMID:42811273",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42811273/"
+      }
+    ],
+    "citation": "Martínez-Montás GF, Iniesta-Sepúlveda M, Colón-Santana OR, Moreta-Manzueta GE. Effectiveness of psychoeducational interventions for informal caregivers of people with dementia: A systematic review and meta-analysis. J Appl Gerontol. Published online September 29, 2026. doi:10.1177/07334648261490430.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Management"
+    ]
   }
 ]
