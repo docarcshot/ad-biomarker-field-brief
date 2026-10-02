@@ -3396,5 +3396,240 @@
     "topics": [
       "Management"
     ]
+  },
+  {
+    "id": "doi-10-1212-wnl-0000000000218591",
+    "slug": "ptau217-discordance-clinical-factors",
+    "title": "Clinical context helps explain definite-zone p-tau217 discordance",
+    "bottomLine": "Among 706 Mayo Clinic patients with plasma p-tau217 outside the intermediate zone and confirmatory amyloid PET and/or CSF, 60 (8.5%) were discordant: false negatives were more common than false positives (5.6% vs 2.8%; p=0.007), with disease stage, kidney function, body mass index and obstructive sleep apnea associated with discordance patterns.",
+    "dateAdded": "2026-10-02",
+    "sourceDate": "2026-10-01",
+    "evidenceSource": "Peer-reviewed retrospective clinical-validity and discordance study",
+    "modalities": [
+      "Blood",
+      "Amyloid PET",
+      "CSF"
+    ],
+    "biomarkers": [
+      "p-tau217",
+      "Amyloid"
+    ],
+    "clinicalUses": [
+      "Biological confirmation",
+      "Diagnostic triage",
+      "Discordance adjudication"
+    ],
+    "studyType": "Retrospective clinical-validity cohort",
+    "assays": [],
+    "platforms": [],
+    "platformRelevance": "The study used an assay-specific two-cutoff plasma p-tau217 workflow, with definite negative below 0.186 pg/mL and definite positive above 0.324 pg/mL. The public abstract does not name the assay platform; the cutoffs and associations should not be transferred to other products, matrices or workflows without validation.",
+    "organizations": [
+      "Mayo Clinic"
+    ],
+    "regulatoryStatus": "Research evidence on interpretation of a plasma p-tau217 workflow. The publication creates no new FDA authorization, commercial availability, guideline endorsement, coverage policy or demonstrated clinical utility.",
+    "relevance": "Implementation-relevant",
+    "brief30": "Definite-zone p-tau217 results agreed with established amyloid measures in most patients, but discordance was not random. False negatives clustered with milder clinical stage, higher body mass index, better kidney function and obstructive sleep apnea; false positives clustered with older age, lower kidney function and more advanced impairment. These are signals for confirmatory testing and contextual interpretation, not post hoc permission to relabel a discordant result or use the associations as correction factors.",
+    "studyDesign": "Investigators retrospectively identified 706 Mayo Clinic patients whose plasma p-tau217 was definitely positive (>0.324 pg/mL) or definitely negative (<0.186 pg/mL) and who had an amyloid PET and/or CSF p-tau181/Aβ42 result. They classified plasma results as true positive, true negative, false positive or false negative against the established biomarker result and modeled demographic, clinical, comorbidity and laboratory factors associated with discordance.",
+    "keyResults": [
+      "Sixty of 706 patients (8.5%) had discordant results. False negatives occurred in 5.6% and false positives in 2.8% (p=0.007). Across both discordance types, older age was associated with discordance (OR 1.61 per decade; 95% CI 1.23–2.14), as was obstructive sleep apnea (OR 1.94; 95% CI 1.08–3.49).",
+      "Compared with true positives, false negatives had higher MMSE scores (OR 1.20 per point), more obstructive sleep apnea (OR 2.01), higher body mass index (OR 1.11 per kg/m²) and higher estimated glomerular filtration rate (OR 1.33 per 10 mL/min/1.73 m²). Age-adjusted analyses retained body mass index (OR 1.14), estimated glomerular filtration rate (OR 1.63) and earlier Clinical Dementia Rating stage as associations.",
+      "Compared with true negatives, false positives were associated with older age (OR 2.37 per decade), thyroid disease (OR 4.41), lower estimated glomerular filtration rate (OR 0.48 per 10 mL/min/1.73 m²) and more advanced Clinical Dementia Rating stage. In age-adjusted analyses, estimated glomerular filtration rate remained associated (OR 0.54), while CDR ≥1 carried OR 11.11 versus CDR 0 and OR 4.55 versus CDR 0.5."
+    ],
+    "whatChanged": "An October 1 Neurology report quantifies the residual discordance within definite plasma p-tau217 zones and identifies clinical patterns that can guide when a seemingly definitive result still warrants adjudication with PET, CSF or broader diagnostic evaluation.",
+    "evidenceStrength": "Moderate clinical-validity and interpretation evidence from a 706-patient specialty-center cohort with established-biomarker comparators. Associations are observational, several subgroups are small, the reference standard combines PET and CSF, and the public abstract does not establish prospective decision impact or transportability to other assays and settings.",
+    "clinicalSignificance": "A definite plasma result should be interpreted alongside clinical stage and kidney function, with attention to obesity and obstructive sleep apnea when the phenotype and biomarker disagree. The findings support targeted confirmation rather than automatic acceptance or mathematical adjustment of the plasma value.",
+    "fieldRelevance": "Directly relevant to blood-biomarker triage, discordant-result workups, specialty referral, pretest counseling and communication about why two-cutoff algorithms reduce but do not eliminate uncertainty.",
+    "questions": [
+      {
+        "q": "Does 8.5% mean the test was only 91.5% accurate?",
+        "a": "Not necessarily. The cohort included only definite-zone plasma results with PET and/or CSF confirmation, and the analysis focused on discordance rather than a population-screening accuracy estimate. Prevalence, referral patterns and the combined reference standard affect the observed proportion."
+      },
+      {
+        "q": "Should kidney function or body mass index be used to correct p-tau217 values?",
+        "a": "No correction equation was validated. These variables identify contexts in which discordance was more likely and may justify confirmation; they do not establish a new adjusted cutoff."
+      },
+      {
+        "q": "Did the study establish clinical utility?",
+        "a": "No. It supports clinical validity and contextual interpretation but did not test whether using these factors improves decisions, treatment eligibility, outcomes, safety or cost."
+      }
+    ],
+    "limitations": [
+      "Retrospective specialty-center cohort",
+      "Observational associations cannot establish why discordance occurred",
+      "Amyloid PET and CSF p-tau181/Aβ42 were combined as the established-biomarker reference",
+      "Only 60 discordant cases, with smaller false-positive and false-negative subgroups",
+      "Public abstract does not name the assay platform or report external validation",
+      "No prospective decision-impact, treatment-access or patient-outcome evaluation"
+    ],
+    "accessRelevance": "No authorization, availability, guideline or coverage change occurred. The study may improve selection for confirmatory testing, but payer requirements and product-specific intended uses remain unchanged.",
+    "primarySource": "https://doi.org/10.1212/WNL.0000000000218591",
+    "doi": "10.1212/WNL.0000000000218591",
+    "identifier": "DOI:10.1212/WNL.0000000000218591; PMID:42821845",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42821845/"
+      }
+    ],
+    "citation": "Bornhorst JA, Ramanan VK, Dage JL, et al. Clinical factors associated with discordant plasma P-Tau217 and established Alzheimer disease biomarkers. Neurology. Published online October 1, 2026. doi:10.1212/WNL.0000000000218591.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Biomarkers"
+    ]
+  },
+  {
+    "id": "cms-proposed-lcd-dl40454",
+    "slug": "noridian-ai-brain-mri-proposed-noncoverage",
+    "title": "Noridian proposes noncoverage for AI brain-MRI quantification",
+    "bottomLine": "A Noridian proposed Local Coverage Determination would make AI tools that automatically detect or quantify brain-MRI findings—including ARIA and volumetry—noncovered across its Medicare jurisdictions because the contractor found insufficient evidence of clinical utility; the proposal is not final, with comments open October 1–November 14, 2026.",
+    "dateAdded": "2026-10-02",
+    "sourceDate": "2026-10-01",
+    "evidenceSource": "Proposed Medicare Local Coverage Determination and evidence review",
+    "modalities": [
+      "MRI"
+    ],
+    "biomarkers": [],
+    "clinicalUses": [
+      "ARIA monitoring",
+      "Imaging interpretation",
+      "Coverage and access"
+    ],
+    "studyType": "Draft Medicare coverage determination and evidence review",
+    "assays": [],
+    "platforms": [
+      "Icobrain Aria",
+      "Icobrain DM",
+      "NeuroQuant",
+      "Quantib ND"
+    ],
+    "platformRelevance": "The draft addresses software that assists clinicians by automatically detecting or quantifying brain-MRI abnormalities, including ARIA-focused and neurodegeneration/volumetry products. It is a coverage proposal, not a finding that the underlying MRI findings lack clinical relevance.",
+    "organizations": [
+      "Noridian Healthcare Solutions",
+      "Centers for Medicare & Medicaid Services"
+    ],
+    "regulatoryStatus": "Proposed LCD DL40454, posted October 1, 2026. It is not effective and does not yet change Medicare coverage. The comment period runs October 1 through November 14, with an open meeting scheduled October 22. FDA authorization of individual software products does not establish Medicare coverage.",
+    "relevance": "Practice-relevant",
+    "brief30": "The draft draws a sharp line between regulatory clearance and covered clinical utility. Noridian concludes that automated brain-MRI detection and quantification tools have not shown that their measurements improve diagnosis, monitoring, management or outcomes beyond clinician interpretation. If finalized as written, the noncoverage position would apply broadly across Noridian jurisdictions and could affect AI-assisted ARIA workflows as anti-amyloid treatment scales. It remains open to evidence and public comment.",
+    "studyDesign": "Noridian reviewed published evidence, professional guidance and regulatory information for AI software that assists with automated detection and/or quantification of brain-MRI findings. The proposed LCD applies the Medicare reasonable-and-necessary standard and discusses ARIA software and volumetric or neurodegeneration products. It proposes noncoverage rather than issuing a clinical-practice recommendation.",
+    "keyResults": [
+      "The proposed determination states that AI assistive tools for automated detection and/or quantification of brain-MRI findings are not reasonable and necessary and therefore would not be covered if the LCD is finalized as written.",
+      "The evidence review found no randomized trials showing improved patient outcomes, no professional guideline recommending routine use for the covered question and insufficient evidence that automated measurements change diagnosis, treatment decisions or monitoring compared with clinician interpretation.",
+      "The draft was posted October 1, 2026, with comments accepted through November 14 and an open meeting on October 22. It covers Noridian Medicare jurisdictions, including multiple western states and U.S. Pacific territories, but has no current effective date because it is still proposed."
+    ],
+    "whatChanged": "A Medicare Administrative Contractor has opened formal consideration of a broad noncoverage policy for AI-assisted brain-MRI quantification, including tools used in ARIA monitoring, creating a material but not-yet-effective access signal.",
+    "evidenceStrength": "The policy status is authoritative for a proposed Noridian coverage action, while the underlying clinical-utility conclusion reflects a contractor evidence review rather than new comparative trial data. The record explicitly identifies evidence gaps, and the conclusion may change after public comment.",
+    "clinicalSignificance": "Clinicians still must perform label-directed MRI monitoring and expert interpretation for anti-amyloid therapy. The proposal concerns reimbursement for adjunctive AI analysis, not whether MRI itself is necessary or covered, and it should not be treated as a final denial until Noridian completes the LCD process.",
+    "fieldRelevance": "Important for imaging services, infusion programs, ARIA-monitoring workflows, vendors and medical-affairs teams separating FDA clearance, clinical availability, guideline endorsement and Medicare coverage.",
+    "questions": [
+      {
+        "q": "Is Medicare already refusing payment for these tools?",
+        "a": "This document is a proposed LCD, not a final effective policy. Current claims remain subject to existing rules while the comment and finalization process proceeds."
+      },
+      {
+        "q": "Does the proposal eliminate MRI monitoring for Leqembi or Kisunla?",
+        "a": "No. It addresses reimbursement for adjunctive AI detection or quantification software. It does not remove label-directed MRI monitoring or the need for qualified clinical interpretation."
+      },
+      {
+        "q": "Is FDA clearance enough for Medicare coverage?",
+        "a": "No. FDA authorization and Medicare coverage answer different questions. Noridian acknowledges authorized products but says the record does not yet establish reasonable-and-necessary clinical utility for payment."
+      }
+    ],
+    "limitations": [
+      "Proposed, not final or effective",
+      "Applies to Noridian jurisdictions rather than all Medicare contractors",
+      "Broad technology category contains products with different functions and evidence bases",
+      "Evidence review found little direct comparative or outcomes research",
+      "Final language may change after the comment period",
+      "Does not determine coverage of the underlying MRI examination or anti-amyloid drug"
+    ],
+    "accessRelevance": "High but prospective. If finalized, the draft would establish noncoverage for automated brain-MRI detection and quantification tools in Noridian jurisdictions; it presently creates a comment opportunity and signals the evidence expected for future coverage rather than changing payment today.",
+    "primarySource": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdId=40453&ver=5",
+    "doi": null,
+    "identifier": "CMS Proposed LCD DL40454; MCD LCD ID 40453, version 5",
+    "supportingSources": [],
+    "citation": "Noridian Healthcare Solutions. Proposed LCD DL40454: Artificial Intelligence Assistive Tools for Automated Detection and Quantification of Brain MRI Findings. Posted October 1, 2026.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "regulatory",
+    "topics": [
+      "Management"
+    ]
+  },
+  {
+    "id": "umr-policy-bulletin-2026-10-01-anti-amyloid",
+    "slug": "umr-anti-amyloid-coverage-november-2026",
+    "title": "UMR revises anti-amyloid coverage criteria for November",
+    "bottomLine": "An October 1 UMR policy bulletin sets November 1 coverage criteria that align Leqembi and Kisunla with updated MRI/ARIA monitoring, require specialist oversight and biomarker-confirmed early Alzheimer disease, and add maintenance rules—including Kisunla amyloid-PET reassessment and Leqembi dosing expectations after 18 months.",
+    "dateAdded": "2026-10-02",
+    "sourceDate": "2026-10-01",
+    "evidenceSource": "Private-payer medical policy update bulletin",
+    "modalities": [
+      "Amyloid PET",
+      "CSF",
+      "MRI"
+    ],
+    "biomarkers": [],
+    "clinicalUses": [
+      "Disease-modifying treatment eligibility",
+      "ARIA monitoring",
+      "Coverage and access"
+    ],
+    "studyType": "Commercial and individual-exchange plan coverage-policy update",
+    "assays": [],
+    "platforms": [],
+    "platformRelevance": null,
+    "organizations": [
+      "UMR",
+      "UnitedHealthcare"
+    ],
+    "regulatoryStatus": "Private-payer coverage policy effective November 1, 2026, for the benefit plans identified in the bulletin. It is not an FDA action or clinical-practice guideline, and it does not apply universally across payers or plan designs.",
+    "relevance": "Practice-relevant",
+    "brief30": "The update operationalizes eligibility, safety monitoring and long-term treatment rules rather than merely repeating drug labels. Both policies require MCI or mild dementia due to Alzheimer disease, confirmed amyloid, recent baseline MRI and specialist oversight. The details differ: Kisunla coverage uses amyloid PET and adds ongoing PET-based continuation requirements; Leqembi allows specified CSF ratios or PET and defines expectations for monthly IV maintenance after 18 months while recognizing the self-administered subcutaneous product under the pharmacy benefit.",
+    "studyDesign": "UMR's October 2026 Medical Policy Update Bulletin summarizes revised Leqembi and Kisunla medical-benefit coverage templates for UnitedHealthcare commercial and individual-exchange benefit plans. The policies specify initial and continuation criteria, biomarker confirmation, cognitive-stage thresholds, MRI schedules, counseling, specialist involvement, dosing and authorization duration. This is an access-policy action, not a clinical study or formal guideline.",
+    "keyResults": [
+      "For Kisunla, initial coverage requires mild cognitive impairment or mild Alzheimer dementia, positive amyloid PET, a baseline brain MRI within 12 months, no concurrent anti-amyloid monoclonal antibody and label-consistent dosing. The policy lists MMSE 20–30, MoCA 17–30 or SLUMS 17–30 in its medically necessary pathway and specifies MRI monitoring before the second, third, fourth and seventh infusions, with additional imaging as clinically indicated.",
+      "Kisunla continuation authorizations remain 12 months. Through 18 months, a positive baseline amyloid PET or a plan to obtain one by month 18 is required; after 18 months, the policy calls for at least annual post-treatment amyloid PET that remains positive, along with continued ARIA monitoring, specialist oversight and no other anti-amyloid monoclonal antibody.",
+      "For Leqembi, amyloid confirmation may use PET or specified CSF ratios. The policy recognizes IQLIK under the pharmacy benefit, and for intravenous maintenance after 18 months expects every-four-week dosing; continued every-two-week dosing requires prescriber attestation that transition is not clinically appropriate. Continuation MRI monitoring is listed after one, two, three and six months and as clinically indicated."
+    ],
+    "whatChanged": "An October 1 payer bulletin announces November 1 operational coverage rules for updated anti-amyloid dosing, MRI safety monitoring, biomarker confirmation and continuation, including new distinctions between Leqembi formulations and maintenance schedules.",
+    "evidenceStrength": "Authoritative evidence of the named payer's published policy change and effective date. The bulletin does not grade underlying clinical evidence, test outcomes or establish that these criteria are optimal; applicability depends on the member's specific plan and benefit administration.",
+    "clinicalSignificance": "Infusion and memory-clinic teams may need to adjust prior-authorization packets, MRI timing, biomarker documentation and long-term treatment plans before November 1. Label-compliant care does not by itself guarantee coverage when a plan imposes additional documentation or continuation requirements.",
+    "fieldRelevance": "Directly relevant to anti-amyloid treatment access, patient counseling, prior authorization, specialty-pharmacy routing, ARIA monitoring and the distinction among FDA labeling, clinical guidance and payer coverage.",
+    "questions": [
+      {
+        "q": "Are these national Medicare criteria?",
+        "a": "No. This is a UMR/UnitedHealthcare private-plan policy update. Medicare and other payers may use different rules, and the member's specific benefit plan controls."
+      },
+      {
+        "q": "Does the policy take effect immediately?",
+        "a": "No. The bulletin was published October 1, 2026, and lists November 1, 2026, as the effective date for the identified policy changes."
+      },
+      {
+        "q": "Is the Kisunla annual amyloid PET requirement an FDA recommendation?",
+        "a": "It is a payer continuation criterion described in this policy. Payer coverage criteria, FDA labeling and clinical-practice recommendations should be documented separately."
+      }
+    ],
+    "limitations": [
+      "Policy applies only to identified UMR/UnitedHealthcare plan contexts",
+      "Benefit documents and member-specific plan terms supersede a general bulletin",
+      "Criteria become effective November 1 rather than on the October 1 publication date",
+      "Bulletin summarizes policy language and does not grade the clinical evidence base",
+      "Coverage approval does not establish comparative effectiveness or clinical utility",
+      "Other payers may use different biomarker, MRI, dosing and continuation requirements"
+    ],
+    "accessRelevance": "High. The update directly changes documentation, monitoring and continuation criteria for covered anti-amyloid therapy in affected plans, while leaving authorization, general availability and other payer policies unchanged.",
+    "primarySource": "https://www.uhcprovider.com/content/dam/provider/docs/public/policies/mpub-archives/umr/umr-medical-policy-update-bulletin-october-2026-full.pdf",
+    "doi": null,
+    "identifier": "UMR Medical Policy Update Bulletin, October 2026; effective 2026-11-01",
+    "supportingSources": [],
+    "citation": "UMR. Medical Policy Update Bulletin: October 2026. Leqembi and Kisunla policy updates effective November 1, 2026. Published October 1, 2026.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "regulatory",
+    "topics": [
+      "Management"
+    ]
   }
 ]
