@@ -3631,5 +3631,98 @@
     "topics": [
       "Management"
     ]
+  },
+  {
+    "id": "trial-nct06246019-plasmar-bbm-disclosure",
+    "slug": "plasmar-earlier-bbm-disclosure-trial",
+    "title": "Earlier blood-biomarker disclosure raises certainty and changes care",
+    "bottomLine": "In the 220-person PLASMAR randomized trial, disclosing plasma p-tau217 and NfL at three rather than nine months increased very high-confidence etiologic diagnoses from 4.6% to 50.0% and advanced several management decisions without worse anxiety, depression or quality of life.",
+    "dateAdded": "2026-10-06",
+    "sourceDate": "2026-10-05",
+    "evidenceSource": "Peer-reviewed prospective randomized clinical-utility trial",
+    "modalities": [
+      "Blood"
+    ],
+    "biomarkers": [
+      "p-tau217",
+      "NfL"
+    ],
+    "clinicalUses": [
+      "Etiologic diagnosis",
+      "Clinical implementation",
+      "Care-pathway triage"
+    ],
+    "studyType": "Prospective single-center randomized earlier-versus-delayed biomarker-disclosure trial",
+    "assays": [],
+    "platforms": [],
+    "platformRelevance": "The trial evaluated a p-tau217/NfL disclosure pathway rather than comparative assay performance. Its utility findings should not be assumed to transfer unchanged across platforms, cutoffs or reporting formats.",
+    "organizations": [
+      "Hospital del Mar",
+      "Barcelona Brain Health Center",
+      "Barcelonaβeta Brain Research Center",
+      "Pasqual Maragall Foundation"
+    ],
+    "regulatoryStatus": "Randomized clinical-utility evidence; the report does not itself authorize an assay, establish general commercial availability, create coverage or constitute a guideline recommendation.",
+    "relevance": "Practice-relevant",
+    "brief30": "PLASMAR supplies randomized evidence for clinical utility rather than another accuracy estimate. Earlier p-tau217/NfL disclosure made clinicians more certain and moved treatment, cognitive-stimulation and follow-up plans forward. The result is strongest at low and high p-tau217 likelihoods, not intermediate results, and it does not prove better cognition, function, long-term outcomes or value in primary care.",
+    "studyDesign": "A public-hospital memory clinic in Barcelona randomized 220 consecutive new outpatients with subjective cognitive decline, mild cognitive impairment or mild dementia and no prior etiologic diagnosis to disclosure of plasma p-tau217 and NfL at three months (n=112) or nine months (n=108). The prespecified primary outcome was a clinician-rated etiologic diagnosis with at least 90% confidence at three months; secondary outcomes included diagnosis changes, treatment and follow-up decisions, and patient-reported emotional outcomes through approximately nine months.",
+    "keyResults": [
+      "At three months, 56/112 participants (50.0%) in the earlier-disclosure arm versus 5/108 (4.6%) in the delayed-disclosure arm had a very high-confidence etiologic diagnosis (p<0.001). After both groups received results, certainty converged: 56/112 (50.0%) after early disclosure versus 57/108 (52.8%) after delayed disclosure (p=0.68).",
+      "Earlier disclosure increased symptomatic AD-treatment initiation to 16/112 (14.3%) versus 5/108 (4.6%), an absolute difference of 9.7 percentage points (95% CI 1.8 to 17.8; p=0.01), and cognitive-stimulation referral to 51/112 (45.5%) versus 33/108 (30.6%; p=0.03).",
+      "Planned neuropsychological reassessment was lower with earlier disclosure (34/112 [30.4%] vs 57/108 [52.8%]; difference −22.4 points, 95% CI −34.4 to −9.4; p<0.001), while planned discharge to primary care was higher (35/112 [31.3%] vs 13/108 [12.0%]; difference 19.2 points, 95% CI 8.4 to 29.5; p<0.001). Anxiety/depression and quality-of-life changes did not differ between groups."
+    ],
+    "whatChanged": "The field gained randomized evidence that the timing of blood-biomarker disclosure can causally change diagnostic certainty and near-term clinical management in a memory-clinic pathway, extending beyond observational pre/post implementation studies.",
+    "evidenceStrength": "Moderate-to-high evidence for short-term clinical utility in the studied pathway: randomized design, prespecified primary outcome and intention-to-treat analysis support causality. Generalizability and downstream benefit remain limited by one center, nine-month follow-up, attrition, incomplete CSF/PET reference testing and multiple secondary comparisons without multiplicity adjustment.",
+    "clinicalSignificance": "The trial supports timely, structured disclosure of decisive p-tau217/NfL results in specialty memory care and suggests that low-likelihood results may reduce prolonged diagnostic follow-up. It does not show that earlier disclosure improves cognition, function, quality of life, long-term outcomes or disease-modifying treatment access.",
+    "fieldRelevance": "Directly relevant to MSL questions about clinical utility, result disclosure, dual-cutoff interpretation, diagnostic confidence and downstream workflow. It also clarifies why analytical validity, clinical validity, clinical utility, authorization, guideline endorsement and coverage must be assessed separately.",
+    "questions": [
+      {
+        "q": "Does this trial validate p-tau217 analytical performance or diagnostic accuracy?",
+        "a": "No. It tested clinical utility of disclosing p-tau217 and NfL together. Not all participants received CSF or amyloid PET, and analytical validation was not the research question."
+      },
+      {
+        "q": "Did earlier disclosure improve patient outcomes?",
+        "a": "It improved short-term diagnostic certainty and changed management plans, but the trial did not demonstrate better cognition, function, quality of life or disease course."
+      },
+      {
+        "q": "Were intermediate p-tau217 results equally useful?",
+        "a": "No. Very high confidence at three months was 1/13 with early disclosure versus 2/18 with delayed disclosure in the intermediate group; the utility signal was concentrated in low- and high-likelihood results."
+      },
+      {
+        "q": "Does the report establish authorization, availability, endorsement or coverage?",
+        "a": "No. It is a clinical-utility trial from one Spanish memory clinic, not a regulatory, commercial-availability, guideline or payer action."
+      }
+    ],
+    "limitations": [
+      "Single public-hospital memory clinic in Spain",
+      "p-tau217 and NfL were disclosed together, so independent contributions cannot be separated",
+      "Not all participants had CSF or amyloid PET reference testing",
+      "Secondary analyses were not adjusted for multiple comparisons",
+      "Some management outcomes were clinician-reported intended plans rather than mandated completed actions",
+      "Approximately nine months of follow-up with attrition in questionnaire analyses",
+      "Disease-modifying therapy was not routinely available in the study setting"
+    ],
+    "accessRelevance": "The publication establishes neither assay authorization nor routine availability, guideline endorsement, reimbursement or payer coverage. Costs, capacity, equity and disease-modifying-treatment access were not evaluated.",
+    "primarySource": "https://jamanetwork.com/journals/jamaneurology/fullarticle/2854793",
+    "doi": "10.1001/jamaneurol.2026.3497",
+    "identifier": "NCT06246019; DOI:10.1001/jamaneurol.2026.3497; PMID:42832237",
+    "supportingSources": [
+      {
+        "label": "ClinicalTrials.gov record",
+        "url": "https://clinicaltrials.gov/study/NCT06246019"
+      },
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42832237/"
+      }
+    ],
+    "citation": "Estragués-Gázquez I, Contador J, Martínez LD, et al. Earlier Disclosure of Blood-Based Biomarkers, Diagnostic Certainty, and Clinical Management: A Randomized Clinical Trial. JAMA Neurol. Published online October 5, 2026. doi:10.1001/jamaneurol.2026.3497.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Biomarkers",
+      "Clinical Trials"
+    ]
   }
 ]
