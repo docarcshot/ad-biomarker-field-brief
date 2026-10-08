@@ -25,7 +25,9 @@ permissions:
 
 concurrency:
   group: ad-biomarker-field-brief
-  cancel-in-progress: false
+  # A newer review supersedes any stale scheduled build so publication checks
+  # cannot remain blocked behind an obsolete deployment.
+  cancel-in-progress: true
 
 jobs:
   build:
