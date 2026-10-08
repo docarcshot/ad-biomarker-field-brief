@@ -3724,5 +3724,234 @@
       "Biomarkers",
       "Clinical Trials"
     ]
+  },
+  {
+    "id": "doi-10-5603-pjnns-113649",
+    "slug": "mace-ad-functional-staging",
+    "title": "M-ACE supports rapid functional staging across the AD continuum",
+    "bottomLine": "In 1,834 consecutive patients, the Mini-Addenbrooke's Cognitive Examination closely tracked the full ACE-III (ρ=0.822), outperformed MMSE at the subjective-decline-to-MCI transition and yielded stage-specific cutoffs, but retrospective FAST-based classification does not establish etiologic Alzheimer diagnosis or treatment eligibility.",
+    "dateAdded": "2026-10-08",
+    "sourceDate": "2026-10-08",
+    "evidenceSource": "Peer-reviewed retrospective diagnostic and staging study",
+    "modalities": [],
+    "biomarkers": [],
+    "clinicalUses": [
+      "Cognitive screening",
+      "Functional staging",
+      "Longitudinal monitoring"
+    ],
+    "studyType": "Retrospective consecutive clinical cohort comparing three cognitive instruments across FAST stages",
+    "assays": [],
+    "platforms": [],
+    "platformRelevance": null,
+    "organizations": [
+      "Mossakowski Medical Research Centre Polish Academy of Sciences",
+      "Central Clinical Hospital of the Ministry of Interior in Warsaw",
+      "Maria Grzegorzewska University"
+    ],
+    "regulatoryStatus": "Cognitive-instrument performance evidence. The study does not authorize a diagnostic device, validate an Alzheimer biomarker, determine anti-amyloid treatment eligibility, create coverage or constitute a guideline recommendation.",
+    "relevance": "Implementation-relevant",
+    "brief30": "This large clinic cohort gives M-ACE a more specific role than generic screening: rapid follow-up and functional-stage discrimination, particularly early in the continuum. ACE-III remained the most consistently accurate instrument across transitions, while M-ACE lost discrimination later as memory recall reached a floor. The cutoffs are cohort-derived aids, not standalone diagnoses, biomarker substitutes or prescribing thresholds.",
+    "studyDesign": "Investigators retrospectively analyzed 1,834 consecutive people seeking cognitive evaluation and classified them as subjective cognitive decline (FAST 2), mild cognitive impairment (FAST 3) or Alzheimer dementia (FAST 4-6). They compared M-ACE, ACE-III and MMSE using reliability, convergent validity, ROC analyses, optimal cutoffs, DeLong tests and stage-adjusted logistic regression.",
+    "keyResults": [
+      "M-ACE showed good internal consistency (McDonald's ω=0.835; Cronbach's α=0.731) and strong convergence with ACE-III (Spearman ρ=0.822).",
+      "M-ACE significantly outperformed MMSE for the FAST 2-to-3 transition and remained independently associated with stage after adjustment for age, sex and education. ACE-III had the most consistently high accuracy across transitions; MMSE had the highest AUC at FAST 4-to-5, but not significantly higher than ACE-III.",
+      "Optimal M-ACE cutoffs were ≤25 for FAST 2-to-3, ≤19 for FAST 3-to-4, ≤13 for FAST 4-to-5 and ≤7 for FAST 5-to-6. Memory Recall developed a floor effect from FAST 4, helping explain M-ACE's weaker late-stage discrimination."
+    ],
+    "whatChanged": "The study supplies a large, stage-specific comparison of M-ACE, ACE-III and MMSE and proposes operational M-ACE thresholds for rapid longitudinal follow-up across the functional Alzheimer continuum.",
+    "evidenceStrength": "Moderate clinical-validity evidence for functional-stage discrimination in the studied referral cohort: large consecutive sample, direct instrument comparison and adjusted analyses are strengths. Retrospective design, cohort-derived cutoffs and FAST-based classification limit causal interpretation, external transportability and use for etiologic diagnosis.",
+    "clinicalSignificance": "M-ACE may be a practical short instrument for repeated cognitive assessment when a full ACE-III is not feasible, especially around the subjective-decline-to-MCI transition. It should complement history, function, neurologic evaluation and indicated biomarker testing rather than determine an Alzheimer etiology or disease-modifying-treatment eligibility alone.",
+    "fieldRelevance": "Relevant to memory-clinic workflow, stage documentation and selection of brief follow-up tools. It also reinforces the distinction between cognitive/functional staging and biological confirmation of Alzheimer pathology.",
+    "questions": [
+      {
+        "q": "Can the proposed M-ACE cutoffs diagnose Alzheimer disease?",
+        "a": "No. They discriminate FAST transitions in this retrospective clinical cohort. They do not establish Alzheimer etiology or replace amyloid confirmation when treatment or another decision requires it."
+      },
+      {
+        "q": "Is M-ACE better than ACE-III?",
+        "a": "Not overall. ACE-III was the most consistently accurate across stages. M-ACE offered a useful balance of speed and accuracy, particularly at earlier transitions and for follow-up."
+      },
+      {
+        "q": "Does this change authorization, endorsement or coverage?",
+        "a": "No. It is a performance study, not a regulatory action, formal guideline or payer decision."
+      }
+    ],
+    "limitations": [
+      "Retrospective single-system clinical cohort",
+      "Stage classification was based on FAST rather than a uniform biomarker reference standard",
+      "Cutoffs were derived in the same clinical population and need external validation",
+      "The public report does not establish prospective management or patient-outcome benefit",
+      "M-ACE memory recall showed a floor effect from FAST stage 4",
+      "Results do not define anti-amyloid treatment eligibility"
+    ],
+    "accessRelevance": "The study creates no new test authorization, commercial availability, guideline endorsement, reimbursement or coverage. M-ACE is a cognitive instrument; local licensing, language validation, training and workflow determine implementation.",
+    "primarySource": "https://doi.org/10.5603/pjnns.113649",
+    "doi": "10.5603/pjnns.113649",
+    "identifier": "DOI:10.5603/pjnns.113649; PMID:42841817",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42841817/"
+      }
+    ],
+    "citation": "Barczak A, Golan MP, Hintze B. Comparative diagnostic accuracy and clinical utility of the Mini-Addenbrooke's Cognitive Examination, ACE-III, and MMSE for functional staging across the Alzheimer's disease continuum. Neurol Neurochir Pol. Published online October 8, 2026. doi:10.5603/pjnns.113649.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Management"
+    ]
+  },
+  {
+    "id": "doi-10-1002-alz-71819",
+    "slug": "timely-anti-amyloid-treatment-value",
+    "title": "Model quantifies value lost when anti-amyloid treatment is delayed",
+    "bottomLine": "A U.S. microsimulation projected $104,885 in gross lifetime societal value per treated person and 32% more value when anti-amyloid treatment began two years earlier, but these are model-based gross benefits that exclude drug, screening and monitoring costs.",
+    "dateAdded": "2026-10-08",
+    "sourceDate": "2026-10-07",
+    "evidenceSource": "Peer-reviewed dynamic microsimulation and health-economic analysis",
+    "modalities": [],
+    "biomarkers": [],
+    "clinicalUses": [
+      "Disease-modifying treatment access",
+      "Care-pathway timing",
+      "Health economics"
+    ],
+    "studyType": "Dynamic microsimulation of lifetime health, caregiving and medical-cost outcomes",
+    "assays": [],
+    "platforms": [],
+    "platformRelevance": null,
+    "organizations": [
+      "USC Schaeffer Institute",
+      "Alzheimer's Disease Neuroimaging Initiative"
+    ],
+    "regulatoryStatus": "Economic modeling evidence, not a regulatory, coverage or guideline action. The analysis does not alter FDA indications, payer requirements, biomarker confirmation, MRI monitoring or treatment availability.",
+    "relevance": "Practice-relevant",
+    "brief30": "The model reframes diagnostic delay as potential loss of health, independence, caregiver time and public-program savings. Earlier treatment consistently improved projected value, but the headline figures are gross societal benefits—not cost-effectiveness ratios—and omit the costs required to find, confirm, infuse and monitor eligible patients. Results depend on assumptions about durability and whether earlier-stage efficacy is stronger.",
+    "studyDesign": "Using a U.S. dynamic microsimulation, investigators modeled people resembling an early symptomatic Alzheimer trial population (mean baseline age 73.0 years). A treatment scenario slowed clinical progression by 29% over the remaining lifetime; an earlier scenario initiated therapy two years sooner. Outcomes included survival, disability-free time, community residence, quality of life, unpaid caregiving and medical spending, with sensitivity analyses for stronger early-stage efficacy and four-year effect duration.",
+    "keyResults": [
+      "Treatment generated $104,885 in gross lifetime societal value per person (95% CI $99,291-$110,479), including quality-of-life gains, reduced unpaid caregiving and medical cost offsets driven largely by less nursing-home use and Medicaid spending.",
+      "Starting treatment two years earlier increased modeled value by 32%. When the model also assumed 36% rather than 29% slowing in earlier disease, value was 71% higher than the trial-timing scenario.",
+      "With treatment benefit limited to four years, gross lifetime value fell to $49,122 for trial-timing treatment and $56,385 for earlier treatment. The model projected about 0.3 additional life-years, 1.0 fewer year with severe dementia, 0.37 disability-free years and 0.63 additional years in the community for the trial-timing treatment scenario."
+    ],
+    "whatChanged": "A new U.S. model quantifies the potential societal cost of diagnostic and treatment delay and provides sensitivity ranges that health systems can compare with the real costs of screening, confirmation, infusion and monitoring.",
+    "evidenceStrength": "Moderate modeling evidence for directional and scenario-based planning, grounded in trial efficacy and national data but not a prospective outcome or cost-effectiveness study. Conclusions are assumption-sensitive, particularly to duration of benefit, earlier-stage efficacy, treatment uptake and excluded implementation costs.",
+    "clinicalSignificance": "The findings support reducing avoidable diagnostic and treatment delays for otherwise eligible patients, while underscoring that implementation decisions require the omitted drug, biomarker, imaging, infusion, staffing and safety costs. The model should not be used to promise an individual benefit or to broaden treatment beyond labeled populations.",
+    "fieldRelevance": "Directly relevant to access strategy, diagnostic-pathway investment, payer and health-system value discussions, and MSL questions about why earlier identification may matter even when clinical-trial efficacy is fixed.",
+    "questions": [
+      {
+        "q": "Is $104,885 the net value after treatment costs?",
+        "a": "No. It is gross societal value. Drug acquisition, diagnostic testing, infusions, MRI monitoring and implementation costs were not subtracted."
+      },
+      {
+        "q": "Does the model prove that every patient benefits more if treated two years earlier?",
+        "a": "No. It projects population-average outcomes under specified assumptions and does not replace individual eligibility, risk-benefit assessment or observed clinical data."
+      },
+      {
+        "q": "Does this change coverage or eligibility?",
+        "a": "No. It supplies an economic benchmark; FDA labeling, clinical guidance and payer coverage remain separate."
+      }
+    ],
+    "limitations": [
+      "Microsimulation rather than prospective comparative outcomes",
+      "Gross value excludes drug, screening, biomarker, infusion and monitoring costs",
+      "Relies on assumed lifetime or four-year persistence of treatment effect",
+      "Earlier-stage efficacy scenarios are modeled rather than directly randomized",
+      "Results reflect U.S. costs, caregiving and Medicaid structures",
+      "Industry-related institutional funding and author relationships are disclosed"
+    ],
+    "accessRelevance": "High contextual relevance but no access action. The study quantifies potential value from shorter diagnostic and treatment delays; it does not establish coverage, reimbursement, capacity, assay availability or a funded care pathway.",
+    "primarySource": "https://doi.org/10.1002/alz.71819",
+    "doi": "10.1002/alz.71819",
+    "identifier": "DOI:10.1002/alz.71819; PMID:42841389; PMCID:PMC13643942",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42841389/"
+      }
+    ],
+    "citation": "Chapel JM, Tysinger B, Pourmand H, Goldman D, Aisen P; Alzheimer's Disease Neuroimaging Initiative. The value of timely treatment with anti-amyloid therapy for Alzheimer's disease. Alzheimers Dement. 2026;22(10):e71819. doi:10.1002/alz.71819.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Management"
+    ]
+  },
+  {
+    "id": "doi-10-1007-s11357-026-02567-3",
+    "slug": "sweet-tooth-dementia-risk-biological-aging",
+    "title": "Sweet-tooth preference tracks with higher dementia risk",
+    "bottomLine": "In a prospective UK Biobank analysis, a sweet-tooth preference profile was associated with 79% higher all-cause dementia risk, 62% higher Alzheimer disease risk and 202% higher vascular-dementia risk than a health-aligned profile; the observational design does not show that changing preference prevents dementia.",
+    "dateAdded": "2026-10-08",
+    "sourceDate": "2026-10-07",
+    "evidenceSource": "Peer-reviewed prospective cohort study",
+    "modalities": [],
+    "biomarkers": [],
+    "clinicalUses": [
+      "Risk reduction",
+      "Dietary counseling",
+      "Prevention research"
+    ],
+    "studyType": "Prospective UK Biobank cohort with latent dietary-preference profiles and time-to-event modeling",
+    "assays": [],
+    "platforms": [],
+    "platformRelevance": null,
+    "organizations": [
+      "UK Biobank",
+      "City University of Hong Kong"
+    ],
+    "regulatoryStatus": "Observational risk-factor evidence. It does not authorize a test or intervention, establish clinical utility, change a guideline, or create coverage or availability.",
+    "relevance": "Important new evidence",
+    "brief30": "The study links a preference for sweet foods—not measured intake—to future dementia and to three biological-aging measures, with stronger joint risk among people with high genetic susceptibility. The effect sizes are sizeable, but residual confounding, selection, reverse causation and imperfect translation from preference to consumption prevent causal or prescriptive claims. Biological-aging markers explained only a small share of the association.",
+    "studyDesign": "Investigators used UK Biobank food-preference questionnaires to derive health-aligned, broad-preference and sweet-tooth profiles by latent profile analysis. Cox models related profiles to incident all-cause, Alzheimer and vascular dementia and tested interaction with genetic risk. Linear models assessed KDM biological-age acceleration, PhenoAge acceleration and leukocyte telomere length; mediation analyses were exploratory.",
+    "keyResults": [
+      "Compared with the health-aligned profile, the sweet-tooth profile was associated with 79% higher all-cause dementia risk, 62% higher Alzheimer disease risk and 202% higher vascular-dementia risk.",
+      "The sweet-tooth profile was also associated with faster Klemera-Doubal biological-age and PhenoAge acceleration and shorter leukocyte telomere length. A significant additive interaction indicated greater combined dementia risk with high genetic susceptibility.",
+      "Exploratory mediation analyses estimated that the three biological-aging measures statistically accounted for only 2.28%-4.82% of the observed diet-preference association, leaving most of the association unexplained."
+    ],
+    "whatChanged": "The cohort adds prospective, profile-based evidence connecting sweet-food preference, genetic susceptibility, multiple biological-aging measures and dementia subtypes in one analysis.",
+    "evidenceStrength": "Moderate observational evidence for association, supported by prospective follow-up, time-to-event analysis and convergent aging measures. It is insufficient for causality or a treatment recommendation because exposure was preference rather than intake, confounding and reverse causation remain possible, and mediation was exploratory.",
+    "clinicalSignificance": "The findings are consistent with counseling toward established healthy dietary patterns as part of multidomain risk reduction, but they do not justify genetic testing, a sweet-food cutoff or a claim that changing food preferences will prevent Alzheimer disease.",
+    "fieldRelevance": "Relevant to risk-reduction discussions and prevention-study design, particularly questions about diet-genetic interaction and whether biological-aging measures explain dementia associations.",
+    "questions": [
+      {
+        "q": "Does a sweet tooth cause Alzheimer disease?",
+        "a": "The study shows association, not causation. Food preference is not the same as measured intake, and unmeasured confounding or preclinical disease could contribute."
+      },
+      {
+        "q": "Should APOE or polygenic testing be ordered to target dietary counseling?",
+        "a": "No clinical-testing recommendation follows from this observational interaction analysis. Risk counseling should rely on established guidance and individual context."
+      },
+      {
+        "q": "Did biological aging explain most of the association?",
+        "a": "No. The exploratory mediators accounted for only 2.28%-4.82%, so most of the association was not explained by those measures."
+      }
+    ],
+    "limitations": [
+      "Observational UK Biobank design with healthy-volunteer selection",
+      "Food preference rather than objectively measured consumption",
+      "Residual confounding and reverse causation cannot be excluded",
+      "Genetic interaction and mediation analyses do not establish clinical utility",
+      "Biological-aging measures explained only a small proportion of the association",
+      "No randomized evidence that changing preference reduces dementia incidence"
+    ],
+    "accessRelevance": "The study creates no authorization, availability, guideline endorsement, reimbursement or coverage change. Its implications concern prevention research and counseling context rather than access to a specific product or service.",
+    "primarySource": "https://doi.org/10.1007/s11357-026-02567-3",
+    "doi": "10.1007/s11357-026-02567-3",
+    "identifier": "DOI:10.1007/s11357-026-02567-3; PMID:42842075",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42842075/"
+      }
+    ],
+    "citation": "Sun M, Huang F, Sun N, et al. Dietary preference, biological aging, and incident dementia: a prospective cohort study. Geroscience. Published online October 7, 2026. doi:10.1007/s11357-026-02567-3.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Management"
+    ]
   }
 ]
