@@ -1,12 +1,12 @@
 {
-  "reviewedThrough": "2026-10-10",
-  "newItemsQualified": 0,
-  "nextScheduledReview": "2026-10-12",
-  "lastSuccessfulRun": "2026-10-10T15:15:44.271Z",
+  "reviewedThrough": "2026-10-12",
+  "newItemsQualified": 1,
+  "nextScheduledReview": "2026-10-14",
+  "lastSuccessfulRun": "2026-10-12T15:51:21.840Z",
   "workflowState": "on-schedule",
   "historicalCompleteThrough": "2026-09-04",
   "coverageAuditComplete": true,
-  "message": "No new items met the inclusion threshold",
+  "message": "1 new item qualified",
   "failure": null,
   "reviewLog": [
     {
@@ -63,7 +63,7 @@
       "completedAt": "2026-09-20T15:16:35.000Z",
       "outcome": "success",
       "qualified": 1,
-      "note": "1 new item qualified"
+      "note": "1 historical Biomarkers backfill qualified; no newly source-dated Oct. 11-12 trial, guideline, regulatory, coverage, access, registry-results, or management development met the threshold"
     },
     {
       "reviewedThrough": "2026-09-22",
@@ -127,6 +127,13 @@
       "outcome": "success",
       "qualified": 0,
       "note": "No new items met the inclusion threshold"
+    },
+    {
+      "reviewedThrough": "2026-10-12",
+      "completedAt": "2026-10-12T15:51:21.840Z",
+      "outcome": "success",
+      "qualified": 1,
+      "note": "1 historical Biomarkers backfill qualified; no newly source-dated Oct. 11-12 trial, guideline, regulatory, coverage, access, registry-results, or management development met the threshold"
     }
   ]
 }

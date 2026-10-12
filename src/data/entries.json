@@ -3953,5 +3953,110 @@
     "topics": [
       "Management"
     ]
+  },
+  {
+    "id": "doi-10-1002-alz-71783",
+    "slug": "longitudinal-ptau217-classification-stability",
+    "title": "Longitudinal p-tau217 categories remain stable and stratify progression risk",
+    "bottomLine": "Across 2,117 participants in three cohorts, baseline assay-specific p-tau217 cutoffs retained 86%-95% accuracy for amyloid-PET status over as long as five years; positive classifications were usually stable, while intermediate results converted to positive more often than negative results.",
+    "dateAdded": "2026-10-12",
+    "sourceDate": "2026-08-30",
+    "evidenceSource": "Peer-reviewed longitudinal multi-cohort biomarker study",
+    "modalities": [
+      "Blood",
+      "Amyloid PET",
+      "Tau PET",
+      "MRI"
+    ],
+    "biomarkers": [
+      "p-tau217",
+      "Amyloid"
+    ],
+    "clinicalUses": [
+      "Biological confirmation",
+      "Risk stratification",
+      "Disease monitoring",
+      "Treatment selection"
+    ],
+    "studyType": "Longitudinal multi-cohort clinical-validity study",
+    "assays": [
+      "Lumipulse G pTau217",
+      "Lilly p-tau217",
+      "ALZpath p-tau217",
+      "C2N PrecivityAD2 p-tau217 and %p-tau217"
+    ],
+    "platforms": [
+      "Lumipulse G1200",
+      "Meso Scale Discovery",
+      "Quanterix HD-X",
+      "LC-MS/MS"
+    ],
+    "platformRelevance": "The broadly consistent longitudinal pattern across four assay approaches supports biological generalizability, but each cohort used assay-specific, internally derived cutoffs; the numerical thresholds are not interchangeable across platforms.",
+    "organizations": [
+      "Greater-Bay-Area Healthy Aging Brain Study",
+      "A4/LEARN",
+      "Alzheimer's Disease Neuroimaging Initiative",
+      "Fujirebio",
+      "Eli Lilly and Company",
+      "ALZpath",
+      "C2N Diagnostics"
+    ],
+    "regulatoryStatus": "Research evidence for longitudinal clinical validity. The study did not establish analytical validity, prospective clinical utility, a repeat-testing interval, regulatory authorization, availability, guideline endorsement, reimbursement, or coverage.",
+    "relevance": "Important new evidence",
+    "brief30": "This historical backfill addresses a practical interpretation question: what happens after a patient is classified negative, intermediate, or positive by plasma p-tau217? Positive status was highly stable and intermediate status was more likely to progress, but cutoffs were derived separately within selected cohorts and across different assays. The data support longitudinal clinical validity, not routine serial testing or independent treatment decisions.",
+    "studyDesign": "Baseline amyloid-PET and plasma p-tau217 data came from 532 GHABS participants, 1,210 A4/LEARN participants, and 375 ADNI participants; 1,170 had longitudinal amyloid-PET and plasma measurements. Cohort- and assay-specific dual cutoffs were derived at baseline and then applied for a median 1.9-4.8 years, with follow-up extending to five years. Models also related p-tau217 trajectories to tau PET, hippocampal volume, and incident dementia.",
+    "keyResults": [
+      "Baseline-derived cutoffs maintained 86%-95% accuracy for amyloid-PET positivity over follow-up; positive and negative predictive values were generally above 85%, except negative predictive values of 62.4%-66.0% in the amyloid-enriched A4/LEARN cohort.",
+      "Among people initially p-tau217-positive, 93%-98% remained positive. Intermediate classifications progressed to positive in 44%-78%, compared with 4%-21% of initially negative participants; reversion occurred in only 1%-4% across cohorts.",
+      "Stable-positive and progress-to-positive profiles had amyloid abnormalities in 90%-100% and 64%-96%, respectively, and showed faster tau accumulation and hippocampal atrophy than stable-negative profiles.",
+      "In A4/LEARN, stable-positive status was associated with incident dementia HR 3.5 (95% CI, 1.7-7.2) and progress-to-positive status with HR 2.2 (1.0-4.6) versus stable-negative status. In ADNI, corresponding assay-specific HRs were 22.9-28.9 and 3.5-10.3."
+    ],
+    "whatChanged": "The study moved p-tau217 evidence beyond single-visit classification by quantifying category stability, conversion from the intermediate zone, and associations between longitudinal trajectories and clinical or imaging progression across cohorts and platforms.",
+    "evidenceStrength": "Moderate clinical-validity evidence: large, longitudinal, multi-cohort and multi-platform, with convergent amyloid, tau, MRI and dementia outcomes. It does not establish analytical validity or clinical utility because thresholds were internally derived, cohorts were selected, follow-up samples were incomplete, and no management pathway was prospectively tested.",
+    "clinicalSignificance": "A positive result was usually persistent and an intermediate result carried greater progression risk than a negative result. The findings may inform confirmatory-testing and follow-up research, but they do not validate serial p-tau217 monitoring as standard care, specify when to repeat a test, or authorize treatment without the required clinical and biomarker evaluation.",
+    "fieldRelevance": "Useful for MSL discussions about the meaning of intermediate results, longitudinal stability, platform-specific cutoffs, cohort prevalence, and the distinction between prognostic association and demonstrated clinical utility.",
+    "questions": [
+      {
+        "q": "Does the study support routine annual p-tau217 retesting?",
+        "a": "No. It shows longitudinal associations but did not prospectively compare repeat-testing intervals or test whether serial measurement improves patient outcomes or decisions."
+      },
+      {
+        "q": "Can one cutoff be used across the four assay approaches?",
+        "a": "No. Cutoffs were assay- and cohort-specific. Even Lumipulse lower and upper thresholds differed between GHABS and ADNI, and the authors cautioned against interpreting those differences as ethnicity-specific."
+      },
+      {
+        "q": "Can a stable positive result independently establish treatment eligibility?",
+        "a": "No. The study evaluated clinical validity against amyloid PET and progression outcomes; it did not replace label requirements, clinician assessment, confirmatory testing, contraindication review, or safety monitoring."
+      }
+    ],
+    "limitations": [
+      "Baseline cutoffs were derived within each cohort rather than externally prespecified",
+      "A4/LEARN was amyloid-enriched and all participants were cognitively unimpaired, limiting generalizability and lowering negative predictive value",
+      "Only 1,170 of 2,117 baseline participants had longitudinal amyloid-PET and plasma data",
+      "Cohorts differed in population, amyloid prevalence, assay, and cutoff constraints",
+      "Values near cutoffs may change category through analytical variability, regression to the mean, or short-term biological variation",
+      "No prospective comparison of repeat-testing intervals or patient-management algorithms"
+    ],
+    "accessRelevance": "The study evaluated neither test availability nor patient cost, reimbursement, or payer coverage. Any access benefit from reduced PET or CSF use remains a hypothesis until tested in a clinical pathway.",
+    "primarySource": "https://doi.org/10.1002/alz.71783",
+    "doi": "10.1002/alz.71783",
+    "identifier": "DOI:10.1002/alz.71783; PMID:42669630; PMCID:PMC13526640",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42669630/"
+      },
+      {
+        "label": "Full text in PubMed Central",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13526640/"
+      }
+    ],
+    "citation": "Lan G, Liao W, Jiang M, et al. Longitudinal plasma phosphorylated tau217 classification and the association with Alzheimer's disease progression. Alzheimers Dement. Published online August 30, 2026. doi:10.1002/alz.71783.",
+    "corrections": [],
+    "historical": true,
+    "resultType": "results",
+    "topics": [
+      "Biomarkers"
+    ]
   }
 ]
