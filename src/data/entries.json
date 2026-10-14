@@ -4058,5 +4058,171 @@
     "topics": [
       "Biomarkers"
     ]
+  },
+  {
+    "id": "doi-10-1111-jgs-70684",
+    "slug": "communityrx-dementia-caregiver-trial",
+    "title": "Low-intensity resource referral misses its caregiver self-efficacy endpoint",
+    "bottomLine": "In a single-blind randomized trial, CommunityRx-Dementia did not improve 12-month caregiver self-efficacy or most prespecified outcomes among 133 caregivers with health-related social risks, although emergency-department use was lower (IRR 0.41, 95% CI 0.19-0.90).",
+    "dateAdded": "2026-10-14",
+    "sourceDate": "2026-10-13",
+    "evidenceSource": "Peer-reviewed randomized clinical trial",
+    "modalities": [],
+    "biomarkers": [],
+    "clinicalUses": [
+      "Caregiver support",
+      "Supportive care",
+      "Health-related social needs"
+    ],
+    "studyType": "Single-blind randomized controlled trial",
+    "assays": [],
+    "platforms": [],
+    "platformRelevance": null,
+    "organizations": [
+      "University of Chicago",
+      "CommunityRx-Dementia"
+    ],
+    "regulatoryStatus": "Nonpharmacologic caregiver-intervention evidence, not a regulatory, guideline or coverage action. The trial does not establish a reimbursed service model or change treatment eligibility, dosing or safety monitoring.",
+    "relevance": "Practice-relevant",
+    "brief30": "A personalized community-resource list, text-based navigation and online finder did not improve the trial's primary caregiver self-efficacy outcome in the prespecified higher-need group. Lower emergency-department use is clinically interesting but was one of several secondary outcomes and needs replication. The result argues against assuming that high engagement with a low-intensity referral service translates into broad caregiver benefit.",
+    "studyDesign": "English-speaking dementia caregivers living in 62 ZIP codes around one urban academic medical center were randomized to usual care or usual care plus CommunityRx-Dementia. The intervention supplied education about common needs, a personalized list of nearby resources, text access to a navigator and an online resource finder. The prespecified primary analysis included 133 caregivers with at least one baseline health-related social risk; a post hoc analysis included 210 caregivers without such risks. Outcomes were assessed at 12 months.",
+    "keyResults": [
+      "Among caregivers with health-related social risks, 12-month self-efficacy was 3.5 in both groups (OR 0.80, 95% CI 0.30-2.09), so the primary endpoint was not met.",
+      "Loneliness was 41% versus 50% (OR 0.62, 95% CI 0.24-1.59), needing help 23% versus 34% (OR 0.80, 95% CI 0.30-2.11) and hospitalizations 0.1 versus 0.2 (IRR 0.42, 95% CI 0.14-1.30); none differed significantly.",
+      "Emergency-department utilization was lower with the intervention, 0.3 versus 0.7 visits (IRR 0.41, 95% CI 0.19-0.90). In the post hoc subgroup without baseline social risks, most outcomes were similar, while odds of needing help were lower (OR 0.31, 95% CI 0.12-0.83).",
+      "Engagement was high: 94% of caregivers with social risks texted a navigator and 31% requested additional resource information."
+    ],
+    "whatChanged": "A completed randomized trial now provides controlled evidence that a scalable, low-intensity community-resource referral can achieve high engagement but does not by itself improve broad caregiver self-efficacy; its emergency-use signal remains secondary and exploratory for implementation decisions.",
+    "evidenceStrength": "Moderate randomized evidence for the null primary outcome, with prespecified analysis and 12-month follow-up. Confidence in the emergency-department finding is lower because it was one of several secondary outcomes, event counts were self-reported, confidence intervals for other utilization outcomes were wide and the study was limited to one urban region.",
+    "clinicalSignificance": "Health systems should not present resource referral alone as a proven way to improve caregiver self-efficacy. The lower emergency-use signal may justify a larger implementation trial with verified utilization and prespecified multiplicity control, especially among caregivers facing social risks.",
+    "fieldRelevance": "Directly relevant to caregiver-support program design, social-care navigation, health-equity implementation and discussions about which outcomes a low-touch intervention can reasonably change.",
+    "questions": [
+      {
+        "q": "Did CommunityRx-Dementia meet its primary endpoint?",
+        "a": "No. Twelve-month caregiver self-efficacy was 3.5 in both groups, with OR 0.80 (95% CI 0.30-2.09)."
+      },
+      {
+        "q": "Does the emergency-department result establish reduced acute-care use?",
+        "a": "Not yet. It was a favorable secondary result based on self-report and should be confirmed in a larger trial using adjudicated utilization data."
+      },
+      {
+        "q": "Does the trial support reimbursement or a formal care standard?",
+        "a": "No. It supplies intervention evidence but no guideline endorsement, payment decision or standardized implementation requirement."
+      }
+    ],
+    "limitations": [
+      "Single urban academic-center geography and English-speaking text-message users",
+      "Primary analysis included only 133 caregivers with baseline social risks",
+      "Emergency visits and hospitalizations were self-reported",
+      "Multiple secondary outcomes and a post hoc lower-risk subgroup",
+      "The primary endpoint and most prespecified secondary outcomes were null",
+      "No evidence of long-term sustainability, cost-effectiveness or reimbursement"
+    ],
+    "accessRelevance": "The intervention was designed to connect caregivers with local resources, but the study did not establish service availability outside the trial geography, reimbursement, scalable navigator capacity or coverage. Any reduction in access barriers remains unproven as a system-level outcome.",
+    "primarySource": "https://doi.org/10.1111/jgs.70684",
+    "doi": "10.1111/jgs.70684",
+    "identifier": "DOI:10.1111/jgs.70684; PMID:42869650; NCT04146545",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42869650/"
+      },
+      {
+        "label": "ClinicalTrials.gov record",
+        "url": "https://clinicaltrials.gov/study/NCT04146545"
+      }
+    ],
+    "citation": "Makelarski JA, Wroblewski KE, Winslow VA, et al. Low-Intensity Social Care for Dementia Caregivers: A Randomized Trial. J Am Geriatr Soc. Published online October 13, 2026. doi:10.1111/jgs.70684.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Clinical Trials",
+      "Management"
+    ]
+  },
+  {
+    "id": "doi-10-1016-j-acra-2026-09-056",
+    "slug": "automated-mri-neurodegenerative-reporting",
+    "title": "Quantitative MRI plus local language models drafts neurodegenerative reports",
+    "bottomLine": "In 192 ADNI cases, an automated MRI-to-report pipeline achieved 77.6%-97.9% accuracy for CSF-space findings and 91.7%-97.4% agreement within one grade on ordinal visual scales, but strict scale agreement was only 27.1%-57.8% and no clinical utility was tested.",
+    "dateAdded": "2026-10-14",
+    "sourceDate": "2026-10-13",
+    "evidenceSource": "Peer-reviewed retrospective technical validation study",
+    "modalities": [
+      "MRI"
+    ],
+    "biomarkers": [
+      "Brain atrophy",
+      "White matter hyperintensities",
+      "CSF space abnormalities"
+    ],
+    "clinicalUses": [
+      "Imaging interpretation",
+      "Structured reporting",
+      "Diagnostic support"
+    ],
+    "studyType": "Retrospective ADNI technical-validation study",
+    "assays": [],
+    "platforms": [
+      "Quantitative MRI and large-language-model pipeline"
+    ],
+    "platformRelevance": "Performance depended on the reporting component: GPT-OSS 20B achieved the highest overall ratings and lowest error rates, while smaller models produced more language, omission and addition errors and MedGemma had the highest numeric-error rate. The study did not validate interchangeability across models or scanners.",
+    "organizations": [
+      "Alzheimer's Disease Neuroimaging Initiative"
+    ],
+    "regulatoryStatus": "Research software evidence only. The pipeline has no reported regulatory authorization, demonstrated clinical utility, guideline endorsement, routine availability, reimbursement or coverage. It does not establish the analytical validity of an imaging assay or an autonomous diagnostic claim.",
+    "relevance": "Early signal",
+    "brief30": "The study separates quantitative extraction from narrative drafting and shows where each fails. CSF-space findings and one-grade-tolerant ordinal ratings were often close to neuroradiologist reports, but exact ordinal agreement was poor and model-specific omissions, additions and numeric errors persisted. This is feasibility evidence for reporting assistance, not validation for diagnosis, treatment eligibility or unsupervised use.",
+    "studyDesign": "Investigators randomly selected 192 ADNI participants with 3D T1 and 2D or 3D FLAIR MRI. A deep-learning quantitative MRI system generated structured findings for nine indices covering atrophy, white matter hyperintensities and CSF-space abnormalities, which were compared with neuroradiologist reference reports. Four locally deployable language models—GPT-OSS 20B, MedGemma 4B, Phi-3 and Llama 3.1 8B—then drafted clinician-facing conclusions. Reviewers scored accuracy, relevance, clarity and satisfaction on five-point scales and categorized language, omission, addition and numeric errors.",
+    "keyResults": [
+      "Accuracy for CSF-space analysis ranged from 77.6% to 97.9% across findings.",
+      "For ordinal visual scales, strict agreement with reference reports was 27.1%-57.8%; allowing a one-grade difference increased agreement to 91.7%-97.4%.",
+      "GPT-OSS 20B achieved median Likert scores of 5 across most report-quality metrics and the lowest output-error rates. Phi-3 and Llama 3.1 8B had more language, omission and addition errors, while MedGemma had the highest numeric-error rate.",
+      "The study reported no prospective effect on neuroradiologist efficiency, diagnostic accuracy, downstream management or patient outcomes."
+    ],
+    "whatChanged": "A new end-to-end evaluation quantifies both imaging-marker extraction and language-model drafting errors, providing a more operational test of automated neurodegenerative MRI reporting than standalone image-classification or text-generation studies.",
+    "evidenceStrength": "Early technical feasibility evidence from a modest, retrospectively selected ADNI sample with neuroradiologist reports as the reference. The study does not establish analytical validity across scanners and sites, clinical validity against pathology or outcomes, or clinical utility in a prospective reporting workflow.",
+    "clinicalSignificance": "The pipeline may support structured drafting under neuroradiologist supervision, but low strict agreement on ordinal scales and model-specific numeric or content errors preclude autonomous interpretation. It should not be used to confirm Alzheimer pathology, stage disease or determine disease-modifying treatment eligibility without validated clinical review.",
+    "fieldRelevance": "Relevant to biomarker implementation, radiology workflow design and MSL questions about how quantitative imaging and generative AI might standardize reporting while preserving human oversight.",
+    "questions": [
+      {
+        "q": "Did the system match neuroradiologists exactly?",
+        "a": "Not reliably for ordinal scales: strict agreement was 27.1%-57.8%. Agreement exceeded 91% only when a one-grade difference was accepted."
+      },
+      {
+        "q": "Was clinical utility demonstrated?",
+        "a": "No. The study did not prospectively test report turnaround, diagnostic decisions, treatment selection, clinician behavior or patient outcomes."
+      },
+      {
+        "q": "Is the pipeline authorized for clinical use?",
+        "a": "No authorization, guideline endorsement, availability or coverage was established in the report."
+      }
+    ],
+    "limitations": [
+      "Retrospective sample of 192 ADNI participants",
+      "Reference was clinical reporting rather than pathology or an external outcome",
+      "Low strict agreement for ordinal visual scales",
+      "No external multi-site or scanner validation reported",
+      "Model-specific omissions, additions, language errors and numeric errors",
+      "No prospective workflow, clinical-utility or patient-outcome evaluation"
+    ],
+    "accessRelevance": "No availability, authorization, reimbursement or coverage change. Local language models could eventually reduce data-transfer barriers, but the study did not evaluate deployment cost, integration, governance, cybersecurity or access in routine practice.",
+    "primarySource": "https://doi.org/10.1016/j.acra.2026.09.056",
+    "doi": "10.1016/j.acra.2026.09.056",
+    "identifier": "DOI:10.1016/j.acra.2026.09.056; PMID:42864178",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42864178/"
+      }
+    ],
+    "citation": "Ko JS, Jung W, Suh PS, et al. Automated Structured Reporting of Neurodegenerative Imaging Markers Using Quantitative MRI and Large Language Models. Acad Radiol. Published online October 13, 2026. doi:10.1016/j.acra.2026.09.056.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Biomarkers"
+    ]
   }
 ]
