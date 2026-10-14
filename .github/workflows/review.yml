@@ -81,6 +81,11 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Clear orphaned October 14 Pages deployment
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/deployments/53df393132096ce6fbab69d08b8bbac29ba5f6ee/cancel"
       - id: deployment
         uses: actions/deploy-pages@v5
         with:
