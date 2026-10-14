@@ -9,7 +9,7 @@ on:
         description: Successful review date (YYYY-MM-DD); leave blank to build only
         required: false
       qualified:
-        description: Number of qualified entries (0–3)
+        description: Number of qualified entries (0–5)
         required: false
         default: "0"
       failure_message:
@@ -92,5 +92,5 @@ jobs:
     if: always() && needs.deploy.result == 'success' && needs.build.outputs.freshness_outcome == 'failure'
     runs-on: ubuntu-latest
     steps:
-      - name: Report overdue review after publishing its warning
-        run: exit 1
+      - name: Report overdue review without failing deployment
+        run: echo "::warning title=AD review overdue::The site warning was published successfully. The evidence review itself needs attention."

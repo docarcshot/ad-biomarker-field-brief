@@ -34,7 +34,7 @@ For a successful review with entries, ordinarily add zero to five fully sourced 
 node scripts/review.mjs --reviewed-through=2026-09-04 --qualified=0 --failure="FDA source fetch failed"
 ```
 
-GitHub Actions exposes the same controls under **Actions → Validate, build, and publish → Run workflow**. Scheduled review work is performed every other day by the connected automation; the daily Actions schedule is a freshness watchdog and deploy validator, not an unsupervised claim that no evidence qualified.
+GitHub Actions exposes the same controls under **Actions → Validate, build, and publish → Run workflow**. Scheduled review work is performed every other day by the connected automation; the daily Actions schedule is a freshness watchdog and deploy validator, not an unsupervised claim that no evidence qualified. An overdue review publishes the site warning and records a GitHub warning without failing the workflow or generating a false deployment-failure notification. Validation, build, and deployment errors still fail normally.
 
 ## Editing or correcting an entry
 

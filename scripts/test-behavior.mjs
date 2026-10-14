@@ -81,5 +81,7 @@ try {
 } finally {fs.rmSync(temporary,{recursive:true,force:true});}
 const workflow=fs.readFileSync(path.join(root,'.github/workflows/review.yml'),'utf8');
 assert.match(workflow,/id: freshness[\s\S]*?continue-on-error: true/);
-assert.ok(workflow.indexOf('Report overdue review after publishing its warning')>workflow.indexOf('uses: actions/deploy-pages'));
+assert.ok(workflow.indexOf('Report overdue review without failing deployment')>workflow.indexOf('uses: actions/deploy-pages'));
+assert.doesNotMatch(workflow,/Report overdue review[\s\S]*?run:\s*exit 1/);
+assert.match(workflow,/::warning title=AD review overdue::/);
 console.log('Passed visit continuity, same-day additions, delayed status, blocked storage, packet selections, assay relationships, and overdue-build regression checks.');
