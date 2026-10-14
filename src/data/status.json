@@ -1,13 +1,16 @@
 {
-  "reviewedThrough": "2026-10-14",
-  "newItemsQualified": 2,
-  "nextScheduledReview": "2026-10-16",
-  "lastSuccessfulRun": "2026-10-14T15:53:35.006Z",
-  "workflowState": "on-schedule",
+  "reviewedThrough": "2026-10-12",
+  "newItemsQualified": 1,
+  "nextScheduledReview": "2026-10-14",
+  "lastSuccessfulRun": "2026-10-12T15:51:21.840Z",
+  "workflowState": "delayed",
   "historicalCompleteThrough": "2026-09-04",
   "coverageAuditComplete": true,
-  "message": "2 new items qualified",
-  "failure": null,
+  "message": "1 new item qualified",
+  "failure": {
+    "date": "2026-10-14T16:16:30.103Z",
+    "message": "GitHub Pages deployment failed: actions/deploy-pages@v5 timed out while status remained updating_pages; subsequent clean workflow attempts were blocked by the stale in-progress Pages deployment lock. Primary Site version 30 succeeded and GitHub validation, build, link, RSS, filter, and interaction checks passed before the Pages step."
+  },
   "reviewLog": [
     {
       "reviewedThrough": "2026-09-04",
@@ -136,11 +139,11 @@
       "note": "1 historical Biomarkers backfill qualified; no newly source-dated Oct. 11-12 trial, guideline, regulatory, coverage, access, registry-results, or management development met the threshold"
     },
     {
-      "reviewedThrough": "2026-10-14",
-      "completedAt": "2026-10-14T15:53:35.006Z",
-      "outcome": "success",
-      "qualified": 2,
-      "note": "2 new items qualified: a randomized low-intensity social-care trial for dementia caregivers and a retrospective quantitative-MRI/LLM structured-reporting validation study; no additional guideline, regulatory, coverage, authorization, access, conference, registry-results, or management development met the threshold"
+      "reviewedThrough": "2026-10-12",
+      "completedAt": "2026-10-14T16:16:30.103Z",
+      "outcome": "delayed",
+      "qualified": 0,
+      "note": "GitHub Pages deployment failed: actions/deploy-pages@v5 timed out while status remained updating_pages; subsequent clean workflow attempts were blocked by the stale in-progress Pages deployment lock. Primary Site version 30 succeeded and GitHub validation, build, link, RSS, filter, and interaction checks passed before the Pages step."
     }
   ]
 }
