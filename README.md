@@ -28,7 +28,7 @@ node scripts/build.mjs
 node scripts/test-build.mjs
 ```
 
-For a successful review with entries, add zero to three fully sourced records to `src/data/entries.json`, then set `--qualified` to the number added. A failed review records a delayed state without advancing `reviewedThrough`:
+For a successful review with entries, ordinarily add zero to five fully sourced records to `src/data/entries.json`, then set `--qualified` to the number added. Core biomarker/PET items are not dropped because secondary items filled a quota. A failed review records a delayed state without advancing `reviewedThrough`:
 
 ```bash
 node scripts/review.mjs --reviewed-through=2026-09-04 --qualified=0 --failure="FDA source fetch failed"
@@ -58,7 +58,9 @@ New-item markers compare stable entry IDs against the start-of-visit snapshot, s
 
 ## Scope and topic tags
 
-The user expanded coverage on September 7, 2026 to general AD guidelines and management, independent of biomarker consequences. This includes diagnosis/staging, disease-modifying treatment and eligibility, dosing and safety, symptomatic/neuropsychiatric care, nonpharmacologic care, caregiver support, risk reduction, and material access changes. The every-other-day schedule, 0–3 prospective-item threshold, verification standards, publication gates and email conditions remain unchanged.
+The user expanded coverage on September 7, 2026 to general AD guidelines and management, independent of biomarker consequences. On October 14 the hierarchy was refined so biomarkers and PET remain the core mission while general AD evidence supplies secondary context. Core items include assay validity and implementation, preanalytics, head-to-head performance, thresholds and gray zones, prevalence and comorbidity effects, blood-CSF-PET concordance, reflex workflows, PET acquisition/reading/quantification, tracer harmonization, treatment monitoring, guidance, authorization, availability and coverage. High-value technical reviews and practice standards can qualify when they materially change interpretation or implementation.
+
+Reviews ordinarily publish zero to five items. Core biomarker/PET items are never displaced by a general-management item. If more than five developments qualify, core items publish first and verified secondary-context items carry forward. General management now requires a practice-changing result, formal recommendation or access change, pivotal trial, or resolution of a major field question; routine associations, small feasibility reports, and low-impact management studies are excluded.
 
 Every entry requires one or more `topics` from `Biomarkers`, `Clinical Trials`, `Registry Results`, `Guidelines`, and `Management`. The visible Topic filter matches any assigned topic; overlapping records appear in each relevant view. Tags link to bookmarkable archive URLs and topics are included in RSS and meeting packets.
 

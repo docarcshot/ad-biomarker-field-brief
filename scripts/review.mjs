@@ -24,7 +24,7 @@ if (args.failure) {
   process.exitCode = 1;
 } else {
   const qualified = Number(args.qualified ?? 0);
-  if (!Number.isInteger(qualified) || qualified < 0 || qualified > 3) throw new Error('qualified must be an integer from 0 to 3');
+  if (!Number.isInteger(qualified) || qualified < 0 || qualified > 5) throw new Error('qualified must be an integer from 0 to 5');
   const reviewed = new Date(`${args['reviewed-through']}T12:00:00Z`);
   const next = args.next || new Date(reviewed.getTime()+2*86400000).toISOString().slice(0,10);
   const completedAt = new Date().toISOString();

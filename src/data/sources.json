@@ -5,7 +5,7 @@
     "url": "https://pubmed.ncbi.nlm.nih.gov/",
     "cadence": "Every review",
     "lastChecked": "2026-10-14",
-    "method": "Date-bounded Alzheimer biomarker, diagnosis, staging, disease-modifying and symptomatic treatment, safety, nonpharmacologic care, caregiver and risk-reduction queries; title/abstract screening and PMID deduplication.",
+    "method": "Date-bounded searches with a dedicated core pass for blood and CSF biomarkers; amyloid, tau and FDG PET; p-tau species; Aβ42/40; GFAP and NfL; assay comparison, preanalytics, cutoffs, gray zones, prevalence and comorbidity effects; Centiloid/SUVR, tracer comparability, visual reads, structured reporting, concordance, discordance, reflex workflows, treatment eligibility and monitoring. A separate secondary pass covers pivotal treatment, safety, guidance and practice-changing management evidence. Screen reviews and practice standards as well as original studies; deduplicate by PMID and DOI.",
     "lastCheckedScope": "Biomarkers, guidelines, and management",
     "targetedManagementCheck": "2026-09-07"
   },
@@ -34,8 +34,17 @@
     "url": "https://academic.oup.com/clinchem",
     "cadence": "Every review",
     "lastChecked": "2026-10-14",
-    "method": "Analytical validation, standardization, preanalytics, and implementation searches.",
+    "method": "Analytical validation, precision, interference, specimen matrix, tube and processing effects, freeze-thaw stability, standardization, platform transferability, head-to-head assay studies, two-cutoff workflows, predictive values, comorbidity effects, and laboratory implementation searches across Clinical Chemistry, JALM and related diagnostics journals.",
     "lastCheckedScope": "Biomarkers, guidelines, and management"
+  },
+  {
+    "name": "Nuclear medicine and neuroimaging journals",
+    "category": "Literature",
+    "url": "https://jnm.snmjournals.org/",
+    "cadence": "Every review",
+    "lastChecked": "2026-10-14",
+    "method": "Dedicated searches across Journal of Nuclear Medicine, Journal of Nuclear Medicine Technology, European Journal of Nuclear Medicine and Molecular Imaging, Seminars in Nuclear Medicine, Radiology, and Clinical Nuclear Medicine for amyloid, tau and relevant FDG PET; radiotracers; acquisition and quality control; visual reads and reader agreement; structured reporting; Centiloid/SUVR and reference regions; tracer harmonization; treatment eligibility and monitoring; practice parameters, procedure standards, appropriate-use criteria, and implementation reviews.",
+    "lastCheckedScope": "Core biomarker and PET evidence"
   },
   {
     "name": "Health-economics journals",
@@ -116,7 +125,7 @@
     "url": "https://www.alz.org/professionals/health-systems-medical-professionals/clinical-practice-guidelines-and-evidence",
     "cadence": "Every review",
     "lastChecked": "2026-10-14",
-    "method": "Alzheimer’s Association, AAN, SNMMI, ADLM, CAP, EAN, WHO, NICE and relevant geriatric/psychiatric societies. Include diagnosis, staging, treatment eligibility, safety, symptoms, caregiver and supportive care. Distinguish formal CPGs, AURs, consensus and draft versus final guidance.",
+    "method": "Alzheimer’s Association, AAN, SNMMI, EANM, ACR, ACNM, ASNR, ADLM, CAP, EAN, WHO, NICE and relevant geriatric/psychiatric societies. Give priority to blood/CSF biomarker guidance, amyloid/tau/FDG PET appropriate-use criteria, procedure standards, acquisition/reading/reporting guidance, diagnosis, staging, treatment eligibility and monitoring. Also screen practice-changing safety, symptoms, caregiver and supportive-care guidance. Distinguish formal CPGs, practice parameters, procedure standards, AURs, consensus and draft versus final guidance.",
     "lastCheckedScope": "Biomarkers, guidelines, and management",
     "targetedManagementCheck": "2026-09-07"
   },
