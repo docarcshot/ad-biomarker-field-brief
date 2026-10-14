@@ -25,16 +25,15 @@ permissions:
 
 concurrency:
   group: ad-biomarker-field-brief
-  # A newer review supersedes any stale scheduled build so publication checks
-  # cannot remain blocked behind an obsolete deployment.
-  cancel-in-progress: true
+  # GitHub Pages accepts only one deployment at a time. Queue newer reviews
+  # instead of cancelling an active deployment and leaving Pages locked.
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      freshness_outcome: ${{ steps.freshness.outcome }}
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
@@ -70,9 +69,27 @@ jobs:
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:
+          # A workflow re-run keeps artifacts from earlier attempts. Naming the
+          # artifact by attempt prevents deploy-pages from finding duplicates.
+          name: github-pages-${{ github.run_attempt }}
           path: pages-dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - id: deployment
         uses: actions/deploy-pages@v5
+        with:
+          artifact_name: github-pages-${{ github.run_attempt }}
+
+  report-overdue:
+    needs: [build, deploy]
+    if: always() && needs.deploy.result == 'success' && needs.build.outputs.freshness_outcome == 'failure'
+    runs-on: ubuntu-latest
+    steps:
       - name: Report overdue review after publishing its warning
-        if: steps.freshness.outcome == 'failure'
         run: exit 1
