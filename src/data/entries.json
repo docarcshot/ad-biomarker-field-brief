@@ -4407,5 +4407,429 @@
     "topics": [
       "Biomarkers"
     ]
+  },
+  {
+    "id": "doi-10-1016-j-tjpad-2026-100685",
+    "slug": "italian-anti-amyloid-implementation-recommendations-2026",
+    "title": "Italian intersocietal consensus specifies an anti-amyloid implementation pathway",
+    "bottomLine": "Twenty-one Italian scientific societies and patient associations endorsed 36 operational statements that pair trial-aligned MRI eligibility and risk-adapted ARIA monitoring with a stepwise confirmation pathway using plasma biomarkers, automated CSF assays and amyloid PET.",
+    "dateAdded": "2026-10-16",
+    "sourceDate": "2026-10-15",
+    "evidenceSource": "Peer-reviewed multidisciplinary consensus recommendations",
+    "modalities": [
+      "Blood",
+      "CSF",
+      "Amyloid PET",
+      "MRI"
+    ],
+    "biomarkers": [
+      "Amyloid",
+      "Plasma Alzheimer biomarkers",
+      "CSF Alzheimer biomarkers",
+      "ARIA"
+    ],
+    "clinicalUses": [
+      "Biological confirmation",
+      "Treatment eligibility",
+      "ARIA monitoring",
+      "Clinical staging",
+      "Laboratory and imaging implementation"
+    ],
+    "studyType": "Modified-Delphi intersocietal consensus",
+    "assays": [],
+    "platforms": [
+      "Automated CSF platforms",
+      "Amyloid PET",
+      "MRI"
+    ],
+    "platformRelevance": "The pathway is modality-specific but not product-specific: plasma tests are positioned within a stepwise pathway, automated CSF and amyloid PET provide biological confirmation, and MRI is used for eligibility and ARIA surveillance. The paper does not make assays or platforms interchangeable or establish new analytical-performance claims.",
+    "organizations": [
+      "Italian Expert Panel on Alzheimer",
+      "Twenty-one Italian scientific societies and patient associations"
+    ],
+    "regulatoryStatus": "Final peer-reviewed expert consensus for Italian implementation; it is not an FDA, EMA or AIFA authorization, a formal evidence-graded clinical practice guideline, a reimbursement decision, or a coverage mandate.",
+    "relevance": "Practice-relevant",
+    "brief30": "The update translates European lecanemab and donanemab availability into a competence-based service model. It recommends harmonized CDR staging, a defined multidisciplinary team, trial-aligned MRI eligibility, risk-adapted ARIA monitoring and stepwise biomarker confirmation. Agreement was quantified through a modified Delphi process, but the source is consensus rather than a GRADE-based guideline or prospective utility study.",
+    "studyDesign": "After implementation gaps emerged from the panel's 2025 document, the Italian Expert Panel on Alzheimer reconvened 21 scientific societies and patient associations. A multidisciplinary panel rated 36 declarative statements across five domains: tiered cognitive-disorders services, clinical staging and monitoring, eligibility in MCI and atypical phenotypes, multidisciplinary-team composition, and MRI/ARIA/biomarker pathways.",
+    "keyResults": [
+      "The panel evaluated 36 statements across five operational domains and reported strong agreement for the large majority.",
+      "The consensus recommends a competence-based reorganization of Italian cognitive-disorders centers and harmonized use of the Clinical Dementia Rating for staging and monitoring.",
+      "It endorses trial-aligned MRI eligibility criteria, a move toward risk-adapted ARIA monitoring, and a stepwise biomarker pathway integrating plasma assays, automated CSF platforms and amyloid PET.",
+      "The publication does not report formal GRADE certainty ratings or recommendation grades; its strength is quantified expert agreement from a modified Delphi process."
+    ],
+    "whatChanged": "The Italian framework now addresses concrete operational gaps that appeared after European authorization, including how centers should be organized, how staging should be harmonized, and how blood, CSF, PET and MRI should be sequenced around treatment.",
+    "evidenceStrength": "Multisociety consensus with a formal modified-Delphi method and broad stakeholder participation. Recommendations are operationally important but are not a substitute for drug labeling, national reimbursement rules, assay-specific validation or prospective clinical-utility evidence.",
+    "clinicalSignificance": "The document provides a practical blueprint for centers implementing anti-amyloid therapy in Italy, particularly for referral, confirmation, eligibility and ARIA surveillance. Local prescribing information and regional or national access rules remain controlling.",
+    "fieldRelevance": "High value for MSL discussions about reflex testing, division of labor across laboratories and imaging services, atypical phenotypes, MRI thresholds, ARIA monitoring and the distinction between consensus, authorization and reimbursement.",
+    "questions": [
+      {
+        "q": "Is this a formal clinical practice guideline?",
+        "a": "No. It is a final peer-reviewed intersocietal consensus produced with a modified Delphi process; the paper does not report GRADE-based recommendation strength."
+      },
+      {
+        "q": "Does it authorize plasma biomarkers as a stand-alone treatment test?",
+        "a": "No. Plasma assays are incorporated into a stepwise pathway alongside automated CSF testing and amyloid PET, with clinical and imaging eligibility assessment still required."
+      },
+      {
+        "q": "Does it change reimbursement?",
+        "a": "No. It offers a blueprint for prescribing centers and reimbursing authorities but is not itself a reimbursement or coverage decision."
+      }
+    ],
+    "limitations": [
+      "Consensus rather than prospective implementation or outcomes evidence",
+      "Italian health-system context limits direct transfer to other jurisdictions",
+      "No formal GRADE certainty or recommendation-strength labels reported",
+      "Assay-specific cutoffs and analytical-performance requirements are not established by the consensus",
+      "Drug labels and payer rules remain separate"
+    ],
+    "accessRelevance": "The framework is intended to support equitable and sustainable Italian access, but it does not itself create reimbursement, expand authorized indications or guarantee laboratory, PET or MRI capacity.",
+    "primarySource": "https://doi.org/10.1016/j.tjpad.2026.100685",
+    "doi": "10.1016/j.tjpad.2026.100685",
+    "identifier": "DOI:10.1016/j.tjpad.2026.100685; PMID:42880054",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42880054/"
+      }
+    ],
+    "citation": "Benussi A, Agosta F, Agnello L, et al. Updated Italian intersocietal recommendations for the appropriate use of anti-amyloid monoclonal antibodies in Alzheimer's disease. J Prev Alzheimers Dis. Published online October 15, 2026. doi:10.1016/j.tjpad.2026.100685.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "recommendations",
+    "topics": [
+      "Biomarkers",
+      "Guidelines",
+      "Management"
+    ]
+  },
+  {
+    "id": "doi-10-1186-s13195-026-02163-9",
+    "slug": "donanemab-amyloid-clearance-predictors",
+    "title": "Baseline amyloid burden predicts one-year donanemab PET clearance",
+    "bottomLine": "In a TRAILBLAZER-ALZ 2 post-hoc analysis, lower baseline amyloid was the strongest predictor of reaching less than 24.1 Centiloids at week 52; amyloid-clear and non-clear subgroups had similar CDR-SB slowing, while tau-PET slowing was significant only after clearance.",
+    "dateAdded": "2026-10-16",
+    "sourceDate": "2026-10-16",
+    "evidenceSource": "Peer-reviewed post-hoc biomarker analysis of phase 3 trial data",
+    "modalities": [
+      "Amyloid PET",
+      "Tau PET",
+      "Blood"
+    ],
+    "biomarkers": [
+      "Amyloid Centiloid",
+      "Tau PET",
+      "p-tau217"
+    ],
+    "clinicalUses": [
+      "Treatment response monitoring",
+      "Treatment-course interpretation",
+      "Prognostic enrichment"
+    ],
+    "studyType": "Post-hoc secondary analysis of randomized phase 3 and open-label trial data",
+    "assays": [],
+    "platforms": [
+      "Amyloid PET Centiloid quantification",
+      "Tau PET",
+      "Plasma p-tau217"
+    ],
+    "platformRelevance": "The analysis uses a prespecified quantitative amyloid-PET threshold of less than 24.1 Centiloids to define clearance. It supports Centiloid-based pharmacodynamic interpretation but does not validate visual reads, establish interchangeability across tracers or scanners, or authorize PET or plasma biomarkers as surrogate clinical end points.",
+    "organizations": [
+      "Eli Lilly and Company",
+      "TRAILBLAZER-ALZ 2"
+    ],
+    "regulatoryStatus": "Peer-reviewed secondary evidence from an authorized treatment program. It does not change donanemab labeling, dosing, monitoring requirements, authorization, guideline endorsement or coverage.",
+    "relevance": "Important new evidence",
+    "brief30": "Amyloid clearance at one year was most strongly related to starting amyloid burden, followed by age, APOE ε4 count and body weight. Clearance was associated with slower tau accumulation and a larger p-tau217 change, but clinical slowing was observed whether or not the PET threshold was reached. The analysis is exploratory and does not prove that forcing every patient below 24.1 Centiloids improves outcomes.",
+    "studyDesign": "Investigators analyzed TRAILBLAZER-ALZ 2 randomized data (876 placebo; 860 donanemab) and an open-label addendum (1,053 participants). Donanemab-treated participants with evaluable week-52 PET were classified as amyloid-clear below 24.1 Centiloids or non-clear at 24.1 Centiloids or higher. Baseline predictors were assessed with machine learning and regression; propensity-matched placebo comparisons evaluated downstream biomarkers and clinical outcomes.",
+    "keyResults": [
+      "Among evaluable donanemab-treated participants, 443 reached less than 24.1 Centiloids at week 52 and 227 did not. Mean baseline amyloid was 95.8 versus 120.2 Centiloids; week-52 means were 4.8 versus 48.2 Centiloids, respectively (p<0.001).",
+      "Lower baseline amyloid was the most important predictor of clearance, followed by older age, fewer APOE ε4 alleles and lower body weight; baseline amyloid was inversely associated with clearance probability (p<0.001).",
+      "At week 76, only the amyloid-clear subgroup had significantly less tau accumulation than matched placebo (p<0.01). Both subgroups had significant plasma p-tau217 differences from matched placebo, with a larger change after clearance.",
+      "CDR-SB progression slowing versus matched placebo was 29.6% in the clear subgroup and 28.8% in the non-clear subgroup; iADRS slowing was 25.9% and 18.8%, respectively."
+    ],
+    "whatChanged": "The analysis quantifies which baseline features predict one-year PET clearance and separates the relationship between clearance, downstream tau/p-tau217 change and clinical outcomes in a large phase 3 population.",
+    "evidenceStrength": "Large trial-derived dataset with replication in an open-label addendum and quantitative PET, plasma and clinical outcomes. Causal interpretation is limited by post-hoc subgrouping, incomplete week-52 PET availability and propensity matching rather than randomized comparison between clearance states.",
+    "clinicalSignificance": "Starting amyloid burden influences the chance of crossing the 24.1-Centiloid threshold by one year. Failure to cross that threshold did not eliminate observed clinical slowing, so a single PET threshold should not be interpreted as an individual clinical-response rule without label- and pathway-specific evidence.",
+    "fieldRelevance": "Directly relevant to MSL questions about PET monitoring, Centiloid thresholds, pharmacodynamic response, p-tau217 change, treatment duration and the distinction between amyloid clearance and patient benefit.",
+    "questions": [
+      {
+        "q": "Did amyloid clearance predict a larger clinical benefit?",
+        "a": "Not clearly. CDR-SB slowing was similar in clear and non-clear subgroups, while iADRS slowing was numerically larger after clearance; the post-hoc analysis was not randomized by clearance status."
+      },
+      {
+        "q": "Does 24.1 Centiloids become a validated surrogate end point?",
+        "a": "No. The threshold operationalized PET clearance in this analysis; the study does not establish regulatory surrogacy or an individual stopping rule."
+      },
+      {
+        "q": "Was plasma p-tau217 sufficient to replace PET?",
+        "a": "No. Plasma p-tau217 changed with treatment, but the study did not validate it as an interchangeable measure of PET clearance or clinical benefit."
+      }
+    ],
+    "limitations": [
+      "Post-hoc exploratory subgroup analysis",
+      "Clearance status was not randomized",
+      "Only participants with evaluable week-52 PET entered the clearance comparison",
+      "Matched-placebo analyses may retain residual confounding",
+      "No new prospective monitoring algorithm or clinical-utility test"
+    ],
+    "accessRelevance": "No authorization, availability, reimbursement or coverage change. Additional PET monitoring could carry cost and capacity implications, but this analysis did not establish a covered monitoring schedule.",
+    "primarySource": "https://doi.org/10.1186/s13195-026-02163-9",
+    "doi": "10.1186/s13195-026-02163-9",
+    "identifier": "DOI:10.1186/s13195-026-02163-9; NCT04437511",
+    "citation": "Shcherbinin S, Lu M, Wang J, et al. Post-hoc analyses of amyloid reduction after one year of treatment with donanemab using clinical trial data: prediction of amyloid clearance and association with downstream measurements. Alzheimers Res Ther. Published online October 16, 2026. doi:10.1186/s13195-026-02163-9.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Biomarkers"
+    ]
+  },
+  {
+    "id": "doi-10-1186-s40658-026-00956-3",
+    "slug": "amyloid-pet-partial-volume-correction-phantom",
+    "title": "An anatomical phantom exposes material bias in uncorrected amyloid-PET quantification",
+    "bottomLine": "Across simulated gray-to-white matter ratios, uncorrected amyloid-PET measures had mean absolute inaccuracies of 14.1% for tissue ratio and 19.8% for SUVR; partial-volume correction reduced them as low as 6.1% and 7.6%, with modified 3-compartment and GTM methods performing best.",
+    "dateAdded": "2026-10-16",
+    "sourceDate": "2026-10-15",
+    "evidenceSource": "Peer-reviewed anatomical-phantom technical validation",
+    "modalities": [
+      "Amyloid PET"
+    ],
+    "biomarkers": [
+      "Amyloid PET SUVR"
+    ],
+    "clinicalUses": [
+      "PET quantification",
+      "Method validation",
+      "Treatment response monitoring"
+    ],
+    "studyType": "Anatomical brain-phantom measurement validation",
+    "assays": [],
+    "platforms": [
+      "StepBrain anatomical phantom",
+      "2-compartment partial-volume correction",
+      "3-compartment partial-volume correction",
+      "Modified 3-compartment correction",
+      "Geometric transfer matrix correction"
+    ],
+    "platformRelevance": "The head-to-head phantom comparison provides a known ground truth for partial-volume bias. Modified 3-compartment and geometric transfer matrix approaches were most accurate and precise in this setup, but results do not establish universal equivalence across scanners, reconstructions, tracers, atlases or patient anatomy.",
+    "organizations": [
+      "University of Campania Luigi Vanvitelli",
+      "National Research Council of Italy, Institute of Biostructures and Bioimaging"
+    ],
+    "regulatoryStatus": "Technical validation only. No new tracer or software authorization, clinical-utility claim, guideline endorsement, availability, reimbursement or coverage change was established.",
+    "relevance": "Implementation-relevant",
+    "brief30": "Partial-volume effects can materially distort amyloid-PET SUVR, particularly when cortical atrophy or small structures mix gray and white matter signals. This phantom study shows that correction improves accuracy without a relevant loss of precision, but the best method still needs clinical validation on specific scanner, tracer and reconstruction combinations.",
+    "studyDesign": "The StepBrain anatomical phantom was scanned to reproduce clinical amyloid-PET distributions across gray-to-white matter ratios from 0% to 120%. Atlas-based gray-to-white ratios and cerebellum-normalized SUVRs were calculated without correction and after 2-compartment, 3-compartment, modified 3-compartment and geometric transfer matrix correction. Linear mixed models compared accuracy and precision against the known phantom ground truth.",
+    "keyResults": [
+      "Uncorrected gray-to-white ratio and SUVR had mean absolute inaccuracies of 14.1% and 19.8%, respectively.",
+      "Partial-volume correction reduced mean absolute inaccuracy as low as 6.1% for gray-to-white ratio and 7.6% for SUVR.",
+      "Accuracy and precision differed significantly among methods for both measures (F>95 for all comparisons).",
+      "Three-compartment, modified 3-compartment and geometric transfer matrix correction improved tracer-ratio accuracy without relevant precision loss; modified 3-compartment and GTM were the most accurate and precise."
+    ],
+    "whatChanged": "The study supplies a physical ground truth for comparing amyloid-PET partial-volume methods and quantifies how much uncorrected SUVR can be biased in clinically realistic uptake patterns.",
+    "evidenceStrength": "Strong analytical-method evidence within a controlled phantom experiment, with direct ground truth and head-to-head methods. Clinical validity and utility remain unproven because a phantom cannot reproduce motion, biological heterogeneity, tracer kinetics, scanner diversity or patient-specific anatomy.",
+    "clinicalSignificance": "Quantitative amyloid-PET reports should identify whether and how partial-volume correction was applied, especially for longitudinal monitoring or low-burden decisions. The numerical results should not be used as a universal correction factor.",
+    "fieldRelevance": "Useful for MSL and imaging discussions about SUVR bias, atrophy, longitudinal treatment monitoring, method harmonization and why quantitative pipelines require scanner- and tracer-specific validation.",
+    "questions": [
+      {
+        "q": "Should every amyloid PET scan use the best-performing method from this study?",
+        "a": "Not automatically. Modified 3-compartment and GTM performed best in this phantom, but each clinical pipeline needs validation for its tracer, scanner, reconstruction, atlas and patient population."
+      },
+      {
+        "q": "Does partial-volume correction eliminate bias?",
+        "a": "No. It reduced mean absolute inaccuracy substantially but did not reduce it to zero."
+      },
+      {
+        "q": "Was clinical utility tested?",
+        "a": "No. The study measured technical accuracy and precision, not diagnostic decisions, treatment selection or patient outcomes."
+      }
+    ],
+    "limitations": [
+      "Phantom rather than patient data",
+      "Does not reproduce motion, biological heterogeneity or tracer kinetics",
+      "Single experimental imaging and processing setup",
+      "No clinical decision thresholds or outcomes",
+      "No authorization, guideline or coverage assessment"
+    ],
+    "accessRelevance": "No access or coverage change. More advanced correction may require software, expertise and harmonized quality control that are not uniformly available.",
+    "primarySource": "https://doi.org/10.1186/s40658-026-00956-3",
+    "doi": "10.1186/s40658-026-00956-3",
+    "identifier": "DOI:10.1186/s40658-026-00956-3",
+    "citation": "Pirozzi MA, Di Giorgio E, Prinster A, et al. Application of an anatomical brain phantom in the evaluation of partial volume effect correction of amyloid PET studies. EJNMMI Phys. Published online October 15, 2026. doi:10.1186/s40658-026-00956-3.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Biomarkers"
+    ]
+  },
+  {
+    "id": "doi-10-1177-13872877261493063",
+    "slug": "real-world-lecanemab-pet-clearance-monitoring",
+    "title": "Real-world lecanemab PET monitoring reveals visual-quantitative discordance",
+    "bottomLine": "In 38 amyloid-PET-positive patients treated for 6–8 months, amyloid burden fell by 29.39±22.31 Centiloids, but visual and quantitative response agreement was poor to fair (κ 0.205–0.253), supporting explicit Centiloid quantification for serial monitoring rather than visual interpretation alone.",
+    "dateAdded": "2026-10-16",
+    "sourceDate": "2026-10-08",
+    "evidenceSource": "Peer-reviewed retrospective real-world imaging study",
+    "modalities": [
+      "Amyloid PET",
+      "Tau PET"
+    ],
+    "biomarkers": [
+      "Amyloid Centiloid",
+      "Tau PET SUVR"
+    ],
+    "clinicalUses": [
+      "Treatment response monitoring",
+      "PET interpretation"
+    ],
+    "studyType": "Retrospective treated-cohort imaging analysis",
+    "assays": [],
+    "platforms": [
+      "Amyloid PET visual reading",
+      "Amyloid PET Centiloid quantification",
+      "Tau PET SUVR"
+    ],
+    "platformRelevance": "The central comparison is visual versus quantitative amyloid-PET interpretation during lecanemab treatment. Poor agreement indicates that visual and Centiloid assessments are not interchangeable near low residual burden; the study did not validate performance across tracers, scanners or independent readers.",
+    "organizations": [
+      "Beijing Tian Tan Hospital",
+      "Capital Medical University"
+    ],
+    "regulatoryStatus": "Historical research backfill. The study does not alter lecanemab labeling, define an authorized PET monitoring schedule, validate a surrogate end point, or establish coverage for serial scans.",
+    "relevance": "Implementation-relevant",
+    "brief30": "The cohort shows substantial short-term plaque reduction without measurable cognitive or tau-PET change. Only 12 of 38 reached less than 24.1 Centiloids and five were visually negative. The discordance supports quantitative serial assessment when PET is obtained, but this small uncontrolled cohort cannot prove clinical utility or determine when treatment should stop.",
+    "studyDesign": "Investigators retrospectively analyzed 38 amyloid-PET-positive patients with Alzheimer disease who received lecanemab for 6–8 months. Paired tests evaluated Centiloid and cognitive change, kappa measured visual-quantitative agreement, and exploratory regression assessed predictors of amyloid reduction.",
+    "keyResults": [
+      "Mean amyloid reduction was 29.39±22.31 Centiloids (p<0.001); MMSE, MoCA and tau-PET measures did not change significantly.",
+      "Twelve of 38 patients reached less than 24.1 Centiloids, while only five were visually negative.",
+      "Visual-quantitative agreement was poor to fair: κ=0.205 for positivity and κ=0.253 for treatment efficacy.",
+      "Baseline Centiloid burden (standardized β=0.594, p<0.001) and number of treatment cycles (β=0.285, p=0.022) independently predicted greater clearance; tau SUVR had a marginal inverse association (β=-0.238, p=0.052). The multivariable model adjusted R² was 0.507."
+    ],
+    "whatChanged": "This real-world study directly quantifies the gap between visual and Centiloid-based interpretation during short-term lecanemab therapy and proposes a hybrid screening-and-monitoring workflow.",
+    "evidenceStrength": "Early real-world evidence with paired PET and quantitative effect estimates, but retrospective, uncontrolled and limited to 38 patients. Visual-reading methods, tracer/scanner generalizability and downstream clinical utility require independent validation.",
+    "clinicalSignificance": "If serial amyloid PET is obtained, visual negativity alone may miss low residual burden and quantitative Centiloid reporting can add interpretive precision. The study does not establish that routine serial PET improves outcomes or should guide dose changes.",
+    "fieldRelevance": "Addresses recurring MSL questions about visual versus quantitative reads, low-burden discordance, Centiloid thresholds and PET-based response monitoring under anti-amyloid therapy.",
+    "questions": [
+      {
+        "q": "Does the study establish routine serial PET monitoring?",
+        "a": "No. It shows measurement discordance in a small cohort but did not test whether serial PET improves treatment decisions or outcomes."
+      },
+      {
+        "q": "Can visual negativity and less than 24.1 Centiloids be treated as equivalent?",
+        "a": "No. Twelve patients crossed the quantitative threshold while only five were visually negative, and kappa agreement was low."
+      },
+      {
+        "q": "Did plaque reduction produce short-term cognitive improvement?",
+        "a": "No significant MMSE or MoCA change was detected over 6–8 months."
+      }
+    ],
+    "limitations": [
+      "Historical criteria-repair backfill rather than a newly published item",
+      "Retrospective single-cohort design",
+      "Only 38 patients",
+      "No untreated comparator",
+      "Short 6–8-month follow-up",
+      "No validation across tracers, scanners or independent readers",
+      "No clinical-utility or patient-outcome analysis"
+    ],
+    "accessRelevance": "No authorization or coverage change. Serial quantitative PET could increase imaging demand and cost; the study did not evaluate reimbursement or access.",
+    "primarySource": "https://doi.org/10.1177/13872877261493063",
+    "doi": "10.1177/13872877261493063",
+    "identifier": "DOI:10.1177/13872877261493063",
+    "citation": "Qiao Z, Zhao X, Wang G, et al. PET-based evaluation of short-term amyloid-β clearance and predictive factors in real-world Alzheimer's disease patients treated with lecanemab. J Alzheimers Dis. Published online October 8, 2026. doi:10.1177/13872877261493063.",
+    "corrections": [],
+    "historical": true,
+    "resultType": "results",
+    "topics": [
+      "Biomarkers"
+    ]
+  },
+  {
+    "id": "doi-10-1016-j-isci-2026-117530",
+    "slug": "flortaucipir-primary-isocortex-autopsy-validation",
+    "title": "Autopsy validation shows late-stage flortaucipir uptake differs across primary cortex",
+    "bottomLine": "Among 155 autopsy-confirmed Alzheimer cases, flortaucipir uptake in primary isocortices began at Braak stage V, with visual and auditory regions increasing earlier and faster than motor and somatosensory regions.",
+    "dateAdded": "2026-10-16",
+    "sourceDate": "2026-09-23",
+    "evidenceSource": "Peer-reviewed autopsy-confirmed PET-pathology study",
+    "modalities": [
+      "Tau PET",
+      "Neuropathology"
+    ],
+    "biomarkers": [
+      "Flortaucipir tau PET",
+      "Braak neurofibrillary tangle stage"
+    ],
+    "clinicalUses": [
+      "Biological staging",
+      "Tau PET interpretation"
+    ],
+    "studyType": "Cross-sectional PET-neuropathology validation study",
+    "assays": [],
+    "platforms": [
+      "18F-flortaucipir PET",
+      "Neuropathologic Braak staging"
+    ],
+    "platformRelevance": "The study links regional flortaucipir uptake to neuropathologically confirmed Braak stage. It supports regional interpretation for this tracer but does not establish equivalence with other tau tracers, visual-staging schemes or quantitative pipelines.",
+    "organizations": [
+      "Mayo Clinic"
+    ],
+    "regulatoryStatus": "Historical research backfill. Flortaucipir is FDA-authorized for estimating tau neurofibrillary tangle density in adults evaluated for Alzheimer disease, but this regional staging analysis does not expand the indication, prove clinical utility, create guideline endorsement or change coverage.",
+    "relevance": "Important new evidence",
+    "brief30": "Primary isocortex is usually emphasized as the terminal Braak stage, but uptake was not uniform. Visual and auditory cortex showed earlier and steeper flortaucipir increases than motor and somatosensory cortex, and age and APOE ε4 influenced uptake. The result refines late-stage spatial interpretation without validating a new treatment-selection threshold.",
+    "studyDesign": "Researchers measured flortaucipir uptake in primary visual, auditory, motor and somatosensory isocortices in 155 participants with autopsy-confirmed Alzheimer disease, then related regional uptake to neuropathologic Braak stage and clinical or genetic covariates.",
+    "keyResults": [
+      "The analysis included 155 autopsy-confirmed participants with Alzheimer disease.",
+      "Flortaucipir uptake in primary isocortices became apparent beginning at Braak stage V.",
+      "Visual and auditory isocortices showed greater and faster uptake increases than somatosensory and motor cortex.",
+      "Age and APOE ε4 influenced uptake; primary-isocortex patterns resembled lateral temporal cortex more than entorhinal cortex."
+    ],
+    "whatChanged": "The pathology-anchored analysis shows that primary cortical regions do not behave as one homogeneous late-stage tau-PET compartment and that visual/auditory regions may signal advanced spread earlier than traditionally emphasized.",
+    "evidenceStrength": "Moderate-to-strong clinical-validity evidence because diagnosis and Braak stage were autopsy confirmed and the cohort was sizeable for pathology studies. The analysis remains cross-sectional and tracer-specific, and clinical utility was not tested.",
+    "clinicalSignificance": "Regional late-stage flortaucipir interpretation may need to distinguish visual and auditory cortex from motor and somatosensory cortex. The findings do not create a new authorized stage, threshold or treatment-eligibility rule.",
+    "fieldRelevance": "Relevant to tau-PET visual and quantitative staging, spatial reporting, pathology concordance and discussions of how late-stage regional uptake should be interpreted.",
+    "questions": [
+      {
+        "q": "Does uptake in primary cortex define a new clinical stage?",
+        "a": "No. The study refines regional relationships with neuropathologic Braak stage but does not validate a new clinical staging system."
+      },
+      {
+        "q": "Can the pattern be generalized to every tau tracer?",
+        "a": "No. The evidence is specific to flortaucipir and requires tracer-specific replication."
+      },
+      {
+        "q": "Was treatment eligibility or response tested?",
+        "a": "No. This was a PET-pathology interpretation study."
+      }
+    ],
+    "limitations": [
+      "Historical criteria-repair backfill rather than a newly published item",
+      "Cross-sectional analysis",
+      "Tracer-specific findings",
+      "Potential interval between PET and autopsy",
+      "No prospective visual-reading or treatment-decision utility test"
+    ],
+    "accessRelevance": "No new availability or coverage change. The study may inform specialist interpretation but does not expand access to tau PET.",
+    "primarySource": "https://doi.org/10.1016/j.isci.2026.117530",
+    "doi": "10.1016/j.isci.2026.117530",
+    "identifier": "DOI:10.1016/j.isci.2026.117530; PMID:42830961; PMCID:PMC13634365",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42830961/"
+      },
+      {
+        "label": "Full text in PubMed Central",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13634365/"
+      }
+    ],
+    "citation": "Josephs KA, Weigand SD, Satoh R, et al. Neurofibrillary tangle deposition in primary idiotypic isocortices using flortaucipir PET in histopathologically confirmed Alzheimer's disease. iScience. Published online September 23, 2026. doi:10.1016/j.isci.2026.117530.",
+    "corrections": [],
+    "historical": true,
+    "resultType": "results",
+    "topics": [
+      "Biomarkers"
+    ]
   }
 ]

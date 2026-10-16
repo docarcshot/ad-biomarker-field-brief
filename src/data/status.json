@@ -1,12 +1,12 @@
 {
-  "reviewedThrough": "2026-10-14",
-  "newItemsQualified": 0,
-  "nextScheduledReview": "2026-10-16",
-  "lastSuccessfulRun": "2026-10-14T16:36:37Z",
+  "reviewedThrough": "2026-10-16",
+  "newItemsQualified": 3,
+  "nextScheduledReview": "2026-10-18",
+  "lastSuccessfulRun": "2026-10-16T13:32:42.286Z",
   "workflowState": "on-schedule",
   "historicalCompleteThrough": "2026-09-04",
   "coverageAuditComplete": true,
-  "message": "No new prospective items met the inclusion threshold; four verified core biomarker/PET publications were added in a criteria-repair historical backfill",
+  "message": "3 new items qualified",
   "failure": null,
   "reviewLog": [
     {
@@ -56,7 +56,7 @@
       "completedAt": "2026-09-18T15:18:12.000Z",
       "outcome": "success",
       "qualified": 3,
-      "note": "3 new items qualified"
+      "note": "All 21 source categories were checked. Three prospective core items qualified: Italian anti-amyloid implementation recommendations, a donanemab amyloid-clearance analysis, and amyloid-PET partial-volume correction validation. Two verified core PET publications were added as historical criteria-repair backfill; no additional qualifying trial, registry, regulatory, coverage, access, or secondary-management development was found."
     },
     {
       "reviewedThrough": "2026-09-20",
@@ -148,6 +148,13 @@
       "outcome": "success",
       "qualified": 0,
       "note": "No new prospective item met the threshold. A criteria audit added four verified historical biomarker/PET publications, restored the core-field priority, and expanded PET and implementation source coverage."
+    },
+    {
+      "reviewedThrough": "2026-10-16",
+      "completedAt": "2026-10-16T13:32:42.286Z",
+      "outcome": "success",
+      "qualified": 3,
+      "note": "3 new items qualified"
     }
   ]
 }
