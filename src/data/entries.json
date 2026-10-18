@@ -4831,5 +4831,94 @@
     "topics": [
       "Biomarkers"
     ]
+  },
+  {
+    "id": "doi-10-1016-j-tjpad-2026-100686",
+    "slug": "baseline-mri-markers-antiamyloid-outcomes",
+    "title": "Baseline MRI markers stratify anti-amyloid outcomes and ARIA-H risk",
+    "bottomLine": "In a 161-patient real-world anti-amyloid cohort, severe medial-temporal atrophy predicted greater 12-month functional worsening during lecanemab, while baseline microbleeds were associated with a 14-fold higher odds of ARIA-H across lecanemab and donanemab treatment.",
+    "dateAdded": "2026-10-18",
+    "sourceDate": "2026-10-17",
+    "evidenceSource": "Peer-reviewed retrospective real-world treatment cohort",
+    "modalities": [
+      "MRI",
+      "Amyloid PET"
+    ],
+    "biomarkers": [
+      "Medial temporal atrophy",
+      "Cerebral microbleeds",
+      "ARIA-H"
+    ],
+    "clinicalUses": [
+      "Treatment prognostication",
+      "ARIA risk stratification",
+      "Treatment safety monitoring"
+    ],
+    "studyType": "Single-center retrospective cohort of routine lecanemab and donanemab treatment",
+    "assays": [],
+    "platforms": [
+      "VSRAD MRI medial-temporal atrophy score",
+      "Baseline susceptibility-sensitive MRI",
+      "Amyloid PET"
+    ],
+    "platformRelevance": "The central analysis evaluates whether baseline MRI markers add prognostic or safety information during anti-amyloid treatment. It supports interpretation of medial-temporal atrophy and microbleeds as risk markers, but does not validate a new automated threshold, replace label-based MRI eligibility criteria, or establish interchangeability across MRI acquisition and analysis methods.",
+    "organizations": [
+      "Tachikawa Hospital",
+      "Keio University School of Medicine"
+    ],
+    "regulatoryStatus": "Real-world observational evidence. The study does not change lecanemab or donanemab labeling, MRI eligibility criteria, ARIA surveillance schedules, authorization, guideline endorsement or coverage.",
+    "relevance": "Practice-relevant",
+    "brief30": "The cohort separates two baseline MRI questions. Medial-temporal atrophy was associated with subsequent functional decline during lecanemab, while pre-existing microbleeds strongly enriched ARIA-H risk across treated patients. Amyloid-PET burden was not consistently associated with outcomes. These associations may improve counseling and risk discussions, but the retrospective design does not prove that changing treatment based on either marker improves outcomes.",
+    "studyDesign": "Investigators retrospectively followed 161 consecutive patients initiating anti-amyloid therapy at a Tokyo dementia center from 2024 to 2026: 89 received lecanemab and 72 received donanemab. Baseline medial-temporal atrophy was quantified with a VSRAD Z score, amyloid-PET burden and cerebral microbleeds were recorded, and associations with MMSE, CDR-SB and ARIA were evaluated. Lecanemab follow-up extended to 18 months; donanemab follow-up was limited to six months.",
+    "keyResults": [
+      "With lecanemab, mean CDR-SB worsened by 0.79 points at six months, 1.10 at 12 months and 1.60 at 18 months.",
+      "Greater baseline medial-temporal atrophy correlated with greater 12-month CDR-SB worsening (r=0.39, p=0.01; n=40). Patients with severe atrophy, defined as VSRAD Z score at least 3, worsened by 2.62 versus 0.64 CDR-SB points (adjusted beta=+2.18, p<0.001).",
+      "ARIA-H occurred in 6 of 25 patients with baseline microbleeds versus 3 of 136 without microbleeds, corresponding to an odds ratio of 14.0 (p<0.001). All observed ARIA events were asymptomatic.",
+      "Baseline amyloid-PET burden showed no significant association with clinical outcomes at most time points."
+    ],
+    "whatChanged": "This newly published real-world cohort quantifies how baseline atrophy and microbleeds relate to different downstream questions: expected functional course and hemorrhagic ARIA risk during routine anti-amyloid treatment.",
+    "evidenceStrength": "Moderate real-world prognostic and safety evidence from 161 consecutive treated patients with structured MRI and clinical follow-up. The retrospective single-center design, small 12-month atrophy-outcome subset, limited donanemab follow-up and lack of an untreated comparator prevent causal treatment-effect or clinical-utility conclusions.",
+    "clinicalSignificance": "Baseline microbleeds remain an important ARIA-H risk signal, while severe medial-temporal atrophy may identify patients likely to decline despite treatment. Neither finding independently establishes a contraindication or a reason to stop therapy; drug labeling, MRI criteria and individualized benefit-risk assessment remain controlling.",
+    "fieldRelevance": "Directly relevant to MSL discussions about MRI eligibility, prognostic counseling, ARIA risk, differences between safety and efficacy markers, and what real-world baseline imaging can and cannot establish.",
+    "questions": [
+      {
+        "q": "Does severe medial-temporal atrophy mean anti-amyloid treatment should not be offered?",
+        "a": "No. Severe atrophy was associated with greater functional worsening in an observational subgroup, but the study did not test a treatment-withholding rule or demonstrate that atrophy modifies treatment benefit versus no treatment."
+      },
+      {
+        "q": "Do baseline microbleeds predict ARIA-H?",
+        "a": "Yes, within this cohort: ARIA-H occurred in 6/25 patients with microbleeds and 3/136 without, for an odds ratio of 14.0. The estimate should still be interpreted with the small event count and existing label-based MRI criteria."
+      },
+      {
+        "q": "Did amyloid-PET burden predict clinical outcomes?",
+        "a": "Not consistently. Baseline PET burden showed no significant association at most assessed time points."
+      }
+    ],
+    "limitations": [
+      "Retrospective single-center design",
+      "No untreated or matched comparator",
+      "Only 40 lecanemab-treated patients contributed to the 12-month atrophy-outcome correlation",
+      "Only nine ARIA-H events produced the microbleed risk estimate",
+      "Donanemab follow-up was limited to six months",
+      "No prospective test of a marker-guided treatment decision"
+    ],
+    "accessRelevance": "No authorization, availability, reimbursement or coverage change. The study may inform counseling and MRI interpretation but does not expand access or create a new monitoring requirement.",
+    "primarySource": "https://doi.org/10.1016/j.tjpad.2026.100686",
+    "doi": "10.1016/j.tjpad.2026.100686",
+    "identifier": "DOI:10.1016/j.tjpad.2026.100686; PMID:42892274",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42892274/"
+      }
+    ],
+    "citation": "Kujuro Y, Saito M, Maruko M, et al. Baseline MRI markers and clinical outcomes during anti-amyloid beta therapy: A real-world study in a Japanese dementia center. J Prev Alzheimers Dis. Published online October 17, 2026. doi:10.1016/j.tjpad.2026.100686.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Biomarkers",
+      "Management"
+    ]
   }
 ]

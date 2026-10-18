@@ -1,12 +1,12 @@
 {
-  "reviewedThrough": "2026-10-16",
-  "newItemsQualified": 3,
-  "nextScheduledReview": "2026-10-18",
-  "lastSuccessfulRun": "2026-10-16T13:32:42.286Z",
+  "reviewedThrough": "2026-10-18",
+  "newItemsQualified": 1,
+  "nextScheduledReview": "2026-10-20",
+  "lastSuccessfulRun": "2026-10-18T13:24:10Z",
   "workflowState": "on-schedule",
   "historicalCompleteThrough": "2026-09-04",
   "coverageAuditComplete": true,
-  "message": "3 new items qualified",
+  "message": "1 new item qualified",
   "failure": null,
   "reviewLog": [
     {
@@ -155,6 +155,13 @@
       "outcome": "success",
       "qualified": 3,
       "note": "3 new items qualified"
+    },
+    {
+      "reviewedThrough": "2026-10-18",
+      "completedAt": "2026-10-18T13:24:10Z",
+      "outcome": "success",
+      "qualified": 1,
+      "note": "All 21 source categories were checked. One prospective core item qualified: a real-world anti-amyloid cohort linking baseline medial-temporal atrophy to functional decline and pre-existing microbleeds to ARIA-H. No additional qualifying biomarker, PET, guideline, trial, registry, regulatory, coverage, access or secondary-management development was found."
     }
   ]
 }
