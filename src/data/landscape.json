@@ -41,10 +41,15 @@
     "threshold": "Single rule-out cutoff per labeling",
     "reference": "Amyloid PET",
     "source": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252163",
-    "verified": "2026-09-04",
-    "verification": "FDA record",
+    "verified": "2026-10-20",
+    "verification": "FDA record and decision summary",
     "id": "elecsys-ptau181",
-    "relatedBriefs": []
+    "relatedBriefs": [
+      {
+        "id": "fda-k252163",
+        "relationship": "Regulatory clearance"
+      }
+    ]
   },
   {
     "biomarker": "p-tau217",

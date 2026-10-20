@@ -46,7 +46,8 @@ for(const row of landscape) {
 assert.ok(comparison.includes('No payer-specific determination recorded.'));
 assert.ok(comparison.includes('No verified payment or patient-cost estimate recorded.'));
 assert.ok(comparison.includes('Population and design'));
-assert.ok(!relatedBriefs(landscape.find(row=>row.id==='elecsys-ptau181'),entries).length,'A shared biomarker must not silently link a different assay.');
+const ptau181Links=relatedBriefs(landscape.find(row=>row.id==='elecsys-ptau181'),entries);
+assert.deepEqual(ptau181Links.map(link=>link.entry.id),['fda-k252163'],'The Elecsys pTau181 row must link only its assay-specific FDA brief.');
 assert.deepEqual(selection(entries.slice(0,3).map(entry=>entry.id),entries.map(entry=>entry.id)),entries.slice(0,3).map(entry=>entry.id));
 
 // Execute the real application with disabled storage; core status code must still run.

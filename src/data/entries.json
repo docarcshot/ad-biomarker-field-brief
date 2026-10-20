@@ -4920,5 +4920,368 @@
       "Biomarkers",
       "Management"
     ]
+  },
+  {
+    "id": "doi-10-1002-acn3-70560",
+    "slug": "grad-ptau217-reflex-pet-workflow",
+    "title": "Two-stage p-tau217 reflex testing reduces the modeled PET gray zone",
+    "bottomLine": "In external validation among 1,644 A4/LEARN participants, a p-tau217 gatekeeper followed by a multimarker reflex model improved gray-zone AUC from 0.719 to 0.793, reduced PET referral from 35.9% to 24.3%, and classified 90.7% without PET.",
+    "dateAdded": "2026-10-20",
+    "sourceDate": "2026-10-19",
+    "evidenceSource": "Peer-reviewed model development and external-validation study",
+    "modalities": [
+      "Blood",
+      "Amyloid PET"
+    ],
+    "biomarkers": [
+      "p-tau217",
+      "Aβ42/40",
+      "GFAP",
+      "APOE ε4"
+    ],
+    "clinicalUses": [
+      "Sequential testing",
+      "Triage",
+      "Treatment workup",
+      "Trial enrichment"
+    ],
+    "studyType": "Diagnostic workflow model with external cohort validation",
+    "assays": [
+      "Lumipulse G p-Tau217",
+      "Janssen p-Tau217",
+      "Lilly MSD p-Tau217",
+      "Roche Elecsys Aβ42/40 and GFAP"
+    ],
+    "platforms": [
+      "Multiple plasma immunoassay platforms",
+      "Florbetapir PET SUVR",
+      "Amyloid PET Centiloid"
+    ],
+    "platformRelevance": "The model was developed with Lumipulse and Janssen p-tau217 measurements and transported to Lilly MSD p-tau217, with platform harmonization based on cohort-specific reference distributions. The cross-platform result is encouraging, but the thresholds are not directly transferable laboratory cutoffs and require setting-specific calibration.",
+    "organizations": [
+      "Alzheimer's Disease Neuroimaging Initiative",
+      "A4/LEARN"
+    ],
+    "regulatoryStatus": "Research workflow only. GRAD is not FDA authorized, commercially validated, guideline endorsed, or covered, and it is not a standalone replacement for PET or CSF confirmation.",
+    "relevance": "Implementation-relevant",
+    "brief30": "GRAD routes a p-tau217 probability of 0.25 to 0.75 to a reflex model using p-tau217, Aβ42/40, GFAP, APOE ε4, age, and a tau-amyloid divergence term. External gray-zone discrimination improved and modeled PET use fell, but calibration shifted across cohorts and the reflex stage alone did not meet recommended performance for replacing amyloid PET.",
+    "studyDesign": "Investigators developed the two-stage GRAD algorithm in 145 cognitively impaired ADNI participants and externally validated the locked model in 1,644 cognitively unimpaired A4/LEARN participants. Amyloid PET was the reference standard: florbetapir SUVR greater than 1.11 in ADNI and at least 20 Centiloids in A4/LEARN. Probabilities below 0.25 or above 0.75 were resolved by p-tau217 alone; the gray zone entered an L2-regularized multimarker model.",
+    "keyResults": [
+      "Full-model AUC was 0.915 (95% CI, 0.859–0.961) in ADNI and 0.879 (95% CI, 0.861–0.895) in external A4/LEARN validation.",
+      "Among 630 external gray-zone participants, the reflex model improved AUC from 0.719 with p-tau217 alone to 0.793 (p<0.001), increased correct classification without PET from 41.4% to 56.2%, and reduced PET referral from 35.9% to 24.3%.",
+      "Overall, 89.0% of ADNI and 90.7% of A4/LEARN participants were classified without PET. External sensitivity was 76.7%, specificity 88.6%, PPV 93.9%, and NPV 62.3%.",
+      "Calibration did not fully transfer: the external intercept was +0.93, with mean predicted risk 57.5% versus observed amyloid prevalence 69.6%.",
+      "Modeled testing costs were 44%–52% lower than p-tau217 screening followed by PET for every gray-zone result; this was an economic simulation, not a prospective utilization study."
+    ],
+    "whatChanged": "A peer-reviewed, externally tested reflex architecture now quantifies how a second blood-based stage can shrink the p-tau217 gray zone while preserving PET for residual uncertainty.",
+    "evidenceStrength": "Moderate-to-strong clinical-validity evidence because the model was locked and externally validated against amyloid PET in a large independent cohort. Clinical utility remains unproven because routing decisions, patient outcomes, and real-world costs were modeled rather than prospectively tested.",
+    "clinicalSignificance": "The findings support reflex testing as a research and implementation strategy, not a replacement for confirmatory imaging. The external calibration shift, 62.3% NPV, and below-replacement performance of the reflex stage require local validation before individual treatment or enrollment decisions.",
+    "fieldRelevance": "Directly addresses common MSL questions about p-tau217 gray zones, sequential testing, cross-platform transport, residual PET demand, prevalence effects, and the distinction between discrimination and calibration.",
+    "questions": [
+      {
+        "q": "Does GRAD replace amyloid PET?",
+        "a": "No. The authors retain PET for residual uncertainty, and the external reflex stage achieved 66.7% sensitivity and 80.0% specificity, below the recommended benchmark for replacing PET."
+      },
+      {
+        "q": "Are the 0.25 and 0.75 values laboratory concentration cutoffs?",
+        "a": "No. They are model probabilities after platform harmonization, not transferable pg/mL cutoffs."
+      },
+      {
+        "q": "Did the cost savings occur in clinical practice?",
+        "a": "No. Costs were modeled using cohort routing rates and assumed unit prices."
+      }
+    ],
+    "limitations": [
+      "Small development cohort and only 49 development gray-zone cases",
+      "External cohort was cognitively unimpaired, unlike the cognitively impaired development cohort",
+      "Cross-platform harmonization used cohort-specific reference distributions",
+      "External calibration shifted materially",
+      "No prospective clinical-utility, decision-impact, or health-system implementation trial",
+      "Cost results depend on assumed prices and modeled routing"
+    ],
+    "accessRelevance": "The workflow could reduce confirmatory PET demand if prospectively validated, but the publication creates no new authorization, availability, reimbursement, coverage, or ordering pathway.",
+    "primarySource": "https://doi.org/10.1002/acn3.70560",
+    "doi": "10.1002/acn3.70560",
+    "identifier": "DOI:10.1002/acn3.70560; PMID:42897700",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42897700/"
+      }
+    ],
+    "citation": "Parankusham H, Vanderlip C, Birkenbihl C, et al. A Two-Stage Plasma Biomarker Algorithm Reduces Amyloid PET Use and the p-Tau217 Gray Zone. Ann Clin Transl Neurol. Published online October 19, 2026. doi:10.1002/acn3.70560.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Biomarkers"
+    ]
+  },
+  {
+    "id": "doi-10-1097-wad-0000000000000761",
+    "slug": "ptau217-real-world-diagnostic-reclassification",
+    "title": "Plasma p-tau217 changes etiologic classification in a memory clinic",
+    "bottomLine": "In 98 evaluable memory-clinic patients, adding plasma p-tau217 or PrecivityAD2 changed the AD versus non-AD etiologic classification in 37.8% using a 0.18 p-tau217 threshold and 46.9% using a 0.325 threshold.",
+    "dateAdded": "2026-10-20",
+    "sourceDate": "2026-10-20",
+    "evidenceSource": "Peer-reviewed retrospective real-world diagnostic-impact study",
+    "modalities": [
+      "Blood",
+      "MRI"
+    ],
+    "biomarkers": [
+      "p-tau217",
+      "Aβ42/40",
+      "Amyloid Probability Score 2",
+      "APOE ε4"
+    ],
+    "clinicalUses": [
+      "Etiologic diagnosis",
+      "Diagnostic reclassification",
+      "Clinical utility"
+    ],
+    "studyType": "Retrospective diagnostic decision-impact cohort",
+    "assays": [
+      "Labcorp Lumipulse p-tau217",
+      "PrecivityAD2"
+    ],
+    "platforms": [
+      "Lumipulse",
+      "IP-LC-MS/MS"
+    ],
+    "platformRelevance": "The analysis combined a standalone Lumipulse p-tau217 result with PrecivityAD2, then evaluated two p-tau217 thresholds. Because the assays and interpretation rules were not uniform and no common PET or CSF reference standard was applied, the study measures decision impact rather than comparative analytical or diagnostic accuracy.",
+    "organizations": [
+      "Baylor College of Medicine",
+      "Labcorp",
+      "C2N Diagnostics"
+    ],
+    "regulatoryStatus": "Real-world diagnostic-impact evidence. The study does not create or expand FDA authorization, validate a universal cutoff, establish guideline endorsement, or change coverage.",
+    "relevance": "Practice-relevant",
+    "brief30": "Biomarker disclosure frequently changed clinicians' AD versus non-AD etiologic impression, especially with the higher p-tau217 threshold and among APOE ε4 noncarriers. The direction was usually away from AD, but final diagnoses were biomarker-informed and not independently verified, so reclassification should not be equated with improved diagnostic accuracy.",
+    "studyDesign": "A tertiary memory clinic retrospectively reviewed 100 patients aged at least 50 years who had been assessed with clinical evaluation, neuropsychological testing, and MRI before blood-biomarker results were available. Ninety-eight had evaluable Labcorp Lumipulse p-tau217 (n=75) or PrecivityAD2 (n=23) testing. Multidisciplinary diagnoses before and after biomarker disclosure were compared using a lower p-tau217 threshold greater than 0.18 and a higher threshold greater than 0.325; PrecivityAD2 used manufacturer APS2 categories.",
+    "keyResults": [
+      "Overall reclassification was 37.8% with the lower threshold (p=0.001) and 46.9% with the higher threshold (p<0.001).",
+      "At the higher threshold, 55.3% of 76 initially AD-classified patients shifted to non-AD, while 18.2% of initially non-AD patients shifted to AD.",
+      "Among APOE ε4 carriers, higher-threshold changes were balanced: 42% AD-to-non-AD versus 43% non-AD-to-AD (p=0.096).",
+      "Among APOE ε4 noncarriers, higher-threshold changes were asymmetric: 66% AD-to-non-AD versus 14% non-AD-to-AD (p<0.001)."
+    ],
+    "whatChanged": "The final peer-reviewed report supplies real-world evidence that plasma biomarker results can materially alter etiologic classification and that the size and direction of that effect depend on the interpretation threshold.",
+    "evidenceStrength": "Moderate decision-impact evidence from routine specialist practice, weakened by retrospective single-center design, use of two different assays, and lack of uniform independent amyloid confirmation. It demonstrates changed decisions, not that the changed decisions were correct or improved outcomes.",
+    "clinicalSignificance": "Threshold choice can shift many patients away from an AD label. Clinicians should treat p-tau217 as one part of a full evaluation and confirm discordant or consequential results rather than assuming that a reclassification rate proves diagnostic utility.",
+    "fieldRelevance": "Useful for MSL discussions about clinical utility, threshold sensitivity, assay-specific interpretation, APOE context, and the difference between diagnostic reclassification and validated diagnostic correctness.",
+    "questions": [
+      {
+        "q": "Does a changed diagnosis mean the biomarker improved accuracy?",
+        "a": "Not necessarily. Final diagnoses incorporated the biomarker and were not uniformly verified against PET, CSF, or neuropathology."
+      },
+      {
+        "q": "Can the 0.18 and 0.325 cutoffs be applied to every p-tau217 assay?",
+        "a": "No. They were tied to the Labcorp Lumipulse workflow and should not be transferred to other assays without validation."
+      },
+      {
+        "q": "Why did the higher threshold move more patients away from AD?",
+        "a": "A more stringent positive threshold classified more low or intermediate results as not supportive of AD, increasing AD-to-non-AD reclassification."
+      }
+    ],
+    "limitations": [
+      "Retrospective single-center tertiary-clinic design",
+      "Only 98 evaluable patients",
+      "Two different blood-biomarker workflows were combined",
+      "No uniform amyloid PET, CSF, or neuropathologic reference standard",
+      "Simplified AD versus non-AD categories may obscure mixed pathology",
+      "No patient-outcome or prospective utility assessment"
+    ],
+    "accessRelevance": "No authorization or coverage change. The study shows potential diagnostic workflow impact but does not establish payer acceptance or access to confirmatory testing.",
+    "primarySource": "https://doi.org/10.1097/WAD.0000000000000761",
+    "doi": "10.1097/WAD.0000000000000761",
+    "identifier": "DOI:10.1097/WAD.0000000000000761",
+    "supportingSources": [
+      {
+        "label": "Public study manuscript",
+        "url": "https://www.medrxiv.org/content/10.64898/2026.06.20.26356107v1"
+      }
+    ],
+    "citation": "Maerean N, Litchev S, Jackson GR, Kass JS, Pavlik VN, Lin CYR. Plasma Phosphorylated Tau 217 Reshapes Diagnostic Classification in a Real-World Memory Clinic Cohort. Alzheimer Dis Assoc Disord. Published online October 20, 2026. doi:10.1097/WAD.0000000000000761.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Biomarkers"
+    ]
+  },
+  {
+    "id": "doi-10-1186-s13195-026-02232-z",
+    "slug": "joy-alz-lecanemab-real-world-safety",
+    "title": "Korean registry quantifies real-world lecanemab ARIA and early PET clearance",
+    "bottomLine": "Among 663 lecanemab-treated patients at 32 Korean hospitals, ARIA occurred in 16.1%, symptomatic ARIA-E in 0.6%, and baseline superficial siderosis was associated with a 7.45-fold higher hazard of ARIA-E.",
+    "dateAdded": "2026-10-20",
+    "sourceDate": "2026-10-19",
+    "evidenceSource": "Peer-reviewed multicenter real-world treatment registry",
+    "modalities": [
+      "MRI",
+      "Amyloid PET",
+      "Blood"
+    ],
+    "biomarkers": [
+      "ARIA-E",
+      "ARIA-H",
+      "Cerebral microhemorrhages",
+      "Superficial siderosis",
+      "Amyloid Centiloid",
+      "p-tau217"
+    ],
+    "clinicalUses": [
+      "Treatment safety monitoring",
+      "ARIA risk stratification",
+      "Treatment response monitoring",
+      "Patient selection"
+    ],
+    "studyType": "Multicenter observational registry of routine lecanemab treatment",
+    "assays": [],
+    "platforms": [
+      "Serial safety MRI",
+      "Amyloid PET Centiloid",
+      "Plasma p-tau217"
+    ],
+    "platformRelevance": "MRI markers were evaluated as ARIA-E risk factors, while small PET subsets were used to characterize early amyloid clearance. The study informs monitoring interpretation but does not validate an alternative MRI schedule, PET stopping rule, or p-tau217 response threshold.",
+    "organizations": [
+      "Korean Joint Registry for Alzheimer's Treatment and Diagnostics",
+      "32 Korean hospitals"
+    ],
+    "regulatoryStatus": "Observational post-authorization evidence. The study does not change lecanemab labeling, recommended MRI surveillance, dosing, eligibility, authorization, guideline endorsement, or coverage.",
+    "relevance": "Practice-relevant",
+    "brief30": "The largest same-window real-world report provides actionable rates and risk associations for lecanemab safety. ARIA-E clustered with APOE ε4 homozygosity, worse baseline CDR-SB, microhemorrhages, and superficial siderosis. Clinician-selected dose titration reduced infusion reactions but did not show lower ARIA within genotype strata, so the observational data do not establish a safer off-label dosing strategy.",
+    "studyDesign": "JOY-ALZ analyzed 663 patients with Alzheimer disease who received at least one lecanemab infusion across 32 hospitals. ARIA analyses included 657 patients with at least one monitoring MRI. Clinicians used dose titration selectively, and exploratory analyses related genotype, clinical status, baseline MRI markers, plasma p-tau217, and amyloid PET to safety and short-term outcomes.",
+    "keyResults": [
+      "ARIA occurred in 106/657 patients (16.1%): ARIA-E with or without ARIA-H in 27 (4.1%) and isolated ARIA-H in 79 (12.0%). Four patients (0.6%) had symptomatic ARIA-E.",
+      "ARIA-E was associated with APOE ε4 homozygosity (HR 2.81; 95% CI, 1.06–7.46), higher baseline CDR-SB (HR 1.18 per point; 95% CI, 1.04–1.35), more baseline microhemorrhages (HR 1.69; 95% CI, 1.32–2.16), and baseline superficial siderosis (HR 7.45; 95% CI, 1.50–37.12).",
+      "Infusion-related reactions occurred in 26.7% and were less frequent with dose titration, but ARIA-E and ARIA-H did not differ between standard and titration groups within APOE genotype strata.",
+      "MMSE declined by 0.15 points per month (95% CI, −0.21 to −0.08; p<0.001). Higher baseline plasma p-tau217 was associated with greater worsening in functional activities.",
+      "Amyloid PET became negative in 15/64 (23.4%) at 3–9 months and 8/29 (27.6%) at 10–12 months; lower baseline Centiloid (OR 0.92; 95% CI, 0.88–0.96) and higher baseline MMSE (OR 1.23; 95% CI, 1.04–1.45) were associated with negativity."
+    ],
+    "whatChanged": "The multicenter registry supplies large-scale routine-care estimates for ARIA, infusion reactions, MRI risk factors, and early PET clearance under lecanemab outside a randomized trial.",
+    "evidenceStrength": "Moderate real-world safety evidence from a large multicenter registry. Treatment, titration, MRI, and follow-up were not randomized; clinical and PET follow-up were short; and PET analyses involved small subsets, limiting efficacy and causal dosing conclusions.",
+    "clinicalSignificance": "Baseline superficial siderosis and microhemorrhage burden reinforced ARIA-E risk stratification, while symptomatic ARIA-E was uncommon. The data support careful label-based selection and MRI monitoring but do not justify changing dose or surveillance schedules.",
+    "fieldRelevance": "Relevant to MSL discussions about real-world ARIA rates, APOE and MRI risk, dose titration, early PET response, and the difference between observational association and a validated monitoring strategy.",
+    "questions": [
+      {
+        "q": "Did dose titration reduce ARIA?",
+        "a": "Not within APOE genotype strata. It was associated with fewer infusion reactions, but the nonrandomized analysis does not establish an ARIA-prevention effect."
+      },
+      {
+        "q": "Which baseline features were most strongly associated with ARIA-E?",
+        "a": "Superficial siderosis had HR 7.45, APOE ε4 homozygosity HR 2.81, and each additional baseline microhemorrhage HR 1.69, with wide confidence intervals for some estimates."
+      },
+      {
+        "q": "Can early PET negativity guide stopping treatment?",
+        "a": "No. PET data came from small observational subsets, and the study did not validate a stopping rule."
+      }
+    ],
+    "limitations": [
+      "Observational registry without randomized dosing or comparator group",
+      "Clinician-selected dose titration creates confounding by indication",
+      "Short clinical follow-up",
+      "Small amyloid-PET follow-up subsets",
+      "Potential variation in routine-care imaging and outcome assessment",
+      "No validated treatment-stopping or biomarker-guided dosing rule"
+    ],
+    "accessRelevance": "No authorization, availability, reimbursement, or coverage change. The multicenter experience may inform implementation capacity but does not create a new access pathway.",
+    "primarySource": "https://doi.org/10.1186/s13195-026-02232-z",
+    "doi": "10.1186/s13195-026-02232-z",
+    "identifier": "DOI:10.1186/s13195-026-02232-z; JOY-ALZ registry",
+    "citation": "Kang SH, Jeong JH, Lim JS, et al. Safety, short-term clinical outcomes, and associated factors of lecanemab: a multicenter real-world study from the Korean Joint Registry for Alzheimer's Treatment and Diagnostics (JOY-ALZ). Alzheimers Res Ther. Published online October 19, 2026. doi:10.1186/s13195-026-02232-z.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Management"
+    ]
+  },
+  {
+    "id": "fda-k252163",
+    "slug": "fda-elecsys-ptau181-plasma-rule-out",
+    "title": "FDA cleared Elecsys pTau181 Plasma as a primary-care rule-out aid",
+    "bottomLine": "At 13.1% amyloid-PET prevalence, the single 0.722 pg/mL cutoff produced 92.7% positive agreement, 51.3% negative agreement, 97.9% NPV, and 22.4% PPV in 312 primary-care patients.",
+    "dateAdded": "2026-10-20",
+    "sourceDate": "2025-10-08",
+    "evidenceSource": "FDA 510(k) decision summary",
+    "modalities": [
+      "Blood",
+      "Amyloid PET"
+    ],
+    "biomarkers": [
+      "p-tau181"
+    ],
+    "clinicalUses": [
+      "Rule-out triage",
+      "Initial assessment",
+      "Primary care"
+    ],
+    "studyType": "Regulatory authorization with analytical and clinical validation",
+    "assays": [
+      "Elecsys Phospho-Tau (181P) Plasma"
+    ],
+    "platforms": [
+      "cobas e 801",
+      "Amyloid PET visual reading"
+    ],
+    "platformRelevance": "This is a fully automated electrochemiluminescence assay with an 18-minute run time and a single negative/positive cutoff. Its intended role differs from three-zone p-tau217 workflows: the high NPV supports rule-out in low-prevalence primary care, while the low PPV means positive results need further investigation.",
+    "organizations": [
+      "Roche Diagnostics",
+      "FDA"
+    ],
+    "regulatoryStatus": "FDA 510(k) cleared K252163 on October 8, 2025, for adults aged 55 years or older with signs, symptoms, or complaints of cognitive decline in initial assessment. It is not recommended for patients already referred to specialty care and is not authorized for prediction or treatment monitoring.",
+    "relevance": "Important new evidence",
+    "brief30": "The clearance is intentionally asymmetric. A negative result is consistent with a negative amyloid PET and may reduce unnecessary imaging, but nearly half of PET-negative participants tested positive. The FDA summary therefore supports rule-out triage, not standalone confirmation, and shows how low prevalence drives high NPV and low PPV.",
+    "studyDesign": "FDA reviewed analytical validation and a pivotal clinical study in 312 evaluable primary-care patients aged at least 55 years who presented with cognitive concerns or impairment. The plasma result at a prespecified 0.722 pg/mL cutoff was compared with majority visual amyloid-PET classification; 41/312 participants were PET positive.",
+    "keyResults": [
+      "At the 0.722 pg/mL cutoff, positive percent agreement was 92.7% (38/41; 95% CI, 80.6%–97.5%) and negative percent agreement was 51.3% (139/271; 95% CI, 45.4%–57.2%).",
+      "At 13.1% amyloid-PET prevalence, NPV was 97.9% (139/142; 95% CI, 94.0%–99.3%) and PPV was 22.4% (38/170; 95% CI, 19.5%–25.0%).",
+      "Three of 41 PET-positive patients tested negative, while 132 of 271 PET-negative patients tested positive.",
+      "FDA estimated that negative testing could reduce unnecessary amyloid PET by 45.5% (142/312).",
+      "The measuring range was 0.300–50.00 pg/mL; no high-dose hook effect was observed through 150 pg/mL."
+    ],
+    "whatChanged": "This historical criteria-repair entry documents a previously unbriefed FDA-cleared automated p-tau181 rule-out assay and its markedly prevalence-dependent predictive values.",
+    "evidenceStrength": "High regulatory and analytical-validity evidence with public pivotal performance data. Clinical utility is limited to the cleared initial-assessment aid; prospective patient-outcome benefit, specialty-care use, prognosis, and serial monitoring were not established.",
+    "clinicalSignificance": "A negative result can support ruling out amyloid pathology in primary care, but a positive result cannot confirm amyloid pathology and should trigger further evaluation. The intended population and low-prevalence setting are integral to interpretation.",
+    "fieldRelevance": "Provides a concrete comparison point for p-tau217 assays and illustrates why intended use, cutoff architecture, prevalence, PPV, NPV, and referral setting must be separated when discussing blood tests.",
+    "questions": [
+      {
+        "q": "Can a positive result confirm Alzheimer disease?",
+        "a": "No. PPV was 22.4% in the pivotal primary-care cohort, and the FDA labeling says positive results should be investigated further."
+      },
+      {
+        "q": "Can the assay be used in specialty clinics?",
+        "a": "Its cleared intended use is initial assessment, and the summary states it is not recommended for patients already referred to a specialist."
+      },
+      {
+        "q": "Can it monitor therapy or predict dementia?",
+        "a": "No. Those uses were not established in the cleared labeling."
+      }
+    ],
+    "limitations": [
+      "Historical criteria-repair backfill rather than a newly source-dated development",
+      "Low amyloid prevalence produced very low PPV",
+      "Single binary cutoff leaves many false-positive results",
+      "Intended use is limited to initial assessment outside specialty care",
+      "No prognostic, treatment-monitoring, or patient-outcome utility claim"
+    ],
+    "accessRelevance": "FDA clearance establishes authorization, not universal laboratory availability, payer coverage, reimbursement, or guideline endorsement. Local ordering and payment require separate verification.",
+    "primarySource": "https://www.accessdata.fda.gov/cdrh_docs/reviews/K252163.pdf",
+    "doi": null,
+    "identifier": "FDA 510(k) K252163",
+    "supportingSources": [
+      {
+        "label": "FDA 510(k) record",
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252163"
+      }
+    ],
+    "citation": "U.S. Food and Drug Administration. Elecsys Phospho-Tau (181P) Plasma. 510(k) K252163. Decision October 8, 2025.",
+    "corrections": [],
+    "historical": true,
+    "resultType": "regulatory",
+    "topics": [
+      "Biomarkers"
+    ]
   }
 ]
