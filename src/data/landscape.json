@@ -70,6 +70,10 @@
       {
         "id": "fda-k261686",
         "relationship": "Regulatory clearance"
+      },
+      {
+        "id": "doi-10-1007-s00415-026-14193-2",
+        "relationship": "Independent threshold and platform-comparison study"
       }
     ]
   },
@@ -187,7 +191,12 @@
     "verified": "2026-09-04",
     "verification": "FDA record",
     "id": "lumipulse-csf-ratio",
-    "relatedBriefs": []
+    "relatedBriefs": [
+      {
+        "id": "doi-10-1007-s40120-026-01056-1",
+        "relationship": "Diagnostic-accuracy meta-analysis"
+      }
+    ]
   },
   {
     "biomarker": "p-tau181/Aβ42 and t-tau/Aβ42",
@@ -204,7 +213,12 @@
     "verified": "2026-09-04",
     "verification": "Manufacturer labeling page and FDA records",
     "id": "elecsys-csf-ratios",
-    "relatedBriefs": []
+    "relatedBriefs": [
+      {
+        "id": "doi-10-1007-s40120-026-01056-1",
+        "relationship": "Diagnostic-accuracy meta-analysis"
+      }
+    ]
   },
   {
     "biomarker": "Amyloid plaques",

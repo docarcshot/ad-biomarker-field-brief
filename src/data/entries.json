@@ -5283,5 +5283,271 @@
     "topics": [
       "Biomarkers"
     ]
+  },
+  {
+    "id": "doi-10-1002-alz-71922",
+    "slug": "ptau217-amyloid-pet-discordance",
+    "title": "p-tau217/PET discordance has direction-specific meaning",
+    "bottomLine": "Across 1,069 cognitively normal adults, plasma p-tau217-positive/PET-negative and p-tau217-negative/PET-positive profiles carried different biomarker and longitudinal signals, and the p-tau217 operating point changed their interpretation.",
+    "dateAdded": "2026-10-22",
+    "sourceDate": "2026-10-21",
+    "evidenceSource": "Peer-reviewed cross-sectional and longitudinal cohort analysis",
+    "modalities": [
+      "Blood",
+      "Amyloid PET"
+    ],
+    "biomarkers": [
+      "p-tau217",
+      "Aβ42/40",
+      "GFAP",
+      "NfL",
+      "Amyloid Centiloid"
+    ],
+    "clinicalUses": [
+      "Discordance interpretation",
+      "Risk stratification",
+      "Confirmatory testing",
+      "Longitudinal monitoring"
+    ],
+    "studyType": "Two-cohort biomarker study with longitudinal ADNI follow-up",
+    "assays": [],
+    "platforms": [
+      "Cohort-specific plasma p-tau217 assays",
+      "Amyloid PET Centiloid"
+    ],
+    "platformRelevance": "p-tau217 positivity used cohort-specific PET-anchored cutoffs selected for at least 90% specificity. The study therefore evaluates operating-point-dependent discordance rather than establishing a transferable assay cutoff.",
+    "organizations": [
+      "Chinese Preclinical Alzheimer's Disease Study",
+      "Alzheimer's Disease Neuroimaging Initiative"
+    ],
+    "regulatoryStatus": "Observational evidence only. The analysis does not authorize a test, establish a universal cutoff, replace confirmatory amyloid testing, or change guideline endorsement or coverage.",
+    "relevance": "Implementation-relevant",
+    "brief30": "Discordance was not a single intermediate state. p-tau217-positive/PET-negative participants had higher GFAP and NfL, whereas p-tau217-negative/PET-positive participants showed lower plasma Aβ42/40 in ADNI. Both p-tau217-positive groups had greater clinical-progression risk, while both PET-positive groups accumulated amyloid faster. The p-tau217-positive/PET-negative accumulation signal appeared only with less-specific cutoffs, underscoring that assay operating points shape discordance.",
+    "studyDesign": "Investigators analyzed 594 cognitively normal adults from CPAS and 475 from ADNI. Amyloid PET positivity was defined as at least 20 Centiloids; cohort-specific p-tau217 cutoffs were anchored to PET at at least 90% specificity. Cross-sectional plasma, imaging and cognitive profiles were compared across four concordance groups, with mixed-effects and Cox models applied to longitudinal ADNI imaging, cognition and clinical progression.",
+    "keyResults": [
+      "The combined analysis included 1,069 cognitively normal adults: 594 in CPAS and 475 in ADNI.",
+      "Relative to p-tau217-negative/PET-negative participants, the p-tau217-positive/PET-negative group had higher GFAP and NfL in both cohorts, while the p-tau217-negative/PET-positive group had lower plasma Aβ42/40 in ADNI.",
+      "In ADNI, both p-tau217-positive groups had higher clinical-progression risk and faster decline in selected cognitive domains; both PET-positive groups showed faster Centiloid accumulation.",
+      "Faster Centiloid accumulation in the p-tau217-positive/PET-negative group was observed only when lower-specificity p-tau217 thresholds were used."
+    ],
+    "whatChanged": "The publication separates the two directions of p-tau217/PET discordance and demonstrates that their biological and prognostic meaning depends partly on the chosen p-tau217 operating point.",
+    "evidenceStrength": "Moderate clinical-validity evidence from two sizable cohorts, strengthened by longitudinal ADNI follow-up. Clinical utility remains unproven because thresholds were cohort-specific, outcome effects were observational, and no discordance-guided clinical decision strategy was tested.",
+    "clinicalSignificance": "A discordant result should be interpreted by direction, assay and cutoff rather than labeled generically as uncertain. Consequential results still require clinical correlation and confirmatory amyloid testing when definitive pathology status is needed.",
+    "fieldRelevance": "Directly addresses blood–PET concordance, cutoff selection, sequential testing and the distinction between risk enrichment and confirmed amyloid pathology.",
+    "questions": [
+      {
+        "q": "Does p-tau217-positive/PET-negative mean early amyloid accumulation?",
+        "a": "Not reliably. Faster Centiloid accumulation in that group appeared only at lower-specificity p-tau217 thresholds, so the interpretation depends on the assay operating point and may also reflect non-amyloid injury signals."
+      },
+      {
+        "q": "Does a discordant blood result replace amyloid PET?",
+        "a": "No. The study supports direction-specific risk interpretation but explicitly requires validation before clinical use and does not establish a replacement rule."
+      },
+      {
+        "q": "Can these cutoffs be transferred to another assay?",
+        "a": "No. Positivity was defined with cohort-specific PET-anchored cutoffs, not universal concentrations."
+      }
+    ],
+    "limitations": [
+      "Cognitively normal cohorts limit generalizability to symptomatic specialty care",
+      "Cohort-specific p-tau217 assays and cutoffs",
+      "Longitudinal analyses were available in ADNI rather than both cohorts",
+      "The abstract does not provide absolute event rates or model effect estimates",
+      "No prospective test of discordance-guided clinical management"
+    ],
+    "accessRelevance": "No authorization, availability, reimbursement or coverage change. The findings refine interpretation rather than creating an ordering pathway.",
+    "primarySource": "https://doi.org/10.1002/alz.71922",
+    "doi": "10.1002/alz.71922",
+    "identifier": "DOI:10.1002/alz.71922; PMID:42902436",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42902436/"
+      }
+    ],
+    "citation": "Huang Y, Huang L, Cui L, et al. Direction-specific biomarker profiles and clinical significance of plasma p-tau217/amyloid PET discordance in cognitively normal adults. Alzheimers Dement. 2026;22(10):e71922. doi:10.1002/alz.71922.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Biomarkers"
+    ]
+  },
+  {
+    "id": "doi-10-1007-s00415-026-14193-2",
+    "slug": "taiwan-elecsys-ptau217-dual-cutoffs",
+    "title": "Automated p-tau217 dual cutoffs leave an 11.9% gray zone",
+    "bottomLine": "In 135 Taiwanese memory-clinic participants, cohort-derived Roche Elecsys p-tau217 cutoffs below 0.225 and above 0.336 pg/mL classified 88.1% into definitive zones with 95.0% agreement inside those zones.",
+    "dateAdded": "2026-10-22",
+    "sourceDate": "2026-10-21",
+    "evidenceSource": "Peer-reviewed diagnostic-accuracy and threshold study",
+    "modalities": [
+      "Blood",
+      "Amyloid PET",
+      "CSF"
+    ],
+    "biomarkers": [
+      "p-tau217",
+      "p-tau181",
+      "NfL",
+      "Amyloid Centiloid"
+    ],
+    "clinicalUses": [
+      "Amyloid triage",
+      "Decision thresholds",
+      "Confirmatory testing",
+      "Assay comparison"
+    ],
+    "studyType": "Single-center memory-clinic diagnostic study",
+    "assays": [
+      "Elecsys Phospho-Tau 217 Plasma",
+      "Simoa ALZpath p-Tau217 V2",
+      "Elecsys Phospho-Tau 181 Plasma",
+      "Elecsys Neurofilament Light"
+    ],
+    "platforms": [
+      "cobas e 801",
+      "Simoa HD-X",
+      "Florbetaben PET Centiloid",
+      "Elecsys CSF biomarkers"
+    ],
+    "platformRelevance": "The study directly compared automated Roche p-tau217 with Simoa p-tau217 and derived assay-specific candidate decision zones. The thresholds differ from FDA-cleared U.S. labeling and cannot be transferred without external validation.",
+    "organizations": [
+      "Taipei Veterans General Hospital",
+      "National Yang Ming Chiao Tung University"
+    ],
+    "regulatoryStatus": "The tested Roche assay is FDA cleared in the United States under separate labeling and cutoffs, but these Taiwanese cohort-derived thresholds are research findings. The paper creates no new authorization, guideline endorsement or coverage.",
+    "relevance": "Implementation-relevant",
+    "brief30": "The automated assay showed high discrimination and a relatively small intermediate zone, but its apparent threshold performance was derived and evaluated in one cohort. Roche and Simoa p-tau217 AUCs were not significantly different in complete cases, while both outperformed p-tau181 and NfL. Lower eGFR raised p-tau217 concentrations, and advanced kidney disease was not represented.",
+    "studyDesign": "The study enrolled 139 adults from a Taiwanese memory clinic; 136 had florbetaben PET and three had CSF reference testing. Four extreme statistical values were excluded from the primary threshold analysis, leaving 76 amyloid-negative and 59 amyloid-positive participants. Single and dual cutoffs were derived within that same cohort, and 81 complete cases contributed to head-to-head biomarker comparisons.",
+    "keyResults": [
+      "In the 135-person primary analysis, Roche p-tau217 achieved AUC 0.973. A single 0.251 pg/mL cutoff yielded 93.2% positive agreement, 89.5% negative agreement and 91.1% overall agreement.",
+      "Dual cutoffs below 0.225 and above 0.336 pg/mL placed 119/135 participants (88.1%) in definitive zones and 16/135 (11.9%) in the intermediate zone; agreement within definitive zones was 95.0% (95% CI, 89.3%–98.1%).",
+      "Among 81 complete cases, Roche p-tau217 AUC was 0.970 versus 0.957 for Simoa p-tau217 (p=0.097), 0.880 for Roche p-tau181 (p=0.010) and 0.615 for Roche NfL (p<0.001).",
+      "Lower eGFR was independently associated with higher p-tau217 concentrations (B=-0.012, p=0.002), but only seven participants had moderate CKD and none had severe CKD."
+    ],
+    "whatChanged": "The study supplies East Asian memory-clinic data on an automated p-tau217 platform, quantifies a cohort-derived dual-cutoff gray zone, and reports direct assay comparisons and renal-function effects.",
+    "evidenceStrength": "Moderate clinical-validity evidence. Reference testing was strong for most participants and head-to-head comparisons were blinded, but the single-center sample was modest, thresholds were derived and evaluated in the same cohort, and advanced kidney disease and clinical utility were not tested.",
+    "clinicalSignificance": "The results support further validation of automated p-tau217 triage, not immediate adoption of the published concentrations. Values near a threshold, discordant presentations, treatment-eligibility decisions and advanced CKD still require confirmatory evaluation.",
+    "fieldRelevance": "Directly relevant to platform comparison, dual cutoffs, gray-zone size, non-Western validation, renal confounding and confirmatory-testing workflows.",
+    "questions": [
+      {
+        "q": "Are 0.225 and 0.336 pg/mL clinical cutoffs?",
+        "a": "No. They were derived in this cohort and differ from U.S. FDA-cleared labeling; independent validation is required."
+      },
+      {
+        "q": "Did Roche outperform Simoa p-tau217?",
+        "a": "No statistically significant AUC difference was detected in 81 complete cases (0.970 vs 0.957; p=0.097)."
+      },
+      {
+        "q": "Does kidney function matter?",
+        "a": "Lower eGFR was associated with higher concentrations, but discrimination did not improve significantly when eGFR was added and severe CKD was not studied."
+      }
+    ],
+    "limitations": [
+      "Single-center cross-sectional design",
+      "Modest sample and only 59 amyloid-positive participants in the primary analysis",
+      "Thresholds were derived and evaluated in the same cohort",
+      "Only 81 complete cases contributed to head-to-head comparisons",
+      "Only seven participants had moderate CKD and none had severe CKD",
+      "No prospective decision-impact or patient-outcome study"
+    ],
+    "accessRelevance": "No new authorization, availability, reimbursement or coverage. The study informs implementation research but does not alter local access to the assay or confirmatory PET/CSF.",
+    "primarySource": "https://doi.org/10.1007/s00415-026-14193-2",
+    "doi": "10.1007/s00415-026-14193-2",
+    "identifier": "DOI:10.1007/s00415-026-14193-2",
+    "citation": "Lin YS, Tsai MJ, Lai CL, et al. Clinical performance and decision thresholds of an automated plasma p-tau217 assay for amyloid pathology in a Taiwanese memory clinic. J Neurol. 2026;273:674. doi:10.1007/s00415-026-14193-2.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Biomarkers"
+    ]
+  },
+  {
+    "id": "doi-10-1007-s40120-026-01056-1",
+    "slug": "csf-ratios-amyloid-pet-meta-analysis",
+    "title": "CSF p-tau181/Aβ42 shows the strongest PET concordance in meta-analysis",
+    "bottomLine": "Across 38 studies and 7,504 participants, CSF p-tau181/Aβ42 had pooled sensitivity 0.920, specificity 0.884 and bivariate AUC 0.955 against amyloid PET, but heterogeneity and publication bias limit direct implementation.",
+    "dateAdded": "2026-10-22",
+    "sourceDate": "2026-10-22",
+    "evidenceSource": "Peer-reviewed diagnostic test accuracy systematic review and meta-analysis",
+    "modalities": [
+      "CSF",
+      "Amyloid PET"
+    ],
+    "biomarkers": [
+      "Aβ42/40",
+      "p-tau181/Aβ42",
+      "t-tau/Aβ42"
+    ],
+    "clinicalUses": [
+      "Amyloid confirmation",
+      "Assay interpretation",
+      "CSF–PET concordance",
+      "Diagnostic workflow"
+    ],
+    "studyType": "Diagnostic test accuracy meta-analysis",
+    "assays": [
+      "Elecsys CSF ratios",
+      "Lumipulse CSF ratios",
+      "Other CSF immunoassays"
+    ],
+    "platforms": [
+      "Automated CSF immunoassay platforms",
+      "Amyloid PET visual and quantitative reading"
+    ],
+    "platformRelevance": "Elecsys and Lumipulse supplied 80.7% of the 28,578 biomarker/PET comparisons, but studies used different assays, cutoffs, tracers and PET reading methods. Pooled ratios rank evidence across heterogeneous implementations rather than establishing interchangeable cutoffs.",
+    "organizations": [
+      "Global diagnostic accuracy evidence base"
+    ],
+    "regulatoryStatus": "Evidence synthesis only. The meta-analysis does not change assay authorization, intended use, guideline endorsement, reimbursement or coverage.",
+    "relevance": "Practice-relevant",
+    "brief30": "All three CSF ratios showed high concordance with amyloid PET. p-tau181/Aβ42 had the highest pooled AUC and lower false-positive rate than Aβ42/40, while overall agreement was similar across ratios. Quantitative PET positivity was associated with lower false-positive rates than visual reading in meta-regression, but that association is not proof that quantification is intrinsically more accurate.",
+    "studyDesign": "The authors synthesized 38 studies involving 7,504 participants; 35 studies entered quantitative analyses, representing 28,578 CSF ratio/PET comparisons. Random-effects univariate and bivariate models estimated sensitivity, specificity, false-positive rate and SROC AUC, with meta-regression for assay, population and PET-method moderators. The work was funded by Roche Diagnostics, and the sponsor employed two authors.",
+    "keyResults": [
+      "Univariate pooled sensitivity/specificity were 0.920/0.884 for p-tau181/Aβ42, 0.920/0.847 for Aβ42/40, and 0.905/0.875 for t-tau/Aβ42.",
+      "Bivariate AUC was 0.955 for p-tau181/Aβ42, 0.942 for Aβ42/40, and 0.947 for t-tau/Aβ42; p-tau181/Aβ42 exceeded Aβ42/40 (p=0.018) but not t-tau/Aβ42 at conventional significance (p=0.052).",
+      "Overall agreement was 90.4% for p-tau181/Aβ42, 89.5% for Aβ42/40 and 89.2% for t-tau/Aβ42.",
+      "PET positivity defined by SUVR or Centiloid was associated with lower false-positive rates than visual reading in meta-regression (p<0.0001 and p=0.0051, respectively).",
+      "Publication-bias asymmetry was detected for sensitivity (p<0.0001), potentially inflating pooled sensitivity and SROC estimates."
+    ],
+    "whatChanged": "The final peer-reviewed meta-analysis expands the evidence base beyond the earlier conference abstract and directly compares the three principal CSF ratio families against amyloid PET.",
+    "evidenceStrength": "Moderate-to-strong synthesis-level clinical-validity evidence because it includes 38 studies and multiple automated platforms. Confidence in exact pooled estimates is reduced by heterogeneity, publication-bias signals, study-quality variation, specialist/research sampling and differing PET reference methods.",
+    "clinicalSignificance": "CSF ratios remain strong alternatives to amyloid PET for confirming amyloid pathology. Ratio selection should still follow locally validated assay cutoffs and intended use; the small pooled differences do not establish universal interchangeability or patient-outcome utility.",
+    "fieldRelevance": "Directly informs CSF–PET concordance, ratio selection, platform interpretation, PET reference methods and the limits of applying pooled diagnostic accuracy to an individual laboratory.",
+    "questions": [
+      {
+        "q": "Is p-tau181/Aβ42 definitively superior to every other CSF ratio?",
+        "a": "It had the highest pooled AUC and outperformed Aβ42/40, but the difference from t-tau/Aβ42 narrowly missed conventional significance and study heterogeneity prevents a universal ranking."
+      },
+      {
+        "q": "Does quantitative PET prove a better truth standard than visual reading?",
+        "a": "No. Meta-regression found lower false-positive rates with SUVR or Centiloid definitions, but cross-study confounding prevents a causal accuracy conclusion."
+      },
+      {
+        "q": "Can the pooled results determine a laboratory cutoff?",
+        "a": "No. Assay- and laboratory-specific validated cutoffs remain necessary."
+      }
+    ],
+    "limitations": [
+      "Substantial heterogeneity across assays, cutoffs, tracers and PET reading methods",
+      "Mostly specialist, research and trial cohorts",
+      "Publication-bias signal for sensitivity",
+      "Risk-of-bias variation across included studies",
+      "No direct patient-outcome or decision-impact evidence",
+      "Roche funded the review and employed two authors"
+    ],
+    "accessRelevance": "The synthesis supports diagnostic alternatives but creates no authorization, availability, coverage or reimbursement change. Local CSF access, PET access and payer rules remain separate questions.",
+    "primarySource": "https://doi.org/10.1007/s40120-026-01056-1",
+    "doi": "10.1007/s40120-026-01056-1",
+    "identifier": "DOI:10.1007/s40120-026-01056-1",
+    "citation": "Martinez-Lage P, Solje E, Martins JG, et al. Cerebrospinal Fluid Biomarker Ratio Concordance with Amyloid Positron-Emission Tomography: A Diagnostic Test Accuracy Meta-analysis. Neurol Ther. Published online October 22, 2026. doi:10.1007/s40120-026-01056-1.",
+    "corrections": [],
+    "historical": false,
+    "resultType": "results",
+    "topics": [
+      "Biomarkers"
+    ]
   }
 ]
