@@ -11,8 +11,8 @@
     "threshold": "Three-zone ratio; assay labeling controls",
     "reference": "Amyloid PET",
     "source": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K242706",
-    "verified": "2026-09-04",
-    "verification": "FDA record; active recall record reviewed",
+    "verified": "2026-10-24",
+    "verification": "FDA record, active recall record, and peer-reviewed delayed-processing stability study",
     "id": "lumipulse-plasma-ratio",
     "relatedBriefs": [
       {
@@ -26,6 +26,10 @@
       {
         "id": "anthem-lab-00046-2026-07-01",
         "relationship": "Coverage policy"
+      },
+      {
+        "id": "doi-10-1002-dad2-70517",
+        "relationship": "Pre-analytical stability study"
       }
     ]
   },

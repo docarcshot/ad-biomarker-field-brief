@@ -1,12 +1,12 @@
 {
-  "reviewedThrough": "2026-10-22",
-  "newItemsQualified": 3,
-  "nextScheduledReview": "2026-10-24",
-  "lastSuccessfulRun": "2026-10-22T15:05:00Z",
+  "reviewedThrough": "2026-10-24",
+  "newItemsQualified": 5,
+  "nextScheduledReview": "2026-10-26",
+  "lastSuccessfulRun": "2026-10-24T13:51:57Z",
   "workflowState": "on-schedule",
   "historicalCompleteThrough": "2026-09-04",
   "coverageAuditComplete": true,
-  "message": "3 new items qualified",
+  "message": "5 new items qualified",
   "failure": null,
   "reviewLog": [
     {
@@ -176,6 +176,13 @@
       "outcome": "success",
       "qualified": 3,
       "note": "All 21 source categories were checked. Three prospective core items qualified: direction-specific plasma p-tau217/amyloid-PET discordance, automated p-tau217 dual thresholds in a Taiwanese memory clinic, and a diagnostic-accuracy meta-analysis of CSF ratios against amyloid PET. No additional qualifying guideline, trial, registry-only, regulatory, coverage, access or secondary-management development was found."
+    },
+    {
+      "reviewedThrough": "2026-10-24",
+      "completedAt": "2026-10-24T13:51:57Z",
+      "outcome": "success",
+      "qualified": 5,
+      "note": "All 21 source categories were checked. Five prospective core items qualified, including four October 22 publications newly indexed after the prior review: ABN/RCPsych blood-test guidance, delayed-processing stability of the Lumipulse p-tau217/Aβ42 ratio, a negative SynVesT-1 versus FDG PET head-to-head study, AA-2024 CSF reclassification, and brain-derived tau enrichment for ALS confounding. A verified negative ALZT-OP1 phase III report (DOI:10.1177/13872877261498247; NCT02547818) was carried forward because core evidence filled the five-item cycle. No additional qualifying registry-only, regulatory, coverage, or access development was found."
     }
   ]
 }

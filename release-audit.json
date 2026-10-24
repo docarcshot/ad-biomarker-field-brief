@@ -1,23 +1,23 @@
 {
-  "release": "2026-09-24",
-  "change": "September 23–24 evidence review with two biomarker briefs and one dementia-risk management brief",
+  "release": "2026-10-24",
+  "change": "October 23–24 evidence review with five core biomarker and PET briefs",
   "status": "automated-checks-passed",
   "automated": [
-    "Validated 38 briefs, 12 assay records and all 20 source-registry records.",
-    "Built 38 permanent brief pages plus seven core pages from the same structured data used by the status panel, archive, landscape, meeting packet, RSS and sitemap.",
-    "Passed internal-link, RSS, asset-hash, archive-control, responsive/accessibility, disclosure, status and 38-permalink checks across 46 HTML files.",
-    "Passed topic tags, bookmarked Biomarkers and other topic filters, overlap, combined filtering, empty results and clear/reset behavior using the generated card metadata and application controller.",
+    "Validated 76 briefs, 12 assay records and all 21 source-registry records.",
+    "Built 76 permanent brief pages plus seven core pages from the same structured data used by the status panel, archive, landscape, meeting packet, RSS and sitemap.",
+    "Passed internal-link, RSS, asset-hash, archive-control, responsive/accessibility, disclosure, status and 76-permalink checks across 84 HTML files.",
+    "Passed topic tags, bookmarked topic filters, evidence-justified overlap, combined filtering, empty results and clear/reset behavior using generated card metadata and the application controller.",
     "Passed visit continuity, same-day additions, delayed-state, blocked-storage, meeting-packet, assay-relationship and overdue-build regression checks.",
-    "Verified the review is current through September 24, 2026, with the next scheduled review on September 26."
+    "Verified the review is current through October 24, 2026, with the next scheduled review on October 26."
   ],
   "browser": [
-    "No new live-browser or visual QA was required because layout and application code were unchanged; interaction-relevant controller and responsive/accessibility regressions passed."
+    "No new visual layout QA was required because layout and application code were unchanged; interaction-relevant controller and responsive/accessibility regressions passed."
   ],
   "workflow": [
-    "Updated the existing connected task prompt to include general AD diagnosis, treatment, safety, symptoms, supportive/caregiver care, prevention and guidelines.",
-    "Preserved the task ID, enabled state, every-other-day schedule, timezone, 0–3 per-review threshold, publication gates and conditional email rules.",
-    "Historical backfill does not advance routine reviewed-through or prospective item counts.",
-    "Original complete biomarker audit remains separately scoped; broader AD backfill is labeled targeted, with verification limits."
+    "Checked every maintained source category with primary-source confirmation and stable-identifier deduplication.",
+    "Prioritized core biomarker and PET evidence and published five qualifying items; a secondary treatment trial was carried forward rather than displacing core evidence.",
+    "Preserved the task schedule, topic definitions, publication gates and conditional email rules.",
+    "Four October 22 publications newly indexed after the previous review are treated as prospective late-indexed developments, not criteria-repair backfill."
   ],
   "previousRelease": {
     "release": "2026-09-06",
