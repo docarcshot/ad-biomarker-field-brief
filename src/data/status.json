@@ -1,12 +1,12 @@
 {
-  "reviewedThrough": "2026-10-24",
-  "newItemsQualified": 5,
-  "nextScheduledReview": "2026-10-26",
-  "lastSuccessfulRun": "2026-10-24T13:51:57Z",
+  "reviewedThrough": "2026-10-26",
+  "newItemsQualified": 1,
+  "nextScheduledReview": "2026-10-28",
+  "lastSuccessfulRun": "2026-10-26T13:44:24Z",
   "workflowState": "on-schedule",
   "historicalCompleteThrough": "2026-09-04",
   "coverageAuditComplete": true,
-  "message": "5 new items qualified",
+  "message": "1 new item qualified",
   "failure": null,
   "reviewLog": [
     {
@@ -183,6 +183,13 @@
       "outcome": "success",
       "qualified": 5,
       "note": "All 21 source categories were checked. Five prospective core items qualified, including four October 22 publications newly indexed after the prior review: ABN/RCPsych blood-test guidance, delayed-processing stability of the Lumipulse p-tau217/Aβ42 ratio, a negative SynVesT-1 versus FDG PET head-to-head study, AA-2024 CSF reclassification, and brain-derived tau enrichment for ALS confounding. A verified negative ALZT-OP1 phase III report (DOI:10.1177/13872877261498247; NCT02547818) was carried forward because core evidence filled the five-item cycle. No additional qualifying registry-only, regulatory, coverage, or access development was found."
+    },
+    {
+      "reviewedThrough": "2026-10-26",
+      "completedAt": "2026-10-26T13:44:24Z",
+      "outcome": "success",
+      "qualified": 1,
+      "note": "All 21 source categories were checked. The carried-forward COGNITE phase III report qualified: ALZT-OP1 failed both prespecified CDR-SB comparisons, and the exploratory APOE4-noncarrier comparison with placebo was not statistically significant. No additional qualifying biomarker/PET, guideline, registry-only, regulatory, authorization, coverage, access, or practice-changing management development was found."
     }
   ]
 }
