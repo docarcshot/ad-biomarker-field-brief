@@ -1,12 +1,12 @@
 {
-  "reviewedThrough": "2026-10-26",
-  "newItemsQualified": 1,
-  "nextScheduledReview": "2026-10-28",
-  "lastSuccessfulRun": "2026-10-26T13:44:24Z",
+  "reviewedThrough": "2026-10-28",
+  "newItemsQualified": 3,
+  "nextScheduledReview": "2026-10-30",
+  "lastSuccessfulRun": "2026-10-28T14:02:23Z",
   "workflowState": "on-schedule",
   "historicalCompleteThrough": "2026-09-04",
   "coverageAuditComplete": true,
-  "message": "1 new item qualified",
+  "message": "3 new items qualified",
   "failure": null,
   "reviewLog": [
     {
@@ -190,6 +190,13 @@
       "outcome": "success",
       "qualified": 1,
       "note": "All 21 source categories were checked. The carried-forward COGNITE phase III report qualified: ALZT-OP1 failed both prespecified CDR-SB comparisons, and the exploratory APOE4-noncarrier comparison with placebo was not statistically significant. No additional qualifying biomarker/PET, guideline, registry-only, regulatory, authorization, coverage, access, or practice-changing management development was found."
+    },
+    {
+      "reviewedThrough": "2026-10-28",
+      "completedAt": "2026-10-28T14:02:23Z",
+      "outcome": "success",
+      "qualified": 3,
+      "note": "All 21 source categories were checked. Three prospective core Biomarkers items qualified: a 24-center real-world p-tau217 implementation study, a short-interval Lumipulse and NULISA repeatability study, and an October 23 multi-assay harmonization paper newly indexed after the prior review. No additional qualifying guideline, trial, registry-only, regulatory, authorization, coverage, access, PET, or secondary-management development was found."
     }
   ]
 }
