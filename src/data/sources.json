@@ -4,9 +4,9 @@
     "category": "Literature",
     "url": "https://pubmed.ncbi.nlm.nih.gov/",
     "cadence": "Every review",
-    "lastChecked": "2026-10-28",
+    "lastChecked": "2026-11-23",
     "method": "Date-bounded searches with a dedicated core pass for blood and CSF biomarkers; amyloid, tau and FDG PET; p-tau species; Aβ42/40; GFAP and NfL; assay comparison, preanalytics, cutoffs, gray zones, prevalence and comorbidity effects; Centiloid/SUVR, tracer comparability, visual reads, structured reporting, concordance, discordance, reflex workflows, treatment eligibility and monitoring. A separate secondary pass covers pivotal treatment, safety, guidance and practice-changing management evidence. Screen reviews and practice standards as well as original studies; deduplicate by PMID and DOI.",
-    "lastCheckedScope": "Biomarkers, guidelines, and management",
+    "lastCheckedScope": "Blood/CSF, PET, analytical and clinical validity, prognosis and trial workflows",
     "targetedManagementCheck": "2026-09-07"
   },
   {
@@ -14,18 +14,18 @@
     "category": "Literature",
     "url": "https://search.crossref.org/",
     "cadence": "Every review",
-    "lastChecked": "2026-10-28",
+    "lastChecked": "2026-11-23",
     "method": "First-online date and DOI verification; early-view/final-version deduplication.",
-    "lastCheckedScope": "Biomarkers, guidelines, and management"
+    "lastCheckedScope": "DOI and first-online verification using indexed results where bulk lookup unavailable"
   },
   {
     "name": "Neurology and dementia journals",
     "category": "Literature",
     "url": "https://www.alz-journals.onlinelibrary.wiley.com/",
     "cadence": "Every review",
-    "lastChecked": "2026-10-28",
+    "lastChecked": "2026-11-23",
     "method": "Current/early-view searches across Alzheimer’s & Dementia, JAMA family, Lancet family, Nature family, Brain, Neurology, geriatric and psychiatric care journals. Include general AD trials, guidelines, safety and management outcomes independently of biomarker implications.",
-    "lastCheckedScope": "Biomarkers, guidelines, and management",
+    "lastCheckedScope": "Primary neurology and dementia reports",
     "targetedManagementCheck": "2026-09-07"
   },
   {
@@ -33,54 +33,54 @@
     "category": "Literature",
     "url": "https://academic.oup.com/clinchem",
     "cadence": "Every review",
-    "lastChecked": "2026-10-28",
+    "lastChecked": "2026-11-23",
     "method": "Analytical validation, precision, interference, specimen matrix, tube and processing effects, freeze-thaw stability, standardization, platform transferability, head-to-head assay studies, two-cutoff workflows, predictive values, comorbidity effects, and laboratory implementation searches across Clinical Chemistry, JALM and related diagnostics journals.",
-    "lastCheckedScope": "Biomarkers, guidelines, and management"
+    "lastCheckedScope": "Handling, automated assay validation and availability"
   },
   {
     "name": "Nuclear medicine and neuroimaging journals",
     "category": "Literature",
     "url": "https://jnm.snmjournals.org/",
     "cadence": "Every review",
-    "lastChecked": "2026-10-28",
+    "lastChecked": "2026-11-23",
     "method": "Dedicated searches across Journal of Nuclear Medicine, Journal of Nuclear Medicine Technology, European Journal of Nuclear Medicine and Molecular Imaging, Seminars in Nuclear Medicine, Radiology, and Clinical Nuclear Medicine for amyloid, tau and relevant FDG PET; radiotracers; acquisition and quality control; visual reads and reader agreement; structured reporting; Centiloid/SUVR and reference regions; tracer harmonization; treatment eligibility and monitoring; practice parameters, procedure standards, appropriate-use criteria, and implementation reviews.",
-    "lastCheckedScope": "Core biomarker and PET evidence"
+    "lastCheckedScope": "PET software, acquisition and quantification"
   },
   {
     "name": "Health-economics journals",
     "category": "Literature",
     "url": "https://www.valueinhealthjournal.com/",
     "cadence": "Every review",
-    "lastChecked": "2026-10-28",
+    "lastChecked": "2026-11-23",
     "method": "Cost-effectiveness, access, capacity, and patient-burden searches.",
-    "lastCheckedScope": "Biomarkers, guidelines, and management"
+    "lastCheckedScope": "Date-bounded health economic evidence and payment decisions"
   },
   {
     "name": "FDA 510(k) database",
     "category": "Regulatory",
     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm",
     "cadence": "Every review",
-    "lastChecked": "2026-10-28",
+    "lastChecked": "2026-11-23",
     "method": "SET product code, manufacturer, device-name, and decision-date searches.",
-    "lastCheckedScope": "Biomarkers, guidelines, and management"
+    "lastCheckedScope": "Targeted FDA device clearance records"
   },
   {
     "name": "FDA recalls",
     "category": "Regulatory",
     "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRES/res.cfm",
     "cadence": "Every review",
-    "lastChecked": "2026-10-28",
+    "lastChecked": "2026-11-23",
     "method": "Device and manufacturer searches; companion records linked and deduplicated.",
-    "lastCheckedScope": "Biomarkers, guidelines, and management"
+    "lastCheckedScope": "Targeted diagnostics recall search"
   },
   {
     "name": "FDA drug approvals and labels",
     "category": "Regulatory",
     "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
     "cadence": "Every review",
-    "lastChecked": "2026-10-28",
+    "lastChecked": "2026-11-23",
     "method": "PET tracers plus AD disease-modifying and symptomatic therapies, indications, initiation/maintenance dosing, ARIA and other safety changes; verify regulator documents, separate availability and coverage.",
-    "lastCheckedScope": "Biomarkers, guidelines, and management",
+    "lastCheckedScope": "Drug and PET tracer label and approval records",
     "targetedManagementCheck": "2026-09-07"
   },
   {
@@ -88,45 +88,45 @@
     "category": "Coverage and coding",
     "url": "https://www.cms.gov/",
     "cadence": "Every review",
-    "lastChecked": "2026-10-28",
+    "lastChecked": "2026-11-23",
     "method": "AD and dementia care, treatments and diagnostics: national coverage, GUIDE and care-planning changes, transmittals, fee schedules and public payment files; a model launch or page timestamp alone is not new evidence.",
-    "lastCheckedScope": "Biomarkers, guidelines, and management"
+    "lastCheckedScope": "Final 2027 OPPS and clinical coverage checks"
   },
   {
     "name": "Medicare Coverage Database and MACs",
     "category": "Coverage and coding",
     "url": "https://www.cms.gov/medicare-coverage-database/",
     "cadence": "Every review",
-    "lastChecked": "2026-10-28",
+    "lastChecked": "2026-11-23",
     "method": "NCD/LCD/article searches plus contractor policy checks.",
-    "lastCheckedScope": "Biomarkers, guidelines, and management"
+    "lastCheckedScope": "Targeted NCD and MAC bulletins"
   },
   {
     "name": "Clinical Laboratory Fee Schedule",
     "category": "Coverage and coding",
     "url": "https://www.cms.gov/medicare/payment/fee-schedules/clinical-laboratory-fee-schedule-clfs",
     "cadence": "Monthly and on release",
-    "lastChecked": "2026-10-28",
+    "lastChecked": "2026-11-23",
     "method": "National limit amount and gapfill/crosswalk status; never treated as coverage.",
-    "lastCheckedScope": "Biomarkers, guidelines, and management"
+    "lastCheckedScope": "Status of 2027 final code-level file and lab terminology"
   },
   {
     "name": "Major private-payer policies",
     "category": "Coverage and coding",
     "url": "https://www.anthem.com/provider/policies/",
     "cadence": "Every review",
-    "lastChecked": "2026-10-28",
+    "lastChecked": "2026-11-23",
     "method": "Anthem, UnitedHealthcare, Aetna, Cigna, and major BCBS policy searches; contract caveats retained.",
-    "lastCheckedScope": "Biomarkers, guidelines, and management"
+    "lastCheckedScope": "Commercial antiamyloid policies including UHC revision"
   },
   {
     "name": "Professional guidelines and consensus",
     "category": "Guidelines",
     "url": "https://www.alz.org/professionals/health-systems-medical-professionals/clinical-practice-guidelines-and-evidence",
     "cadence": "Every review",
-    "lastChecked": "2026-10-28",
+    "lastChecked": "2026-11-23",
     "method": "Alzheimer’s Association, AAN, SNMMI, EANM, ACR, ACNM, ASNR, ADLM, CAP, EAN, WHO, NICE and relevant geriatric/psychiatric societies. Give priority to blood/CSF biomarker guidance, amyloid/tau/FDG PET appropriate-use criteria, procedure standards, acquisition/reading/reporting guidance, diagnosis, staging, treatment eligibility and monitoring. Also screen practice-changing safety, symptoms, caregiver and supportive-care guidance. Distinguish formal CPGs, practice parameters, procedure standards, AURs, consensus and draft versus final guidance.",
-    "lastCheckedScope": "Biomarkers, guidelines, and management",
+    "lastCheckedScope": "Japanese MHLW guidance and targeted professional standards",
     "targetedManagementCheck": "2026-09-07"
   },
   {
@@ -134,9 +134,9 @@
     "category": "Clinical trials",
     "url": "https://clinicaltrials.gov/",
     "cadence": "Every review",
-    "lastChecked": "2026-10-28",
+    "lastChecked": "2026-11-23",
     "method": "New and updated AD trials of disease-modifying and symptomatic treatments, nonpharmacologic and caregiver interventions, and biomarker eligibility/endpoints; link results to definitive publications and stable trial identifiers. Registry-only results and enrollment notices are exceptional inclusions and require material field, practice, access, or trial-design relevance plus enough public detail for a useful brief.",
-    "lastCheckedScope": "Biomarkers, guidelines, and management",
+    "lastCheckedScope": "Indexed public results and named records; bulk API unavailable",
     "targetedManagementCheck": "2026-09-07"
   },
   {
@@ -144,9 +144,9 @@
     "category": "Conferences",
     "url": "https://aaic.alz.org/",
     "cadence": "During abstract and meeting windows",
-    "lastChecked": "2026-10-28",
+    "lastChecked": "2026-11-23",
     "method": "Abstract and release screening; peer-reviewed versions preferred and duplicates merged.",
-    "lastCheckedScope": "Biomarkers, guidelines, and management",
+    "lastCheckedScope": "Conference timing and indexed results",
     "targetedManagementCheck": "2026-09-07"
   },
   {
@@ -154,27 +154,27 @@
     "category": "Conferences",
     "url": "https://www.ctad-alzheimer.com/",
     "cadence": "During abstract and meeting windows",
-    "lastChecked": "2026-10-28",
+    "lastChecked": "2026-11-23",
     "method": "AD treatment, safety, biomarker and implementation abstracts; match meeting dates to the review window and prefer definitive publications.",
-    "lastCheckedScope": "Biomarkers, guidelines, and management"
+    "lastCheckedScope": "CTAD formal program/posters and original data"
   },
   {
     "name": "AD/PD",
     "category": "Conferences",
     "url": "https://adpd.kenes.com/",
     "cadence": "During abstract and meeting windows",
-    "lastChecked": "2026-10-28",
+    "lastChecked": "2026-11-23",
     "method": "AD treatment, safety and biomarker abstracts and official program; definitive papers preferred.",
-    "lastCheckedScope": "Biomarkers, guidelines, and management"
+    "lastCheckedScope": "Program and dated abstract check"
   },
   {
     "name": "Diagnostic, laboratory, imaging, and pharmaceutical organizations",
     "category": "Organizations",
     "url": "https://www.fda.gov/medical-devices/",
     "cadence": "Every review",
-    "lastChecked": "2026-10-28",
+    "lastChecked": "2026-11-23",
     "method": "Material public announcements only; manufacturer-only claims labeled and independently checked where possible.",
-    "lastCheckedScope": "Biomarkers, guidelines, and management",
+    "lastCheckedScope": "Manufacturer, laboratory, and original payment notices",
     "targetedManagementCheck": "2026-09-07"
   },
   {
@@ -182,8 +182,8 @@
     "category": "Guidelines",
     "url": "https://www.who.int/publications/i/item/9789240123557",
     "cadence": "Every review",
-    "lastChecked": "2026-10-28",
-    "lastCheckedScope": "Biomarkers, guidelines, and management",
+    "lastChecked": "2026-11-23",
+    "lastCheckedScope": "WHO dementia publication and guideline checks",
     "method": "Risk reduction and dementia care guidance; identify populations, recommendation strength and evidence certainty where reported; distinguish prevention from treatment of established AD."
   },
   {
@@ -191,8 +191,8 @@
     "category": "Literature",
     "url": "https://www.cochrane.org/evidence",
     "cadence": "Every review",
-    "lastChecked": "2026-10-28",
-    "lastCheckedScope": "Biomarkers, guidelines, and management",
+    "lastChecked": "2026-11-23",
+    "lastCheckedScope": "Dated original syntheses",
     "method": "Material AD treatment and care systematic reviews; record study search cutoff, applicability, certainty, absolute benefits/harms and substantive published methodological critiques."
   }
 ]

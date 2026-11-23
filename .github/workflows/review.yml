@@ -9,7 +9,7 @@ on:
         description: Successful review date (YYYY-MM-DD); leave blank to build only
         required: false
       qualified:
-        description: Number of qualified entries (0–5)
+        description: Number of qualified entries (include all eligible core items)
         required: false
         default: "0"
       failure_message:

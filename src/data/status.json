@@ -1,12 +1,12 @@
 {
-  "reviewedThrough": "2026-10-28",
-  "newItemsQualified": 3,
-  "nextScheduledReview": "2026-10-30",
-  "lastSuccessfulRun": "2026-10-28T14:02:23Z",
+  "reviewedThrough": "2026-11-23",
+  "newItemsQualified": 20,
+  "nextScheduledReview": "2026-11-25",
+  "lastSuccessfulRun": "2026-11-23T18:39:13.499Z",
   "workflowState": "on-schedule",
   "historicalCompleteThrough": "2026-09-04",
   "coverageAuditComplete": true,
-  "message": "3 new items qualified",
+  "message": "20 new items qualified",
   "failure": null,
   "reviewLog": [
     {
@@ -197,6 +197,13 @@
       "outcome": "success",
       "qualified": 3,
       "note": "All 21 source categories were checked. Three prospective core Biomarkers items qualified: a 24-center real-world p-tau217 implementation study, a short-interval Lumipulse and NULISA repeatability study, and an October 23 multi-assay harmonization paper newly indexed after the prior review. No additional qualifying guideline, trial, registry-only, regulatory, authorization, coverage, access, PET, or secondary-management development was found."
+    },
+    {
+      "reviewedThrough": "2026-11-23",
+      "completedAt": "2026-11-23T18:39:13.499Z",
+      "outcome": "success",
+      "qualified": 20,
+      "note": "Catch-up October 29–November 23. Registry and Crossref used indexed records where bulk lookup was unavailable. Duplicated TAUKLARIFY data were excluded. Fu et al. (10.1001/jama.2026.23534) held pending accessible study results. Carry forward formal CTAD POLARIS-AD (NCT05531526), HOPE (NCT05637801) and CELIA (NCT05399888), and the peer-reviewed bepranemab trial (PMID 43008775); verify and deduplicate against earlier disclosures. No claim of exhaustive coverage."
     }
   ]
 }

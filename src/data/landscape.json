@@ -30,6 +30,14 @@
       {
         "id": "doi-10-1002-dad2-70517",
         "relationship": "Pre-analytical stability study"
+      },
+      {
+        "id": "jp-lumipulse-ptau217-ab42-2026-11",
+        "relationship": "Japanese component approvals"
+      },
+      {
+        "id": "doi-10-1038-s43587-026-01259-z",
+        "relationship": "Plasma–CSF head-to-head"
       }
     ]
   },
@@ -78,6 +86,10 @@
       {
         "id": "doi-10-1007-s00415-026-14193-2",
         "relationship": "Independent threshold and platform-comparison study"
+      },
+      {
+        "id": "ctad-2026-zuo-elecsys-ptau217-china",
+        "relationship": "Chinese cohort cutoff validation"
       }
     ]
   },
@@ -89,12 +101,12 @@
     "platform": "IP-LC-MS/MS",
     "intendedUse": "Aid in amyloid-pathology assessment in symptomatic adults aged 40+",
     "regulatoryStatus": "FDA cleared (K253240, 2026)",
-    "availability": "Cleared IVD rollout pending; similarly named LDT currently offered",
+    "availability": "Cleared IVD rollout pending; similarly named LDT currently offered Mayo Clinic Laboratories lists its FDA-label AD2 send-out order, performed by C2N.",
     "threshold": "APS2 dual-cutoff categories",
     "reference": "Amyloid PET",
     "source": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K253240",
-    "verified": "2026-09-04",
-    "verification": "FDA record plus C2N rollout statement",
+    "verified": "2026-11-23",
+    "verification": "FDA record and current Mayo Clinic Laboratories order catalog",
     "id": "precivityad2",
     "relatedBriefs": [
       {
@@ -104,6 +116,10 @@
       {
         "id": "anthem-lab-00046-2026-07-01",
         "relationship": "Coverage policy"
+      },
+      {
+        "id": "mayo-ad2-2026-11-12",
+        "relationship": "Mayo FDA-label order update"
       }
     ]
   },
