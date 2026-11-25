@@ -1975,77 +1975,58 @@
     "citation": "Fowler NR, Perkins AJ, Gao S, et al. Benefits and harms of dementia screening for family members of older adults. JAMA Intern Med. Published April 20, 2026;186:689–700. doi:10.1001/jamainternmed.2026.0844."
   },
   {
-    "dateAdded": "2026-09-07",
-    "historical": true,
-    "corrections": [],
-    "modalities": [
-      "CSF",
-      "Tau PET"
+    "dateAdded": "2026-11-25",
+    "historical": false,
+    "corrections": [
+      "November 25, 2026: Updated the stable CELIA brief with the November 17 CTAD two-year extension report. The new 96-week comparison is not randomized through the full interval and does not reverse the failed prespecified dose-response endpoint."
     ],
-    "biomarkers": [
-      "Total tau",
-      "Tau PET"
-    ],
+    "modalities": ["CSF", "Tau PET", "Blood"],
+    "biomarkers": ["Total tau", "Tau PET", "CSF p-tau181", "Plasma p-tau217"],
     "assays": [],
     "platforms": [],
-    "platformRelevance": "Tau reduction does not establish an assay’s clinical utility.",
+    "platformRelevance": "Tau biomarker reduction supports target engagement but does not establish assay utility, mediation, or clinical efficacy.",
     "resultType": "results",
-    "topics": [
-      "Clinical Trials",
-      "Management"
-    ],
+    "topics": ["Clinical Trials"],
     "id": "trial-nct05399888-celia-2026",
     "slug": "celia-diranersen-phase2-primary-endpoint-missed",
-    "title": "CELIA misses its primary dose-response endpoint despite encouraging secondary signals",
-    "bottomLine": "Sponsor-reported phase 2 findings support further study of diranersen; they do not establish treatment benefit.",
-    "sourceDate": "2026-07-14",
-    "evidenceSource": "Conference data reported by sponsor",
-    "clinicalUses": [
-      "Disease-modifying treatment",
-      "Trial endpoints"
-    ],
-    "studyType": "Phase 2 randomized dose-ranging trial",
-    "organizations": [
-      "Biogen",
-      "Ionis"
-    ],
-    "regulatoryStatus": "Investigational; not approved",
-    "relevance": "Early signal",
-    "brief30": "The primary endpoint failed, and favorable secondary comparisons require confirmation.",
-    "studyDesign": "CELIA randomized 416 anti-amyloid-naive participants with MCI or mild AD dementia to intrathecal diranersen or placebo for 18 months.",
+    "title": "CELIA two-year extension strengthens the diranersen signal but remains nonconfirmatory",
+    "bottomLine": "At week 96, the 60 mg twice-yearly group had a sponsor-reported 1.09-point CDR-SB advantage versus participants originally assigned placebo, but the comparison extends beyond the randomized placebo-controlled period and follows a failed prespecified dose-response endpoint.",
+    "sourceDate": "2026-11-17",
+    "evidenceSource": "Formal CTAD 2026 conference report and sponsor numerical tables",
+    "clinicalUses": ["Disease-modifying treatment", "Trial interpretation", "Tau target engagement"],
+    "studyType": "Phase 2 randomized dose-ranging trial with open-label extension",
+    "organizations": ["Biogen", "Ionis"],
+    "regulatoryStatus": "Investigational; FDA Fast Track designation does not establish approval, efficacy, availability, guideline endorsement, reimbursement, or coverage.",
+    "relevance": "Important new evidence",
+    "brief30": "CELIA's updated extension analysis shows wider numerical separation at two years for twice-yearly 60 mg diranersen. The signal is clinically interesting and supports phase 3 development, but it is not confirmatory: the original dose-response endpoint failed, only 60 participants remained in the highlighted dose group, and the week-96 comparator had begun transitioning to active treatment.",
+    "studyDesign": "CELIA randomized 416 anti-amyloid-naive participants with MCI due to AD or mild AD dementia to intrathecal diranersen or placebo for 18 months. The two-year analysis compared 60 participants who remained on 60 mg twice yearly with 115 participants originally assigned placebo; by week 96 the latter had received either no diranersen or one dose after entering the open-label extension.",
     "keyResults": [
-      "At 60 mg every 6 months (n=60) versus placebo (n=115), the reported CDR-SB difference was −0.54 points, or 26% less decline. Confidence intervals were not supplied in the cited release.",
-      "The 115 mg regimens showed smaller CDR-SB differences (−0.28 and −0.18); ADCS-ADL-MCI did not separate from placebo."
+      "At week 96, 60 mg twice yearly (n=60) versus the original placebo group (n=115) showed a reported 1.09-point CDR-SB difference, described as 38% less decline; confidence intervals and multiplicity-adjusted p values were not supplied.",
+      "Sponsor tables reported week-96 slowing of 54% on ADAS-Cog13, 38% on MMSE, 30% on ADCS-ADL-MCI, 38% on ADCOMS, and 46% on modified iADRS.",
+      "At 18 months, the 60 mg subgroup had shown a 0.54-point CDR-SB difference (26% slowing), while the prespecified primary dose-response analysis was negative.",
+      "The 18-month placebo-controlled biomarker report described broad reductions in tau PET, CSF p-tau181, and plasma p-tau217, but did not establish that those changes mediated clinical benefit.",
+      "Diranersen was reported as generally well tolerated through two years with no new safety signal; detailed event rates were not provided in the public conference summary."
     ],
-    "whatChanged": "July data quantify the earlier topline announcement.",
-    "evidenceStrength": "Randomized design, but conference/sponsor reporting with a failed primary endpoint.",
-    "clinicalSignificance": "Insufficient for clinical use.",
-    "fieldRelevance": "Keep nominal secondary findings separate from confirmatory evidence.",
+    "whatChanged": "The CTAD extension report adds 96-week clinical comparisons and shows increasing numerical separation, while leaving the original negative primary analysis and nonrandomized extension limitations intact.",
+    "evidenceStrength": "Moderate signal-generating evidence from a randomized phase 2 program followed by an open-label extension. Certainty is limited by the failed prespecified dose-response endpoint, the highlighted 60-participant subgroup, crossover exposure in the comparator, absent confidence intervals, and sponsor-only conference reporting.",
+    "clinicalSignificance": "The findings justify phase 3 confirmation but do not support clinical use or prove that biomarker lowering translates into benefit.",
+    "fieldRelevance": "Separates a promising longer-term tau-lowering signal from confirmatory efficacy and preserves the distinction between biomarker response and clinical utility.",
     "questions": [
-      {
-        "q": "Was the study positive on its primary endpoint?",
-        "a": "No. Dose response on CDR-SB was not demonstrated."
-      }
+      {"q": "Was the study positive on its primary endpoint?", "a": "No. Dose response on CDR-SB was not demonstrated."},
+      {"q": "Is the week-96 comparison still fully randomized and placebo controlled?", "a": "No. It comes from the open-label extension; the original placebo group had received either no active dose or one active dose by week 96."},
+      {"q": "Do the tau biomarker changes prove clinical benefit?", "a": "No. They support target engagement, but mediation of clinical benefit was not established."}
     ],
-    "limitations": [
-      "Multiplicity, small lowest-dose group, and absent confidence intervals.",
-      "Full independent peer-reviewed assessment was not verified."
-    ],
-    "accessRelevance": "No approval, availability or coverage claim.",
-    "primarySource": "https://investors.biogen.com/news-releases/news-release-details/biogen-presents-phase-2-celia-data-aaic-demonstrating-meaningful",
+    "limitations": ["Failed prespecified dose-response primary endpoint", "Open-label extension with crossover exposure in the original placebo group", "Highlighted 60 mg group included 60 participants", "Confidence intervals and adjusted p values were not reported publicly", "Sponsor conference report without peer-reviewed full results"],
+    "accessRelevance": "No approval, routine availability, coverage, or reimbursement change. A phase 3 program is still needed.",
+    "primarySource": "https://biogen.gcs-web.com/news-releases/news-release-details/biogens-diranersen-demonstrates-increasing-clinical-benefit-two",
     "doi": null,
     "identifier": "NCT05399888",
     "supportingSources": [
-      {
-        "label": "May primary-endpoint disclosure",
-        "url": "https://investors.biogen.com/news-releases/news-release-details/topline-results-phase-2-celia-study-diranersen-biib080-first"
-      },
-      {
-        "label": "Trial registry",
-        "url": "https://clinicaltrials.gov/study/NCT05399888"
-      }
+      {"label": "May primary-endpoint disclosure", "url": "https://investors.biogen.com/news-releases/news-release-details/topline-results-phase-2-celia-study-diranersen-biib080-first"},
+      {"label": "July 18-month numerical results", "url": "https://investors.biogen.com/news-releases/news-release-details/biogen-presents-phase-2-celia-data-aaic-demonstrating-meaningful"},
+      {"label": "Trial registry", "url": "https://clinicaltrials.gov/study/NCT05399888"}
     ],
-    "citation": "Biogen. CELIA phase 2 results presented at AAIC. July 14, 2026. NCT05399888. Primary-endpoint failure disclosed May 14, 2026. Sponsor reports."
+    "citation": "Biogen. Diranersen demonstrates increasing clinical benefit at two years in early Alzheimer's disease. CTAD 2026 conference report. November 17, 2026. NCT05399888. Sponsor-reported results."
   },
   {
     "dateAdded": "2026-09-07",
@@ -7788,6 +7769,182 @@
     "primarySource": "https://cogrx.com/wp-content/uploads/2026/11/2026-ctad-ritchie-screening-in-start-with-p-tau217.pdf",
     "identifier": "ctad-2026-p365-start-screening",
     "citation": "Ritchie et al. CTAD 2026 poster P365. 2026-11-19.",
+    "historical": false,
+    "resultType": "results",
+    "corrections": []
+  },
+  {
+    "id": "doi-10-1016-s1474-4422-26-00357-1",
+    "slug": "bepranemab-phase2-primary-endpoint-negative",
+    "title": "Bepranemab misses the phase 2 CDR-SB endpoint",
+    "bottomLine": "In 460 treated participants, neither bepranemab dose improved week-80 CDR-SB versus placebo; the 90 mg/kg arm numerically declined more, while safety was broadly similar across groups.",
+    "dateAdded": "2026-11-25",
+    "sourceDate": "2026-11-10",
+    "evidenceSource": "Peer-reviewed randomized phase 2 trial, verified after the November 23 catch-up review",
+    "topics": ["Clinical Trials"],
+    "modalities": ["Tau PET", "MRI"],
+    "biomarkers": ["Tau PET"],
+    "clinicalUses": ["Disease-modifying treatment", "Trial interpretation", "Tau-targeted development"],
+    "studyType": "Randomized double-blind placebo-controlled phase 2 trial",
+    "assays": [],
+    "platforms": [],
+    "organizations": ["UCB", "Genentech"],
+    "platformRelevance": "Tau PET was an exploratory outcome; the trial's central question was treatment efficacy, so this is not classified as a Biomarkers report.",
+    "regulatoryStatus": "Investigational therapy. The report establishes no approval, dosing recommendation, guideline endorsement, availability, reimbursement, or coverage.",
+    "relevance": "Important new evidence",
+    "brief30": "A mid-region tau antibody did not slow clinical decline in the overall phase 2 population. Exploratory tau-PET and cognitive signals remain hypothesis-generating and cannot outweigh the negative primary endpoint. The neutral result narrows current tau-antibody development questions toward baseline tau burden, APOE stratification, and biomarker-powered designs.",
+    "studyDesign": "The trial randomized 466 adults aged 50–80 with prodromal-to-mild AD at 85 sites to intravenous bepranemab 45 mg/kg, 90 mg/kg, or placebo every four weeks for 76 weeks. The full analysis set included 460 participants, and the primary endpoint was week-80 change in CDR-SB.",
+    "keyResults": [
+      "Least-squares mean CDR-SB change was 2.15 with 90 mg/kg, 1.85 with 45 mg/kg, and 1.81 with placebo.",
+      "The 90 mg/kg difference versus placebo was 0.34 points (95% CI -0.09 to 0.78; p=0.12), and the 45 mg/kg difference was 0.04 points (95% CI -0.40 to 0.47; p=0.87). Neither favored bepranemab significantly.",
+      "Treatment-emergent adverse events occurred in 91% of each bepranemab group and 90% of placebo; no treatment-related neuroinflammatory clinical or MRI signal was identified.",
+      "Adverse events leading to death occurred in 4 participants (1%) across both bepranemab groups and 6 participants (4%) with placebo; none were judged treatment related.",
+      "Tau-PET and ADAS-Cog14 differences were exploratory and require prospective confirmation in trials powered for those outcomes."
+    ],
+    "whatChanged": "Peer-reviewed results now confirm that bepranemab did not meet its primary clinical endpoint despite an acceptable safety profile and exploratory biomarker signals.",
+    "evidenceStrength": "Strong evidence for failure of the prespecified CDR-SB endpoint from a multicenter randomized, double-blind trial. Evidence for tau-PET or subgroup benefit is low because those findings were exploratory and not the powered primary analysis.",
+    "clinicalSignificance": "Bepranemab should not be used outside research. The report does not establish clinical efficacy for a mid-region tau antibody.",
+    "fieldRelevance": "Clarifies the current limits of tau-antibody development and prevents exploratory tau-PET signals from being interpreted as treatment benefit.",
+    "questions": [
+      {"q": "Did either bepranemab dose slow CDR-SB decline?", "a": "No. Neither dose differed significantly from placebo, and the 90 mg/kg point estimate numerically favored placebo."},
+      {"q": "Was there a new MRI inflammatory safety signal?", "a": "No treatment-related neuroinflammatory clinical or MRI signal was identified."},
+      {"q": "Do the exploratory tau-PET findings establish efficacy?", "a": "No. They are hypothesis-generating and need a prospectively powered trial."}
+    ],
+    "limitations": ["Phase 2 trial not powered to confirm exploratory tau-PET effects", "No imputation for missing data", "Subgroup and biomarker findings are hypothesis-generating", "Sponsor-funded trial"],
+    "accessRelevance": "No access pathway changes; bepranemab remains investigational.",
+    "primarySource": "https://pubmed.ncbi.nlm.nih.gov/43008775/",
+    "doi": "10.1016/S1474-4422(26)00357-1",
+    "identifier": "DOI:10.1016/S1474-4422(26)00357-1; PMID:43008775; NCT04867616",
+    "citation": "Barton ME, Byrnes W, van den Steen B, et al. Safety, tolerability, and efficacy of bepranemab in people living with prodromal-to-mild Alzheimer's disease: a randomised, double-blind, placebo-controlled, phase 2 trial. Lancet Neurol. Published online November 10, 2026. doi:10.1016/S1474-4422(26)00357-1.",
+    "historical": false,
+    "resultType": "results",
+    "corrections": []
+  },
+  {
+    "id": "trial-nct05531526-polaris-ad-ctad-2026",
+    "slug": "polaris-ad-ar1001-phase3-mixed-primary-results",
+    "title": "POLARIS-AD is positive only in the prespecified monotherapy population",
+    "bottomLine": "AR1001 missed the 52-week CDR-SB comparison in all 1,535 participants but met the multiplicity-controlled objective in the 604-person subgroup not using symptomatic AD drugs, with a 0.44-point difference.",
+    "dateAdded": "2026-11-25",
+    "sourceDate": "2026-11-16",
+    "evidenceSource": "Formal CTAD 2026 phase 3 presentation with sponsor numerical tables",
+    "topics": ["Clinical Trials"],
+    "modalities": ["CSF"],
+    "biomarkers": ["CSF cGMP", "CSF p-tau217", "CSF Aβ42/40"],
+    "clinicalUses": ["Disease-modifying treatment", "Trial interpretation", "Population selection"],
+    "studyType": "Global randomized double-blind placebo-controlled phase 3 trial",
+    "assays": [],
+    "platforms": [],
+    "organizations": ["AriBio", "POLARIS-AD investigators"],
+    "platformRelevance": "CSF biomarkers were secondary target-engagement outcomes. The central question was clinical treatment efficacy, so the report is not classified as Biomarkers.",
+    "regulatoryStatus": "AR1001 is investigational and not authorized for Alzheimer disease. A planned FDA discussion is not approval, availability, guideline endorsement, reimbursement, or coverage.",
+    "relevance": "Important new evidence",
+    "brief30": "POLARIS-AD produced a statistically valid but narrow phase 3 result: the prespecified monotherapy population met the multiplicity-controlled CDR-SB objective, while the overall population did not. Secondary cognitive findings were nominal, biomarker changes were mixed, and discontinuations were more frequent with AR1001. Full peer-reviewed results and regulatory review are needed before interpreting the subgroup as an indication.",
+    "studyDesign": "POLARIS-AD randomized 1,535 participants with early AD at approximately 230 sites in 13 countries to oral AR1001 30 mg daily or placebo for 52 weeks. CDR-SB was tested in two prespecified primary populations: all participants and 604 participants not using an acetylcholinesterase inhibitor or memantine at baseline. Success required significance in at least one population under the prespecified multiplicity procedure.",
+    "keyResults": [
+      "In the overall population, the week-52 CDR-SB difference was -0.11 points versus placebo (p=0.4015), which was not significant.",
+      "In the prespecified monotherapy population (n=604), the CDR-SB difference was -0.44 points (p=0.0266), reported as 31% less decline and meeting the multiplicity-controlled primary objective.",
+      "Monotherapy-population secondary results included ADAS-Cog13 -1.16 points (p=0.0798) and MMSE +0.7 points (p=0.0232); these were reported as nominal rather than confirmatory.",
+      "CSF p-tau217 differences were -3.52 pg/mL overall (p=0.1784) and -5.34 pg/mL in monotherapy (p=0.0402); CSF Aβ42/40 did not differ. CSF cGMP increased with AR1001.",
+      "Treatment-emergent adverse events occurred in 69.0% with AR1001 and 66.4% with placebo; serious events were 10.0% and 9.8%, fatal events 0.5% and 0.3%, and study-drug discontinuation 5.2% and 1.7%, respectively."
+    ],
+    "whatChanged": "The first phase 3 readout establishes a mixed outcome: no overall-population benefit, but a prespecified monotherapy population met the statistical primary objective.",
+    "evidenceStrength": "High for the randomized phase 3 overall and prespecified-population estimates, but limited by sponsor-only topline reporting, a modest absolute effect, failure in the overall population, and lack of peer-reviewed full methods and subgroup characterization.",
+    "clinicalSignificance": "The results support regulatory discussion and further analysis but do not justify clinical use. The monotherapy finding should not be generalized to patients receiving symptomatic AD drugs or to the full early-AD population.",
+    "fieldRelevance": "Important for oral disease-modifying-therapy development and for interpreting phase 3 programs with dual prespecified populations and mixed clinical and biomarker findings.",
+    "questions": [
+      {"q": "Was POLARIS-AD positive in the overall population?", "a": "No. The overall CDR-SB difference was -0.11 points with p=0.4015."},
+      {"q": "Was the monotherapy analysis post hoc?", "a": "No. It was a prespecified primary population within the multiplicity procedure, but its applicability remains limited to participants not taking symptomatic AD drugs at baseline."},
+      {"q": "Is AR1001 available for clinical use?", "a": "No. It remains investigational and has not been authorized for Alzheimer disease."}
+    ],
+    "limitations": ["Sponsor-reported conference topline without peer-reviewed full results", "Overall population did not meet the primary endpoint", "Monotherapy effect was modest and population-specific", "Secondary and biomarker results were nominal", "Higher treatment discontinuation with AR1001"],
+    "accessRelevance": "No immediate access change. Regulatory discussions are planned, but approval and coverage have not occurred.",
+    "primarySource": "https://rss.globenewswire.com/news-release/2026/11/17/3404242/0/en/aribio-s-oral-ar1001-meets-primary-efficacy-objective-in-prespecified-monotherapy-population-in-phase-3-polaris-ad-trial.html",
+    "doi": null,
+    "identifier": "NCT05531526; CTAD 2026 POLARIS-AD",
+    "supportingSources": [
+      {"label": "Trial registry", "url": "https://clinicaltrials.gov/study/NCT05531526"}
+    ],
+    "citation": "Sha SJ, et al. POLARIS-AD phase 3 topline efficacy and safety results. Presented at CTAD 2026; November 16, 2026. NCT05531526. Sponsor numerical report.",
+    "historical": false,
+    "resultType": "results",
+    "corrections": []
+  },
+  {
+    "id": "trial-nct05637801-hope-ctad-2026",
+    "slug": "hope-spectris-40hz-pivotal-mixed-results",
+    "title": "HOPE misses its overall endpoint despite a favorable mild-AD subgroup",
+    "bottomLine": "The 673-person pivotal trial did not meet its overall primary endpoint; in a prespecified 395-person mild-AD subgroup, the sponsor reported 56% less ADCS-ADL decline and 47% less CDR-SB decline, both nominal findings without published absolute differences.",
+    "dateAdded": "2026-11-25",
+    "sourceDate": "2026-11-16",
+    "evidenceSource": "Formal CTAD 2026 pivotal-trial presentation with sponsor numerical report",
+    "topics": [
+      "Clinical Trials"
+    ],
+    "modalities": [],
+    "biomarkers": [],
+    "clinicalUses": [
+      "Nonpharmacologic treatment",
+      "Trial interpretation",
+      "Regulatory evidence"
+    ],
+    "studyType": "Randomized double-blind sham-controlled pivotal device trial",
+    "assays": [],
+    "platforms": [
+      "Spectris 40 Hz light-and-sound device"
+    ],
+    "organizations": [
+      "Cognito Therapeutics",
+      "HOPE investigators"
+    ],
+    "platformRelevance": "This report evaluates a therapeutic 40 Hz light-and-sound device, not a biomarker measurement platform.",
+    "regulatoryStatus": "Spectris has FDA Breakthrough Device designation but is not authorized or approved for Alzheimer disease. A planned De Novo discussion is not authorization, availability, guideline endorsement, reimbursement, or coverage.",
+    "relevance": "Important new evidence",
+    "brief30": "HOPE's overall primary endpoint was negative, so the favorable prespecified mild-AD subgroup cannot establish efficacy by itself. The subgroup effects are clinically interesting but were reported only as relative slowing with nominal p values and without absolute changes or confidence intervals. Full peer-reviewed results and regulatory assessment are needed before the device can be considered clinically effective.",
+    "studyDesign": "HOPE randomized 673 people with mild-to-moderate Alzheimer disease to daily Spectris 40 Hz light-and-sound stimulation or a sham device for 12 months. The pivotal study evaluated functional and global clinical outcomes and included a prespecified mild-AD subgroup of 395 participants.",
+    "keyResults": [
+      "The trial did not meet its primary endpoint in the overall 673-participant population.",
+      "In the prespecified mild-AD subgroup (n=395), the sponsor reported 56% less decline on ADCS-ADL (nominal p=0.016) and 47% less decline on CDR-SB (nominal p=0.004) at 12 months.",
+      "Absolute between-group point differences, confidence intervals, and the full multiplicity framework for the subgroup results were not publicly reported.",
+      "An exploratory What Matters Most outcome was reported as 60% less decline (nominal p=0.04).",
+      "The sponsor reported no unanticipated adverse device effects but did not provide a complete event-rate table in the public release."
+    ],
+    "whatChanged": "The first pivotal HOPE readout establishes a negative overall result alongside favorable prespecified mild-AD subgroup findings that may support further regulatory review but remain nonconfirmatory.",
+    "evidenceStrength": "Moderate for the negative overall pivotal result and low-to-moderate for subgroup efficacy because the mild-AD analysis was prespecified but reported only through sponsor conference materials, with nominal p values and incomplete absolute and safety data.",
+    "clinicalSignificance": "Spectris should not be used as an established Alzheimer treatment outside research or an authorized access pathway. The subgroup result warrants full review and replication but does not override failure of the overall primary endpoint.",
+    "fieldRelevance": "Provides a pivotal test of sensory gamma stimulation and illustrates why subgroup-relative effects must be separated from a trial's overall primary result and from regulatory authorization.",
+    "questions": [
+      {
+        "q": "Did HOPE meet its overall primary endpoint?",
+        "a": "No. The overall 673-participant pivotal population did not meet the primary endpoint."
+      },
+      {
+        "q": "Were the mild-AD subgroup findings prespecified?",
+        "a": "Yes, but the public report provides nominal relative effects without absolute differences, confidence intervals, or full multiplicity details."
+      },
+      {
+        "q": "Is Spectris FDA authorized for Alzheimer disease?",
+        "a": "No. Breakthrough Device designation facilitates development and review; it is not marketing authorization."
+      }
+    ],
+    "limitations": [
+      "Overall primary endpoint was not met",
+      "Sponsor-reported conference topline without peer-reviewed full results",
+      "Subgroup effects reported as relative slowing without absolute differences or confidence intervals",
+      "Nominal p values and incomplete multiplicity information",
+      "Limited publicly reported adverse-event detail"
+    ],
+    "accessRelevance": "No current clinical access or coverage change. Breakthrough Device designation and a planned De Novo discussion do not authorize the device.",
+    "primarySource": "https://www.businesswire.com/news/home/20261116639625/en/",
+    "doi": null,
+    "identifier": "NCT05637801; CTAD 2026 HOPE",
+    "supportingSources": [
+      {
+        "label": "Trial registry",
+        "url": "https://clinicaltrials.gov/study/NCT05637801"
+      }
+    ],
+    "citation": "Sabbagh MN, et al. HOPE pivotal trial of Spectris 40 Hz light-and-sound stimulation. Presented at CTAD 2026; November 16, 2026. NCT05637801. Sponsor numerical report.",
     "historical": false,
     "resultType": "results",
     "corrections": []
