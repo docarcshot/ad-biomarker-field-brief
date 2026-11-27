@@ -7948,5 +7948,184 @@
     "historical": false,
     "resultType": "results",
     "corrections": []
+  },
+  {
+    "id": "doi-10-1038-s43587-026-01290-0",
+    "slug": "sequential-digital-plasma-pet-triage",
+    "title": "Sequential digital and plasma triage could sharply reduce confirmatory testing",
+    "bottomLine": "In 1,001 Bio-Hermes-001 participants, a staged workflow used digital cognition to triage clinical impairment and plasma p-tau217 with Aβ42/40 to triage amyloid PET; the plasma combination produced 13.1% indeterminate results and could avoid PET in 81.8% of amyloid-positive and 86.3% of amyloid-negative participants entering biomarker triage.",
+    "dateAdded": "2026-11-27",
+    "sourceDate": "2026-11-27",
+    "evidenceSource": "Peer-reviewed multicenter diagnostic-workflow study",
+    "topics": [
+      "Biomarkers"
+    ],
+    "modalities": [
+      "Blood",
+      "Amyloid PET",
+      "Digital cognitive assessment"
+    ],
+    "biomarkers": [
+      "Plasma p-tau217",
+      "Plasma Aβ42/40",
+      "Amyloid PET"
+    ],
+    "clinicalUses": [
+      "Sequential testing",
+      "Diagnostic triage",
+      "Amyloid confirmation",
+      "PET capacity management"
+    ],
+    "studyType": "Cross-sectional diagnostic workflow modeling with out-of-fold validation",
+    "assays": [
+      "Eli Lilly plasma p-tau217 immunoassay",
+      "C2N plasma Aβ42/40"
+    ],
+    "platforms": [
+      "Digital Clock and Recall",
+      "Cognivue",
+      "PrecivityAD platform"
+    ],
+    "organizations": [
+      "Bio-Hermes-001 investigators",
+      "C2N Diagnostics",
+      "Eli Lilly and Company"
+    ],
+    "platformRelevance": "The central analysis tests a reflex workflow linking digital cognitive triage, plasma biomarker rule-in/rule-out thresholds, and confirmatory amyloid PET. Thresholds were derived and evaluated within Bio-Hermes rather than transferred from an authorized assay label.",
+    "regulatoryStatus": "The integrated workflow and its probability thresholds are not FDA authorized, guideline endorsed, or covered as a defined care pathway. The study does not establish authorization, availability, reimbursement, or coverage for the combined algorithm.",
+    "relevance": "Implementation-relevant",
+    "brief30": "This study moves beyond single-test accuracy and quantifies a plausible staged diagnostic pathway. Plasma p-tau217 performed nearly as well as p-tau217 plus Aβ42/40, while the combined model reduced indeterminate results most. The efficiency estimates are promising but model-derived: determinate-only sensitivity and specificity exclude indeterminate cases, thresholds were selected within the same cohort by out-of-fold prediction, and the workflow still requires prospective external implementation testing.",
+    "studyDesign": "Investigators analyzed 1,001 adults aged 60–85 years in the multicenter US Bio-Hermes-001 cohort, spanning cognitively unimpaired participants, MCI, and mild dementia. Step 1 used digital cognitive features to identify impairment; indeterminate cases were assigned neuropsychological assessment. Participants classified as impaired entered step 2, where plasma p-tau217, Aβ42/40, or their combination predicted amyloid-PET positivity defined as at least 25 Centiloids. LASSO logistic models used nested and fivefold cross-validation to generate out-of-fold predictions, with dual thresholds targeting at least 90% sensitivity and 90% specificity.",
+    "keyResults": [
+      "Digital Clock and Recall best distinguished cognitive impairment with AUC 0.812 (95% CI 0.781–0.841); its dual-threshold result was indeterminate in 38.0% of participants.",
+      "For participants entering plasma triage, p-tau217 plus Aβ42/40 achieved AUC 0.890 (95% CI 0.850–0.927), p-tau217 alone AUC 0.887 (95% CI 0.850–0.922), and Aβ42/40 alone AUC 0.826 (95% CI 0.782–0.870).",
+      "The combined plasma model produced 13.1% indeterminate results. Among determinate results, sensitivity was 0.886, specificity 0.894, PPV 0.865, and NPV 0.911.",
+      "The p-tau217-only model produced 22.4% indeterminate results; determinate-result sensitivity was 0.879, specificity 0.872, PPV 0.850, and NPV 0.898.",
+      "The combined model could avoid amyloid PET in 81.8% of amyloid-positive and 86.3% of amyloid-negative participants entering step 2; p-tau217 alone could avoid PET in 70.3% and 86.3%, respectively.",
+      "Raising operating targets from 80% to 95% increased the proportion requiring PET from 0% to 42.9% for p-tau217 and from 0% to 50.5% for the combined model, demonstrating the certainty-capacity tradeoff."
+    ],
+    "whatChanged": "A peer-reviewed study now quantifies an end-to-end reflex pathway rather than evaluating plasma biomarkers in isolation, including indeterminate zones and the downstream neuropsychological and PET burden.",
+    "evidenceStrength": "Moderate diagnostic-workflow evidence from a large multicenter cohort with out-of-fold prediction and bootstrap intervals. Clinical utility remains unproven because the pathway was modeled retrospectively in one cohort without external or prospective implementation validation.",
+    "clinicalSignificance": "The results support testing a plasma-first reflex pathway in symptomatic evaluation and trial screening, but the thresholds should not be adopted as clinical cutoffs without external validation, assay-specific calibration, and prospective measurement of misclassification and downstream outcomes.",
+    "fieldRelevance": "Directly addresses how digital screening, plasma biomarkers, and amyloid PET can be sequenced to preserve specialist and imaging capacity while retaining an explicit indeterminate zone.",
+    "questions": [
+      {
+        "q": "Does adding Aβ42/40 materially improve discrimination over p-tau217 alone?",
+        "a": "AUCs were nearly identical, 0.890 versus 0.887, but the combined model reduced the indeterminate fraction from 22.4% to 13.1%."
+      },
+      {
+        "q": "Do the reported sensitivity and specificity include indeterminate results?",
+        "a": "No. Diagnostic operating characteristics were calculated only among determinate rule-in and rule-out classifications; the indeterminate fraction must be considered separately."
+      },
+      {
+        "q": "Is this workflow ready for routine care?",
+        "a": "Not yet. It needs external assay-specific calibration and prospective implementation evidence showing that the pathway improves decisions and outcomes."
+      }
+    ],
+    "limitations": [
+      "Cross-sectional retrospective workflow modeling rather than a prospective implementation trial",
+      "Thresholds selected and evaluated within Bio-Hermes-001 without external validation",
+      "Sensitivity, specificity, PPV, and NPV exclude indeterminate results",
+      "Step-2 analysis included only 327–331 participants depending on model",
+      "Research assays and model probabilities do not map directly to FDA-cleared assay cutoffs",
+      "No demonstrated effect on diagnosis time, treatment access, outcomes, or cost"
+    ],
+    "accessRelevance": "The pathway could reduce use of neuropsychological testing and amyloid PET, but the study does not establish payer coverage, reimbursement, or operational availability for the integrated algorithm.",
+    "primarySource": "https://www.nature.com/articles/s43587-026-01290-0",
+    "doi": "10.1038/s43587-026-01290-0",
+    "identifier": "DOI:10.1038/s43587-026-01290-0; Bio-Hermes-001",
+    "citation": "Vanderlip CR, Stark CEL. Sequential digital cognitive screening and plasma biomarkers for detection of Alzheimer's disease. Nat Aging. Published November 27, 2026. doi:10.1038/s43587-026-01290-0.",
+    "historical": false,
+    "resultType": "results",
+    "corrections": []
+  },
+  {
+    "id": "doi-10-1001-jama-2026-23534",
+    "slug": "us-blood-biomarker-ordering-implementation",
+    "title": "US Alzheimer blood-biomarker ordering rose 6.5-fold in 18 months",
+    "bottomLine": "Across 35.9 million adults in Epic Cosmos, 69,907 had an Alzheimer blood-biomarker order; quarterly ordering increased from 27.5 to 179.7 per 100,000 active patients, while only about 5% received a new amyloid-PET or CSF order within 90 days.",
+    "dateAdded": "2026-11-27",
+    "sourceDate": "2026-11-18",
+    "evidenceSource": "Peer-reviewed nationwide electronic-health-record implementation study; numerical results became publicly accessible after the November 25 review",
+    "topics": [
+      "Biomarkers"
+    ],
+    "modalities": [
+      "Blood",
+      "Amyloid PET",
+      "CSF"
+    ],
+    "biomarkers": [
+      "Plasma p-tau",
+      "Plasma Aβ42/40"
+    ],
+    "clinicalUses": [
+      "Real-world implementation",
+      "Diagnostic triage",
+      "Confirmatory testing",
+      "Access"
+    ],
+    "studyType": "Nationwide retrospective electronic-health-record cohort study",
+    "assays": [],
+    "platforms": [
+      "Epic Cosmos"
+    ],
+    "organizations": [
+      "Yale School of Medicine",
+      "Epic Cosmos"
+    ],
+    "platformRelevance": "The study used CPT-coded orders and could not identify assay brand, result category, or analytical performance. It measures implementation and downstream care, not test validity.",
+    "regulatoryStatus": "The report does not authorize or endorse any assay. It includes orders during a period spanning laboratory-developed tests and four FDA-cleared plasma tests; authorization, availability, guideline endorsement, and coverage remain assay- and indication-specific.",
+    "relevance": "Implementation-relevant",
+    "brief30": "Blood-biomarker ordering is diffusing rapidly into US practice, primarily among symptomatic adults, but the EHR signal cannot show whether tests were positive, intermediate, or negative—or whether follow-up was appropriate. The low observed rate of new PET or CSF orders may reflect rule-out use, incomplete capture, access barriers, or unconfirmed diagnosis from plasma alone. The study documents implementation scale, not analytical validity or clinical utility.",
+    "studyDesign": "Investigators used Epic Cosmos data from 2,358 hospitals and 52,500 clinics. Adults aged 50 years or older with a clinical encounter from January 2025 through June 2026 were screened for a first p-tau or Aβ blood-test order after at least 365 days without prior Alzheimer blood-biomarker testing. Orders were classified as p-tau only, Aβ42/40 only, or both; index orders through June 10, 2026 had 90-day follow-up.",
+    "keyResults": [
+      "Among 35,900,955 active adults aged at least 50 years, 69,907 (0.19%) had an index Alzheimer blood-biomarker order.",
+      "Quarterly ordering increased from 27.5 per 100,000 active patients in Q1 2025 to 179.7 per 100,000 in Q2 2026, a 6.5-fold increase.",
+      "Orders were p-tau only for 42,713 patients (61.1%), Aβ42/40 only for 7,673 (11.0%), and p-tau plus Aβ for 19,521 (27.9%).",
+      "Before or on the order date, 17.2% had documented AD, 21.2% non-AD dementia, 57.1% cognitive symptoms without dementia, and 4.6% no documented cognitive diagnosis.",
+      "Within 90 days, 15.6% received a newly documented AD diagnosis, approximately 5% had a new amyloid-PET or CSF order, and 63 patients (0.1%) started an anti-amyloid therapy.",
+      "Neurologists accounted for 51.6% of orders with known ordering specialty; 83.4% of tested patients lived in metropolitan areas."
+    ],
+    "whatChanged": "Full numerical results now make it possible to quantify how quickly blood-biomarker testing is entering US practice and how infrequently confirmatory testing or anti-amyloid treatment is visible within 90 days.",
+    "evidenceStrength": "Strong descriptive evidence for EHR-recorded ordering across a very large US network, but low for appropriateness or utility because the study lacked test results, assay identity, clinical rationale, insurance data, and complete capture of external testing and treatment.",
+    "clinicalSignificance": "Rapid uptake heightens the need for assay-specific interpretation, explicit indeterminate pathways, and documentation of whether positive or intermediate results receive confirmatory PET or CSF testing when required. The study cannot determine whether the observed follow-up was appropriate.",
+    "fieldRelevance": "Provides the first large-scale implementation baseline for US blood-biomarker use and exposes major measurement gaps between ordering, result interpretation, confirmatory testing, and treatment access.",
+    "questions": [
+      {
+        "q": "Does the study show that clinicians are skipping confirmatory testing?",
+        "a": "No. Test results and clinical rationale were unavailable, and external PET, CSF, or referrals may not be captured. The approximately 5% rate is an implementation signal, not proof of inappropriate care."
+      },
+      {
+        "q": "Can these data compare individual blood assays?",
+        "a": "No. CPT-coded orders did not identify assay brand or result category."
+      },
+      {
+        "q": "Does rapid ordering establish clinical utility?",
+        "a": "No. Uptake is separate from analytical validity, diagnostic accuracy, improved decisions, patient outcomes, authorization, and coverage."
+      }
+    ],
+    "limitations": [
+      "Orders rather than completed tests or results",
+      "No assay brand, cutoffs, or positive/intermediate/negative categories",
+      "No clinical rationale, insurance-coverage detail, or assessment of appropriateness",
+      "External tests, referrals, and treatments may be incompletely captured",
+      "Only 90 days of post-order follow-up",
+      "CPT coding may misclassify or miss blood-biomarker testing"
+    ],
+    "accessRelevance": "Testing was concentrated in metropolitan settings and only 42.9% of tested patients had Medicare coverage recorded. The study does not establish payer coverage or explain whether access barriers contributed to low observed confirmatory testing and treatment.",
+    "primarySource": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13783107/",
+    "doi": "10.1001/jama.2026.23534",
+    "identifier": "DOI:10.1001/jama.2026.23534; PMID:43050206; PMCID:PMC13783107",
+    "supportingSources": [
+      {
+        "label": "PubMed record",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43050206/"
+      }
+    ],
+    "citation": "Fu M, Andersen M, Ramachandran R, Berg KM, Ross JS. Blood-Based Biomarker Testing for Alzheimer Disease in US Clinical Practice. JAMA. Published online November 18, 2026. doi:10.1001/jama.2026.23534.",
+    "historical": true,
+    "resultType": "results",
+    "corrections": []
   }
 ]
